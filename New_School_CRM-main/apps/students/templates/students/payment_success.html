@@ -1,0 +1,11 @@
+{% extends 'students/student_index.html' %}
+{% block content %}
+
+
+<h2>Payment Successful!</h2>
+<p>Thank you {{ payment.user.username }}. Your payment of ₹{{ payment.amount }} was successful.</p>
+<p>Order ID: {{ payment.order_id }}</p>
+<p>Payment ID: {{ payment.payment_id }}</p>
+
+<p>Status: {{ payment.status }}</p>
+{% endblock %}

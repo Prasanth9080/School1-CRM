@@ -38,4 +38,10 @@ urlpatterns = [
     ##### attendance url
     path('student/attendance/', views.student_attendance_view, name='student-attendance-report'),
 
+
+    ####### /////// ######### razor pay urls :
+
+    path('payments/', views.initiate_payment, name='initiate_payment'),
+    path('payments/success/', views.payment_success, name='payment_success'),
+
 ]

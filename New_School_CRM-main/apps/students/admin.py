@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Student, StudentBulkUpload, LeaveRequeststudent, StuReportCard,AttendanceRecord
+from .models import Student, StudentBulkUpload, LeaveRequeststudent, StuReportCard,AttendanceRecord, Payment
 
 class StudentAdmin(admin.ModelAdmin):
     list_display = ('registration_number', 'surname', 'firstname', 'other_name', 'gender', 'date_of_birth', 'current_class', 'date_of_admission', 'parent_mobile_number')
@@ -28,6 +28,13 @@ class StuReportCardAdmin(admin.ModelAdmin):
 class AttendanceRecordAdmin(admin.ModelAdmin):
     list_display = ('student', 'month','date', 'day','status','message','signature')
  
+
+
+@admin.register(Payment)
+class PaymentAdmin(admin.ModelAdmin):
+    list_display = ('user', 'payment_id', 'order_id', 'amount', 'status', 'created_at')
+
+# admin.site.register(Payment, PaymentAdmin)
 
 admin.site.register(AttendanceRecord, AttendanceRecordAdmin)
 

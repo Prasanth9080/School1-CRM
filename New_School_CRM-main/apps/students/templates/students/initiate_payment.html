@@ -1,0 +1,15 @@
+{% extends 'students/student_index.html' %}
+{% block content %}
+
+{% if error %}
+    <p style="color:red;">{{ error }}</p>
+{% endif %}
+<form method="POST">
+    {% csrf_token %}
+    <label for="amount">Enter Amount (₹):</label>
+    <input type="number" name="amount" required min="1">
+    <button type="submit">Pay Now</button>
+</form>
+
+
+{% endblock %}

@@ -242,3 +242,27 @@ class AttendanceRecord(models.Model):
 
     def __str__(self):
         return f"{self.student.username} - {self.date} - {self.status}"
+    
+
+
+######## /////// ######### razorpay payment model
+
+from django.db import models
+from django.contrib.auth.models import User
+
+class Payment(models.Model):
+    STATUS_CHOICES = (
+        ('Pending', 'Pending'),
+        ('Complete', 'Complete'),
+    )
+
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    payment_id = models.CharField(max_length=100, blank=True)
+    order_id = models.CharField(max_length=100, blank=True)
+    signature = models.CharField(max_length=255, blank=True)
+    amount = models.FloatField()
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='Pending')
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user.username} - {self.amount} - {self.status}"

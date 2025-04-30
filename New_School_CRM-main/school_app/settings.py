@@ -241,3 +241,7 @@ EMAIL_HOST_USER ='rajanvigneesh56@gmail.com'
 EMAIL_HOST_PASSWORD ="pbsiqfeamugrajqk"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL= False
+
+#####  /////   ######
+RAZORPAY_KEY_ID = 'rzp_test_2lMA6SnGa6x6Br'
+RAZORPAY_KEY_SECRET = 'DjiZyXpSiRt7C2ZDDWw5ti87'

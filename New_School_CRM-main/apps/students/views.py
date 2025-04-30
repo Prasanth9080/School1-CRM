@@ -398,3 +398,212 @@ from django.shortcuts import render
 def student_attendance_view(request):
     records = AttendanceRecord.objects.filter(student=request.user)
     return render(request, 'students/student_attendance_report.html', {'records': records})
+
+
+
+######  /////// ######### razorpay payment function
+
+# import razorpay
+# from django.conf import settings
+# from django.shortcuts import render, redirect
+# from django.views.decorators.csrf import csrf_exempt
+# from django.contrib.auth.decorators import login_required
+# from .models import Payment
+# from django.http import HttpResponseBadRequest
+
+# client = razorpay.Client(auth=(settings.RAZORPAY_KEY_ID, settings.RAZORPAY_KEY_SECRET))
+
+# @login_required
+# def initiate_payment(request):
+#     if request.method == "POST":
+#         amount = int(request.POST['amount']) * 100  # amount in paisa
+#         user = request.user
+
+#         data = {
+#             "amount": amount,
+#             "currency": "INR",
+#             "receipt": f"receipt_{user.id}"
+#         }
+#         order = client.order.create(data=data)
+
+#         # Save payment in DB
+#         payment = Payment.objects.create(
+#             user=user,
+#             order_id=order.get('id'),
+#             amount=amount / 100,
+#             status='Pending'
+#         )
+
+#         return render(request, 'students/razorpay_payment.html', {
+#             'order_id': order['id'],
+#             'amount': amount,
+#             'key': settings.RAZORPAY_KEY_ID,
+#             'user': user,
+#             'payment': payment
+#         })
+#     return render(request, 'students/initiate_payment.html')
+
+# @csrf_exempt
+# def payment_success(request):
+#     if request.method == "POST":
+#         data = request.POST
+#         try:
+#             client.utility.verify_payment_signature({
+#                 'razorpay_order_id': data['razorpay_order_id'],
+#                 'razorpay_payment_id': data['razorpay_payment_id'],
+#                 'razorpay_signature': data['razorpay_signature']
+#             })
+#         except razorpay.errors.SignatureVerificationError:
+#             return HttpResponseBadRequest()
+
+#         # Update payment record
+#         payment = Payment.objects.get(order_id=data['razorpay_order_id'])
+#         payment.payment_id = data['razorpay_payment_id']
+#         payment.signature = data['razorpay_signature']
+#         payment.status = 'Complete'
+#         payment.save()
+
+#         return render(request, 'students/payment_success.html', {'payment': payment})
+#     return HttpResponseBadRequest()
+
+
+
+
+### new
+
+# from django.shortcuts import render
+# from django.conf import settings
+# import razorpay
+# from .models import Payment
+# from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render, redirect
+# from django.views.decorators.csrf import csrf_exempt
+# from django.http import HttpResponseBadRequest
+
+# client = razorpay.Client(auth=(settings.RAZORPAY_KEY_ID, settings.RAZORPAY_KEY_SECRET))
+
+# @login_required
+# def initiate_payment(request):
+#     if request.method == "POST":
+#         try:
+#             amount = int(request.POST.get('amount', 0)) * 100  # amount in paisa
+#             if amount <= 0:
+#                 return render(request, 'students/initiate_payment.html', {
+#                     'error': "Invalid amount entered."
+#                 })
+
+#             data = {
+#                 "amount": amount,
+#                 "currency": "INR",
+#                 "receipt": f"receipt_{request.user.id}"
+#             }
+
+#             order = client.order.create(data=data)
+
+#             payment = Payment.objects.create(
+#                 user=request.user,
+#                 order_id=order.get('id'),
+#                 amount=amount / 100,
+#                 status='Pending'
+#             )
+
+#             return render(request, 'students/razorpay_payment.html', {
+#                 'order_id': order['id'],
+#                 'amount': amount,
+#                 'key': settings.RAZORPAY_KEY_ID,
+#                 'user': request.user,
+#                 'payment': payment
+#             })
+#         except Exception as e:
+#             return render(request, 'students/initiate_payment.html', {
+#                 'error': f"Server error: {str(e)}"
+#             })
+
+#     return render(request, 'students/initiate_payment.html')
+
+# @csrf_exempt
+# def payment_success(request):
+#     if request.method == "POST":
+#         data = request.POST
+#         try:
+#             client.utility.verify_payment_signature({
+#                 'razorpay_order_id': data['razorpay_order_id'],
+#                 'razorpay_payment_id': data['razorpay_payment_id'],
+#                 'razorpay_signature': data['razorpay_signature']
+#             })
+#         except razorpay.errors.SignatureVerificationError:
+#             return HttpResponseBadRequest()
+
+#         # Update payment record
+#         payment = Payment.objects.get(order_id=data['razorpay_order_id'])
+#         payment.payment_id = data['razorpay_payment_id']
+#         payment.signature = data['razorpay_signature']
+#         payment.status = 'Complete'
+#         payment.save()
+
+#         return render(request, 'students/payment_success.html', {'payment': payment})
+#     return HttpResponseBadRequest()
+
+
+
+###### another new 2nd 
+
+from django.shortcuts import render, redirect
+from django.conf import settings
+from .models import Payment
+import razorpay
+from django.views.decorators.csrf import csrf_exempt
+from django.contrib.auth.decorators import login_required
+
+client = razorpay.Client(auth=(settings.RAZORPAY_KEY_ID, settings.RAZORPAY_KEY_SECRET))
+
+@login_required
+def initiate_payment(request):
+    if request.method == "POST":
+        amount = int(request.POST.get("amount")) * 100  # in paisa
+        user = request.user
+
+        # Razorpay order create
+        order = client.order.create({
+            "amount": amount,
+            "currency": "INR",
+            "payment_capture": "1"
+        })
+
+        # Save payment record
+        payment = Payment.objects.create(
+            user=user,
+            order_id=order['id'],
+            amount=amount / 100,
+            status='Pending'
+        )
+
+        context = {
+            "order_id": order['id'],
+            "amount": amount,
+            "key": settings.RAZORPAY_KEY_ID,
+            "user": user,
+        }
+        return render(request, "students/razorpay_payment.html", context)
+
+    return render(request, "students/initiate_payment.html")
+
+
+@csrf_exempt
+def payment_success(request):
+    if request.method == "POST":
+        data = request.POST
+        try:
+            order_id = data.get("razorpay_order_id")
+            payment_id = data.get("razorpay_payment_id")
+            signature = data.get("razorpay_signature")
+
+            payment = Payment.objects.get(order_id=order_id)
+            payment.payment_id = payment_id
+            payment.signature = signature
+            payment.status = "Complete"
+            payment.save()
+            return render(request, "students/payment_success.html", {"payment": payment})
+        except Payment.DoesNotExist:
+            return HttpResponse("Payment not found", status=404)
+    return HttpResponse("Invalid request", status=400)
