@@ -88,11 +88,11 @@
             <td>{{ leave.date_applied }}</td>
             <td>{{ leave.status }}</td>
             <td>
-                <form method="post">
+                <form method="post" style="display: flex;gap: 5px;align-items: center;">
                     {% csrf_token %}
                     <input type="hidden" name="leave_id" value="{{ leave.id }}">
-                    <button name="action" value="approve">Approve</button>
-                    <button name="action" value="reject">Reject</button>
+                    <button name="action" value="approve" class="btn-approve">Approve</button>
+                    <button name="action" value="reject" class="btn-reject">Reject</button>
                 </form>
             </td>
         </tr>

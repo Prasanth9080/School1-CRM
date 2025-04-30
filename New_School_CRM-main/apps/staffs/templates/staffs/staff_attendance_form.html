@@ -1,9 +1,68 @@
+<style>
+    .custom-form label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .custom-form input,
+    .custom-form select,
+    .custom-form textarea {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 1rem;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        background-color: #fff;
+        transition: border-color 0.2s;
+    }
+
+    .custom-form input:focus,
+    .custom-form select:focus,
+    .custom-form textarea:focus {
+        border-color: #80bdff;
+        outline: none;
+    }
+
+    .custom-form .error {
+        color: #dc3545;
+        font-size: 0.9rem;
+    }
+
+    .custom-form .submit-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: #6DE1D2;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+</style>
+
+
 {% extends 'staffs/staff_index.html' %}
 {% block content %}
-<h2>Add/Edit Attendance</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Save</button>
-</form>
+<div class="container mt-5">
+    <h2 class="mb-4">Add/Edit Staff Attendance</h2>
+
+    <form method="post" class="custom-form">
+        {% csrf_token %}
+        {% for field in form %}
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            {{ field }}
+            {% if field.help_text %}
+                <div class="form-text text-muted">{{ field.help_text }}</div>
+            {% endif %}
+            {% for error in field.errors %}
+                <div class="error">{{ error }}</div>
+            {% endfor %}
+        {% endfor %}
+    
+        <button type="submit" class="submit-btn">Save</button>
+    </form>
+    
+</div>
 {% endblock %}

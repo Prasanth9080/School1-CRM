@@ -20,5 +20,8 @@ class StaffAttendanceForm(forms.ModelForm):
         model = StaffAttendanceRecord
         fields = '__all__'
         widgets = {
-            'date': forms.DateInput(attrs={'type': 'date'}),
+            'date': forms.DateInput(attrs={'type': 'date', 'class': 'form-control'}),
+            'staff': forms.Select(attrs={'class': 'form-control'}),
+            'status': forms.Select(attrs={'class': 'form-control'}),
         }
+
