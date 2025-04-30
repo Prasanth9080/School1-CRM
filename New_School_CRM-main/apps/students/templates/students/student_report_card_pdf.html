@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Report Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th {
+            background-color: #f2f2f2; 
+        }
+        .header, .footer {
+        text-align: center;
+    }
+    .header h2 {
+        margin: 5px 0;
+    }
+    .invoice-details {
+        margin-top: 20px;
+    }
+    .invoice-circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 150px;
+    }
+    .invoice-date {
+        background-color: green;
+        color: white;
+    }
+    .invoice-logo {
+        background-color: red;
+        padding: 20px;
+    }
+        .sub-header{
+            text-align: center;
+        }
+        .info-table, .marks-table, .gradescale-table {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .signatures {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .signatures td {
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
+    <img src="/New_School_CRM-main/media/profile_pictures/school4.png" alt="School Logo">
+    <p>Gurua, Maniyapul, Bastih
+    Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
+    Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
+    lakshyainternationalschoolbth.com</p><hr>
+    
+</div>
+<!-- 
+<div class="header">
+    <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
+    <div class="invoice-logo">
+        <img src="/New_School_CRM-main/media/profile_pictures/school4.png" alt="School Logo" width="100" height="100">
+    </div>
+    <p>Gurua, Maniyapul, Bastih<br>
+    Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
+    Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
+    lakshyainternationalschoolbth.com</p><hr>
+</div>
+<div class="invoice-details">
+    <div class="invoice-circle invoice-date">
+        <p>Invoice Date: {{ invoice_date }}</p>
+        <p>Invoice Time: {{ invoice_time }}</p>
+        <p>Invoice No.: {{ invoice_number }}</p>
+    </div>
+</div> -->
+
+<!-- Invoice Details Section -->
+<div class="invoice-details-container">
+    <!-- Red Circle with School Logo (Left Side) -->
+    <div class="invoice-logo-container">
+        <img src="/New_School_CRM-main/media/profile_pictures/school4.png" alt="School Logo">
+    </div>
+
+    <!-- Green Circle with Invoice Details (Right Side) -->
+    <div class="invoice-info">
+        <p>Invoice Date: {{ invoice_date }}</p>
+        <p>Invoice Time: {{ invoice_time }}</p>
+        <p>Invoice No.: {{ invoice_number|slice:":6" }}</p> <!-- Display first 6 digits of the invoice number -->
+    </div>
+</div>
+
+
+
+<div class="sub-header">
+    <h2>YEARLY REPORT CARD</h2>
+</div>
+
+<table class="info-table">
+    <tr>
+        <td><strong>Class :</strong> {{ cards.first.standard }}</td>
+        <td><strong>Academic Session :</strong> {{ cards.first.academic_session }}</td>
+    </tr>
+    <tr>
+        <td><strong>Name Of Student :</strong> {{ cards.first.student.get_full_name }}</td>
+        <td><strong>Admission No. :</strong> {{ cards.first.admission_number }}</td>
+    </tr>
+    <tr>
+        <td><strong>Father's Name :</strong> {{ cards.first.father_name }}</td>
+        <td><strong>Date Of Birth :</strong> {{ cards.first.date_of_birth }}</td>
+    </tr>
+    <tr>
+        <td><strong>Mother's Name :</strong> {{ cards.first.mother_name }}</td>
+        <td><strong>Roll No. :</strong> {{ cards.first.roll_number }}</td>
+    </tr>
+    <tr>
+        <td colspan="2"><strong>Address :</strong> {{ cards.first.address }}</td>
+    </tr>
+</table>
+
+<h3>Scholastic - Term {{ cards.first.term }}</h3>
+
+<table class="marks-table">
+    <thead>
+        <tr>
+            <th>Subject</th>
+            <th>PMT-1</th>
+            <th>Notebook</th>
+            <th>Sub Enrichment</th>
+            <th>Mid Term</th>
+            <th>Max Marks (M.M)</th>
+            <th>Marks Obtained (M.O)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tamil</td>
+            <td>{{ cards.first.tamil }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>100</td>
+            <td>{{ cards.first.tamil }}</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>{{ cards.first.english }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>100</td>
+            <td>{{ cards.first.english }}</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>{{ cards.first.maths }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>100</td>
+            <td>{{ cards.first.maths }}</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>{{ cards.first.science }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>100</td>
+            <td>{{ cards.first.science }}</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>{{ cards.first.social }}</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>100</td>
+            <td>{{ cards.first.social }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <tr>
+        <td><strong>OVERALL TOTAL</strong></td>
+        <td>{{ cards.first.overall_total }}/500</td>
+        <td><strong>OVERALL PERCENTAGE</strong></td>
+        <td>{{ cards.first.overall_percentage }}%</td>
+        <td><strong>OVERALL GRADE</strong></td>
+        <td>{{ cards.first.overall_grade }}</td>
+    </tr>
+</table>
+
+<!-- <h3>Grading Scale for Scholastic Areas</h3>
+
+<table class="gradescale-table">
+    <thead>
+        <tr>
+            <th>Marks Range (%)</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>91-100</td><td>A1</td></tr>
+        <tr><td>81-90</td><td>A2</td></tr>
+        <tr><td>71-80</td><td>B1</td></tr>
+        <tr><td>61-70</td><td>B2</td></tr>
+        <tr><td>51-60</td><td>C1</td></tr>
+        <tr><td>41-50</td><td>C2</td></tr>
+        <tr><td>33-40</td><td>D</td></tr>
+        <tr><td>0-32</td><td>E</td></tr>
+    </tbody>
+</table> -->
+
+<h4>Class Teacher's Remarks</h4>
+<p>{{ cards.first.comments }}</p>
+
+<table class="signatures">
+    <tr>
+        <td>Signature of Parents</td>
+        <td>Signature of Class Teacher</td>
+        <td>Signature of Principal</td>
+    </tr>
+</table>
+
+</body>
+</html>

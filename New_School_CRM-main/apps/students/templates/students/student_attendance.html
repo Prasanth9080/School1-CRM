@@ -1,0 +1,97 @@
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: start;
+    }
+    thead {
+        background-color: #FF7D7D;
+    }
+    /* NEW working colors */
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+    .submit-btn button{
+        background-color: #FF7D7D;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+    }
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+    tbody tr:hover {
+    background-color: #c8c7c7;
+    cursor: pointer;
+}
+</style>
+
+
+{% extends 'students/student_index.html' %}
+
+{% block title %}
+  Attendance / Leave Management
+{% endblock title %}
+
+{% block breadcrumb %}
+  <h5>Attendance</h5>
+{% endblock breadcrumb %}
+
+{% block content %}
+        <h2 class="text-center">Leave Requests</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Standard</th>
+                    <th>Reason</th>
+                    <th>Date Applied</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for leave in leaves %}
+                <tr>
+                    <td>{{ leave.student.username }}</td>
+                    <td>{{ leave.standard }}</td>
+                    <td>{{ leave.reason }}</td>
+                    <td>{{ leave.date_applied }}</td>
+                    <td>{{ leave.status }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5">No leave requests submitted.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Leave Request Form -->
+        <h3>Add Leave Request</h3>
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="submit-btn">
+                <button type="submit">Submit Leave Request</button>
+            </div>
+        </form>
+
+{% endblock content %}
+

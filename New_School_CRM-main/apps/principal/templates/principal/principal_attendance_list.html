@@ -1,0 +1,114 @@
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border-color: transparent;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: start;
+    }
+    thead {
+        /* background-color: #16C47F; */
+        background-color: #89a83e;
+    }
+    /* NEW working colors */
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+    .submit-btn button{
+        background-color: #89a83e;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+        color: black;
+    }
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+    tbody tr:hover {
+    background-color: #c8c7c7;
+    cursor: pointer;
+}
+.btn-approve {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-reject {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-approve:hover, .btn-reject:hover {
+    opacity: 0.8;
+}
+</style>
+
+{% extends 'principal/principal_index.html' %}
+{% block content %}
+<!-- <h2>All Staff Attendance Records</h2>
+<a href="{% url 'principal-attendance-create' %}">Add New Attendance</a> -->
+
+<div class="d-flex justify-content-between">
+    <div>
+        <h2>All Staff Attendance Records</h2>
+    </div>
+    <div class="submit-btn">
+        <a href="{% url 'staff-attendance-create' %}"><button>Add New Attenance</button></a>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Staff</th>
+            <th>Date</th>
+            <th>Day</th>
+            <th>Status</th>
+            <th>Message</th>
+            <th>Signature</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    {% for record in records %}
+    <tbody>
+        <tr>
+            <td>{{ record.staff.get_full_name }} ({{ record.staff.username }})</td>
+            <td>{{ record.date }}</td>
+            <td>{{ record.get_day_display }}</td>
+            <td>{{ record.get_status_display }}</td>
+            <td>{{ record.message }}</td>
+            <td>{{ record.signature }}</td>
+            <td>
+                <a href="{% url 'principal-attendance-update' record.pk %}">
+                    <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
+                </a> |
+                <a href="{% url 'principal-attendance-delete' record.pk %}">
+                    <i class="fas fa-trash-alt" style="color: red;"></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
+{% endblock %}

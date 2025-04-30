@@ -1,0 +1,266 @@
+<!-- edit_profile.html -->
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Edit Profile</h2>
+    <!-- <div class="row"> -->
+        <!-- <div class="col-md-6"> 
+            <form method="POST" enctype="multipart/form-data" id="profile-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="id_username">Username:</label>
+                    {{ user_form.username }}
+                </div>
+                <div class="form-group">
+                    <label for="id_profile_picture">Profile picture:</label>
+                    {{ profile_form.profile_picture }}
+                </div>
+                <div class="form-group">
+                    <label for="id_profile_email">Profile Email:</label>
+                    {{ user_form.email }}
+                </div>
+                <div class="form-group">
+                    <label for="id_profile_email">FirstName:</label>
+                    {{ user_form.first_name }}
+                </div>
+                <div class="form-group">
+                    <label for="id_profile_email">LastName:</label>
+                    {{ user_form.last_name }}
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Update Profile</button>
+            </form>
+        </div> -->
+
+        <!-- new edit-profile html content -->
+         <!-- -------------------------------------------  -->
+
+        <div class="col-md-6">
+            <form method="POST" enctype="multipart/form-data" id="profile-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="id_username">Username:</label>
+                    <input type="text" class="form-control" id="id_username" name="username" value="{{ user_form.username.value }}" required>
+                </div>
+                <div class="form-group">
+                    <label for="id_profile_picture">Profile Picture:</label>
+                    <!-- <div>
+                        {% if profile_form.instance.profile_picture %}
+                            <img src="{{ profile_form.instance.profile_picture.url }}" alt="Profile Picture" width="150">
+                        {% else %}
+                            <p>No profile picture uploaded.</p>
+                        {% endif %}
+                    </div> -->
+                    <div class="col-sm-10">
+                        {% if user.profile.profile_picture %}
+                            <img src="{{ user.profile.profile_picture.url }}" alt="Profile Picture" width="100">
+                        {% else %}
+                            <img src="{% static 'dist/img/avatar.png' %}" alt="Default Profile Picture" class="rounded-circle" style="width: 120px; height: 120px;">
+                        {% endif %}
+                    </div>
+                    <input type="file" class="form-control" id="id_profile_picture" name="profile_picture">
+                </div>
+                <div class="form-group">
+                    <label for="id_email">Email Address:</label>
+                    <input type="email" class="form-control" id="id_email" name="email" value="{{ user_form.email.value }}" required>
+                </div>
+                <div class="form-group">
+                    <label for="id_first_name">First Name:</label>
+                    <input type="text" class="form-control" id="id_first_name" name="first_name" value="{{ user_form.first_name.value }}" required>
+                </div>
+                <div class="form-group">
+                    <label for="id_last_name">Last Name:</label>
+                    <input type="text" class="form-control" id="id_last_name" name="last_name" value="{{ user_form.last_name.value }}" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Update Profile</button>
+            </form>
+        </div>
+        <hr>
+
+        <!-- <div class="col-md-6">
+            <h2>Reset Password</h2>
+            <form method="POST" id="password-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="id_old_password">Old password:</label>
+                    <div class="input-group">
+                        {{ password_form.old_password }}
+                        <div class="input-group-append">
+                            <span class="input-group-text password-toggle-icon">
+                                <i class="fas fa-eye-slash toggle-password" toggle="#id_old_password"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="id_new_password1">New password:</label>
+                    <div class="input-group">
+                        {{ password_form.new_password1 }}
+                        <div class="input-group-append">
+                            <span class="input-group-text password-toggle-icon">
+                                <i class="fas fa-eye-slash toggle-password" toggle="#id_new_password1"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="id_new_password2">Confirm new password:</label>
+                    <div class="input-group">
+                        {{ password_form.new_password2 }}
+                        <div class="input-group-append">
+                            <span class="input-group-text password-toggle-icon">
+                                <i class="fas fa-eye-slash toggle-password" toggle="#id_new_password2"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Reset Password</button>
+            </form>
+        </div> -->
+    
+
+        <!-- //////// working tommorow and mela ulla code work agum -->
+        <div class="col-md-6">
+            <h2>Reset Password</h2>
+            <form method="POST" id="password-form">
+                {% csrf_token %}
+        
+                <!-- OLD PASSWORD -->
+                <div class="form-group">
+                    <label for="id_old_password">Old password:</label>
+                    <div class="input-group">
+                        <input type="password" name="old_password" class="form-control" id="id_old_password" />
+                        <div class="input-group-append">
+                            <span class="input-group-text password-toggle-icon">
+                                <i class="fas fa-eye-slash toggle-password" toggle="#id_old_password"></i>
+                            </span>
+                        </div>
+                    </div>
+                    {% if password_form.errors.old_password %}
+                        <small class="text-danger">{{ password_form.errors.old_password.0 }}</small>
+                    {% endif %}
+                </div>
+        
+                <!-- NEW PASSWORD -->
+                <div class="form-group">
+                    <label for="id_new_password1">New password:</label>
+                    <div class="input-group">
+                        <input type="password" name="new_password1" class="form-control" id="id_new_password1" />
+                        <div class="input-group-append">
+                            <span class="input-group-text password-toggle-icon">
+                                <i class="fas fa-eye-slash toggle-password" toggle="#id_new_password1"></i>
+                            </span>
+                        </div>
+                    </div>
+                    {% if password_form.errors.new_password1 %}
+                        <small class="text-danger">{{ password_form.errors.new_password1.0 }}</small>
+                    {% endif %}
+                </div>
+        
+                <!-- CONFIRM NEW PASSWORD -->
+                <div class="form-group">
+                    <label for="id_new_password2">Confirm new password:</label>
+                    <div class="input-group">
+                        <input type="password" name="new_password2" class="form-control" id="id_new_password2" />
+                        <div class="input-group-append">
+                            <span class="input-group-text password-toggle-icon">
+                                <i class="fas fa-eye-slash toggle-password" toggle="#id_new_password2"></i>
+                            </span>
+                        </div>
+                    </div>
+                    {% if password_form.errors.new_password2 %}
+                        <small class="text-danger">{{ password_form.errors.new_password2.0 }}</small>
+                    {% endif %}
+                </div>
+        
+                <button type="submit" class="btn btn-primary">Reset Password</button>
+            </form>
+        </div>
+        
+    <!-- </div> -->
+</div>
+
+<!-- old script file -->
+<!-- <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const togglePassword = document.querySelectorAll('.toggle-password');
+    
+    togglePassword.forEach(icon => {
+        icon.addEventListener('click', function() {
+            const passwordField = document.querySelector(this.getAttribute('toggle'));
+            const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordField.setAttribute('type', type);
+            this.classList.toggle('fa-eye');
+            this.classList.toggle('fa-eye-slash');
+        });
+    });
+});
+</script> -->
+
+
+
+<!-- new script file -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // 1. Toggle password visibility
+        const togglePassword = document.querySelectorAll('.toggle-password');
+        
+        togglePassword.forEach(icon => {
+            icon.addEventListener('click', function () {
+                const passwordField = document.querySelector(this.getAttribute('toggle'));
+                const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordField.setAttribute('type', type);
+                this.classList.toggle('fa-eye');
+                this.classList.toggle('fa-eye-slash');
+            });
+        });
+    
+        // 2. Client-side form validation
+        const form = document.getElementById('password-form');
+    
+        form.addEventListener('submit', function (e) {
+            let hasError = false;
+    
+            // Clear previous client-side errors
+            document.querySelectorAll('.client-error').forEach(el => el.remove());
+    
+            // Validate each field
+            const fields = [
+                { id: 'id_old_password', message: 'Enter old password' },
+                { id: 'id_new_password1', message: 'Enter new password' },
+                { id: 'id_new_password2', message: 'Enter confirm password' }
+            ];
+    
+            fields.forEach(field => {
+                const input = document.getElementById(field.id);
+                if (!input.value.trim()) {
+                    hasError = true;
+                    const errorEl = document.createElement('small');
+                    errorEl.classList.add('text-danger', 'client-error');
+                    errorEl.textContent = field.message;
+                    input.closest('.form-group').appendChild(errorEl);
+                }
+            });
+    
+            if (hasError) {
+                e.preventDefault(); // Stop form submission
+            }
+        });
+    });
+    </script>
+    
+    
+
+
+
+    
+
+
+
+ 
+
+{% endblock %}

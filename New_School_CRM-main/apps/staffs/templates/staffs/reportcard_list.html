@@ -1,0 +1,111 @@
+<style>
+    table {
+     border-collapse: collapse;
+     width: 100%;
+ }
+ th, td {
+     border: 1px solid black;
+     padding: 10px;
+     text-align: start;
+ }
+ thead {
+     background-color: #6DE1D2;
+ }
+ /* NEW working colors */
+ .pending {
+     color: orange;
+     font-weight: bold;
+ }
+ .approved {
+     color: green;
+     font-weight: bold;
+ }
+ .rejected {
+     color: red;
+     font-weight: bold;
+ }
+ .submit-btn button{
+     background-color: #6DE1D2;
+     border-color: transparent;
+     color: white;
+     border-radius: 3px;
+ }
+ tbody tr {
+     font-size: 16px;
+     background-color: #E3E3E3;
+ }
+ tbody tr:hover {
+ background-color: #c8c7c7;
+ cursor: pointer;
+}
+.submit-btn button{
+     background-color: #6DE1D2;
+     border-color: transparent;
+     color: white;
+     border-radius: 3px;
+     color: black;
+ }
+</style>
+
+
+{% extends 'staffs/staff_index.html' %}
+
+{% block content%}
+
+<!-- <h2>All Report Cards</h2>
+<a href="{% url 'staff-reportcard-create' %}">Add New Report Card</a> -->
+
+
+<div class="d-flex justify-content-between">
+    <div>
+        <h2>All Report Cards</h2>
+    </div>
+    <div>
+        <div class="submit-btn">
+            <a href="{% url 'staff-reportcard-create' %}">
+                <button type="button">Add New Report Card</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Social</th>
+            <th>Status</th>
+            <th>Parent Signature</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    {% for card in cards %}
+    <tbody>
+        <tr>
+            <td>{{ card.student.get_full_name }} ({{ card.student.username }})</td>
+            <td>{{ card.tamil }}</td>
+            <td>{{ card.english }}</td> 
+            <td>{{ card.maths }}</td>
+            <td>{{ card.science }}</td>
+            <td>{{ card.social }}</td>
+            <td>{{ card.status }}</td>
+            <td>{{ card.parent_signature }}</td>
+            <td>
+                <a href="{% url 'staff-reportcard-update' card.pk %}" title="Edit">
+                    <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
+                </a> |
+                <a href="{% url 'staff-reportcard-delete' card.pk %}" title="Delete" onclick="return confirm('Are you sure you want to delete this record?');">
+                    <i class="fas fa-trash-alt" style="color: red;"></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>
+
+{% endblock content%}
+

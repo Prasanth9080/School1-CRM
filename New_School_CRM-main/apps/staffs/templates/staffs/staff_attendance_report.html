@@ -1,0 +1,22 @@
+{% extends 'staffs/staff_index.html' %}
+{% block content %}
+<h2>My Attendance Report (staff)</h2>
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Day</th>
+        <th>Status</th>
+        <th>Message</th>
+    </tr>
+    {% for record in records %}
+    <tr>
+        <td>{{ record.staff.get_full_name }} ({{ record.staff.username }})</td>
+        <td>{{ record.date }}</td>
+        <td>{{ record.get_day_display }}</td>
+        <td>{{ record.get_status_display }}</td>
+        <td>{{ record.message }}</td>
+        <td>{{ record.signature }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

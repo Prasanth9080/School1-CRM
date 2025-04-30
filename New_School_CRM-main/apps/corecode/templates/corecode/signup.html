@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Signup - Sample-School</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/toastr/toastr.min.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/overlayScrollbars/css/OverlayScrollbars.min.css' %}">
+  <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
+  <link rel="stylesheet" href="{% static 'dist/css/login-page.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <!-- Favicon added -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
+</head>
+<body>
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100">
+            <div class="login100-pic js-tilt" style="width: 400px;">
+                <img src="{% static 'dist/img/school.png' %}">
+            </div>
+            <form class="login100-form validate-form" method="post" action="{% url 'signup' %}" onsubmit="return validateForm()">
+                {% csrf_token %}
+                <span class="login100-form-title">Signup</span>
+                
+                <div class="wrap-input100 validate-input" data-validate="First name is required">
+                    <input class="input100" type="text" id="first_name" name="first_name" placeholder="First Name" autocomplete="off">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                    <span class="error-msg" id="first-name-error"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Last name is required">
+                    <input class="input100" type="text" id="last_name" name="last_name" placeholder="Last Name" autocomplete="off">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                    <span class="error-msg" id="last-name-error"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input class="input100" type="email" id="email" name="email" placeholder="Email" autocomplete="off">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                    <span class="error-msg" id="email-error"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Username is required">
+                    <input class="input100" type="text" id="username" name="username" placeholder="Username" autocomplete="off">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                    <span class="error-msg" id="username-error"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Password is required">
+                    <input class="input100" type="password" id="password" name="password" placeholder="Password" >
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                    <span class="error-msg" id="password-error"></span>
+                </div>
+                
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn" type="submit">Signup</button>
+                </div>
+
+                <div class="text-center p-t-12">
+                    <span class="txt1">Already have an account?</span>
+                    <a class="txt2" href="{% url 'login' %}">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'plugins/toastr/toastr.min.js' %}"></script>
+<script src="{% static 'plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js' %}"></script>
+<script src="{% static 'dist/js/adminlte.js' %}"></script>
+<script src="{% static 'dist/js/demo.js' %}"></script>
+<script>
+    function validateForm() {
+        var firstName = document.getElementById("first_name").value;
+        var lastName = document.getElementById("last_name").value;
+        var email = document.getElementById("email").value;
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var valid = true;
+
+        if (firstName === "") {
+            document.getElementById("first-name-error").innerText = "Please enter your first name";
+            valid = false;
+        } else {
+            document.getElementById("first-name-error").innerText = "";
+        }
+
+        if (lastName === "") {
+            document.getElementById("last-name-error").innerText = "Please enter your last name";
+            valid = false;
+        } else {
+            document.getElementById("last-name-error").innerText = "";
+        }
+
+        if (email === "") {
+            document.getElementById("email-error").innerText = "Please enter your Email-id";
+            valid = false;
+        } else {
+            document.getElementById("email-error").innerText = "";
+        }
+
+        if (username === "") {
+            document.getElementById("username-error").innerText = "Please enter your Username";
+            valid = false;
+        } else {
+            document.getElementById("username-error").innerText = "";
+        }
+
+        if (password === "") {
+            document.getElementById("password-error").innerText = "Please enter your password";
+            valid = false;
+        } else {
+            document.getElementById("password-error").innerText = "";
+        }
+
+        return valid;
+    }
+</script>
+</body>
+</html>

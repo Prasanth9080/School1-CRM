@@ -1,0 +1,132 @@
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: start;
+    }
+    /* td {
+        font-size: 16px;
+        background-color: #E3E3E1;
+    } */
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+    tbody tr:hover {
+    background-color: #c8c7c7;
+    cursor: pointer;
+}
+    thead {
+        background-color: #FF7D7D;
+    }
+    /* NEW working colors */
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+    .submit-btn button{
+        background-color: #FF7D7D;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+    }
+    .scroll-table {
+    overflow-x: auto;
+    max-width: 100%;
+}
+</style>
+
+
+{% extends 'students/student_index.html' %}
+
+{% block content %}
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Your Report Card</h2>
+    <!-- <a href="?download=true" class="btn btn-primary" style="background-color:blue;color:white;padding:10px;text-decoration:none;">Download PDF</a> -->
+    <a href="{% url 'student-report-card' %}?download=1" target="_blank" class="submit-btn">
+        <button type="submit">Download Pdf</button>
+    </a>    
+</div>
+
+<div class="scroll-table">
+    <table>
+        <thead>
+        <tr>
+            <th>standard</th>
+            <th>section</th>
+            <th>academic_session</th>
+            <th>father_name</th>
+            <th>mother_name</th>
+            <th>address</th>
+            <th>admission_number</th>
+            <th>roll_number</th>
+            <th>date_of_birth</th>  
+            <th>tamil</th>
+            <th>english</th>
+            <th>maths</th>
+            <th>science</th>
+            <th>social</th>
+            <th>overall_total</th>
+            <th>overall_precentage</th>
+            <th>overall_grade</th>
+            <th>term</th>
+            <th>status</th>
+            <th>comments</th>
+            <th>date</th>
+            <th>signature_class_teacher</th>
+            <th>signature_principal</th>
+            <th>parent_signature</th>
+            <th>created_at</th>
+            
+        </tr>
+        </thead>
+    
+        <tbody>
+        {% for card in cards %}
+        <tr>
+            <td>{{ card.standard }}</td>
+            <td>{{ card.section }}</td>
+            <td>{{ card.academic_session }}</td> 
+            <td>{{ card.father_name }}</td>
+            <td>{{ card.mother_name }}</td>
+            <td>{{ card.address }}</td>
+            <td>{{ card.admission_number }}</td>
+            <td>{{ card.roll_number }}</td>
+            <td>{{ card.date_of_birth }}</td>
+    
+            <td>{{ card.tamil }}</td>
+            <td>{{ card.english }}</td>
+            <td>{{ card.maths }}</td>
+            <td>{{ card.science }}</td>
+            <td>{{ card.social }}</td>
+            <td>{{ card.overall_total }}</td>
+            <td>{{ card.overall_percentage }}</td>
+            <td>{{ card.overall_grade }}</td>
+            <td>{{ card.term }}</td>
+            <td>{{ card.status }}</td>
+            <td>{{ card.comments }}</td>
+    
+            <td>{{ card.date }}</td>
+            <td>{{ card.signature_class_teacher }}</td>
+            <td>{{ card.signature_principal }}</td>
+            <td>{{ card.parent_signature }}</td>
+            <td>{{ card.created_at }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    </table>
+</div>
+
+{% endblock %}
