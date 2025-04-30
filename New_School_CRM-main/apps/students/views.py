@@ -305,6 +305,8 @@ def student_report_card_view(request):
     invoice_date = datetime.now().strftime('%B %d, %Y')  # Current date
     invoice_time = datetime.now().strftime('%H:%M:%S')  # Current time
 
+    logo_url = request.build_absolute_uri('/media/profile_pictures/school4.png')
+
     if 'download' in request.GET:
         # Define the template and context to be passed
         template_path = 'students/student_report_card_pdf.html'
@@ -314,6 +316,7 @@ def student_report_card_view(request):
             'invoice_number': invoice_number,
             'invoice_date': invoice_date,
             'invoice_time': invoice_time,
+            'logo_url': logo_url
         }
 
         response = HttpResponse(content_type='application/pdf')

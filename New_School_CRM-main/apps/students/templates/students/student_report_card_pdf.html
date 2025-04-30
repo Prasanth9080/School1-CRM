@@ -16,12 +16,12 @@
         th {
             background-color: #f2f2f2; 
         }
-        .header, .footer {
+        /* .header, .footer {
         text-align: center;
     }
     .header h2 {
         margin: 5px 0;
-    }
+    } */
     .invoice-details {
         margin-top: 20px;
     }
@@ -57,54 +57,160 @@
         .signatures td {
             padding-top: 40px;
         }
+        /* new style for header alignment */
+
+        /* 1st style */
+
+        .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 2px solid #000;
+    }
+
+    .header-logo img {
+        width: 80px;
+        height: auto;
+    }
+
+    .header-center {
+        text-align: center;
+        flex: 1;
+        margin: 0 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .header-center h1 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .header-center p {
+        margin: 3px 0;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .invoice-info {
+        text-align: right;
+        font-size: 13px;
+        font-family: Arial, sans-serif;
+    }
+
+    .invoice-info p {
+        margin: 3px 0;
+    }
+
+    /* 2nd style */
+        
+/* .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+   
+    .header-logo img {
+        width: 70px;
+    }
+
+    .header-center {
+        flex: 1;
+        margin: 0 20px;
+        font-size: 12px;
+    }
+
+    .header-center h1 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .header-center p {
+        margin: 5px 0;
+        font-size: 11px;
+    }
+
+    .invoice-info {
+        text-align: right;
+        font-size: 11px;
+        min-width: 170px;
+    }
+
+    .invoice-info p {
+        margin: 2px 0;
+    } */
+
+    /* 3rd style */
+
+    /* .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+
+.header-logo img {
+    width: 70px;
+}
+
+.header-center {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header-center h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.header-center p {
+    font-size: 12px;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.invoice-info {
+    text-align: right;
+    font-size: 12px;
+    min-width: 160px;
+} */
+
+
+/* 4th style */
+
     </style>
 </head>
 <body>
 
-<div class="header">
-    <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
-    <img src="/New_School_CRM-main/media/profile_pictures/school4.png" alt="School Logo">
-    <p>Gurua, Maniyapul, Bastih
-    Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
-    Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
-    lakshyainternationalschoolbth.com</p><hr>
-    
-</div>
-<!-- 
-<div class="header">
-    <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
-    <div class="invoice-logo">
-        <img src="/New_School_CRM-main/media/profile_pictures/school4.png" alt="School Logo" width="100" height="100">
-    </div>
-    <p>Gurua, Maniyapul, Bastih<br>
-    Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
-    Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
-    lakshyainternationalschoolbth.com</p><hr>
-</div>
-<div class="invoice-details">
-    <div class="invoice-circle invoice-date">
-        <p>Invoice Date: {{ invoice_date }}</p>
-        <p>Invoice Time: {{ invoice_time }}</p>
-        <p>Invoice No.: {{ invoice_number }}</p>
-    </div>
-</div> -->
 
-<!-- Invoice Details Section -->
-<div class="invoice-details-container">
-    <!-- Red Circle with School Logo (Left Side) -->
-    <div class="invoice-logo-container">
-        <img src="/New_School_CRM-main/media/profile_pictures/school4.png" alt="School Logo">
+<div class="header-container">
+    <!-- Left: School Logo -->
+    <div class="header-logo">
+        <!-- <img src="http://127.0.0.1:8000/media/profile_pictures/school4.png" style="width:80px;" alt="School Logo"> -->
+        <img src="{{ logo_url }}"alt="School Logo" style="width:80px;" >
+        
     </div>
 
-    <!-- Green Circle with Invoice Details (Right Side) -->
+    <!-- Center: School Info -->
+    <div class="header-center">
+        <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
+        <p>Gurua, Maniyapul, Bastih Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
+        Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
+        lakshyainternationalschoolbth.com</p>
+    </div>
+
+<!-- Right: Invoice Info -->
     <div class="invoice-info">
         <p>Invoice Date: {{ invoice_date }}</p>
         <p>Invoice Time: {{ invoice_time }}</p>
-        <p>Invoice No.: {{ invoice_number|slice:":6" }}</p> <!-- Display first 6 digits of the invoice number -->
+        <p>Invoice No.: {{ invoice_number|slice:":6" }}</p>
     </div>
 </div>
-
-
 
 <div class="sub-header">
     <h2>YEARLY REPORT CARD</h2>
@@ -134,16 +240,28 @@
 
 <h3>Scholastic - Term {{ cards.first.term }}</h3>
 
-<table class="marks-table">
+<!-- <table class="marks-table">
     <thead>
         <tr>
+            <th rowspan="1">Name: Ram prasanth vignesh kumar</th>
+            <th colspan="3">1st Term Exam</th>
+            
+            <th colspan="3">2nd Term Exam</th>
+
+            <th colspan="3">3rd Term Exam</th>
+   
+        </tr>
+        <tr>
             <th>Subject</th>
-            <th>PMT-1</th>
-            <th>Notebook</th>
-            <th>Sub Enrichment</th>
-            <th>Mid Term</th>
-            <th>Max Marks (M.M)</th>
-            <th>Marks Obtained (M.O)</th>
+            <th>Total Marks</th>
+            <th>Obt Marks</th>
+            <th>Status</th>
+            <th>Total Marks</th>
+            <th>Obt Marks</th>
+            <th>Status</th>
+            <th>Total Marks</th>
+            <th>Obt Marks</th>
+            <th>Status</th>
         </tr>
     </thead>
     <tbody>
@@ -193,6 +311,67 @@
             <td>{{ cards.first.social }}</td>
         </tr>
     </tbody>
+</table> -->
+
+<table border="1" cellspacing="0" cellpadding="5">
+    <thead>
+        <tr>
+            <th rowspan="2">Subjects</th>
+            <th colspan="3">1st Term Exam</th>
+            <th colspan="3">2nd Term Exam</th>
+            <th colspan="3">Final Term Exam</th>
+        </tr>
+        <tr>
+            <th>Total Marks</th>
+            <th>Obt Marks</th>
+            <th>Status</th>
+            <th>Total Marks</th>
+            <th>Obt Marks</th>
+            <th>Status</th>
+            <th>Total Marks</th>
+            <th>Obt Marks</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tamil</td>
+            <td>100</td><td>78</td><td>Pass</td>
+            <td>100</td><td>89</td><td>Pass</td>
+            <td>100</td><td>91</td><td>Pass</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>100</td><td>79</td><td>Pass</td>
+            <td>100</td><td>80</td><td>Pass</td>
+            <td>100</td><td>92</td><td>Pass</td>
+        </tr>
+        <tr>
+            <td>Math’s</td>
+            <td>100</td><td>75</td><td>Pass</td>
+            <td>100</td><td>85</td><td>Pass</td>
+            <td>100</td><td>85</td><td>Pass</td>
+        </tr>
+        <tr>
+            <td>Secience</td>
+            <td>100</td><td>74</td><td>Pass</td>
+            <td>100</td><td>84</td><td>Pass</td>
+            <td>100</td><td>84</td><td>Pass</td>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>100</td><td>76</td><td>Pass</td>
+            <td>100</td><td>87</td><td>Pass</td>
+            <td>100</td><td>87</td><td>Pass</td>
+        </tr>
+        
+        <tr>
+            <td><strong>Total Marks</strong></td>
+            <td>500</td><td>625</td><td>Pass</td>
+            <td>500</td><td>667</td><td>Pass</td>
+            <td>500</td><td>690</td><td>Pass</td>
+        </tr>
+    </tbody>
 </table>
 
 <table>
@@ -226,9 +405,11 @@
         <tr><td>0-32</td><td>E</td></tr>
     </tbody>
 </table> -->
-
-<h4>Class Teacher's Remarks</h4>
-<p>{{ cards.first.comments }}</p>
+<table>
+    <tr>
+        <td colspan="2"><strong>Class Teacher Remark's :</strong> {{ cards.first.comments }}</td>
+    </tr>
+</table>
 
 <table class="signatures">
     <tr>
