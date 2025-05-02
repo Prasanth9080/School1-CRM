@@ -15,5 +15,9 @@ urlpatterns = [
     path('principal/attendance/<int:pk>/edit/', views.staff_attendance_update, name='principal-attendance-update'),
     path('principal/attendance/<int:pk>/delete/', views.staff_attendance_delete, name='principal-attendance-delete'),
 
+
+    path('notifications/', views.principal_notifications, name='principal_notifications'),
+    path('notifications/delete/<int:notification_id>/', views.delete_notification, name='delete_notification'),
+
 ]
  

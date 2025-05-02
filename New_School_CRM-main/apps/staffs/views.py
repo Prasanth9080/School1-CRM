@@ -232,3 +232,111 @@ from django.contrib.auth.decorators import login_required
 def staff_attendance_view(request):
     records = StaffAttendanceRecord.objects.filter(staff=request.user)
     return render(request, 'staffs/staff_attendance_report.html', {'records': records})
+
+
+##### notification function for staff
+# from django.contrib.admin.views.decorators import staff_member_required
+# from ..students.models import StaffNotification
+
+# @staff_member_required
+# def staff_notifications(request):
+#     notifications = StaffNotification.objects.all().order_by('-created_at')
+#     return render(request, 'staffs/staff_notification.html', {'notifications': notifications})
+
+
+# from django.contrib.auth.decorators import login_required
+# from django.http import HttpResponseForbidden
+# from ..students.models import StaffNotification
+
+# @login_required
+# def staff_notifications(request):
+#     if not request.user.groups.filter(name="Staff").exists() and not request.user.is_staff:
+#         return HttpResponseForbidden("You do not have permission to view this page.")
+
+#     notifications = StaffNotification.objects.all().order_by('-created_at')
+#     return render(request, 'staffs/staff_notification.html', {'notifications': notifications})
+
+
+############### staff notification function working good and also delete function working good
+
+# from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render
+# from ..students.models import StaffNotification
+
+# @login_required
+# def staff_notifications(request):
+#     print("Current user:", request.user.username)
+#     notifications = StaffNotification.objects.all().order_by('-created_at')
+#     notifications.update(is_read=True)
+#     return render(request, 'staffs/staff_notification.html', {'notifications': notifications})
+
+
+# from django.shortcuts import redirect, get_object_or_404
+# from django.views.decorators.csrf import csrf_protect
+# from django.contrib import messages
+
+# @csrf_protect
+# @login_required
+# def delete_notification(request, notification_id):
+#     if request.method == 'POST':
+#         notification = get_object_or_404(StaffNotification, id=notification_id)
+#         notification.delete()
+#         messages.success(request, "Notification deleted successfully.")
+#     return redirect('staff_notifications')
+
+
+
+######### now, staff notification once delete panna adminpanle la delet agama, staff template la matum hide agum
+######### but now, admin panel la delete panna staff panel la delete agum
+
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect, get_object_or_404
+from django.views.decorators.csrf import csrf_protect
+from django.contrib import messages
+from ..students.models import StaffNotification, HiddenNotification
+from django.http import HttpResponseForbidden
+
+@login_required
+def staff_notifications(request):
+    # Get list of notification IDs hidden by current staff
+    hidden_ids = HiddenNotification.objects.filter(
+        staff=request.user
+    ).values_list('notification_id', flat=True)
+
+    # Exclude hidden notifications
+    notifications = StaffNotification.objects.exclude(id__in=hidden_ids).order_by('-created_at')
+
+    # Mark visible notifications as read
+    notifications.update(is_read=True)
+
+    return render(request, 'staffs/staff_notification.html', {'notifications': notifications})
+
+
+@csrf_protect
+@login_required
+def hide_notification(request, notification_id):
+    if request.method == 'POST':
+        notification = get_object_or_404(StaffNotification, id=notification_id)
+
+        # Only staff (non-superusers) can hide
+        if request.user.is_superuser:
+            return HttpResponseForbidden("Principal should delete in admin panel, not hide.")
+
+        HiddenNotification.objects.get_or_create(staff=request.user, notification=notification)
+        messages.success(request, "Notification hidden.")
+    return redirect('staff_notifications')
+
+
+# Optional: Principal only can delete in admin panel.
+# @csrf_protect
+# @login_required
+# def delete_notification(request, notification_id):
+#     if not request.user.is_superuser:
+#         return HttpResponseForbidden("Only Principal can delete notifications.")
+    
+#     if request.method == 'POST':
+#         notification = get_object_or_404(StaffNotification, id=notification_id)
+#         notification.delete()
+#         messages.success(request, "Notification deleted successfully.")
+    
+#     return redirect('staff_notifications')

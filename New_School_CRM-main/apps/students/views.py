@@ -589,6 +589,36 @@ def initiate_payment(request):
     return render(request, "students/initiate_payment.html")
 
 
+from .models import StaffNotification  # Add this at the top
+
+# @csrf_exempt
+# def payment_success(request):
+#     if request.method == "POST":
+#         data = request.POST
+#         try:
+#             order_id = data.get("razorpay_order_id")
+#             payment_id = data.get("razorpay_payment_id")
+#             signature = data.get("razorpay_signature")
+
+#             payment = Payment.objects.get(order_id=order_id)
+#             payment.payment_id = payment_id
+#             payment.signature = signature
+#             payment.status = "Complete"
+#             payment.save()
+
+#                 # After payment.save()
+#             StaffNotification.objects.create(
+#                 student=payment.user,
+#                 message=f"{payment.user.username} has paid the school fees successfully. Please verify and generate the invoice."
+#             )
+#             return render(request, "students/payment_success.html", {"payment": payment})
+#         except Payment.DoesNotExist:
+#             return HttpResponse("Payment not found", status=404)
+#     return HttpResponse("Invalid request", status=400)
+
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
+
 @csrf_exempt
 def payment_success(request):
     if request.method == "POST":
@@ -599,11 +629,36 @@ def payment_success(request):
             signature = data.get("razorpay_signature")
 
             payment = Payment.objects.get(order_id=order_id)
-            payment.payment_id = payment_id
-            payment.signature = signature
-            payment.status = "Complete"
-            payment.save()
-            return render(request, "students/payment_success.html", {"payment": payment})
+            if payment.status != "Complete":  # prevent re-saving
+                payment.payment_id = payment_id
+                payment.signature = signature
+                payment.status = "Complete"
+                payment.save()
+
+                # Create notification once
+                StaffNotification.objects.create(
+                    student=payment.user,
+                    message=f"{payment.user.username} has paid the school fees successfully. Please verify and generate the invoice."
+                )
+
+            # Store payment ID in session to access in GET
+            request.session['payment_id'] = payment.id
+            return HttpResponseRedirect(reverse('show_payment_success'))
+
         except Payment.DoesNotExist:
             return HttpResponse("Payment not found", status=404)
     return HttpResponse("Invalid request", status=400)
+
+
+
+@login_required
+def show_payment_success(request):
+    payment_id = request.session.pop('payment_id', None)
+    if not payment_id:
+        return redirect('initiate_payment')
+
+    try:
+        payment = Payment.objects.get(id=payment_id)
+        return render(request, "students/payment_success.html", {"payment": payment})
+    except Payment.DoesNotExist:
+        return redirect('initiate_payment')

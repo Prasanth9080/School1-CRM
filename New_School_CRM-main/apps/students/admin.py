@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Student, StudentBulkUpload, LeaveRequeststudent, StuReportCard,AttendanceRecord, Payment
+from .models import Student, StudentBulkUpload, LeaveRequeststudent, StuReportCard,AttendanceRecord, Payment,StaffNotification,HiddenNotification
 
 class StudentAdmin(admin.ModelAdmin):
     list_display = ('registration_number', 'surname', 'firstname', 'other_name', 'gender', 'date_of_birth', 'current_class', 'date_of_admission', 'parent_mobile_number')
@@ -33,6 +33,12 @@ class AttendanceRecordAdmin(admin.ModelAdmin):
 @admin.register(Payment)
 class PaymentAdmin(admin.ModelAdmin):
     list_display = ('user', 'payment_id', 'order_id', 'amount', 'status', 'created_at')
+@admin.register(StaffNotification)
+class StaffNotificationAdmin(admin.ModelAdmin):
+    list_display = ('id','student', 'message', 'is_read',  'created_at')
+@admin.register(HiddenNotification)
+class HiddenNotificationAdmin(admin.ModelAdmin):
+    list_display = ('id','staff', 'notification', 'hidden_at',)
 
 # admin.site.register(Payment, PaymentAdmin)
 

@@ -43,5 +43,9 @@ path('staff/attendance/<int:pk>/delete/', views.attendance_delete, name='staff-a
 
 ###### new url for staff
     path('staff-attendance/', views.staff_attendance_view, name='staff-attendance-view'),
+##### notfication url:
+    path('notifications/', views.staff_notifications, name='staff_notifications'),
+    path('notifications/hide/<int:notification_id>/', views.hide_notification, name='hide_notification'),
+    # path('notifications/delete/<int:notification_id>/', views.delete_notification, name='delete_notification'),
 
 ]

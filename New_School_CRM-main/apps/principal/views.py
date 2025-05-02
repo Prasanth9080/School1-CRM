@@ -65,3 +65,31 @@ def staff_attendance_delete(request, pk):
     return redirect('principal-attendance-list')
 
 
+
+
+##########
+
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render
+from ..students.models import StaffNotification
+
+@login_required
+def principal_notifications(request):
+    print("Current user:", request.user.username)
+    notifications = StaffNotification.objects.all().order_by('-created_at')
+    notifications.update(is_read=True)
+    return render(request, 'principal/principal_notification.html', {'notifications': notifications})
+
+
+from django.shortcuts import redirect, get_object_or_404
+from django.views.decorators.csrf import csrf_protect
+from django.contrib import messages
+
+@csrf_protect
+@login_required
+def delete_notification(request, notification_id):
+    if request.method == 'POST':
+        notification = get_object_or_404(StaffNotification, id=notification_id)
+        notification.delete()
+        messages.success(request, "Notification deleted successfully.")
+    return redirect('principal_notifications') 

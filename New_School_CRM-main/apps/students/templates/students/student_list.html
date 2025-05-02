@@ -16,6 +16,7 @@
       <thead class="thead-light">
         <tr>
           <th>S/N</th>
+          <th>Passport-image</th>
           <th>Registration Number</th>
           <th>Fullname</th>
           <th>Current Class</th>
@@ -23,20 +24,12 @@
           <th>Mobile Phone Number</th>
           <th>Status</th>
           <th>Address</th>
-          <th>Passport</th>
         </tr>
       </thead>
       <tbody>
         {% for student in students %}
           <tr class='clickable-row' data-href="{% url 'student-detail' student.id %}">
             <td>{{ forloop.counter }}</td>
-            <td>{{ student.registration_number }}</td>
-            <td>{{ student.surname }} {{ student.firstname }} {{ student.other_name }}</td>
-            <td>{{ student.current_class }}</td>
-            <td>{{ student.get_gender_display }}</td>
-            <td>{{ student.parent_mobile_number }}</td>
-            <td>{{ student.get_current_status_display }}</td>
-            <td>{{ student.address }}</td>
             <td>
               {% if student.passport %}
                 <img src="{{ student.passport.url }}" alt="{{ student.fullname }}" style="width: 50px; height: auto;">
@@ -45,6 +38,13 @@
                 <!-- <img src="{% static 'dist/img/avatar.png' %}" class="float-left rounded-circle mr-3" style="width: 120px; height: 120px;"> -->
               {% endif %}
             </td>
+            <td>{{ student.registration_number }}</td>
+            <td>{{ student.surname }} {{ student.firstname }} {{ student.other_name }}</td>
+            <td>{{ student.current_class }}</td>
+            <td>{{ student.get_gender_display }}</td>
+            <td>{{ student.parent_mobile_number }}</td>
+            <td>{{ student.get_current_status_display }}</td>
+            <td>{{ student.address }}</td>
           </tr>
         {% endfor %}
       </tbody>
