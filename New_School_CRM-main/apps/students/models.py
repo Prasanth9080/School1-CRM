@@ -271,6 +271,7 @@ class Payment(models.Model):
 ####### student after payment successfull then notification send to staff 
 class StaffNotification(models.Model):
     student = models.ForeignKey(User, on_delete=models.CASCADE, related_name='notifications')
+    amount = models.ForeignKey(Payment, on_delete=models.CASCADE, null=True, blank=True)
     message = models.TextField()
     is_read = models.BooleanField(default=False)  
     created_at = models.DateTimeField(auto_now_add=True)
