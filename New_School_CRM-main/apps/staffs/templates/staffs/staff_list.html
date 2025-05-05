@@ -1,3 +1,9 @@
+<style>
+  thead {
+     background-color: #6DE1D2;
+  }
+</style>
+
 {% extends 'base.html' %}
 
 {% block title %}staffs{% endblock title %}
@@ -8,8 +14,8 @@
 {% endblock breadcrumb %}
 
 {% block content %}
-  <table id="stafftable" class="table table-bordered table-hover">
-    <thead class="thead-light">      
+  <table id="stafftable" class="table table-hover">
+    <thead>      
       <tr>
         <th>S/N</th>
         <th>Fullname</th>
