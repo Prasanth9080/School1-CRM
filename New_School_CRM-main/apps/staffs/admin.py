@@ -16,7 +16,22 @@ class LeaveRequeststaffAdmin(admin.ModelAdmin):
 class StaffAttendanceRecordAdmin(admin.ModelAdmin):
     list_display =('staff', 'date','month','day','status','message','signature')
     
-    
+####### student fees admin
+
+from .models import StudentFeesRecord
+
+@admin.register(StudentFeesRecord)
+class StudentFeesRecordAdmin(admin.ModelAdmin):
+    list_display = (
+        'student', 'term', 'session', 'this_term_fees', 'previous_term_balance',
+        'total_amount','paid_amount','balance_payable_amount', 'status', 'created_at', 'gender', 'starting_date', 'ending_date'
+    )
+    search_fields = ('student__username', 'term', 'session')
+    readonly_fields = ('status', 'total_amount','paid_amount','balance_payable_amount',)
+    search_fields = ('student__username', 'session__name')
+    list_filter = ('status', 'term', 'session')
+
+
 admin.site.register(Staff, StaffAdmin)
 admin.site.register(LeaveRequeststaff, LeaveRequeststaffAdmin)
 admin.site.register(StaffAttendanceRecord, StaffAttendanceRecordAdmin)

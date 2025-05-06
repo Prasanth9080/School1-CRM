@@ -93,3 +93,41 @@ def delete_notification(request, notification_id):
         notification.delete()
         messages.success(request, "Notification deleted successfully.")
     return redirect('principal_notifications') 
+
+
+######### student fees record management functionalities ##########
+
+
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Principal_StudentFeesRecord
+from .forms import Principal_StudentFeesRecordForm
+
+def student_fees_management(request):
+    fees = Principal_StudentFeesRecord.objects.select_related('student').all()
+    return render(request, 'principal/student_fees_management.html', {'fees': fees})
+
+def add_student_fee(request):
+    if request.method == 'POST':
+        form = Principal_StudentFeesRecordForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('student-fees')
+    else:
+        form = Principal_StudentFeesRecordForm()
+    return render(request, 'principal/student_fees_form.html', {'form': form})
+
+def edit_student_fee(request, fee_id):
+    fee = get_object_or_404(Principal_StudentFeesRecord, id=fee_id)
+    if request.method == 'POST':
+        form = Principal_StudentFeesRecordForm(request.POST, instance=fee)
+        if form.is_valid():
+            form.save()
+            return redirect('student-fees')
+    else:
+        form = Principal_StudentFeesRecordForm(instance=fee)
+    return render(request, 'principal/student_fees_form.html', {'form': form})
+
+def delete_student_fee(request, fee_id):
+    fee = get_object_or_404(Principal_StudentFeesRecord, id=fee_id)
+    fee.delete()
+    return redirect('student-fees')

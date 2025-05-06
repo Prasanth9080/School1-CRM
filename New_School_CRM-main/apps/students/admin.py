@@ -32,7 +32,7 @@ class AttendanceRecordAdmin(admin.ModelAdmin):
 
 @admin.register(Payment)
 class PaymentAdmin(admin.ModelAdmin):
-    list_display = ('user', 'payment_id', 'order_id', 'amount', 'status', 'created_at')
+    list_display = ('user', 'payment_id', 'order_id', 'amount', 'status', 'created_at', 'fees_record')
 @admin.register(StaffNotification)
 class StaffNotificationAdmin(admin.ModelAdmin):
     list_display = ('id','student', 'message', 'is_read',  'created_at')

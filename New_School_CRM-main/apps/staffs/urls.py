@@ -48,4 +48,14 @@ path('staff/attendance/<int:pk>/delete/', views.attendance_delete, name='staff-a
     path('notifications/hide/<int:notification_id>/', views.hide_notification, name='hide_notification'),
     # path('notifications/delete/<int:notification_id>/', views.delete_notification, name='delete_notification'),
 
+###### standard student fees url
+
+# path('student-fees/', views.student_fees_management, name='student-fees'),
+
+    path('student-fees/', views.student_fees_management, name='student-fees'),
+    path('student-fees/add/', views.add_student_fee, name='add-student-fee'),
+    path('student-fees/<int:fee_id>/edit/', views.edit_student_fee, name='edit-student-fee'),
+    path('student-fees/<int:fee_id>/delete/', views.delete_student_fee, name='delete-student-fee'),
+
 ]
+ 

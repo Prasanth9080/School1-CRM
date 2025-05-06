@@ -663,55 +663,91 @@ def student_attendance_view(request):
 #     except Payment.DoesNotExist:
 #         return redirect('initiate_payment')
 
+#### *************************************** old code
 
-
-######################### this is staff notification model inside added payment model fields data related function
+# ######################### this is staff notification model inside added payment model fields data related function
 from django.shortcuts import render, redirect
 from django.conf import settings
-from .models import Payment
+from .models import Payment ,StaffNotification
 import razorpay
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
-
+from ..staffs.models import StudentFeesRecord
+from ..principal.models import Principal_StudentFeesRecord #### principal student fees report create panna intha model use pannanum
+from decimal import Decimal
 
 client = razorpay.Client(auth=(settings.RAZORPAY_KEY_ID, settings.RAZORPAY_KEY_SECRET))
 
+# @login_required
+# def initiate_payment(request):
+#     if request.method == "POST":
+#         amount = int(request.POST.get("amount")) * 100  # in paisa
+#         user = request.user
+
+#         # Razorpay order create
+#         order = client.order.create({
+#             "amount": amount,
+#             "currency": "INR",
+#             "payment_capture": "1"
+#         })
+
+#         # Save payment record
+#         payment = Payment.objects.create(
+#             user=user,
+#             order_id=order['id'],
+#             amount=amount / 100,
+#             status='Pending'
+#         )
+
+#         context = {
+#             "order_id": order['id'],
+#             "amount": amount,
+#             "key": settings.RAZORPAY_KEY_ID,
+#             "user": user,
+#         }
+#         return render(request, "students/razorpay_payment.html", context)
+
+#     return render(request, "students/initiate_payment.html")
+
+####### working good, but staff student oda fees-record create pannalum principal create pannalum show aguthu
+
 @login_required
 def initiate_payment(request):
-    if request.method == "POST":
-        amount = int(request.POST.get("amount")) * 100  # in paisa
-        user = request.user
+    user = request.user
+    try:
+        # Get the most recent fee record for the student
+        fee_record = StudentFeesRecord.objects.filter(student=user).latest('created_at')
+    except StudentFeesRecord.DoesNotExist:
+        return render(request, "students/initiate_payment.html", {"error": "No fees assigned by staff yet."})
 
-        # Razorpay order create
+    if request.method == "POST":
+        amount = int(request.POST.get("amount")) * 100  # Razorpay expects amount in paisa
+
         order = client.order.create({
             "amount": amount,
             "currency": "INR",
             "payment_capture": "1"
         })
 
-        # Save payment record
         payment = Payment.objects.create(
             user=user,
             order_id=order['id'],
             amount=amount / 100,
-            status='Pending'
+            status='Pending',
+            fees_record=fee_record
         )
 
-        context = {
+        return render(request, "students/razorpay_payment.html", {
             "order_id": order['id'],
             "amount": amount,
             "key": settings.RAZORPAY_KEY_ID,
             "user": user,
-        }
-        return render(request, "students/razorpay_payment.html", context)
+            "csrf_token": request.META['CSRF_COOKIE'],  # ensure Razorpay success POST works
+        })
 
-    return render(request, "students/initiate_payment.html")
-
-
-from .models import StaffNotification  # Add this at the top
-
+    return render(request, "students/initiate_payment.html", {"fee_record": fee_record})
 
 @csrf_exempt
 def payment_success(request):
@@ -728,6 +764,29 @@ def payment_success(request):
                 payment.signature = signature
                 payment.status = "Complete"
                 payment.save()
+
+                # if payment.fees_record:
+                #     payment.fees_record.status = 'paid'
+                #     payment.fees_record.save()
+
+
+                # Find matching StudentFeesRecord for this student and term/session
+                fees_record = StudentFeesRecord.objects.filter(
+                    student=payment.user,
+                    status__in=["pending", "partial"]
+                ).order_by('-created_at').first()
+
+                if fees_record:
+                    fees_record.paid_amount += Decimal(str(payment.amount)) 
+                    fees_record.save()  # triggers save logic to update status and balance
+               
+               
+               
+                if payment.amount >= payment.fees_record.total_amount:
+                    payment.fees_record.status = 'paid'
+                else:
+                    payment.fees_record.status = 'partial'
+
 
                 # Create notification and link to payment
                 StaffNotification.objects.create(

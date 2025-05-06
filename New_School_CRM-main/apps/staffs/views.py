@@ -340,3 +340,50 @@ def hide_notification(request, notification_id):
 #         messages.success(request, "Notification deleted successfully.")
     
 #     return redirect('staff_notifications')
+
+############ student fees management function
+
+# from django.shortcuts import render
+# from .models import StudentFeesRecord
+
+# def student_fees_management(request):
+#     fees = StudentFeesRecord.objects.select_related('student').all()
+#     return render(request, 'staffs/student_fees_management.html', {'fees': fees})
+
+
+
+########## students fees management function 2nd type
+
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import StudentFeesRecord
+from .forms import StudentFeesRecordForm
+
+def student_fees_management(request):
+    fees = StudentFeesRecord.objects.select_related('student').all()
+    return render(request, 'staffs/student_fees_management.html', {'fees': fees})
+
+def add_student_fee(request):
+    if request.method == 'POST':
+        form = StudentFeesRecordForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('student-fees')
+    else:
+        form = StudentFeesRecordForm()
+    return render(request, 'staffs/student_fees_form.html', {'form': form})
+
+def edit_student_fee(request, fee_id):
+    fee = get_object_or_404(StudentFeesRecord, id=fee_id)
+    if request.method == 'POST':
+        form = StudentFeesRecordForm(request.POST, instance=fee)
+        if form.is_valid():
+            form.save()
+            return redirect('student-fees')
+    else:
+        form = StudentFeesRecordForm(instance=fee)
+    return render(request, 'staffs/student_fees_form.html', {'form': form})
+
+def delete_student_fee(request, fee_id):
+    fee = get_object_or_404(StudentFeesRecord, id=fee_id)
+    fee.delete()
+    return redirect('student-fees')

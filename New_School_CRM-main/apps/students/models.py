@@ -250,6 +250,8 @@ class AttendanceRecord(models.Model):
 from django.db import models
 from django.contrib.auth.models import User
 
+from ..staffs.models import StudentFeesRecord  # import staff-side model
+
 class Payment(models.Model):
     STATUS_CHOICES = (
         ('Pending', 'Pending'),
@@ -263,6 +265,9 @@ class Payment(models.Model):
     amount = models.FloatField()
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='Pending')
     created_at = models.DateTimeField(auto_now_add=True)
+
+    fees_record = models.ForeignKey(StudentFeesRecord, on_delete=models.SET_NULL, null=True, blank=True)
+
 
     def __str__(self):
         return f"{self.user.username} - {self.amount} - {self.status}"

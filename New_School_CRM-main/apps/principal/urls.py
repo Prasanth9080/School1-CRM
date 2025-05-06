@@ -19,5 +19,13 @@ urlpatterns = [
     path('notifications/', views.principal_notifications, name='principal_notifications'),
     path('notifications/delete/<int:notification_id>/', views.delete_notification, name='delete_notification'),
 
+
+    ##### student fees record urls
+
+    path('student-fees/', views.student_fees_management, name='student-fees'),
+    path('student-fees/add/', views.add_student_fee, name='add-student-fee'),
+    path('student-fees/<int:fee_id>/edit/', views.edit_student_fee, name='edit-student-fee'),
+    path('student-fees/<int:fee_id>/delete/', views.delete_student_fee, name='delete-student-fee'),
+
 ]
  

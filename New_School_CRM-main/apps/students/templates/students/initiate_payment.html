@@ -3,13 +3,36 @@
 
 {% if error %}
     <p style="color:red;">{{ error }}</p>
-{% endif %}
-<form method="POST">
-    {% csrf_token %}
-    <label for="amount">Enter Amount (₹):</label>
-    <input type="number" name="amount" required min="1">
-    <button type="submit">Pay Now</button>
-</form>
+{% else %}
+    <h2>Fee Details</h2>
+    <ul>
+        <li><strong>Student Name:</strong> {{ fee_record.student }}</li>
+        <li><strong>Term:</strong> {{ fee_record.term }}</li>
+        <li><strong>Session:</strong> {{ fee_record.session }}</li>
+        <li><strong>This Term Fees:</strong> ₹{{ fee_record.this_term_fees }}</li>
+        <li><strong>Previous Balance:</strong> ₹{{ fee_record.previous_term_balance }}</li>
+        <li><strong>Total Amount:</strong> ₹{{ fee_record.total_amount }}</li>
+        <li><strong>Paid Amount:</strong> ₹{{ fee_record.paid_amount }}</li>
+        <li><strong>Balance payable Amount:</strong> ₹{{ fee_record.balance_payable_amount }}</li>
+        <!-- <li><strong>Status</strong> ₹{{ fee_record.status }}</li> -->
+        <li><strong>Status:</strong> 
+                {% if fee_record.status == "paid" %}
+                  <span style="color: green;">Complete</span>
+                {% elif fee_record.status == "partial" %}
+                    <span style="color: blue;">Partial</span>
+                {% else %}
+                    <span style="color: red;">Pending</span>
+                {% endif %}
 
+        </li>
+    </ul>
+
+    <form method="POST">
+        {% csrf_token %}
+        <label for="amount">Enter Amount (₹):</label>
+        <input type="number" name="amount" required min="1">
+        <button type="submit">Pay Now</button>
+    </form>
+{% endif %}
 
 {% endblock %}
