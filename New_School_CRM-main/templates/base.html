@@ -260,7 +260,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{% url 'staff-attendance-list' %}" class="nav-link">
+            <a href="{% url 'staff-attendance-list' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-attendance-list' %}active bg-white{% endif %}">
               <i class="nav-icon fas fa-graduation-cap"></i>
               <p>
                 Student Attendance Management

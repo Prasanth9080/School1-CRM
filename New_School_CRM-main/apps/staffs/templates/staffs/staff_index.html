@@ -108,7 +108,7 @@
             data-widget="treeview" role="menu" data-accordion="false">
 
             <li class="nav-item">
-              <a href="{% url 'staff-data' %}" class="nav-link">
+              <a href="{% url 'staff-data' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-data' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Staff
@@ -117,7 +117,7 @@
             </li>
            
             <li class="nav-item">
-              <a href="{% url 'staff-attendance' %}" class="nav-link">
+              <a href="{% url 'staff-attendance' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-attendance' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Leave Management
@@ -125,7 +125,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'staff-attendance-list' %}" class="nav-link">
+              <a href="{% url 'staff-attendance-list' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-attendance-list' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Student Attendance Management
@@ -133,7 +133,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'staff-attendance-view' %}" class="nav-link">
+              <a href="{% url 'staff-attendance-view' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-attendance-view' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Attendance Management
@@ -142,7 +142,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{% url 'staff-class-sechedule' %}" class="nav-link">
+              <a href="{% url 'staff-class-sechedule' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-class-sechedule' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                  class sechedule
@@ -151,7 +151,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{% url 'staff-student-leave-report' %}" class="nav-link">
+              <a href="{% url 'staff-student-leave-report' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-student-leave-report' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                  Student Leave Report
@@ -160,7 +160,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{% url 'staff-reportcard-list' %}" class="nav-link">
+              <a href="{% url 'staff-reportcard-list' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-reportcard-list' %}active bg-white text-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Student Report card Management
@@ -170,7 +170,7 @@
 
 
             <li class="nav-item">
-              <a href="{% url 'student-list' %}" class="nav-link">
+              <a href="{% url 'student-list' %}" class="nav-link {% if request.resolver_match.url_name == 'student-list' %}active bg-white text-white{% endif %}">
               <i class="nav-icon fas fa-graduation-cap"></i>
               <p>Students</p>
               </a>

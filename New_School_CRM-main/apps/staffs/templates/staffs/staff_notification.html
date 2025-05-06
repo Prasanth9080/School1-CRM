@@ -1,0 +1,20 @@
+{% extends 'staffs/staff_index.html' %}
+
+{% block content %}
+  <h3>Student Payment Notifications</h3>
+  <ul>
+    {% for notification in notifications %}
+      <li>
+        <strong>{{ notification.student.username }}</strong>: {{ notification.message }} <br>
+        <small>{{ notification.created_at|date:"Y-m-d H:i" }}</small>
+
+        <form method="post" action="{% url 'hide_notification' notification.id %}" style="display:inline;">
+          {% csrf_token %}
+          <button type="submit">Hide</button>
+        </form>
+      </li>
+    {% empty %}
+      <li>No notifications found.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

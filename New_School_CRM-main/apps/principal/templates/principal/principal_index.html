@@ -39,6 +39,9 @@
 </head> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 
 <body
@@ -73,7 +76,7 @@
                 <img src="{% static 'dist/img/avatar.png' %}" alt="Default Profile Picture"
                 class="rounded-circle" alt="Profile Image" width="30" height="30">
             {% endif %}
-        </a>
+          </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
             <a href="{% url 'profile' %}" class="dropdown-item">
               <i class="fas fa-user mr-2"></i> Profile
@@ -110,7 +113,7 @@
            
             
               <li class="nav-item">
-                <a href="{% url 'principal-data' %}" class="nav-link">
+                <a href="{% url 'principal-data' %}" class="nav-link {% if request.resolver_match.url_name == 'principal-data' %}active bg-white{% endif %}">
                   <i class="nav-icon fas fa-graduation-cap"></i>
                   <p>
                     Principal
@@ -119,28 +122,28 @@
               </li>
 
             <li class="nav-item">
-              <a href="{% url 'principal-attendance-list' %}" class="nav-link">
+              <a href="{% url 'principal-attendance-list' %}" class="nav-link {% if request.resolver_match.url_name == 'principal-attendance-list' %}active bg-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                     Attendance Management
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="{% url 'principal-data' %}" class="nav-link">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                     Leave Management
                 </p>
               </a>
-            </li>
+            </li> -->
 
 
 
             
 
             <li class="nav-item">
-              <a href="{% url 'principal-staff-leave-report' %}" class="nav-link">
+              <a href="{% url 'principal-staff-leave-report' %}" class="nav-link {% if request.resolver_match.url_name == 'principal-staff-leave-report' %}active bg-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                  Staff Leave Report
@@ -149,7 +152,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="{% url 'student-list' %}" class="nav-link">
+              <a href="{% url 'student-list' %}" class="nav-link {% if request.resolver_match.url_name == 'student-list' %}active bg-white{% endif %}">
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Students List / Create
@@ -157,7 +160,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'staff-list' %}" class="nav-link">
+              <a href="{% url 'staff-list' %}" class="nav-link {% if request.resolver_match.url_name == 'staff-list' %}active bg-white{% endif %}">
                 <i class="nav-icon fas fa-users"></i>
                 <p>
                   Staff List / Create
@@ -167,7 +170,7 @@
 
             <li class="nav-header">Finance</li>
             <li class="nav-item">
-              <a href="{% url 'invoice-list' %}" class="nav-link">
+              <a href="{% url 'invoice-list' %}" class="nav-link {% if request.resolver_match.url_name == 'invoice-list' %}active bg-white{% endif %}">
                 <i class="nav-icon fas fa-money-bill-alt"></i>
                 <p>
                   Invoices

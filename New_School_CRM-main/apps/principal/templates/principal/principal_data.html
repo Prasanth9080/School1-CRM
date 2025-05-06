@@ -1,14 +1,173 @@
+<style>
+  #chart-container {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+</style>
+
 {% extends 'principal/principal_index.html' %}
 
 {% block title %}
-  principal Dashboard
+  Principal Dashboard
 {% endblock title %}
 
 {% block breadcrumb %}
-  principals
+  Principals
 {% endblock breadcrumb %}
 
 {% block content %}
-  <h3>Welcome to the principal Dashboard</h3>
-  <p>This is the dashboard page for principals. You can view your activities, reports, etc.</p>
-{% endblock content %} 
+<div class="container mt-4">
+    <div class="card-body">
+      <h3 class="mb-3 text-center">Welcome to the Principal Dashboard</h3>
+      <p class="card-text text-center">This is your personalized dashboard. You can view activities, reports, and manage your tasks here.</p>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card text-white bg-info mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Reports</h5>
+              <p class="card-text">View recent reports and statistics.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Activities</h5>
+              <p class="card-text">Monitor school activities and schedules.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-white bg-warning mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Messages</h5>
+              <p class="card-text">Read messages from staff and students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <!-- Attendance Bar Chart -->
+    <div class="col-lg-6 mb-4">
+      <h5 class="text-center">Daily Attendance (%)</h5>
+      <canvas id="attendanceChart"></canvas>
+    </div>
+
+    <!-- Students vs Staff Pie Chart -->
+    <div id="chart-container" class="col-lg-6 mb-4">
+      <h5 class="text-center">Total Students vs Staff</h5>
+      <canvas id="totalChart"></canvas>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  // Chart 1: Daily Attendance Bar Chart
+  new Chart(document.getElementById('attendanceChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+      datasets: [{
+        label: 'Attendance %',
+        data: [88, 92, 95, 89, 94],  // Example data
+        backgroundColor: 'rgba(54, 162, 235, 0.7)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 100
+        }
+      }
+    }
+  });
+
+  // Chart 2: Total Students vs Staff Pie Chart
+  new Chart(document.getElementById('totalChart'), {
+    type: 'doughnut', // or 'pie'
+    data: {
+      labels: ['Students', 'Staff'],
+      datasets: [{
+        data: [450, 50],  // Replace with actual counts
+        backgroundColor: ['#36a2eb', '#ff6384']
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom'
+        },
+        datalabels: {
+          color: '#fff',
+          font: {
+            weight: 'bold'
+          }
+        }
+      }
+    }
+  });
+</script>
+
+
+<!-- <script>
+  const ctx = document.getElementById('attendanceChart').getContext('2d');
+  const attendanceChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+      datasets: [{
+        label: 'Attendance %',
+        data: [36, 92, 95, 89, 94],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.6)',
+          'rgba(54, 162, 235, 0.6)',
+          'rgba(255, 206, 86, 0.6)',
+          'rgba(75, 192, 192, 0.6)',
+          'rgba(153, 102, 255, 0.6)'
+        ],
+        borderColor: [
+          'rgba(255, 99, 132, 1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'bottom'
+        },
+        title: {
+          display: true,
+          text: 'Weekly Attendance Percentage (Pie Chart)'
+        }
+      }
+    }
+  });
+</script> -->
+
+
+
+
+{% endblock content %}
+
+

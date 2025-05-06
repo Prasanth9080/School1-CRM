@@ -1,0 +1,22 @@
+{% extends 'students/student_index.html' %}
+
+{% block content %}
+<div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px; background-color: #f9fff9; max-width: 600px; margin: auto;">
+    <h2 style="color: green; text-align: center;">✅ Payment Successful!</h2>
+
+    <p><strong>👤 Student:</strong> {{ payment.user.username }}</p>
+    <p><strong>💰 Amount Paid:</strong> ₹{{ payment.amount }}</p>
+    <p><strong>🧾 Order ID:</strong> {{ payment.order_id }}</p>
+    <p><strong>💳 Payment ID:</strong> {{ payment.payment_id }}</p>
+    <p><strong>📌 Status:</strong> {{ payment.status }}</p>
+
+    <p style="margin-top: 20px;">Your payment was processed successfully. You will be redirected to the payment page shortly.</p>
+</div>
+
+<script>
+  // Redirect after 10 seconds to initiate_payment page
+  setTimeout(function () {
+    window.location.href = "{% url 'initiate_payment' %}";
+  }, 10000);
+</script>
+{% endblock %}
