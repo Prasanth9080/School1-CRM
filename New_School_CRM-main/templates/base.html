@@ -261,6 +261,7 @@
             </a>
           </li>
          
+         
           <li class="nav-item">
             <a href="{% url 'staff-attendance' %}" class="nav-link">
               <i class="nav-icon fas fa-graduation-cap"></i>
@@ -269,14 +270,7 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
-            <a href="{% url 'staff-attendance-list' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Student Attendance Management
-              </p>
-            </a>
-          </li>
+
           <li class="nav-item">
             <a href="{% url 'staff-attendance-view' %}" class="nav-link">
               <i class="nav-icon fas fa-graduation-cap"></i>
@@ -291,6 +285,16 @@
               <i class="nav-icon fas fa-graduation-cap"></i>
               <p>
                class sechedule
+              </p>
+            </a>
+          </li>
+          <hr>
+
+          <li class="nav-item">
+            <a href="{% url 'staff-attendance-list' %}" class="nav-link">
+              <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>
+                Student Attendance Management
               </p>
             </a>
           </li>
@@ -312,6 +316,16 @@
               </p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="{% url 'student-fees' %}" class="nav-link">
+              <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>
+                Student Fees Management
+              </p>
+            </a>
+          </li>
+
 
           <li class="nav-item">
             <a href="{% url 'student-list' %}" class="nav-link">
@@ -363,6 +377,7 @@
           </ul> 
           </li>
 
+
           {# ==== PRINCIPAL ==== #}
           {% elif user|is_role:"principal" %}
 
@@ -375,26 +390,23 @@
             </a>
           </li>
 
-        <li class="nav-item">
-          <a href="{% url 'principal-attendance-list' %}" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>
-                Attendance Management
-            </p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="{% url 'principal-data' %}" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>
+          <li class="nav-item">
+            <a href="{% url 'principal-data' %}" class="nav-link">
+              <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>
                 Leave Management
-            </p>
-          </a>
-        </li>
-
-
-
-        
+              </p>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="{% url 'principal-attendance-list' %}" class="nav-link">
+              <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>
+                  Staff Attendance Management
+              </p>
+            </a>
+          </li>
 
         <li class="nav-item">
           <a href="{% url 'principal-staff-leave-report' %}" class="nav-link">
@@ -404,66 +416,97 @@
             </p>
           </a>
         </li>
+        
+        <li class="nav-item">
+          <a href="{% url 'principal-student-fees' %}" class="nav-link">
+            <i class="nav-icon fas fa-graduation-cap"></i>
+            <p>
+              Student Fees Management
+            </p>
+          </a>
+        </li>
+        <hr>
 
-          <li class="nav-item">
+        <li class="nav-item">
           <a href="{% url 'student-list' %}" class="nav-link">
-          <i class="nav-icon fas fa-graduation-cap"></i>
-          <p>Students</p>
+            <i class="nav-icon fas fa-graduation-cap"></i>
+            <p>
+              Students List / Create
+            </p>
           </a>
-          </li>
-          <li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a href="{% url 'staff-list' %}" class="nav-link">
-          <i class="nav-icon fas fa-users"></i>
-          <p>Member of Staff</p>
+            <i class="nav-icon fas fa-users"></i>
+            <p>
+              Staff List / Create
+            </p>
           </a>
-          </li>
+        </li>
 
-          <li class="nav-header">Finance</li>
-          <li class="nav-item">
+        <li class="nav-header">Finance</li>
+        <li class="nav-item">
           <a href="{% url 'invoice-list' %}" class="nav-link">
-          <i class="nav-icon fas fa-money-bill-alt"></i>
-          <p>Invoices</p>
+            <i class="nav-icon fas fa-money-bill-alt"></i>
+            <p>
+              Invoices
+            </p>
           </a>
-          </li>
-          <li class="nav-header">Others</li>
-          <li class="nav-item has-treeview">
+        </li>
+     
+        <li class="nav-header">Others</li>
+        <li class="nav-item has-treeview">
           <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-copy"></i>
-          <p>Management <i class="fas fa-angle-left right"></i></p>
+            <i class="nav-icon fas fa-copy"></i>
+            <p>
+              Management
+              <i class="fas fa-angle-left right"></i>
+            </p>
           </a>
           <ul class="nav nav-treeview">
-          <li class="nav-item">
-          <a href="{% url 'sessions' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Sessions</p>
-          </a>
-          </li>
-          <li class="nav-item">
-          <a href="{% url 'terms' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Terms</p>
-          </a>
-          </li>
-          <li class="nav-item">
-          <a href="{% url 'subjects' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Subjects</p>
-          </a>
-          </li>
-          <li class="nav-item">
-          <a href="{% url 'classes' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Classes</p>
-          </a>
-          </li>
+            <li class="nav-item">
+              <a href="{% url 'sessions' %}" class="nav-link">
+                <i class="nav-icon fas fa-bars"></i>
+                <p>
+                  Sessions
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'terms' %}" class="nav-link">
+                <i class="nav-icon fas fa-bars"></i>
+                <p>
+                  Terms
+                  <i class="right"></i>
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'subjects' %}" class="nav-link">
+                <i class="nav-icon fas fa-bars"></i>
+                <p>
+                  Subjects
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'classes' %}" class="nav-link">
+                <i class="nav-icon fas fa-bars"></i>
+                <p>
+                  Classes
+                </p>
+              </a>
+            </li>
           </ul>
-          </li>
-          <li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a href="{% url 'configs' %}" class="nav-link">
-          <i class="nav-icon fas fa-cog"></i>
-          <p>Settings</p>
+            <i class="nav-icon fas fa-cog"></i>
+            <p>
+              Settings
+            </p>
           </a>
-          </li>
+        </li>
           {% endif %}
           </ul>
 

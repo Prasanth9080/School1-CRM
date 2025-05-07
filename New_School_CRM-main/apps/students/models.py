@@ -113,7 +113,7 @@ from apps.corecode.models import StudentClass, AcademicSession
 from ckeditor.fields import RichTextField
 
 class StuReportCard(models.Model):
-    student = models.ForeignKey(User, on_delete=models.CASCADE)
+    student = models.ForeignKey(User, limit_choices_to={"userprofile__role":"student"}, on_delete=models.CASCADE)
     standard = models.ForeignKey(StudentClass, on_delete=models.SET_NULL, null=True, blank=True)
     section = models.CharField(max_length=10, blank=True)
     academic_session = models.ForeignKey(AcademicSession, on_delete=models.SET_NULL, null=True, blank=True)
@@ -229,7 +229,7 @@ DAYS = (
 )
 
 class AttendanceRecord(models.Model):
-    student = models.ForeignKey(User, on_delete=models.CASCADE)
+    student = models.ForeignKey(User,limit_choices_to={'userprofile__role': 'student'}, on_delete=models.CASCADE)
     month = models.CharField(max_length=20)
     date = models.DateField()
     day = models.CharField(max_length=10, choices=DAYS)

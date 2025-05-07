@@ -25,6 +25,11 @@ class Principal_StudentFeesRecord(models.Model):
     starting_date = models.DateField()
     ending_date = models.DateField()
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='pending')
+    created_by = models.CharField(
+        max_length=20,
+        choices=(('staff', 'Staff'), ('principal', 'Principal')),
+        default='principal'
+    )
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:

@@ -10162,3 +10162,746 @@ INFO 2025-05-06 18:20:57,943 D:\New folder\School1-CRM\New_School_CRM-main\apps\
 INFO 2025-05-06 18:20:59,057 Watching for file changes with StatReloader
 INFO 2025-05-06 18:21:03,857 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
 INFO 2025-05-06 18:21:04,989 Watching for file changes with StatReloader
+INFO 2025-05-06 18:24:32,262 "GET /principal/student-fees/ HTTP/1.1" 200 12117
+INFO 2025-05-06 18:24:55,889 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:07:30,752 Watching for file changes with StatReloader
+INFO 2025-05-07 10:08:31,431 "GET / HTTP/1.1" 302 0
+INFO 2025-05-07 10:08:31,523 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-07 10:08:31,561 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,576 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,578 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,580 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,583 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,583 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,584 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,597 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,598 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,599 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,600 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,601 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,607 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:31,663 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:54,718 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-07 10:08:54,860 "GET /principal/dashboard/ HTTP/1.1" 200 13453
+INFO 2025-05-07 10:08:54,911 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:54,916 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:54,931 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:54,931 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:54,933 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:08:54,933 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,757 "GET / HTTP/1.1" 302 0
+INFO 2025-05-07 10:10:28,771 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-07 10:10:28,790 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,791 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,791 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,825 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,830 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,831 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,831 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,852 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,852 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,854 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,865 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,865 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,865 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:28,917 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:40,862 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-07 10:10:41,004 "GET /staff/dashboard/ HTTP/1.1" 200 13136
+INFO 2025-05-07 10:10:41,051 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:41,058 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:41,066 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:41,067 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:41,067 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:41,172 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,360 "GET / HTTP/1.1" 302 0
+INFO 2025-05-07 10:10:51,379 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-07 10:10:51,437 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,446 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,447 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,451 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,451 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,452 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,452 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,454 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,456 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,471 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,474 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,474 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,477 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:51,546 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:58,260 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-07 10:10:58,419 "GET /student/dashboard/ HTTP/1.1" 200 10292
+INFO 2025-05-07 10:10:58,442 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:58,446 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-07 10:10:58,546 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 10:11:07,913 "GET /student/dashboard/ HTTP/1.1" 200 10156
+INFO 2025-05-07 10:11:08,090 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:11:09,614 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:11:39,934 "GET /student/data/ HTTP/1.1" 200 10200
+INFO 2025-05-07 10:11:41,760 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:08,421 - Broken pipe from ('127.0.0.1', 50157)
+INFO 2025-05-07 10:20:08,512 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:08,646 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:08,813 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:09,023 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:09,165 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:09,356 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:20:09,556 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:22:23,997 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:22:25,114 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-07 10:24:35,390 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17445
+INFO 2025-05-07 10:24:45,559 "GET /staff/staff/attendance/create/ HTTP/1.1" 200 12288
+INFO 2025-05-07 10:29:04,732 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\models.py changed, reloading.
+INFO 2025-05-07 10:29:06,006 Watching for file changes with StatReloader
+INFO 2025-05-07 10:29:08,391 "GET /staff/staff/attendance/create/ HTTP/1.1" 200 12288
+INFO 2025-05-07 10:29:11,511 "GET /staff/staff/attendance/create/ HTTP/1.1" 200 12288
+INFO 2025-05-07 10:29:11,757 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:29:16,988 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17445
+INFO 2025-05-07 10:29:18,521 "GET /staff/staff/attendance/create/ HTTP/1.1" 200 12288
+INFO 2025-05-07 10:29:53,350 "GET /staff/staff/attendance/create/ HTTP/1.1" 200 12288
+INFO 2025-05-07 10:31:02,247 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17453
+INFO 2025-05-07 10:31:04,187 "GET /principal/principal/attendance/create/ HTTP/1.1" 200 12298
+INFO 2025-05-07 10:31:17,428 "GET /principal/attendance/ HTTP/1.1" 200 10745
+INFO 2025-05-07 10:31:18,678 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17453
+INFO 2025-05-07 10:31:20,403 "GET /principal/principal/attendance/create/ HTTP/1.1" 200 12298
+INFO 2025-05-07 10:32:04,112 "GET /staff/dashboard/ HTTP/1.1" 200 12996
+INFO 2025-05-07 10:32:04,786 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-07 10:35:06,693 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17453
+INFO 2025-05-07 10:35:07,836 "GET /principal/leavereport/ HTTP/1.1" 200 34495
+INFO 2025-05-07 10:35:13,463 "GET /principal/student-fees/ HTTP/1.1" 200 12117
+INFO 2025-05-07 10:35:15,105 "GET /principal/student-fees/add/ HTTP/1.1" 200 14200
+INFO 2025-05-07 10:35:20,384 "GET /student/list HTTP/1.1" 200 13340
+INFO 2025-05-07 10:35:20,615 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+INFO 2025-05-07 10:39:26,684 "GET /staff/attendance/ HTTP/1.1" 200 15957
+INFO 2025-05-07 10:39:28,563 "GET /staff/staff-attendance/ HTTP/1.1" 200 11933
+INFO 2025-05-07 10:39:31,745 "GET /staff/class/ HTTP/1.1" 200 10485
+INFO 2025-05-07 10:39:33,338 "GET /staff/staff/attendance/ HTTP/1.1" 200 13586
+INFO 2025-05-07 10:39:35,279 "GET /staff/staff/attendance/create/ HTTP/1.1" 200 12262
+INFO 2025-05-07 10:41:32,169 "GET /staff/staff-attendance/ HTTP/1.1" 200 11933
+INFO 2025-05-07 10:41:35,264 "GET /staff/staff/attendance/ HTTP/1.1" 200 13586
+INFO 2025-05-07 10:42:13,529 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-07 10:42:14,705 Watching for file changes with StatReloader
+INFO 2025-05-07 10:42:22,881 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\models.py changed, reloading.
+INFO 2025-05-07 10:42:24,007 Watching for file changes with StatReloader
+WARNING 2025-05-07 10:43:08,793 Not Found: /staff/staff/attendance/
+WARNING 2025-05-07 10:43:08,793 "GET /staff/staff/attendance/ HTTP/1.1" 404 19007
+WARNING 2025-05-07 10:43:09,001 Not Found: /favicon.ico
+WARNING 2025-05-07 10:43:09,002 "GET /favicon.ico HTTP/1.1" 404 11942
+INFO 2025-05-07 10:43:11,778 "GET /staff/attendance/ HTTP/1.1" 200 15960
+INFO 2025-05-07 10:43:15,579 "GET /staff/students/attendance/ HTTP/1.1" 200 13613
+INFO 2025-05-07 10:43:18,697 "GET /staff/students/attendance/create/ HTTP/1.1" 200 12033
+INFO 2025-05-07 10:43:25,042 "GET /staff/students/attendance/3/edit/ HTTP/1.1" 200 12080
+INFO 2025-05-07 10:43:32,862 "GET /staff/leavereport/ HTTP/1.1" 200 21895
+INFO 2025-05-07 10:43:49,784 "GET /staff/attendance/ HTTP/1.1" 200 15960
+INFO 2025-05-07 10:43:57,129 "GET /staff/staff-attendance/ HTTP/1.1" 200 11936
+INFO 2025-05-07 10:44:02,214 "GET /staff/attendance/ HTTP/1.1" 200 15960
+INFO 2025-05-07 10:44:07,566 "GET /staff/staff-attendance/ HTTP/1.1" 200 11936
+INFO 2025-05-07 10:44:09,534 "GET /staff/attendance/ HTTP/1.1" 200 15960
+INFO 2025-05-07 10:45:02,736 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-07 10:45:04,119 Watching for file changes with StatReloader
+WARNING 2025-05-07 10:45:12,868 Not Found: /staff/attendance/
+WARNING 2025-05-07 10:45:12,869 "GET /staff/attendance/ HTTP/1.1" 404 18990
+WARNING 2025-05-07 10:45:15,761 Not Found: /staff/attendance/
+WARNING 2025-05-07 10:45:15,762 "GET /staff/attendance/ HTTP/1.1" 404 18990
+WARNING 2025-05-07 10:45:19,596 Not Found: /staff/attendance/
+WARNING 2025-05-07 10:45:19,596 "GET /staff/attendance/ HTTP/1.1" 404 18990
+INFO 2025-05-07 10:45:21,539 "GET /staff/staff-attendance/ HTTP/1.1" 200 11937
+INFO 2025-05-07 10:45:24,916 "GET /staff/staff-leave/ HTTP/1.1" 200 15961
+INFO 2025-05-07 10:45:27,358 "GET /staff/staff-attendance/ HTTP/1.1" 200 11937
+INFO 2025-05-07 10:45:29,301 "GET /staff/class/ HTTP/1.1" 200 10489
+INFO 2025-05-07 10:45:37,343 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-07 10:45:38,775 Watching for file changes with StatReloader
+INFO 2025-05-07 10:45:40,728 "GET /staff/staff-attendance/ HTTP/1.1" 200 11943
+INFO 2025-05-07 10:45:42,037 "GET /staff/staff-class/ HTTP/1.1" 200 10495
+INFO 2025-05-07 10:45:44,688 "GET /staff/students/attendance/ HTTP/1.1" 200 13620
+INFO 2025-05-07 10:45:47,427 "GET /staff/leavereport/ HTTP/1.1" 200 21902
+INFO 2025-05-07 10:46:10,085 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-07 10:46:11,195 Watching for file changes with StatReloader
+INFO 2025-05-07 10:46:13,041 "GET /staff/staff-class/ HTTP/1.1" 200 10504
+INFO 2025-05-07 10:46:15,344 "GET /staff/students/attendance/ HTTP/1.1" 200 13629
+INFO 2025-05-07 10:46:17,545 "GET /staff/students/leavereport/ HTTP/1.1" 200 21911
+INFO 2025-05-07 10:46:19,770 "GET /staff/reportcards/ HTTP/1.1" 200 14040
+INFO 2025-05-07 10:46:41,625 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-07 10:46:42,905 Watching for file changes with StatReloader
+INFO 2025-05-07 10:46:44,964 "GET /staff/students/leavereport/ HTTP/1.1" 200 21920
+INFO 2025-05-07 10:46:47,423 "GET /staff/students/reportcards/ HTTP/1.1" 200 14121
+INFO 2025-05-07 10:46:50,264 "GET /principal/student-fees/ HTTP/1.1" 200 12091
+INFO 2025-05-07 10:48:01,048 "GET /principal/student-fees/ HTTP/1.1" 200 12091
+INFO 2025-05-07 10:48:06,583 "GET /principal/student-fees/ HTTP/1.1" 200 12091
+INFO 2025-05-07 10:48:07,956 "GET /principal/student-fees/ HTTP/1.1" 200 12091
+INFO 2025-05-07 10:48:08,623 "GET /principal/student-fees/ HTTP/1.1" 200 12091
+INFO 2025-05-07 10:48:13,108 "GET /principal/student-fees/ HTTP/1.1" 200 12091
+INFO 2025-05-07 10:48:27,233 "GET /principal/student-fees/ HTTP/1.1" 200 12117
+INFO 2025-05-07 10:49:32,909 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 10:49:34,242 Watching for file changes with StatReloader
+INFO 2025-05-07 10:51:05,555 "GET /staff/students/reportcards/ HTTP/1.1" 200 14117
+INFO 2025-05-07 10:51:08,847 "GET /staff/student-fees/ HTTP/1.1" 200 12663
+INFO 2025-05-07 10:51:18,435 "GET /staff/students/reportcards/ HTTP/1.1" 200 14117
+INFO 2025-05-07 10:51:22,162 "GET /staff/student-fees/ HTTP/1.1" 200 12663
+INFO 2025-05-07 10:53:31,883 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-07 10:53:32,910 Watching for file changes with StatReloader
+INFO 2025-05-07 10:53:40,889 "GET /staff/students/attendance/ HTTP/1.1" 200 13635
+INFO 2025-05-07 10:53:43,130 "GET /staff/students/fees/ HTTP/1.1" 200 12669
+INFO 2025-05-07 10:53:48,276 "GET /student/list HTTP/1.1" 200 13812
+INFO 2025-05-07 10:53:48,399 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 10:54:11,860 "GET /principal/attendance/ HTTP/1.1" 200 10742
+INFO 2025-05-07 10:54:42,738 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17450
+INFO 2025-05-07 11:02:21,704 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17450
+INFO 2025-05-07 11:02:25,514 "GET /principal/attendance/ HTTP/1.1" 200 10742
+INFO 2025-05-07 11:02:27,506 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17450
+INFO 2025-05-07 11:02:48,431 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17450
+INFO 2025-05-07 11:02:50,474 "GET /principal/leavereport/ HTTP/1.1" 200 34492
+INFO 2025-05-07 11:02:57,592 "GET /principal/principal/attendanceeee/ HTTP/1.1" 200 17450
+INFO 2025-05-07 11:03:03,096 "GET /staff/students/fees/ HTTP/1.1" 200 12695
+INFO 2025-05-07 11:03:50,463 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-07 11:03:52,019 Watching for file changes with StatReloader
+INFO 2025-05-07 11:04:05,538 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-07 11:04:06,824 Watching for file changes with StatReloader
+WARNING 2025-05-07 11:04:08,946 Not Found: /principal/principal/attendanceeee/
+WARNING 2025-05-07 11:04:08,946 "GET /principal/principal/attendanceeee/ HTTP/1.1" 404 14273
+WARNING 2025-05-07 11:04:09,181 Not Found: /favicon.ico
+WARNING 2025-05-07 11:04:09,181 "GET /favicon.ico HTTP/1.1" 404 11942
+WARNING 2025-05-07 11:30:10,902 Not Found: /principal/leavereport/
+WARNING 2025-05-07 11:30:10,903 "GET /principal/leavereport/ HTTP/1.1" 404 14237
+WARNING 2025-05-07 11:30:11,802 Not Found: /principal/leavereport/
+WARNING 2025-05-07 11:30:11,803 "GET /principal/leavereport/ HTTP/1.1" 404 14237
+INFO 2025-05-07 11:30:18,063 "GET /student/list HTTP/1.1" 200 13339
+INFO 2025-05-07 11:30:22,323 "GET /principal/attendance/ HTTP/1.1" 200 10741
+INFO 2025-05-07 11:32:01,654 "GET /principal/attendance/ HTTP/1.1" 200 10741
+INFO 2025-05-07 11:32:03,155 "GET /principal/staff/attendance/ HTTP/1.1" 200 17377
+INFO 2025-05-07 11:32:04,222 "GET /principal/staff/leavereport/ HTTP/1.1" 200 34491
+INFO 2025-05-07 11:32:05,472 "GET /staff/students/fees/ HTTP/1.1" 200 12695
+INFO 2025-05-07 11:32:14,151 "GET /staff/students/fees/ HTTP/1.1" 200 12695
+ERROR 2025-05-07 11:33:21,484 Internal Server Error: /principal/attendance/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 8, in principal_dashboard
+    return render (request, "principal/principal_data.html")
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-student-fees' not found. 'principal-student-fees' is not a valid view function or pattern name.
+ERROR 2025-05-07 11:33:21,490 "GET /principal/attendance/ HTTP/1.1" 500 146857
+ERROR 2025-05-07 11:33:24,457 Internal Server Error: /principal/staff/leavereport/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 25, in principalstaffleavereport
+    return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-student-fees' not found. 'principal-student-fees' is not a valid view function or pattern name.
+ERROR 2025-05-07 11:33:24,463 "GET /principal/staff/leavereport/ HTTP/1.1" 500 164810
+INFO 2025-05-07 11:33:43,017 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-07 11:33:44,201 Watching for file changes with StatReloader
+INFO 2025-05-07 11:33:46,354 "GET /principal/staff/leavereport/ HTTP/1.1" 200 34494
+INFO 2025-05-07 11:33:47,994 "GET /principal/attendance/ HTTP/1.1" 200 10744
+INFO 2025-05-07 11:33:49,121 "GET /principal/staff/attendance/ HTTP/1.1" 200 17380
+INFO 2025-05-07 11:33:50,430 "GET /principal/staff/leavereport/ HTTP/1.1" 200 34494
+INFO 2025-05-07 11:33:55,332 "GET /principal/student-fees/ HTTP/1.1" 200 12116
+INFO 2025-05-07 11:34:08,571 "GET /staff/staff-class/ HTTP/1.1" 200 10510
+INFO 2025-05-07 11:34:10,822 "GET /staff/students/fees/ HTTP/1.1" 200 12684
+INFO 2025-05-07 11:34:16,024 "GET /principal/student-fees/ HTTP/1.1" 200 12116
+INFO 2025-05-07 11:34:18,566 "GET /principal/student-fees/ HTTP/1.1" 200 12116
+INFO 2025-05-07 11:34:48,267 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-07 11:34:49,378 Watching for file changes with StatReloader
+INFO 2025-05-07 11:34:55,381 "GET /principal/student-fees/add/ HTTP/1.1" 200 14193
+INFO 2025-05-07 11:35:05,135 "GET /staff/students/attendance/ HTTP/1.1" 200 13635
+INFO 2025-05-07 11:35:07,209 "GET /staff/students/attendance/create/ HTTP/1.1" 200 12055
+INFO 2025-05-07 11:35:09,487 "GET /staff/students/leavereport/ HTTP/1.1" 200 21917
+INFO 2025-05-07 11:35:11,804 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 11:35:13,570 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17791
+INFO 2025-05-07 11:35:17,230 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 11:35:19,149 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17791
+INFO 2025-05-07 12:48:50,215 Watching for file changes with StatReloader
+INFO 2025-05-07 12:49:04,891 "GET /principal/student-fees/ HTTP/1.1" 200 12107
+INFO 2025-05-07 12:49:05,080 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-07 12:49:05,116 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-07 12:49:05,127 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-07 12:49:05,149 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-07 12:49:05,166 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-07 12:49:05,173 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-07 12:49:05,175 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-07 12:49:05,220 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-07 12:49:05,234 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-07 12:49:05,235 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-07 12:49:05,248 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-07 12:49:05,250 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-07 12:49:05,303 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-07 12:49:05,599 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-07 12:49:07,751 "GET /principal/student-fees/ HTTP/1.1" 200 12107
+INFO 2025-05-07 12:49:08,062 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-07 12:49:11,961 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17791
+INFO 2025-05-07 12:49:12,015 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-07 12:49:12,016 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-07 12:49:12,029 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-07 12:49:12,030 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-07 12:49:12,031 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-07 12:49:12,037 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-07 12:49:12,039 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-07 12:49:12,043 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-07 12:49:12,047 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-07 12:49:12,050 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-07 12:49:12,051 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-07 12:49:12,055 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-07 12:49:12,079 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-07 12:49:12,280 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 200 5856837
+INFO 2025-05-07 12:49:15,721 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17791
+INFO 2025-05-07 12:49:16,254 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-07 12:50:06,240 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 12:50:07,975 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17791
+INFO 2025-05-07 12:52:20,157 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\models.py changed, reloading.
+INFO 2025-05-07 12:52:22,026 Watching for file changes with StatReloader
+INFO 2025-05-07 12:52:24,638 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17559
+INFO 2025-05-07 12:52:34,849 "GET /staff/students/leavereport/ HTTP/1.1" 200 21917
+INFO 2025-05-07 12:52:36,976 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 12:52:39,152 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17559
+INFO 2025-05-07 12:52:41,729 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 12:52:43,987 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17559
+INFO 2025-05-07 12:52:46,004 "GET /staff/students/fees/ HTTP/1.1" 200 12669
+INFO 2025-05-07 12:52:47,655 "GET /staff/students/fees/add/ HTTP/1.1" 200 13905
+INFO 2025-05-07 12:52:54,908 "GET /student/list HTTP/1.1" 200 13812
+INFO 2025-05-07 12:52:55,169 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+INFO 2025-05-07 12:52:56,567 "GET /finance/list/ HTTP/1.1" 200 14070
+INFO 2025-05-07 12:52:58,560 "GET /staff/data/ HTTP/1.1" 200 10440
+INFO 2025-05-07 12:53:04,653 "GET /staff/students/fees/ HTTP/1.1" 200 12669
+INFO 2025-05-07 12:53:07,071 "GET /staff/students/fees/add/ HTTP/1.1" 200 13905
+INFO 2025-05-07 12:53:09,587 "GET /student/list HTTP/1.1" 200 13812
+INFO 2025-05-07 12:53:13,757 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 12:53:15,583 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17559
+INFO 2025-05-07 12:53:55,799 "GET /principal/attendance/ HTTP/1.1" 200 10744
+INFO 2025-05-07 12:53:56,391 "GET /principal/attendance/ HTTP/1.1" 200 10744
+INFO 2025-05-07 12:53:57,925 "GET /principal/staff/attendance/ HTTP/1.1" 200 17380
+INFO 2025-05-07 12:53:59,410 "GET /principal/staff/attendance/create/ HTTP/1.1" 200 12297
+INFO 2025-05-07 12:54:01,718 "GET /principal/staff/leavereport/ HTTP/1.1" 200 34494
+INFO 2025-05-07 12:54:03,728 "GET /principal/student-fees/ HTTP/1.1" 200 12107
+INFO 2025-05-07 12:54:06,829 "GET /staff/students/fees/add/ HTTP/1.1" 200 13931
+INFO 2025-05-07 12:54:50,763 "GET /staff/students/fees/ HTTP/1.1" 200 12669
+INFO 2025-05-07 12:54:53,247 "GET /staff/students/fees/add/ HTTP/1.1" 200 13905
+INFO 2025-05-07 12:55:04,283 "GET /principal/student-fees/ HTTP/1.1" 200 12107
+INFO 2025-05-07 12:56:22,658 "GET /principal/student-fees/ HTTP/1.1" 200 12110
+INFO 2025-05-07 12:56:25,184 "GET /principal/student-fees/add/ HTTP/1.1" 200 14193
+INFO 2025-05-07 12:56:27,510 "GET /principal/student-fees/add/ HTTP/1.1" 200 14193
+WARNING 2025-05-07 12:56:34,863 Not Found: /staff/students/fees/2/edit/
+WARNING 2025-05-07 12:56:34,863 "GET /staff/students/fees/2/edit/ HTTP/1.1" 404 17802
+WARNING 2025-05-07 12:56:35,086 Not Found: /favicon.ico
+WARNING 2025-05-07 12:56:35,087 "GET /favicon.ico HTTP/1.1" 404 11942
+INFO 2025-05-07 12:58:00,139 "GET /principal/student-fees/ HTTP/1.1" 200 12116
+INFO 2025-05-07 12:58:01,523 "GET /principal/student-fees/add/ HTTP/1.1" 200 14196
+INFO 2025-05-07 12:58:06,315 "GET /principal/student-fees/2/edit/ HTTP/1.1" 200 14273
+INFO 2025-05-07 12:58:17,704 "GET /principal/student-fees/add/ HTTP/1.1" 200 14196
+INFO 2025-05-07 12:59:11,342 "POST /principal/student-fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 12:59:11,585 "GET /staff/students/fees/ HTTP/1.1" 200 12695
+INFO 2025-05-07 12:59:32,566 "POST /principal/student-fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 12:59:32,699 "GET /staff/students/fees/ HTTP/1.1" 200 12695
+INFO 2025-05-07 12:59:38,478 "GET /principal/student-fees/ HTTP/1.1" 200 13818
+INFO 2025-05-07 14:05:36,227 "GET /principal/student-fees/add/ HTTP/1.1" 200 14196
+INFO 2025-05-07 14:06:17,185 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:06:17,368 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 14:07:47,525 "GET /staff/students/fees/9/edit/ HTTP/1.1" 200 13985
+INFO 2025-05-07 14:11:30,605 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 14:11:32,309 Watching for file changes with StatReloader
+ERROR 2025-05-07 14:12:10,099 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 107, in principal_student_fees_management
+    return render(request, 'principal/student_fees_management.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: principal/student_fees_management.html
+ERROR 2025-05-07 14:12:10,102 "GET /principal/student-fees/ HTTP/1.1" 500 88201
+INFO 2025-05-07 14:13:07,824 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 14:13:08,798 Watching for file changes with StatReloader
+INFO 2025-05-07 14:13:18,912 "GET /principal/student-fees/ HTTP/1.1" 200 13818
+INFO 2025-05-07 14:13:22,731 "GET /principal/student-fees/add/ HTTP/1.1" 200 14196
+INFO 2025-05-07 14:13:58,685 "POST /principal/student-fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:13:58,861 "GET /staff/students/fees/ HTTP/1.1" 200 13542
+INFO 2025-05-07 14:16:03,415 "GET /principal/student-fees/add/ HTTP/1.1" 200 14196
+INFO 2025-05-07 14:18:13,155 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 14:18:14,392 Watching for file changes with StatReloader
+INFO 2025-05-07 14:18:52,409 "POST /principal/student-fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:18:52,594 "GET /principal/student-fees/ HTTP/1.1" 200 15522
+INFO 2025-05-07 14:19:02,955 "GET /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:19:03,030 "GET /accounts/login/?next=/student/payments/ HTTP/1.1" 200 4604
+INFO 2025-05-07 14:19:03,183 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-07 14:19:03,196 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-07 14:19:03,224 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-07 14:19:03,240 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-07 14:19:03,240 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-07 14:19:03,251 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-07 14:19:03,259 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-07 14:19:03,270 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-07 14:19:03,288 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-07 14:19:03,302 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-07 14:19:03,303 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-07 14:19:03,315 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-07 14:19:03,332 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-07 14:19:03,430 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-07 14:20:58,798 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:20:58,972 "GET /student/dashboard/ HTTP/1.1" 200 10292
+INFO 2025-05-07 14:20:59,022 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-07 14:20:59,138 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-07 14:20:59,396 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-07 14:21:02,958 "GET /student/student/attendance/ HTTP/1.1" 200 11011
+INFO 2025-05-07 14:21:03,982 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-07 14:21:07,793 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-07 14:21:10,243 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-07 14:21:10,391 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-07 14:21:26,537 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 14:25:05,841 "GET /staff/students/attendance/ HTTP/1.1" 200 13635
+INFO 2025-05-07 14:25:07,816 "GET /staff/students/attendance/create/ HTTP/1.1" 200 12055
+INFO 2025-05-07 14:25:11,760 "GET /staff/students/leavereport/ HTTP/1.1" 200 21917
+INFO 2025-05-07 14:25:13,719 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 14:25:15,111 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17559
+INFO 2025-05-07 14:25:17,654 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 14:25:19,238 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 14:25:21,330 "GET /staff/students/fees/add/ HTTP/1.1" 200 13905
+INFO 2025-05-07 14:25:25,426 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 14:25:26,832 "GET /student/list HTTP/1.1" 200 13812
+INFO 2025-05-07 14:26:04,725 "GET /profile/ HTTP/1.1" 200 23714
+INFO 2025-05-07 14:27:11,419 "GET /profile/ HTTP/1.1" 200 23714
+INFO 2025-05-07 14:27:20,518 "GET /profile/ HTTP/1.1" 200 23714
+INFO 2025-05-07 14:27:27,017 "GET /profile/ HTTP/1.1" 200 23714
+INFO 2025-05-07 14:28:38,259 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 14:28:42,861 "GET /profile/ HTTP/1.1" 200 24009
+INFO 2025-05-07 14:28:45,587 "GET /finance/list/ HTTP/1.1" 200 14365
+INFO 2025-05-07 14:28:47,204 "GET /staff/students/attendance/ HTTP/1.1" 200 13635
+INFO 2025-05-07 14:28:48,300 "GET /staff/students/leavereport/ HTTP/1.1" 200 21917
+INFO 2025-05-07 14:28:50,231 "GET /profile/ HTTP/1.1" 200 24009
+INFO 2025-05-07 14:28:58,483 "GET /profile/ HTTP/1.1" 200 23342
+INFO 2025-05-07 14:29:03,169 "GET /profile/ HTTP/1.1" 200 23342
+INFO 2025-05-07 14:29:13,556 "GET /principal/attendance/ HTTP/1.1" 200 10744
+INFO 2025-05-07 14:30:59,956 "GET /profile/ HTTP/1.1" 200 24105
+INFO 2025-05-07 14:31:02,836 "GET /principal/attendance/ HTTP/1.1" 200 10744
+INFO 2025-05-07 14:31:05,730 "GET /profile/ HTTP/1.1" 200 24105
+INFO 2025-05-07 14:31:06,164 "GET /profile/ HTTP/1.1" 200 24105
+INFO 2025-05-07 14:31:15,134 "GET /profile/ HTTP/1.1" 200 21784
+INFO 2025-05-07 14:31:17,051 "GET /student/attendance/ HTTP/1.1" 200 14016
+INFO 2025-05-07 14:31:19,294 "GET /edit_profile/ HTTP/1.1" 200 22500
+INFO 2025-05-07 14:31:38,522 "GET / HTTP/1.1" 302 0
+INFO 2025-05-07 14:31:38,561 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-07 14:31:38,585 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-07 14:31:38,586 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-07 14:31:38,594 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-07 14:31:38,595 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-07 14:31:38,596 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-07 14:31:38,598 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-07 14:31:38,604 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-07 14:31:38,622 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-07 14:31:38,645 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-07 14:31:38,646 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-07 14:31:38,648 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-07 14:31:38,649 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-07 14:31:38,650 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-07 14:31:38,893 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-07 14:31:38,938 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-07 14:31:49,089 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:31:49,306 "GET /student/dashboard/ HTTP/1.1" 200 10320
+INFO 2025-05-07 14:31:49,318 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-07 14:31:49,336 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-07 14:31:49,346 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-07 14:31:52,915 "GET /student/data/ HTTP/1.1" 200 10226
+INFO 2025-05-07 14:31:54,131 "POST /student/data/ HTTP/1.1" 200 10226
+INFO 2025-05-07 14:31:56,578 "GET /profile/ HTTP/1.1" 200 21892
+INFO 2025-05-07 14:31:59,383 "GET /edit_profile/ HTTP/1.1" 200 22251
+INFO 2025-05-07 14:32:25,737 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:32:25,862 "GET /edit_profile/ HTTP/1.1" 200 22661
+INFO 2025-05-07 14:32:25,987 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 200 48013
+INFO 2025-05-07 14:32:39,562 "GET /student/student/attendance/ HTTP/1.1" 200 10550
+INFO 2025-05-07 14:32:39,675 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:32:44,961 "GET /student/attendance/ HTTP/1.1" 200 12765
+INFO 2025-05-07 14:32:45,078 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:32:47,462 "GET /student/student/attendance/ HTTP/1.1" 200 10550
+INFO 2025-05-07 14:32:47,562 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:32:55,423 "GET /staff/students/attendance/ HTTP/1.1" 200 13635
+INFO 2025-05-07 14:32:56,518 "GET /staff/students/attendance/create/ HTTP/1.1" 200 12055
+INFO 2025-05-07 14:33:23,743 "POST /staff/students/attendance/create/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:33:23,851 "GET /staff/students/attendance/ HTTP/1.1" 200 14285
+INFO 2025-05-07 14:33:28,003 "GET /staff/students/attendance/4/delete/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:33:28,093 "GET /staff/students/attendance/ HTTP/1.1" 200 13647
+INFO 2025-05-07 14:33:36,056 "GET /student/student/attendance/ HTTP/1.1" 200 10790
+INFO 2025-05-07 14:33:36,172 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:33:38,883 "GET /student/attendance/ HTTP/1.1" 200 12765
+INFO 2025-05-07 14:33:42,728 "GET /student/reportcard/ HTTP/1.1" 200 12302
+INFO 2025-05-07 14:33:49,636 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-07 14:33:54,591 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 14:33:55,096 "GET /staff/students/reportcards/ HTTP/1.1" 200 14118
+INFO 2025-05-07 14:33:57,256 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 17559
+INFO 2025-05-07 14:35:31,314 "POST /staff/students/reportcards/create/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:35:31,437 "GET /staff/students/reportcards/ HTTP/1.1" 200 14873
+INFO 2025-05-07 14:35:38,034 "GET /student/reportcard/ HTTP/1.1" 200 13073
+INFO 2025-05-07 14:35:38,157 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:35:39,379 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-07 14:35:39,625 "GET /student/reportcard/?download=1 HTTP/1.1" 200 23787
+INFO 2025-05-07 14:35:49,654 "GET /student/student/attendance/ HTTP/1.1" 200 10790
+INFO 2025-05-07 14:35:54,025 "GET /student/attendance/ HTTP/1.1" 200 12765
+INFO 2025-05-07 14:36:16,490 "POST /student/attendance/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:36:16,605 "GET /student/attendance/ HTTP/1.1" 200 13044
+INFO 2025-05-07 14:36:16,698 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:36:24,901 "GET /staff/students/attendance/ HTTP/1.1" 200 13647
+INFO 2025-05-07 14:36:33,446 "GET /staff/students/leavereport/ HTTP/1.1" 200 22588
+INFO 2025-05-07 14:36:39,365 "POST /staff/students/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:36:39,474 "GET /staff/students/leavereport/ HTTP/1.1" 200 22589
+INFO 2025-05-07 14:36:42,083 "POST /staff/students/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-07 14:36:42,215 "GET /staff/students/leavereport/ HTTP/1.1" 200 22589
+INFO 2025-05-07 14:36:50,189 "GET /student/attendance/ HTTP/1.1" 200 13045
+INFO 2025-05-07 14:36:50,302 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 304 0
+INFO 2025-05-07 14:37:01,022 "GET /student/data/ HTTP/1.1" 200 10200
+INFO 2025-05-07 14:37:02,048 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-07 14:39:12,676 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-07 14:57:20,693 Watching for file changes with StatReloader
+INFO 2025-05-07 15:01:36,490 "GET /principal/attendance/ HTTP/1.1" 200 10744
+INFO 2025-05-07 15:01:38,898 "GET /principal/student-fees/ HTTP/1.1" 200 17112
+INFO 2025-05-07 15:01:52,111 "GET /principal/student-fees/add/ HTTP/1.1" 200 14431
+INFO 2025-05-07 15:01:58,981 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 15:02:02,225 "GET /staff/students/fees/ HTTP/1.1" 200 13516
+INFO 2025-05-07 15:02:18,407 "GET /admin HTTP/1.1" 301 0
+INFO 2025-05-07 15:02:18,438 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:02:18,505 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2025-05-07 15:02:18,624 "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2025-05-07 15:02:18,664 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-05-07 15:02:18,675 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-05-07 15:02:18,681 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2025-05-07 15:02:18,686 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2025-05-07 15:02:18,694 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-05-07 15:02:18,707 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2025-05-07 15:02:18,738 Not Found: /favicon.ico
+WARNING 2025-05-07 15:02:18,739 "GET /favicon.ico HTTP/1.1" 404 11942
+INFO 2025-05-07 15:02:23,700 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:02:23,850 "GET /admin/ HTTP/1.1" 200 26558
+INFO 2025-05-07 15:02:23,875 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-05-07 15:02:23,903 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-07 15:02:23,903 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-07 15:02:23,905 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2025-05-07 15:02:30,810 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 29735
+INFO 2025-05-07 15:02:30,843 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-05-07 15:02:30,852 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-07 15:02:30,863 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-05-07 15:02:30,863 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-05-07 15:02:30,882 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-05-07 15:02:30,882 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-07 15:02:30,888 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-07 15:02:30,895 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-05-07 15:02:30,907 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-05-07 15:02:30,960 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:02:30,963 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-05-07 15:02:30,983 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-05-07 15:02:31,001 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-05-07 15:02:31,003 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-07 15:02:31,003 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-05-07 15:02:43,683 "POST /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 20780
+INFO 2025-05-07 15:02:43,718 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2025-05-07 15:02:44,792 "POST /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:02:44,909 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 21987
+INFO 2025-05-07 15:02:45,007 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:02:45,037 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-07 15:02:48,418 "GET /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 27452
+INFO 2025-05-07 15:02:48,525 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:02:52,937 "POST /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 20236
+INFO 2025-05-07 15:02:54,344 "POST /admin/staffs/studentfeesrecord/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:02:54,479 "GET /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 21889
+INFO 2025-05-07 15:02:54,579 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:02:59,732 "GET /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 21739
+INFO 2025-05-07 15:02:59,838 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:03:04,022 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\models.py changed, reloading.
+INFO 2025-05-07 15:03:05,124 Watching for file changes with StatReloader
+INFO 2025-05-07 15:03:07,393 "GET /staff/students/fees/ HTTP/1.1" 200 11046
+INFO 2025-05-07 15:03:14,232 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:03:17,388 "GET /staff/students/fees/add/ HTTP/1.1" 200 13905
+INFO 2025-05-07 15:03:22,014 "GET /student/payments/ HTTP/1.1" 200 10012
+INFO 2025-05-07 15:03:49,204 "GET /admin/students/staffnotification/ HTTP/1.1" 200 29457
+INFO 2025-05-07 15:03:49,318 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:03:52,609 "POST /admin/students/staffnotification/ HTTP/1.1" 200 23207
+INFO 2025-05-07 15:03:53,951 "POST /admin/students/staffnotification/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:03:54,061 "GET /admin/students/staffnotification/ HTTP/1.1" 200 19951
+INFO 2025-05-07 15:03:54,176 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:03:57,679 "GET /admin/students/hiddennotification/ HTTP/1.1" 200 19808
+INFO 2025-05-07 15:03:57,788 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-07 15:04:27,199 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:04:27,316 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:04:31,391 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:04:36,453 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:04:39,869 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:04:40,696 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:04:41,122 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:04:41,464 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:04:43,256 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:04:45,549 "GET /principal/staff/leavereport/ HTTP/1.1" 200 34494
+INFO 2025-05-07 15:04:46,890 "GET /principal/staff/attendance/ HTTP/1.1" 200 17380
+INFO 2025-05-07 15:04:47,572 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:05:40,929 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:05:41,412 "GET /principal/student-fees/ HTTP/1.1" 200 11337
+INFO 2025-05-07 15:05:43,119 "GET /principal/student-fees/add/ HTTP/1.1" 200 14431
+INFO 2025-05-07 15:05:48,423 "GET /principal/student-fees/add/ HTTP/1.1" 200 14431
+INFO 2025-05-07 15:06:23,361 "POST /principal/student-fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 15:06:23,469 "GET /principal/student-fees/ HTTP/1.1" 200 12441
+INFO 2025-05-07 15:06:26,147 "GET /principal/student-fees/ HTTP/1.1" 200 12441
+INFO 2025-05-07 15:06:26,697 "GET /principal/student-fees/ HTTP/1.1" 200 12441
+INFO 2025-05-07 15:06:26,904 "GET /principal/student-fees/ HTTP/1.1" 200 12441
+INFO 2025-05-07 15:06:27,129 "GET /principal/student-fees/ HTTP/1.1" 200 12441
+INFO 2025-05-07 15:08:01,447 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\admin.py changed, reloading.
+INFO 2025-05-07 15:08:02,653 Watching for file changes with StatReloader
+INFO 2025-05-07 15:08:07,981 "GET /principal/student-fees/ HTTP/1.1" 200 12472
+INFO 2025-05-07 15:08:46,271 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 15:08:49,539 "GET /principal/student-fees/7/edit/ HTTP/1.1" 200 14511
+INFO 2025-05-07 15:08:54,925 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:55,640 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:56,023 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:56,550 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:56,925 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:57,283 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:57,649 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:57,991 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:58,400 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:58,751 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:08:59,125 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 15:10:29,358 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:18:41,883 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-07 17:18:43,275 Watching for file changes with StatReloader
+INFO 2025-05-07 17:19:24,466 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-07 17:19:25,438 Watching for file changes with StatReloader
+INFO 2025-05-07 17:19:31,438 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:19:33,814 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:19:42,792 "GET /staff/students/fees/ HTTP/1.1" 200 11046
+INFO 2025-05-07 17:19:45,625 "GET /staff/students/fees/ HTTP/1.1" 200 11046
+INFO 2025-05-07 17:19:47,127 "GET /staff/students/fees/ HTTP/1.1" 200 11046
+INFO 2025-05-07 17:19:57,806 "GET /principal/student-fees/7/edit/ HTTP/1.1" 200 14511
+INFO 2025-05-07 17:20:00,774 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:20:11,386 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-07 17:20:12,465 Watching for file changes with StatReloader
+INFO 2025-05-07 17:20:18,459 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:20:22,708 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 17:20:30,423 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 17:20:33,262 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-07 17:24:09,340 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:24:09,823 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:24:10,157 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:24:10,523 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:27:23,952 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:45:23,203 Watching for file changes with StatReloader
+INFO 2025-05-07 17:45:47,048 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 17:45:48,054 Watching for file changes with StatReloader
+INFO 2025-05-07 17:45:53,171 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:45:55,272 "GET /principal/staff/leavereport/ HTTP/1.1" 200 34494
+INFO 2025-05-07 17:45:56,062 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:46:04,350 "GET /staff/students/fees/ HTTP/1.1" 200 11823
+INFO 2025-05-07 17:46:06,434 "GET /staff/students/fees/10/edit/ HTTP/1.1" 200 13985
+INFO 2025-05-07 17:46:12,837 "GET /staff/students/fees/add/ HTTP/1.1" 200 13905
+INFO 2025-05-07 17:46:36,378 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-07 17:46:36,488 "GET /staff/students/fees/ HTTP/1.1" 200 12673
+INFO 2025-05-07 17:46:49,851 "GET /staff/students/fees/11/edit/ HTTP/1.1" 200 13987
+INFO 2025-05-07 17:47:02,999 "POST /staff/students/fees/11/edit/ HTTP/1.1" 302 0
+INFO 2025-05-07 17:47:03,107 "GET /staff/students/fees/ HTTP/1.1" 200 12671
+INFO 2025-05-07 17:47:08,167 "GET /staff/students/fees/10/edit/ HTTP/1.1" 200 13985
+INFO 2025-05-07 17:47:17,394 "POST /staff/students/fees/10/edit/ HTTP/1.1" 302 0
+INFO 2025-05-07 17:47:17,504 "GET /staff/students/fees/ HTTP/1.1" 200 12671
+INFO 2025-05-07 17:47:33,834 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:47:34,661 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:47:35,176 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:47:35,493 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:47:37,112 "GET /principal/student-fees/7/edit/ HTTP/1.1" 200 13598
+INFO 2025-05-07 17:47:55,369 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:48:00,888 "GET /principal/student-fees/7/edit/ HTTP/1.1" 200 13598
+INFO 2025-05-07 17:48:04,923 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:48:05,997 "GET /principal/student-fees/add/ HTTP/1.1" 200 13931
+INFO 2025-05-07 17:51:33,669 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 17:51:34,869 Watching for file changes with StatReloader
+INFO 2025-05-07 17:51:38,532 "GET /principal/student-fees/add/ HTTP/1.1" 200 14431
+INFO 2025-05-07 17:51:53,063 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:52:00,089 "GET /principal/student-fees/7/edit/ HTTP/1.1" 200 14511
+INFO 2025-05-07 17:52:08,002 "POST /principal/student-fees/7/edit/ HTTP/1.1" 302 0
+INFO 2025-05-07 17:52:08,109 "GET /principal/student-fees/ HTTP/1.1" 200 12504
+INFO 2025-05-07 17:52:15,029 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-07 17:52:16,166 Watching for file changes with StatReloader
+INFO 2025-05-07 17:52:27,593 "GET /staff/students/leavereport/ HTTP/1.1" 200 22589
+INFO 2025-05-07 17:52:32,037 "GET /staff/students/fees/ HTTP/1.1" 200 12671
+INFO 2025-05-07 17:52:37,931 "GET /staff/students/fees/10/edit/ HTTP/1.1" 200 13985
+INFO 2025-05-07 17:52:44,107 "POST /staff/students/fees/10/edit/ HTTP/1.1" 302 0
+INFO 2025-05-07 17:52:44,216 "GET /staff/students/fees/ HTTP/1.1" 200 12671
