@@ -816,3 +816,15 @@ def show_payment_success(request):
         return render(request, "students/payment_success.html", {"payment": payment})
     except Payment.DoesNotExist:
         return redirect('initiate_payment')
+    
+
+
+#######...........
+
+from django.contrib.auth.decorators import login_required
+from ..staffs.models import StudentFeesRecord
+
+@login_required
+def student_fee_detail_view(request):
+    fees = StudentFeesRecord.objects.filter(student=request.user)
+    return render(request, 'students/student_fee_detail.html', {'fees': fees})

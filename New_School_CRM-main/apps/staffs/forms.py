@@ -36,9 +36,33 @@ class StaffAttendanceForm(forms.ModelForm):
 
 ######## student fees management form status ( disable ) ah show agum ########
 
-from django import forms
-from .models import StudentFeesRecord
+# from django import forms
+# from .models import StudentFeesRecord
 
+# class StudentFeesRecordForm(forms.ModelForm):
+#     class Meta:
+#         model = StudentFeesRecord
+#         fields = '__all__'
+
+#     def __init__(self, *args, **kwargs):
+#         super().__init__(*args, **kwargs)
+#         # Disable the status field (staff can’t change it)
+#         self.fields['status'].disabled = True
+
+#     def save(self, commit=True):
+#         instance = super().save(commit=False)
+#         # Force status to 'pending' if creating new record
+#         if not instance.pk:
+#             instance.status = 'pending'
+#         if commit:
+#             instance.save()
+#         return instance
+
+
+
+
+from django.core.mail import send_mail
+from .models import StudentFeesRecord
 class StudentFeesRecordForm(forms.ModelForm):
     class Meta:
         model = StudentFeesRecord
@@ -46,14 +70,27 @@ class StudentFeesRecordForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        # Disable the status field (staff can’t change it)
         self.fields['status'].disabled = True
 
     def save(self, commit=True):
         instance = super().save(commit=False)
-        # Force status to 'pending' if creating new record
-        if not instance.pk:
+        is_new = instance.pk is None  # Check if it's a new record
+
+        # Set default status only on new records
+        if is_new:
             instance.status = 'pending'
+
         if commit:
             instance.save()
+
+            # 🔔 Send notification to student (only on new record)
+            if is_new:
+                send_mail(
+                    subject='New Fee Record Created',
+                    message=f"Dear {instance.student.username},\n\nYour fee record for the term '{instance.term}' and session '{instance.session}' has been created.\n\nTotal Fees: ₹{instance.total_amount}\nAmount Due: ₹{instance.balance_payable_amount}\n\nPlease make the payment before {instance.ending_date}.",
+                    from_email='noreply@yourdomain.com',
+                    recipient_list=[instance.student.email],
+                    fail_silently=True,  # Optional: Avoid crashing if email fails
+                )
+
         return instance

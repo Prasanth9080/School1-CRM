@@ -22,10 +22,14 @@ urlpatterns = [
 
     ##### student fees record urls
 
-    path('student-fees/', views.principal_student_fees_management, name='principal-student-fees'),
-    path('student-fees/add/', views.principal_add_student_fee, name='principal-add-student-fee'),
-    path('student-fees/<int:fee_id>/edit/', views.principal_edit_student_fee, name='principal-edit-student-fee'),
-    path('student-fees/<int:fee_id>/delete/', views.principal_delete_student_fee, name='principal-delete-student-fee'),
+    # path('student-fees/', views.principal_student_fees_management, name='principal-student-fees'),
+    # path('student-fees/add/', views.principal_add_student_fee, name='principal-add-student-fee'),
+    # path('student-fees/<int:fee_id>/edit/', views.principal_edit_student_fee, name='principal-edit-student-fee'),
+    # path('student-fees/<int:fee_id>/delete/', views.principal_delete_student_fee, name='principal-delete-student-fee'),
+
+
+    path('student-fees', views.principal_student_fees, name="principal-student-fees"),
+    path('student-fees/<int:fee_id>/delete', views.principal_delete_student_fee, name="principal-delete-student-fee")
 
 ]
  

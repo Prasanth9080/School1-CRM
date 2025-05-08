@@ -98,64 +98,13 @@ def delete_notification(request, notification_id):
 ######### student fees record management functionalities ##########
 
 
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render
+from ..staffs.models import StudentFeesRecord
 from .models import Principal_StudentFeesRecord
-from .forms import Principal_StudentFeesRecordForm
 
-def principal_student_fees_management(request):
-    fees = Principal_StudentFeesRecord.objects.select_related('student').all()
-    return render(request, 'principal/principal_student_fees_management.html', {'fees': fees})
- 
-# def principal_add_student_fee(request):
-#     if request.method == 'POST':
-#         form = Principal_StudentFeesRecordForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('principal-student-fees')
-#     else:
-#         form = Principal_StudentFeesRecordForm()
-#     return render(request, 'principal/principal_student_fees_form.html', {'form': form})
-
-
-### new
-def principal_add_student_fee(request):
-    if request.method == 'POST':
-        form = Principal_StudentFeesRecordForm(request.POST)
-        if form.is_valid():
-            fee = form.save(commit=False)
-            fee.created_by = 'principal'
-            fee.save()
-            return redirect('principal-student-fees')
-    else:
-        form = Principal_StudentFeesRecordForm()
-    return render(request, 'principal/principal_student_fees_form.html', {'form': form})
-
-# def principal_edit_student_fee(request, fee_id):
-#     fee = get_object_or_404(Principal_StudentFeesRecord, id=fee_id)
-#     if request.method == 'POST':
-#         form = Principal_StudentFeesRecordForm(request.POST, instance=fee)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('principal-student-fees')
-#     else:
-#         form = Principal_StudentFeesRecordForm(instance=fee)
-#     return render(request, 'principal/principal_student_fees_form.html', {'form': form})
-
-##### new 
-
-def principal_edit_student_fee(request, fee_id):
-    fee = get_object_or_404(Principal_StudentFeesRecord, id=fee_id)
-    if fee.created_by == 'staff':
-        return redirect('principal-student-fees')  # optionally show a warning message
-
-    if request.method == 'POST':
-        form = Principal_StudentFeesRecordForm(request.POST, instance=fee)
-        if form.is_valid():
-            form.save()
-            return redirect('principal-student-fees')
-    else:
-        form = Principal_StudentFeesRecordForm(instance=fee)
-    return render(request, 'principal/principal_student_fees_form.html', {'form': form})
+def principal_student_fees(request):
+    fees = StudentFeesRecord.objects.select_related('student').all()
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
 
 def principal_delete_student_fee(request, fee_id):
     fee = get_object_or_404(Principal_StudentFeesRecord, id=fee_id)
