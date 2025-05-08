@@ -77,8 +77,10 @@ from ..students.models import StaffNotification
 def principal_notifications(request):
     print("Current user:", request.user.username)
     notifications = StaffNotification.objects.all().order_by('-created_at')
-    notifications.update(is_read=True)
-    return render(request, 'principal/principal_notification.html', {'notifications': notifications})
+    unread_count = StaffNotification.objects.all().filter(is_read=False).count()
+    # notifications.update(is_read=True)
+    return render(request, 'principal/principal_notification.html', 
+                  {'notifications': notifications, 'unread_count':unread_count})
 
 
 from django.shortcuts import redirect, get_object_or_404
@@ -93,6 +95,16 @@ def delete_notification(request, notification_id):
         notification.delete()
         messages.success(request, "Notification deleted successfully.")
     return redirect('principal_notifications') 
+
+
+@login_required
+def mark_notification_as_read(request, notification_id):
+    if request.method == 'POST':
+        notification = get_object_or_404(StaffNotification, id=notification_id)
+        notification.is_read = True
+        notification.save()
+        messages.success(request, "Notification marked as read.")
+    return redirect('principal_notifications')  # or 'staff_notifications' based on role
 
 
 ######### student fees record management functionalities ##########

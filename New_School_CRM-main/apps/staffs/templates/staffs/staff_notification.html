@@ -1,13 +1,30 @@
 {% extends 'staffs/staff_index.html' %}
 
 {% block content %}
+<style>
+  .unread {
+    color: black;
+    font-weight: bold;
+  }
+  .read {
+    color: gray;
+  }
+</style>
+
   <h3>Student Payment Notifications</h3>
   <ul>
     {% for notification in notifications %}
-      <li>
-        <strong>{{ notification.student.username }}</strong>: {{ notification.message }} <br>
+      <li class="{% if notification.is_read %}read{% else %}unread{% endif %}">
+        <strong>{{ notification.student.username }}</strong>: {{ notification.message }}<br>
         <small>{{ notification.created_at|date:"Y-m-d H:i" }}</small>
-
+  
+        <form method="post" action="{% url 'mark_notification_as_read' notification.id %}" style="display:inline;">
+          {% csrf_token %}
+          {% if not notification.is_read %}
+            <button type="submit">Mark as Read</button>
+          {% endif %}
+        </form>
+  
         <form method="post" action="{% url 'hide_notification' notification.id %}" style="display:inline;">
           {% csrf_token %}
           <button type="submit">Hide</button>
@@ -17,4 +34,5 @@
       <li>No notifications found.</li>
     {% endfor %}
   </ul>
+  
 {% endblock %}

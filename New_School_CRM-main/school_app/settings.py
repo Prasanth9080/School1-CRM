@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',  
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
     "apps.finance",
     "apps.result",
     'ckeditor',
+   
     # 'crispy_forms',
     # 'crispy_bootstrap5'
 ]
@@ -99,6 +101,7 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
                 "apps.corecode.context_processors.site_defaults",
+                "apps.students.context_processors.unread_notifications_count"
             ],
         },
     },
@@ -245,3 +248,39 @@ EMAIL_USE_SSL= False
 #####  /////   ######
 RAZORPAY_KEY_ID = 'rzp_test_2lMA6SnGa6x6Br'
 RAZORPAY_KEY_SECRET = 'DjiZyXpSiRt7C2ZDDWw5ti87'
+
+
+############## Jazzmin them customization
+JAZZMIN_SETTINGS = { 
+
+    # title of the window (Will default to current_admin_site.site_title if absent or None)
+    "site_title": "School Admin",
+
+    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_header": "School Admin Panel",
+
+    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_brand": "Admin-Panel",
+
+    # Logo to use for your site, must be present in static files, used for brand on top left
+    # "site_logo": "books/img/logo.png",
+    # "site_logo": "./static/Icons/stu.jpg",
+
+     "topmenu_links": [
+
+        # Url that gets reversed (Permissions can be added)
+        {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},
+
+        # external url that opens in a new window (Permissions can be added)
+        {"name": "Website", "url": "https://phoenixmarketing.in", "new_window": True},
+
+        # model admin to link to (Permissions checked against model)
+        {"model": "auth.User"},
+
+        # App with dropdown menu to all its models pages (Permissions checked against models)
+        {"app": "student"},
+        {"app": "staff"},
+        {"app": "principal"},
+    ],
+
+} 

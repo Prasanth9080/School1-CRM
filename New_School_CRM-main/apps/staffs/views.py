@@ -305,11 +305,24 @@ def staff_notifications(request):
 
     # Exclude hidden notifications
     notifications = StaffNotification.objects.exclude(id__in=hidden_ids).order_by('-created_at')
-
+    # unread_count = StaffNotification.objects.all().filter(is_read=False).count()
+    unread_count = notifications.filter(is_read=False).count()
     # Mark visible notifications as read
-    notifications.update(is_read=True)
+    # notifications.update(is_read=True)
 
-    return render(request, 'staffs/staff_notification.html', {'notifications': notifications})
+    return render(request, 'staffs/staff_notification.html', 
+                  {'notifications': notifications, 
+                   'unread_count':unread_count
+                   })
+@csrf_protect
+@login_required
+def mark_notification_as_read(request, notification_id):
+    if request.method == 'POST':
+        notification = get_object_or_404(StaffNotification, id=notification_id)
+        notification.is_read = True
+        notification.save()
+        messages.success(request, "Notification marked as read.")
+    return redirect('staff_notifications')
 
 
 @csrf_protect
