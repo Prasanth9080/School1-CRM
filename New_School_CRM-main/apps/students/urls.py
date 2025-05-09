@@ -46,4 +46,7 @@ urlpatterns = [
 
     path('payments/show_success/', views.show_payment_success, name='show_payment_success'),
 
+    ####downlad student dees details dowmload
+    path('payment/download/pdf/', views.download_payment_pdf, name='student_payment_pdf'),
+
 ]

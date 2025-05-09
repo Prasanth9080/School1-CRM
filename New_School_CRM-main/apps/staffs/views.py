@@ -316,7 +316,7 @@ def staff_notifications(request):
                    })
 @csrf_protect
 @login_required
-def mark_notification_as_read(request, notification_id):
+def mark_notification_as_read_for_staff(request, notification_id):
     if request.method == 'POST':
         notification = get_object_or_404(StaffNotification, id=notification_id)
         notification.is_read = True

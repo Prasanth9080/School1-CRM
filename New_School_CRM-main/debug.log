@@ -14755,3 +14755,2022 @@ INFO 2025-05-08 18:26:24,337 "GET / HTTP/1.1" 200 14572
 INFO 2025-05-08 18:26:25,203 "GET / HTTP/1.1" 200 14572
 INFO 2025-05-08 18:26:26,512 "GET /principal/notifications/ HTTP/1.1" 200 19403
 INFO 2025-05-08 18:26:40,359 "GET /principal/attendance/ HTTP/1.1" 200 11178
+INFO 2025-05-09 09:51:30,462 Watching for file changes with StatReloader
+INFO 2025-05-09 09:51:52,193 "GET / HTTP/1.1" 302 0
+INFO 2025-05-09 09:51:52,259 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-09 09:51:52,318 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,323 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,337 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,339 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,343 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,347 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,349 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,349 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,351 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,354 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,358 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,361 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,364 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:51:52,428 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:00,038 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-09 09:52:00,205 "GET /principal/dashboard/ HTTP/1.1" 200 13886
+INFO 2025-05-09 09:52:00,238 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:00,242 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:00,246 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:00,248 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:00,250 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+WARNING 2025-05-09 09:52:00,280 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:52:12,379 "GET / HTTP/1.1" 302 0
+INFO 2025-05-09 09:52:12,393 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-09 09:52:12,412 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,412 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,412 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,440 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,446 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,446 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,446 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,463 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,464 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,468 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,477 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,478 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,478 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:12,527 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:40,412 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-09 09:52:40,542 "GET /staff/dashboard/ HTTP/1.1" 200 13388
+INFO 2025-05-09 09:52:40,577 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:40,591 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:40,596 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:40,598 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+WARNING 2025-05-09 09:52:40,598 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:52:40,689 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 304 0
+INFO 2025-05-09 09:52:47,198 "GET /principal/notifications/ HTTP/1.1" 200 19377
+INFO 2025-05-09 09:53:26,113 "GET /staff/dashboard/ HTTP/1.1" 200 13225
+WARNING 2025-05-09 09:53:26,157 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:53:26,338 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:53:27,628 "GET /staff/dashboard/ HTTP/1.1" 200 13225
+WARNING 2025-05-09 09:53:27,657 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:53:27,981 "GET /staff/dashboard/ HTTP/1.1" 200 13225
+WARNING 2025-05-09 09:53:28,047 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:54:24,963 "GET /principal/dashboard/ HTTP/1.1" 200 13743
+WARNING 2025-05-09 09:54:24,995 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:54:25,251 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-09 09:55:08,447 "GET /principal/dashboard/ HTTP/1.1" 200 13743
+WARNING 2025-05-09 09:55:08,482 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:55:08,873 "GET /principal/dashboard/ HTTP/1.1" 200 13743
+WARNING 2025-05-09 09:55:08,906 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:55:09,223 "GET /principal/dashboard/ HTTP/1.1" 200 13743
+WARNING 2025-05-09 09:55:09,244 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:55:14,908 "GET /staff/dashboard/ HTTP/1.1" 200 13225
+WARNING 2025-05-09 09:55:14,955 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+WARNING 2025-05-09 09:55:18,742 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1925
+INFO 2025-05-09 09:55:18,881 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-09 09:55:18,885 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-09 09:55:18,907 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-09 09:55:18,943 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+WARNING 2025-05-09 09:55:20,268 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+INFO 2025-05-09 09:55:32,906 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-09 09:56:36,991 "GET /staff/dashboard/ HTTP/1.1" 200 13169
+INFO 2025-05-09 09:56:40,881 "GET /principal/dashboard/ HTTP/1.1" 200 13743
+WARNING 2025-05-09 09:56:40,914 "GET /static/Icons/graduate-student-icon-graduation-gown-male-student_423491-3.jpg HTTP/1.1" 404 2021
+ERROR 2025-05-09 09:57:35,772 Internal Server Error: /principal/dashboard/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\decorators.py", line 8, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 781, in principal_index
+    return render(request, 'principal/principal_index.html')
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\templatetags\static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\templatetags\static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''Icons/stu.jpg' from ''Icons/stu.jpg'
+ERROR 2025-05-09 09:57:35,781 "GET /principal/dashboard/ HTTP/1.1" 500 260336
+WARNING 2025-05-09 09:57:36,130 Not Found: /favicon.ico
+WARNING 2025-05-09 09:57:36,131 "GET /favicon.ico HTTP/1.1" 404 11942
+INFO 2025-05-09 09:57:45,267 "GET /principal/dashboard/ HTTP/1.1" 200 13686
+WARNING 2025-05-09 09:57:45,292 "GET /static/Icons/stu.jpg%20width= HTTP/1.1" 404 1878
+INFO 2025-05-09 09:58:06,676 "GET /principal/dashboard/ HTTP/1.1" 200 13687
+INFO 2025-05-09 09:58:06,699 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-09 10:35:29,709 "GET /principal/dashboard/ HTTP/1.1" 200 13687
+INFO 2025-05-09 10:41:56,341 "GET / HTTP/1.1" 302 0
+INFO 2025-05-09 10:41:56,385 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-09 10:41:56,400 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,405 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,406 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,411 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,417 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,426 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,426 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,426 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,439 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,439 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,444 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,466 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,472 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:56,549 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-09 10:41:57,968 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-09 10:42:03,427 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:42:03,535 "GET /student/dashboard/ HTTP/1.1" 200 10292
+INFO 2025-05-09 10:42:03,561 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 10:42:03,562 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 10:42:03,669 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 304 0
+INFO 2025-05-09 10:42:08,471 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-09 10:42:14,957 "POST /student/payments/ HTTP/1.1" 200 12062
+INFO 2025-05-09 10:42:46,837 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:42:46,971 "GET /student/payments/show_success/ HTTP/1.1" 200 10744
+INFO 2025-05-09 10:42:57,840 "GET /student/payments/ HTTP/1.1" 200 10996
+INFO 2025-05-09 10:43:16,032 "GET /principal/dashboard/ HTTP/1.1" 200 13689
+INFO 2025-05-09 10:43:20,775 "GET /staff/dashboard/ HTTP/1.1" 200 13171
+INFO 2025-05-09 10:43:42,496 "GET /admin HTTP/1.1" 301 0
+INFO 2025-05-09 10:43:42,610 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:43:42,695 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-09 10:43:42,716 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-09 10:43:42,742 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-09 10:43:42,743 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-09 10:43:42,760 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-09 10:43:42,798 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-09 10:43:42,809 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-09 10:43:42,821 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-05-09 10:43:43,471 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-09 10:43:51,220 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:43:51,412 "GET /admin/ HTTP/1.1" 200 61314
+INFO 2025-05-09 10:43:51,468 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-09 10:43:51,513 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-09 10:43:56,657 "GET /admin/students/payment/ HTTP/1.1" 200 71619
+INFO 2025-05-09 10:43:56,715 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-05-09 10:43:56,744 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-09 10:43:56,756 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-05-09 10:43:56,774 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2025-05-09 10:43:56,782 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-05-09 10:43:56,789 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-09 10:43:56,799 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-09 10:43:56,819 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-05-09 10:43:56,845 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-05-09 10:43:56,864 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:43:56,899 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-05-09 10:43:59,291 "GET /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 36354
+INFO 2025-05-09 10:43:59,473 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:44:03,893 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:44:03,969 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-05-09 10:44:03,982 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-09 10:44:04,042 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:44:09,319 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 37344
+INFO 2025-05-09 10:44:09,452 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:44:47,967 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:44:48,077 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:44:48,302 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:44:48,401 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:44:48,648 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:44:48,769 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:44:51,012 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 37344
+INFO 2025-05-09 10:44:51,120 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:45:33,605 "GET /principal/notifications/ HTTP/1.1" 200 20300
+INFO 2025-05-09 10:45:40,657 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:45:40,765 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:45:45,118 "GET /principal/notifications/ HTTP/1.1" 200 20274
+INFO 2025-05-09 10:45:46,761 "GET /principal/notifications/ HTTP/1.1" 200 20274
+INFO 2025-05-09 10:45:53,228 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:45:53,346 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:45:55,779 "POST /principal/notifications/mark-read/56/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:45:55,897 "GET /principal/notifications/ HTTP/1.1" 200 20368
+INFO 2025-05-09 10:45:58,847 "GET /admin/students/staffnotification/ HTTP/1.1" 200 38064
+INFO 2025-05-09 10:45:58,948 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:46:05,901 "POST /principal/notifications/mark-read/56/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:46:06,033 "GET /principal/notifications/ HTTP/1.1" 200 20342
+INFO 2025-05-09 10:46:11,885 "GET /principal/notifications/ HTTP/1.1" 200 20199
+INFO 2025-05-09 10:46:31,578 "GET /principal/student-fees HTTP/1.1" 200 12333
+INFO 2025-05-09 10:46:53,303 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 37344
+INFO 2025-05-09 10:46:53,444 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:47:11,384 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 37344
+INFO 2025-05-09 10:47:11,525 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:47:37,629 "GET /principal/student-fees HTTP/1.1" 200 12359
+INFO 2025-05-09 10:48:07,958 "POST /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 25301
+INFO 2025-05-09 10:48:07,989 "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+INFO 2025-05-09 10:48:09,649 "POST /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:48:09,759 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28855
+INFO 2025-05-09 10:48:09,858 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:48:12,168 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28333
+INFO 2025-05-09 10:48:12,284 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2025-05-09 10:49:24,190 Not Found: /principal/student-fees/12/delete
+WARNING 2025-05-09 10:49:24,191 "GET /principal/student-fees/12/delete HTTP/1.1" 404 14411
+WARNING 2025-05-09 10:49:26,882 Not Found: /principal/student-fees/12/delete
+WARNING 2025-05-09 10:49:26,882 "GET /principal/student-fees/12/delete HTTP/1.1" 404 14411
+INFO 2025-05-09 10:49:29,233 "GET /principal/student-fees HTTP/1.1" 200 12359
+INFO 2025-05-09 10:49:30,408 "GET /principal/student-fees HTTP/1.1" 200 12359
+INFO 2025-05-09 10:49:30,710 "GET /principal/student-fees HTTP/1.1" 200 12359
+INFO 2025-05-09 10:49:55,969 "GET /principal/student-fees HTTP/1.1" 200 12333
+INFO 2025-05-09 10:50:08,198 "GET /principal/notifications/ HTTP/1.1" 200 20199
+INFO 2025-05-09 10:50:20,055 "GET /principal/notifications/ HTTP/1.1" 200 20199
+INFO 2025-05-09 10:50:26,382 "GET /principal/notifications/ HTTP/1.1" 200 20199
+INFO 2025-05-09 10:50:44,397 "GET /staff/students/fees/ HTTP/1.1" 200 12023
+INFO 2025-05-09 10:50:48,689 "GET /staff/students/fees/12/delete/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:50:48,791 "GET /staff/students/fees/ HTTP/1.1" 200 11250
+INFO 2025-05-09 10:50:52,216 "GET /principal/student-fees HTTP/1.1" 200 11716
+INFO 2025-05-09 10:50:56,718 "GET /student/payments/ HTTP/1.1" 200 10012
+INFO 2025-05-09 10:50:59,686 "GET /staff/students/fees/add/ HTTP/1.1" 200 14106
+INFO 2025-05-09 10:51:29,682 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-09 10:51:29,781 "GET /staff/students/fees/ HTTP/1.1" 200 12027
+INFO 2025-05-09 10:51:44,211 "GET /principal/student-fees HTTP/1.1" 200 12360
+INFO 2025-05-09 10:51:52,031 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-09 10:51:58,702 "GET /admin/students/payment/ HTTP/1.1" 200 71125
+INFO 2025-05-09 10:51:58,810 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:52:06,029 "GET /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 36357
+INFO 2025-05-09 10:52:06,188 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:52:11,508 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28333
+INFO 2025-05-09 10:52:11,649 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:52:30,698 "GET /admin/staffs/studentfeesrecord/ HTTP/1.1" 200 36357
+INFO 2025-05-09 10:52:30,856 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:55:50,902 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\models.py changed, reloading.
+INFO 2025-05-09 10:55:52,516 Watching for file changes with StatReloader
+INFO 2025-05-09 10:56:04,048 "GET /staff/students/fees/ HTTP/1.1" 200 12027
+INFO 2025-05-09 10:56:07,891 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28339
+INFO 2025-05-09 10:56:07,998 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:56:42,132 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\models.py changed, reloading.
+INFO 2025-05-09 10:56:43,495 Watching for file changes with StatReloader
+INFO 2025-05-09 10:56:45,564 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 10:56:45,664 - Broken pipe from ('127.0.0.1', 63475)
+INFO 2025-05-09 10:56:46,655 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 10:56:46,756 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 10:58:54,686 "GET /principal/notifications/ HTTP/1.1" 200 20199
+INFO 2025-05-09 11:00:42,863 "GET /principal/student-fees HTTP/1.1" 200 12360
+INFO 2025-05-09 11:00:46,939 "GET /staff/students/fees/ HTTP/1.1" 200 12023
+INFO 2025-05-09 11:00:50,275 "GET /staff/notifications/ HTTP/1.1" 200 19261
+INFO 2025-05-09 11:01:07,598 "POST /student/payments/ HTTP/1.1" 200 12064
+INFO 2025-05-09 11:01:26,746 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:01:26,856 "GET /student/payments/show_success/ HTTP/1.1" 200 10745
+INFO 2025-05-09 11:01:37,051 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:01:59,109 "GET /staff/students/fees/ HTTP/1.1" 200 12027
+INFO 2025-05-09 11:02:04,711 "GET /staff/notifications/ HTTP/1.1" 200 20116
+INFO 2025-05-09 11:02:09,647 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 11:02:10,830 "GET /principal/notifications/ HTTP/1.1" 200 21123
+INFO 2025-05-09 11:02:14,531 "POST /principal/notifications/mark-read/57/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:02:14,657 "GET /principal/notifications/ HTTP/1.1" 200 21191
+INFO 2025-05-09 11:02:18,933 "POST /principal/notifications/mark-read/57/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:02:19,050 "GET /principal/notifications/ HTTP/1.1" 200 21165
+INFO 2025-05-09 11:02:34,632 "POST /principal/notifications/mark-read/57/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:02:34,749 "GET /principal/notifications/ HTTP/1.1" 200 21165
+INFO 2025-05-09 11:04:19,633 "GET /principal/notifications/ HTTP/1.1" 200 21048
+INFO 2025-05-09 11:04:23,818 "GET /principal/notifications/ HTTP/1.1" 200 21048
+INFO 2025-05-09 11:04:29,038 "GET /principal/student-fees HTTP/1.1" 200 12365
+INFO 2025-05-09 11:04:45,760 "POST /principal/notifications/mark-read/57/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:04:45,869 "GET /principal/notifications/ HTTP/1.1" 200 21165
+ERROR 2025-05-09 11:04:59,435 Internal Server Error: /staff/notifications/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py", line 313, in staff_notifications
+    return render(request, 'staffs/staff_notification.html',
+                  {'notifications': notifications,
+                   'unread_count':unread_count
+                   })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'mark_notification_as_read_for_staff' not found. 'mark_notification_as_read_for_staff' is not a valid view function or pattern name.
+ERROR 2025-05-09 11:04:59,446 "GET /staff/notifications/ HTTP/1.1" 500 245525
+WARNING 2025-05-09 11:04:59,733 Not Found: /favicon.ico
+WARNING 2025-05-09 11:04:59,734 "GET /favicon.ico HTTP/1.1" 404 11942
+INFO 2025-05-09 11:05:32,362 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-09 11:05:33,362 Watching for file changes with StatReloader
+INFO 2025-05-09 11:05:38,321 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-09 11:05:39,419 Watching for file changes with StatReloader
+INFO 2025-05-09 11:06:09,575 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-09 11:06:10,707 Watching for file changes with StatReloader
+INFO 2025-05-09 11:06:40,944 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-09 11:06:42,085 Watching for file changes with StatReloader
+INFO 2025-05-09 11:06:49,468 "GET /staff/notifications/ HTTP/1.1" 200 20069
+INFO 2025-05-09 11:06:56,422 "GET /staff/data/ HTTP/1.1" 200 10640
+INFO 2025-05-09 11:06:59,764 "GET /principal/attendance/ HTTP/1.1" 200 11178
+INFO 2025-05-09 11:07:20,513 "POST /student/payments/ HTTP/1.1" 200 12064
+INFO 2025-05-09 11:07:39,601 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:07:39,688 "GET /student/payments/show_success/ HTTP/1.1" 200 10745
+INFO 2025-05-09 11:07:49,884 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:08:05,574 "GET /staff/data/ HTTP/1.1" 200 10642
+INFO 2025-05-09 11:08:09,384 "GET /principal/attendance/ HTTP/1.1" 200 11180
+INFO 2025-05-09 11:08:11,985 "GET /principal/notifications/ HTTP/1.1" 200 21946
+INFO 2025-05-09 11:08:17,319 "GET /staff/data/ HTTP/1.1" 200 10642
+INFO 2025-05-09 11:08:19,012 "GET /staff/notifications/ HTTP/1.1" 200 20926
+INFO 2025-05-09 11:08:23,163 "POST /staff/notifications/mark-read-staff/58/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:08:23,273 "GET /staff/notifications/ HTTP/1.1" 200 20998
+INFO 2025-05-09 11:08:29,692 "GET /principal/notifications/ HTTP/1.1" 200 21871
+INFO 2025-05-09 11:08:56,354 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-09 11:08:57,520 Watching for file changes with StatReloader
+INFO 2025-05-09 11:10:02,094 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-09 11:10:03,032 Watching for file changes with StatReloader
+INFO 2025-05-09 11:10:15,980 "POST /student/payments/ HTTP/1.1" 200 12064
+INFO 2025-05-09 11:10:21,919 "GET /staff/data/ HTTP/1.1" 200 10640
+INFO 2025-05-09 11:10:24,786 "GET /principal/attendance/ HTTP/1.1" 200 11178
+INFO 2025-05-09 11:10:44,741 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:10:44,853 "GET /student/payments/show_success/ HTTP/1.1" 200 10745
+INFO 2025-05-09 11:10:55,100 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:11:06,495 "GET /principal/attendance/ HTTP/1.1" 200 11180
+INFO 2025-05-09 11:11:08,970 "GET /staff/data/ HTTP/1.1" 200 10642
+INFO 2025-05-09 11:11:10,706 "GET /staff/notifications/ HTTP/1.1" 200 21712
+INFO 2025-05-09 11:11:13,865 "GET /principal/notifications/ HTTP/1.1" 200 22909
+INFO 2025-05-09 11:11:16,212 "POST /principal/notifications/mark-read-principal/59/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:11:16,358 "GET /principal/notifications/ HTTP/1.1" 200 22977
+INFO 2025-05-09 11:11:19,250 "GET /staff/notifications/ HTTP/1.1" 200 21641
+INFO 2025-05-09 11:12:16,617 "GET /staff/notifications/ HTTP/1.1" 200 21641
+INFO 2025-05-09 11:12:23,302 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:23,785 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:24,470 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:24,786 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:25,154 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:25,544 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:26,129 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:26,463 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:12:26,712 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:36,460 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:37,718 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:38,059 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:38,385 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:38,719 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:39,019 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:39,453 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:39,820 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:40,152 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:13:43,762 "GET /principal/notifications/ HTTP/1.1" 200 22834
+INFO 2025-05-09 11:33:56,727 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 11:33:57,911 Watching for file changes with StatReloader
+INFO 2025-05-09 11:34:14,777 "GET /staff/notifications/ HTTP/1.1" 200 21641
+INFO 2025-05-09 11:34:17,169 "GET /staff/students/fees/ HTTP/1.1" 200 12025
+INFO 2025-05-09 11:34:24,947 "GET /staff/students/fees/13/delete/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:34:25,031 "GET /staff/students/fees/ HTTP/1.1" 200 11246
+INFO 2025-05-09 11:34:30,976 "GET /student/payments/ HTTP/1.1" 200 10012
+INFO 2025-05-09 11:34:36,643 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-09 11:34:38,711 "GET /student/student/attendance/ HTTP/1.1" 200 11011
+INFO 2025-05-09 11:34:40,086 "GET /student/attendance/ HTTP/1.1" 200 14016
+INFO 2025-05-09 11:34:41,687 "GET /student/payments/ HTTP/1.1" 200 10012
+INFO 2025-05-09 11:34:47,508 "GET /principal/notifications/ HTTP/1.1" 200 22834
+INFO 2025-05-09 11:34:54,259 "GET /principal/student-fees HTTP/1.1" 200 11716
+INFO 2025-05-09 11:35:10,148 "GET /staff/students/fees/add/ HTTP/1.1" 200 14102
+INFO 2025-05-09 11:35:45,112 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:35:45,212 "GET /staff/students/fees/ HTTP/1.1" 200 12023
+INFO 2025-05-09 11:35:53,115 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-09 11:37:53,512 "POST /student/payments/ HTTP/1.1" 200 10049
+INFO 2025-05-09 11:38:02,948 "POST /student/payments/ HTTP/1.1" 200 10049
+INFO 2025-05-09 11:38:06,182 "GET /student/payments/ HTTP/1.1" 200 10998
+INFO 2025-05-09 11:38:11,601 "POST /student/payments/ HTTP/1.1" 200 12062
+INFO 2025-05-09 11:38:30,735 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:38:30,827 "GET /student/payments/show_success/ HTTP/1.1" 200 10744
+INFO 2025-05-09 11:38:41,021 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:38:54,910 "POST /student/payments/ HTTP/1.1" 200 10049
+INFO 2025-05-09 11:39:04,080 "GET /student/payments/ HTTP/1.1" 200 11002
+INFO 2025-05-09 11:39:08,408 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 11:39:14,684 "GET /staff/students/fees/ HTTP/1.1" 200 12032
+INFO 2025-05-09 11:40:36,946 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:40:47,182 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:40:58,253 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:41:09,224 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:41:20,253 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:41:30,416 - Broken pipe from ('127.0.0.1', 63729)
+INFO 2025-05-09 11:41:30,507 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:41:35,317 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:41:40,587 "POST /student/payments/ HTTP/1.1" 200 10049
+INFO 2025-05-09 11:43:39,581 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:43:50,243 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:44:01,273 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:44:12,251 "GET /student/payments/ HTTP/1.1" 200 11910
+INFO 2025-05-09 11:44:23,256 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 11:44:26,125 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 11:44:30,833 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 11:44:37,911 "POST /student/payments/ HTTP/1.1" 200 10049
+INFO 2025-05-09 11:44:41,330 "POST /student/payments/ HTTP/1.1" 200 10049
+INFO 2025-05-09 11:44:42,705 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 11:44:53,317 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:45:00,597 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:45:08,315 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 11:45:12,176 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 11:45:18,887 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 11:45:21,478 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:45:32,241 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:45:43,254 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:45:54,243 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:46:05,246 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:46:16,242 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:46:27,239 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:46:38,242 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:46:49,246 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:47:00,226 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:47:11,255 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:47:22,236 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:47:33,239 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:47:44,252 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:47:55,265 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:48:06,244 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:48:17,257 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:48:28,244 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:48:39,240 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:48:50,278 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:49:01,277 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:49:12,271 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:49:23,249 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:49:34,255 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:49:45,258 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:49:56,255 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:50:07,250 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:50:18,237 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:50:29,268 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:50:40,246 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:50:51,250 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:51:02,238 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:51:13,251 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:51:24,247 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:51:35,243 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:51:46,247 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:51:57,252 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:52:08,256 "GET /student/payments/ HTTP/1.1" 200 11977
+INFO 2025-05-09 11:52:10,812 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 11:52:12,240 Watching for file changes with StatReloader
+INFO 2025-05-09 11:56:41,982 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 11:56:42,892 Watching for file changes with StatReloader
+INFO 2025-05-09 11:56:48,813 "GET /principal/student-fees HTTP/1.1" 200 12367
+ERROR 2025-05-09 11:56:56,272 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 971, in initiate_payment
+    return render(request, "students/initiate_payment.html", {"fee_record": fee_record})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 84: 'endif', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-05-09 11:56:56,283 "GET /student/payments/ HTTP/1.1" 500 193445
+WARNING 2025-05-09 11:56:56,525 Not Found: /favicon.ico
+WARNING 2025-05-09 11:56:56,525 "GET /favicon.ico HTTP/1.1" 404 11942
+INFO 2025-05-09 11:58:13,139 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:58:22,301 "POST /student/payments/ HTTP/1.1" 200 12576
+INFO 2025-05-09 11:58:32,505 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:58:42,701 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:58:52,905 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:58:58,533 "POST /student/payments/ HTTP/1.1" 200 12066
+INFO 2025-05-09 11:59:18,649 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 11:59:18,749 "GET /student/payments/show_success/ HTTP/1.1" 200 10748
+INFO 2025-05-09 11:59:28,952 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:59:39,157 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:59:49,363 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 11:59:59,564 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:00:09,752 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:00:19,957 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:00:30,143 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:00:40,341 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:00:50,568 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:01:00,738 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:01:10,934 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:01:21,130 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:01:31,375 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:01:41,573 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:01:51,767 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:02:01,979 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:02:12,234 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:02:22,462 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:02:32,650 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:02:42,846 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:02:53,033 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:03:03,237 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:03:13,465 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:03:23,678 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:03:33,875 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:03:44,103 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:03:54,315 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:04:04,536 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:04:14,725 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:04:24,919 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:04:35,281 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:04:45,627 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:04:56,073 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:05:08,244 "GET /student/payments/ HTTP/1.1" 200 11979
+INFO 2025-05-09 12:05:20,258 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 12:05:21,925 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 12:05:33,246 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 12:05:41,133 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:05:42,133 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:05:47,953 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:05:52,937 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:07:03,133 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 12:07:04,196 Watching for file changes with StatReloader
+INFO 2025-05-09 12:07:08,152 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 12:07:09,169 Watching for file changes with StatReloader
+INFO 2025-05-09 12:07:12,761 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:07:16,063 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:07:18,130 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:46:12,567 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:46:19,170 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:46:20,355 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:54:38,797 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 12:54:40,770 Watching for file changes with StatReloader
+INFO 2025-05-09 12:54:44,844 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 12:54:46,878 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:54:50,479 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:54:55,357 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:54:57,174 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:54:58,749 "POST /student/payments/ HTTP/1.1" 200 10053
+INFO 2025-05-09 12:55:06,634 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 12:55:07,692 Watching for file changes with StatReloader
+INFO 2025-05-09 12:55:09,837 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:55:11,814 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 12:55:11,930 "GET /student/payments/ HTTP/1.1" 200 11300
+INFO 2025-05-09 12:55:22,275 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 12:55:22,401 "GET /student/payments/ HTTP/1.1" 200 11300
+INFO 2025-05-09 12:55:32,604 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 12:55:33,937 Watching for file changes with StatReloader
+INFO 2025-05-09 12:55:38,773 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:55:44,477 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 12:55:44,592 "GET /student/payments/ HTTP/1.1" 200 11300
+INFO 2025-05-09 12:56:12,681 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 12:56:13,785 Watching for file changes with StatReloader
+INFO 2025-05-09 12:56:15,830 "GET /student/payments/ HTTP/1.1" 200 11006
+INFO 2025-05-09 12:56:24,017 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 12:56:24,134 "GET /student/payments/ HTTP/1.1" 200 11312
+INFO 2025-05-09 13:30:00,522 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 13:30:01,774 Watching for file changes with StatReloader
+INFO 2025-05-09 13:30:15,438 "GET /student/payments/ HTTP/1.1" 200 11015
+INFO 2025-05-09 13:30:22,516 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:30:22,624 "GET /student/payments/ HTTP/1.1" 200 11307
+ERROR 2025-05-09 13:30:35,161 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 917, in initiate_payment
+    return render(request, "students/initiate_payment.html", {"fee_record": fee_record})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 35: 'endif', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-05-09 13:30:35,171 "GET /student/payments/ HTTP/1.1" 500 184730
+INFO 2025-05-09 13:30:56,904 "GET /student/payments/ HTTP/1.1" 200 11015
+INFO 2025-05-09 13:31:00,524 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:31:00,631 "GET /student/payments/ HTTP/1.1" 200 11307
+INFO 2025-05-09 13:31:30,433 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 13:31:31,552 Watching for file changes with StatReloader
+INFO 2025-05-09 13:31:33,519 "GET /student/payments/ HTTP/1.1" 200 11015
+ERROR 2025-05-09 13:31:38,223 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 894, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 137, in request
+    raise BadRequestError(msg)
+razorpay.errors.BadRequestError: Amount exceeds maximum amount allowed.
+ERROR 2025-05-09 13:31:38,227 "POST /student/payments/ HTTP/1.1" 500 95405
+INFO 2025-05-09 13:31:47,896 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 13:31:48,937 Watching for file changes with StatReloader
+INFO 2025-05-09 13:36:28,914 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 13:36:32,699 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:36:32,849 "GET /student/payments/ HTTP/1.1" 200 11363
+INFO 2025-05-09 13:36:41,494 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:36:41,595 "GET /student/payments/ HTTP/1.1" 200 11190
+INFO 2025-05-09 13:37:03,311 "GET /staff/students/fees/ HTTP/1.1" 200 12032
+INFO 2025-05-09 13:41:25,061 "GET /student/payments/ HTTP/1.1" 200 11173
+INFO 2025-05-09 13:42:29,255 "POST /student/payments/ HTTP/1.1" 200 12062
+INFO 2025-05-09 13:42:49,704 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:42:49,822 "GET /student/payments/show_success/ HTTP/1.1" 200 10744
+INFO 2025-05-09 13:43:00,009 "GET /student/payments/ HTTP/1.1" 200 11173
+INFO 2025-05-09 13:43:05,228 "GET /student/payments/ HTTP/1.1" 200 11173
+INFO 2025-05-09 13:43:20,034 "POST /student/payments/ HTTP/1.1" 200 12062
+INFO 2025-05-09 13:43:56,107 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:43:56,216 "GET /student/payments/show_success/ HTTP/1.1" 200 10744
+INFO 2025-05-09 13:44:06,411 "GET /student/payments/ HTTP/1.1" 200 10931
+INFO 2025-05-09 13:44:11,837 "GET /student/payments/ HTTP/1.1" 200 10931
+INFO 2025-05-09 13:45:13,479 "GET /student/payments/ HTTP/1.1" 200 11005
+INFO 2025-05-09 13:45:42,091 "GET /student/payments/ HTTP/1.1" 200 11005
+INFO 2025-05-09 13:46:01,223 "GET /student/payments/ HTTP/1.1" 200 10767
+INFO 2025-05-09 13:46:14,320 "GET /staff/students/fees/ HTTP/1.1" 200 12021
+INFO 2025-05-09 13:46:18,288 "GET /staff/students/fees/14/edit/ HTTP/1.1" 200 14184
+INFO 2025-05-09 13:46:24,074 "POST /staff/students/fees/14/edit/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:46:24,167 "GET /staff/students/fees/ HTTP/1.1" 200 12032
+INFO 2025-05-09 13:46:34,136 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 13:46:58,379 "GET /student/payments/ HTTP/1.1" 200 11011
+INFO 2025-05-09 13:47:01,647 "POST /student/payments/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:47:01,739 "GET /student/payments/ HTTP/1.1" 200 11190
+INFO 2025-05-09 13:47:23,472 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 13:47:43,146 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 13:47:43,263 "GET /student/payments/show_success/ HTTP/1.1" 200 10743
+INFO 2025-05-09 13:47:53,459 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 13:47:59,938 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 13:49:18,445 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 13:49:20,839 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 14:00:03,325 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 14:00:15,805 "GET /student/payments/ HTTP/1.1" 200 11024
+INFO 2025-05-09 14:09:03,153 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 14:09:04,526 Watching for file changes with StatReloader
+INFO 2025-05-09 14:09:08,817 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 14:09:09,941 Watching for file changes with StatReloader
+INFO 2025-05-09 14:09:15,772 "GET /student/payments/ HTTP/1.1" 200 11537
+INFO 2025-05-09 14:09:28,161 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:09:55,689 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 14:09:55,788 "GET /student/payments/show_success/ HTTP/1.1" 200 10743
+INFO 2025-05-09 14:10:05,984 "GET /student/payments/ HTTP/1.1" 200 11537
+INFO 2025-05-09 14:15:31,080 "GET /staff/students/fees/ HTTP/1.1" 200 12032
+INFO 2025-05-09 14:15:32,372 "GET /staff/notifications/ HTTP/1.1" 200 26765
+INFO 2025-05-09 14:15:42,960 "GET /principal/notifications/ HTTP/1.1" 200 28264
+INFO 2025-05-09 14:15:53,874 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 302 0
+INFO 2025-05-09 14:15:53,892 "GET /admin/login/?next=/admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 3095
+INFO 2025-05-09 14:15:53,923 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 14:15:53,924 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 14:15:53,924 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-05-09 14:15:53,925 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-05-09 14:15:53,925 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 14:15:53,931 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 14:15:53,999 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-09 14:16:00,742 "POST /admin/login/?next=/admin/principal/principal_studentfeesrecord/ HTTP/1.1" 302 0
+INFO 2025-05-09 14:16:01,042 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 14:16:01,064 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-05-09 14:16:01,065 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-05-09 14:16:01,065 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-05-09 14:16:01,072 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-05-09 14:16:01,161 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 14:16:01,217 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-05-09 14:16:08,670 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 14:21:27,662 "GET /student/payments/ HTTP/1.1" 200 11591
+INFO 2025-05-09 14:22:06,468 "GET /student/payments/ HTTP/1.1" 200 11586
+INFO 2025-05-09 14:22:07,619 "GET /student/payments/ HTTP/1.1" 200 11586
+ERROR 2025-05-09 14:23:21,257 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 898, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+ERROR 2025-05-09 14:23:21,268 "POST /student/payments/ HTTP/1.1" 500 198766
+INFO 2025-05-09 14:23:29,835 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:23:50,743 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 14:23:50,844 "GET /student/payments/show_success/ HTTP/1.1" 200 10743
+INFO 2025-05-09 14:24:01,064 "GET /student/payments/ HTTP/1.1" 200 11586
+INFO 2025-05-09 14:28:35,218 "GET /student/payments/ HTTP/1.1" 200 11844
+INFO 2025-05-09 14:30:14,619 "GET /student/payments/ HTTP/1.1" 200 11901
+INFO 2025-05-09 14:35:14,712 "GET /student/payments/ HTTP/1.1" 200 12017
+INFO 2025-05-09 14:37:07,194 "GET /student/payments/ HTTP/1.1" 200 12032
+INFO 2025-05-09 14:37:23,342 "GET /student/payments/ HTTP/1.1" 200 11964
+INFO 2025-05-09 14:38:07,010 "GET /student/payments/ HTTP/1.1" 200 11964
+ERROR 2025-05-09 14:38:17,129 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 898, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+INFO 2025-05-09 14:38:17,138 - Broken pipe from ('127.0.0.1', 49540)
+INFO 2025-05-09 14:40:03,519 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 14:40:16,207 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 14:40:28,738 - Broken pipe from ('127.0.0.1', 49573)
+INFO 2025-05-09 14:40:30,405 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:40:31,323 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:40:31,606 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:40:31,982 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:40:32,364 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:40:32,681 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:40:47,838 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:41:07,786 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 14:41:07,886 "GET /student/payments/show_success/ HTTP/1.1" 200 10743
+INFO 2025-05-09 14:41:18,115 "GET /student/payments/ HTTP/1.1" 200 11972
+INFO 2025-05-09 14:42:07,995 "POST /student/payments/ HTTP/1.1" 200 12058
+INFO 2025-05-09 14:42:12,802 "POST /student/payments/ HTTP/1.1" 200 12058
+INFO 2025-05-09 14:42:22,192 "POST /student/payments/ HTTP/1.1" 200 12058
+INFO 2025-05-09 14:42:28,452 "GET /student/payments/ HTTP/1.1" 200 11956
+INFO 2025-05-09 14:43:24,135 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:43:30,646 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:49:25,222 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 14:49:26,730 Watching for file changes with StatReloader
+INFO 2025-05-09 14:51:35,320 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:51:36,920 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:51:37,587 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:51:37,971 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:51:50,809 "GET /student/payments/ HTTP/1.1" 200 11957
+INFO 2025-05-09 14:52:39,048 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 14:52:41,364 "GET /student/payments/ HTTP/1.1" 200 12034
+INFO 2025-05-09 14:52:56,653 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:53:16,303 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 14:53:16,403 "GET /student/payments/show_success/ HTTP/1.1" 200 10743
+INFO 2025-05-09 14:53:26,615 "GET /student/payments/ HTTP/1.1" 200 12041
+INFO 2025-05-09 14:54:15,168 "GET /student/payments/ HTTP/1.1" 200 12052
+INFO 2025-05-09 14:54:27,206 "GET /student/payments/ HTTP/1.1" 200 12052
+INFO 2025-05-09 14:54:37,879 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:54:50,215 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 14:54:56,601 "GET /student/payments/ HTTP/1.1" 200 12042
+INFO 2025-05-09 14:55:43,086 "GET /student/payments/ HTTP/1.1" 200 11989
+INFO 2025-05-09 14:59:55,532 "GET /student/payments/ HTTP/1.1" 200 11989
+INFO 2025-05-09 15:00:37,566 "GET /student/payments/ HTTP/1.1" 200 11995
+INFO 2025-05-09 15:00:47,953 "GET /student/payments/ HTTP/1.1" 200 11997
+INFO 2025-05-09 15:01:53,372 "GET /student/payments/ HTTP/1.1" 200 12032
+INFO 2025-05-09 15:02:53,997 "GET /student/payments/ HTTP/1.1" 200 12157
+INFO 2025-05-09 15:03:02,041 "GET /student/payments/ HTTP/1.1" 200 12161
+INFO 2025-05-09 15:03:13,572 "GET /student/payments/ HTTP/1.1" 200 12196
+INFO 2025-05-09 15:03:26,150 "GET /student/payments/ HTTP/1.1" 200 12200
+INFO 2025-05-09 15:03:43,982 "GET /student/payments/ HTTP/1.1" 200 12229
+INFO 2025-05-09 15:03:44,933 "GET /student/payments/ HTTP/1.1" 200 12229
+INFO 2025-05-09 15:04:16,621 "GET /student/payments/ HTTP/1.1" 200 12255
+INFO 2025-05-09 15:04:29,951 "GET /student/payments/ HTTP/1.1" 200 12285
+INFO 2025-05-09 15:04:40,939 "GET /student/payments/ HTTP/1.1" 200 12278
+INFO 2025-05-09 15:04:43,857 "GET /student/payments/ HTTP/1.1" 200 12278
+INFO 2025-05-09 15:04:44,165 "GET /student/payments/ HTTP/1.1" 200 12278
+INFO 2025-05-09 15:05:54,069 "GET /student/payments/ HTTP/1.1" 200 12278
+INFO 2025-05-09 15:05:54,544 "GET /student/payments/ HTTP/1.1" 200 12278
+INFO 2025-05-09 15:06:15,377 "GET /student/payments/ HTTP/1.1" 200 12278
+INFO 2025-05-09 15:06:55,263 "GET /student/payments/ HTTP/1.1" 200 12300
+INFO 2025-05-09 15:06:56,160 "GET /student/payments/ HTTP/1.1" 200 12300
+INFO 2025-05-09 15:07:11,433 "GET /student/payments/ HTTP/1.1" 200 12303
+INFO 2025-05-09 15:07:12,234 "GET /student/payments/ HTTP/1.1" 200 12303
+INFO 2025-05-09 15:07:12,592 "GET /student/payments/ HTTP/1.1" 200 12303
+INFO 2025-05-09 15:07:32,009 "GET /student/payments/ HTTP/1.1" 200 12325
+INFO 2025-05-09 15:08:11,082 "GET /student/payments/ HTTP/1.1" 200 12392
+INFO 2025-05-09 15:08:30,206 "GET /student/payments/ HTTP/1.1" 200 12396
+INFO 2025-05-09 15:09:46,029 "GET /student/payments/ HTTP/1.1" 200 12409
+INFO 2025-05-09 15:09:46,770 "GET /student/payments/ HTTP/1.1" 200 12409
+INFO 2025-05-09 15:10:19,967 "GET /student/payments/ HTTP/1.1" 200 12409
+INFO 2025-05-09 15:10:20,592 "GET /student/payments/ HTTP/1.1" 200 12409
+INFO 2025-05-09 15:10:20,943 "GET /student/payments/ HTTP/1.1" 200 12409
+INFO 2025-05-09 15:11:24,042 "GET /student/payments/ HTTP/1.1" 200 12412
+ERROR 2025-05-09 15:27:48,409 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 921, in initiate_payment
+    return render(request, "students/initiate_payment.html", {"fee_record": fee_record, "latest_payment":latest_payment})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'download_payment_pdf' not found. 'download_payment_pdf' is not a valid view function or pattern name.
+ERROR 2025-05-09 15:27:48,418 "GET /student/payments/ HTTP/1.1" 500 201766
+INFO 2025-05-09 15:28:08,904 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 15:28:10,275 Watching for file changes with StatReloader
+INFO 2025-05-09 15:29:06,439 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\urls.py changed, reloading.
+INFO 2025-05-09 15:29:07,627 Watching for file changes with StatReloader
+INFO 2025-05-09 15:29:09,898 "GET /student/payments/ HTTP/1.1" 200 12539
+INFO 2025-05-09 15:29:19,051 "GET /student/payment/download/pdf/ HTTP/1.1" 200 2729
+INFO 2025-05-09 15:29:45,886 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-09 15:29:47,163 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 15:29:47,537 "GET /student/reportcard/?download=1 HTTP/1.1" 200 23777
+INFO 2025-05-09 15:29:59,542 "GET /student/student/attendance/ HTTP/1.1" 200 11011
+INFO 2025-05-09 15:30:00,317 "GET /student/payments/ HTTP/1.1" 200 12539
+INFO 2025-05-09 15:34:48,314 "GET /student/payments/ HTTP/1.1" 200 12539
+ERROR 2025-05-09 15:34:50,581 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1014, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 97: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:34:50,589 "GET /student/payment/download/pdf/ HTTP/1.1" 500 154613
+ERROR 2025-05-09 15:35:30,453 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'elif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1014, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 97: 'elif'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:35:30,456 "GET /student/payment/download/pdf/ HTTP/1.1" 500 154750
+INFO 2025-05-09 15:42:49,257 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 15:42:50,510 Watching for file changes with StatReloader
+ERROR 2025-05-09 15:42:58,118 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 97: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:42:58,125 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155686
+ERROR 2025-05-09 15:44:23,475 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 124: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:44:23,480 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155065
+INFO 2025-05-09 15:44:27,405 "GET /student/payments/ HTTP/1.1" 200 12539
+ERROR 2025-05-09 15:44:30,029 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 124: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:44:30,033 "GET /student/payment/download/pdf/ HTTP/1.1" 500 154928
+ERROR 2025-05-09 15:47:16,273 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 124: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:47:16,277 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155065
+ERROR 2025-05-09 15:47:17,218 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 124: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:47:17,221 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155065
+ERROR 2025-05-09 15:47:17,704 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 124: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:47:17,707 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155065
+INFO 2025-05-09 15:48:01,205 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 15:48:01,371 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20820
+INFO 2025-05-09 15:48:06,748 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 15:48:06,890 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20820
+INFO 2025-05-09 15:49:16,970 "GET /student/payments/ HTTP/1.1" 200 12539
+ERROR 2025-05-09 15:49:18,755 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 97: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:49:18,759 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155549
+INFO 2025-05-09 15:49:47,155 "GET /student/payments/ HTTP/1.1" 200 12539
+ERROR 2025-05-09 15:49:48,651 Internal Server Error: /student/payment/download/pdf/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1036, in download_payment_pdf
+    template = get_template(template_path)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 97: 'else'. Did you forget to register or load this tag?
+ERROR 2025-05-09 15:49:48,654 "GET /student/payment/download/pdf/ HTTP/1.1" 500 155535
+INFO 2025-05-09 15:50:28,447 "GET /student/payments/ HTTP/1.1" 200 12539
+INFO 2025-05-09 15:50:28,503 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-09 15:50:28,511 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-09 15:50:28,516 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-09 15:50:28,526 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-09 15:50:28,537 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-09 15:50:28,556 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-09 15:50:28,569 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-09 15:50:28,608 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-09 15:50:28,619 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-09 15:50:28,620 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-09 15:50:28,621 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-09 15:50:28,644 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-09 15:50:28,788 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-09 15:50:29,025 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-09 15:50:30,090 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-09 15:50:31,405 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 15:50:31,548 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20640
+INFO 2025-05-09 15:50:55,716 "GET /principal/student-fees HTTP/1.1" 200 12366
+INFO 2025-05-09 15:51:04,195 "GET /student/payments/ HTTP/1.1" 200 12539
+INFO 2025-05-09 15:51:04,570 "GET /student/payments/ HTTP/1.1" 200 12539
+INFO 2025-05-09 15:51:04,896 "GET /student/payments/ HTTP/1.1" 200 12539
+INFO 2025-05-09 15:51:16,392 "POST /student/payments/ HTTP/1.1" 200 12060
+INFO 2025-05-09 15:51:42,509 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-09 15:51:42,593 "GET /student/payments/show_success/ HTTP/1.1" 200 10743
+INFO 2025-05-09 15:51:52,806 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 15:51:57,104 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 15:51:57,257 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20640
+INFO 2025-05-09 16:02:27,704 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 16:02:29,085 Watching for file changes with StatReloader
+INFO 2025-05-09 16:03:01,952 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:03:02,118 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-09 16:03:02,138 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-09 16:03:02,142 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-09 16:03:02,149 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-09 16:03:02,149 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-09 16:03:02,155 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-09 16:03:02,164 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-09 16:03:02,169 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-09 16:03:02,172 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-09 16:03:02,175 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-09 16:03:02,182 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-09 16:03:02,188 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-09 16:03:02,337 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-09 16:03:02,350 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-09 16:03:03,805 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-09 16:03:15,005 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:03:15,199 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20634
+INFO 2025-05-09 16:03:38,049 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:04:23,335 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py changed, reloading.
+INFO 2025-05-09 16:04:24,453 Watching for file changes with StatReloader
+INFO 2025-05-09 16:04:28,253 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 16:04:31,038 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:04:32,482 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:04:32,647 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20634
+INFO 2025-05-09 16:05:10,937 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:05:16,678 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:05:16,814 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20633
+INFO 2025-05-09 16:06:01,616 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:06:03,255 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:06:03,409 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20658
+INFO 2025-05-09 16:07:03,775 "GET /principal/student-fees HTTP/1.1" 200 12367
+INFO 2025-05-09 16:07:06,878 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:07:07,981 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:07:08,136 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20640
+INFO 2025-05-09 16:11:17,504 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:11:18,546 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:11:18,688 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20501
+INFO 2025-05-09 16:11:47,633 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:11:48,439 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:11:48,575 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20506
+INFO 2025-05-09 16:12:37,460 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:12:37,769 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:12:38,112 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:12:38,858 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:12:38,996 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20502
+INFO 2025-05-09 16:13:27,472 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:13:28,639 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:13:28,765 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20470
+INFO 2025-05-09 16:14:29,372 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:14:31,081 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:14:31,216 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20452
+INFO 2025-05-09 16:15:14,557 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:15:22,894 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:15:24,141 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:15:24,270 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20502
+INFO 2025-05-09 16:16:41,745 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:16:46,215 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:16:47,332 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:16:47,473 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20488
+INFO 2025-05-09 16:17:45,657 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:17:45,821 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20488
+INFO 2025-05-09 16:17:49,481 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:18:31,323 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:18:32,685 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:18:32,816 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20496
+INFO 2025-05-09 16:19:08,646 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:19:10,519 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:19:10,656 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20501
+INFO 2025-05-09 16:19:36,474 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:19:37,630 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:19:37,767 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20496
+INFO 2025-05-09 16:20:27,945 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:20:33,226 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:20:33,365 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20488
+INFO 2025-05-09 16:27:10,749 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:27:11,449 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:27:13,053 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:27:13,192 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20496
+INFO 2025-05-09 16:27:43,987 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:27:46,648 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:27:46,781 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20496
+INFO 2025-05-09 16:28:20,285 "GET /student/payments/ HTTP/1.1" 200 12541
+INFO 2025-05-09 16:28:21,360 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:28:21,495 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20498
+INFO 2025-05-09 16:32:54,845 "GET /student/payments/ HTTP/1.1" 200 12866
+INFO 2025-05-09 16:32:55,795 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:32:55,931 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20449
+INFO 2025-05-09 16:34:13,862 "GET /student/payments/ HTTP/1.1" 200 12866
+INFO 2025-05-09 16:34:18,057 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:34:18,188 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20448
+INFO 2025-05-09 16:34:53,319 "GET /student/payments/ HTTP/1.1" 200 12866
+INFO 2025-05-09 16:34:54,436 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:34:54,570 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20449
+INFO 2025-05-09 16:35:12,801 "GET /student/payments/ HTTP/1.1" 200 12866
+INFO 2025-05-09 16:35:13,822 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:35:13,961 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20442
+INFO 2025-05-09 16:36:03,629 "GET /student/payments/ HTTP/1.1" 200 12866
+INFO 2025-05-09 16:36:04,490 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:36:04,631 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20461
+INFO 2025-05-09 16:37:29,169 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 16:37:29,301 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 16:37:29,575 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 16:37:29,676 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 16:37:29,909 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 16:37:30,025 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 16:37:30,217 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 16:37:30,301 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 16:37:30,576 "GET /admin/principal/principal_studentfeesrecord/ HTTP/1.1" 200 28335
+INFO 2025-05-09 16:37:30,684 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-05-09 16:41:57,801 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:42:00,806 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:42:00,946 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20461
+INFO 2025-05-09 16:43:14,734 "GET /student/payments/ HTTP/1.1" 200 12480
+INFO 2025-05-09 16:43:31,457 "GET /student/payments/ HTTP/1.1" 200 12480
+INFO 2025-05-09 16:43:32,858 "GET /student/payments/ HTTP/1.1" 200 12480
+INFO 2025-05-09 16:43:33,242 "GET /student/payments/ HTTP/1.1" 200 12480
+INFO 2025-05-09 16:43:38,428 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:47:11,318 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:47:11,474 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20407
+INFO 2025-05-09 16:47:13,458 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:47:15,726 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:47:15,768 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-09 16:47:15,771 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-09 16:47:15,790 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-09 16:47:15,805 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-09 16:47:15,807 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-09 16:47:15,809 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-09 16:47:15,812 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-09 16:47:15,820 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-09 16:47:15,830 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-09 16:47:15,831 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-09 16:47:15,869 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-09 16:47:15,876 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-09 16:47:15,995 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-09 16:47:16,005 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-09 16:47:18,369 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-09 16:47:19,627 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:47:19,786 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20407
+INFO 2025-05-09 16:47:23,088 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:47:26,202 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:47:26,355 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20407
+INFO 2025-05-09 16:47:52,382 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:47:54,216 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:47:54,243 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-09 16:47:54,246 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-09 16:47:54,246 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-09 16:47:54,248 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-09 16:47:54,250 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-09 16:47:54,251 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-09 16:47:54,258 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-09 16:47:54,260 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-09 16:47:54,262 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-09 16:47:54,263 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-09 16:47:54,263 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-09 16:47:54,264 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-09 16:47:54,282 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-09 16:47:54,434 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-09 16:47:54,649 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-09 16:47:55,533 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:47:55,668 "GET /student/payment/download/pdf/ HTTP/1.1" 200 19698
+INFO 2025-05-09 16:48:08,747 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-09 16:48:10,859 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:48:11,089 "GET /student/reportcard/?download=1 HTTP/1.1" 200 23782
+INFO 2025-05-09 16:49:07,528 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-09 16:49:10,613 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-09 16:49:16,924 "GET /student/reportcard/ HTTP/1.1" 200 14539
+INFO 2025-05-09 16:49:19,133 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:49:19,368 "GET /student/reportcard/?download=1 HTTP/1.1" 200 23782
+INFO 2025-05-09 16:49:30,205 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 16:49:31,413 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 16:49:31,546 "GET /student/payment/download/pdf/ HTTP/1.1" 200 19717
+INFO 2025-05-09 17:31:16,837 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 17:31:42,439 "GET /student/payments/ HTTP/1.1" 200 12507
+INFO 2025-05-09 17:31:43,320 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 17:31:43,439 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20417
+INFO 2025-05-09 17:36:22,192 "GET /student/payments/ HTTP/1.1" 200 12657
+INFO 2025-05-09 17:36:55,897 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 17:36:56,389 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 17:36:56,622 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 17:36:59,030 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 17:36:59,156 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20417
+INFO 2025-05-09 17:39:08,822 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 17:39:11,325 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 17:39:11,449 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20526
+INFO 2025-05-09 18:11:26,847 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:11:30,311 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:11:30,440 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20390
+INFO 2025-05-09 18:13:34,253 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:13:35,489 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:13:35,621 "GET /student/payment/download/pdf/ HTTP/1.1" 200 21009
+INFO 2025-05-09 18:16:10,806 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:16:14,132 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:16:14,507 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:16:18,144 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:16:18,267 "GET /student/payment/download/pdf/ HTTP/1.1" 200 19567
+INFO 2025-05-09 18:17:49,098 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:17:50,359 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:17:50,515 "GET /student/payment/download/pdf/ HTTP/1.1" 200 19741
+INFO 2025-05-09 18:18:52,367 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:18:53,086 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:18:53,205 "GET /student/payment/download/pdf/ HTTP/1.1" 200 19569
+INFO 2025-05-09 18:19:15,776 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:19:16,690 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:19:16,826 "GET /student/payment/download/pdf/ HTTP/1.1" 200 19741
+INFO 2025-05-09 18:20:58,871 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:21:01,236 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:21:01,288 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-09 18:21:01,291 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-09 18:21:01,304 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-09 18:21:01,308 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-09 18:21:01,310 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-09 18:21:01,314 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-09 18:21:01,316 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-09 18:21:01,317 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-09 18:21:01,323 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-09 18:21:01,350 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-09 18:21:01,376 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-09 18:21:01,428 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-09 18:21:01,500 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-09 18:21:01,506 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-09 18:21:02,711 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-09 18:21:03,345 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:21:03,514 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20520
+INFO 2025-05-09 18:22:36,263 "GET /student/payments/ HTTP/1.1" 200 12654
+INFO 2025-05-09 18:22:37,506 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-09 18:22:37,688 "GET /student/payment/download/pdf/ HTTP/1.1" 200 21558

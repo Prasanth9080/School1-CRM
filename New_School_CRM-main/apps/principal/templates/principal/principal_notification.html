@@ -19,7 +19,7 @@
           <strong>{{ notification.student.username }}</strong>: {{ notification.message }} <br>
           <small>{{ notification.created_at|date:"Y-m-d H:i" }}</small>
     
-          <form method="post" action="{% url 'mark_notification_as_read' notification.id %}" style="display:inline;">
+          <form method="post" action="{% url 'mark_notification_as_read_for_principal' notification.id %}" style="display:inline;">
             {% csrf_token %}
             {% if not notification.is_read %}
               <button type="submit">Mark as Read</button>

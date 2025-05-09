@@ -123,6 +123,7 @@ class StudentFeesRecord(models.Model):
 
     class Meta:
         ordering = ['-created_at']
+        verbose_name = "Staff Stu-Fees Record"
 
     def save(self, *args, **kwargs):
         self.total_amount = self.this_term_fees + self.previous_term_balance
