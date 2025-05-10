@@ -1,0 +1,17 @@
+
+
+
+{% extends 'principal/principal_index.html' %}
+{% block content %}
+
+<h2>{% if form.instance.pk %}Edit{% else %}Add{% endif %} Student Fees Record</h2>
+<!-- <a href="{% url 'student-fees' %}">← Back to Fees Management</a> -->
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>
+    <a href="{% url 'student-fees' %}">Cancel</a>
+</form>
+
+
+{% endblock %}
