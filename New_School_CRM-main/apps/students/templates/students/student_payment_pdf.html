@@ -94,7 +94,7 @@
 
         <p class="field"><span class="label">Date:</span> {{ latest_payment.created_at|date:"F j, Y" }}</p>
         <p class="field"><span class="label">Time:</span> {{ latest_payment.created_at|time:"h:i A" }}</p>
-        <p class="field"><span class="label">Attempted Amount:</span> ₹ {{ latest_payment.amount }}</p>
+        <p class="field"><span class="label">Attempted Amount:</span> Rs: {{ latest_payment.amount }}</p>
 
         <div class="flex-row">
             <p class="field"><span class="label">Student:</span> {{ fee_record.student }}</p>
@@ -106,13 +106,13 @@
             <p class="field"><span class="label">Session:</span> {{ fee_record.session }}</p>
         </div>
 
-        <p class="field"><span class="label">This Term Fees:</span> ₹ {{ latest_payment.fees_record.this_term_fees }}
+        <p class="field"><span class="label">This Term Fees:</span> Rs: {{ latest_payment.fees_record.this_term_fees }}
         </p>
-        <p class="field"><span class="label">Previous Balance:</span> ₹ {{
+        <p class="field"><span class="label">Previous Balance:</span> Rs: {{
             latest_payment.fees_record.previous_term_balance }}</p>
-        <p class="field"><span class="label">Total Amount:</span> ₹ {{ latest_payment.fees_record.total_amount }}</p>
-        <p class="field"><span class="label">Total Paid:</span> ₹ {{ fee_record.paid_amount }}</p>
-        <p class="field"><span class="label">Balance Payable:</span> ₹ {{
+        <p class="field"><span class="label">Total Amount:</span> Rs: {{ latest_payment.fees_record.total_amount }}</p>
+        <p class="field"><span class="label">Total Paid:</span> Rs: {{ fee_record.paid_amount }}</p>
+        <p class="field"><span class="label">Balance Payable:</span> Rs: {{
             latest_payment.fees_record.balance_payable_amount }}</p>
 
         <div class="flex-row">
@@ -264,29 +264,29 @@
     <table class="summary-table">
         <tr>
             <td class="label">This Term Fees:</td>
-            <td class="value">₹{{ fee_record.this_term_fees }}</td>
+            <td class="value">Rs:{{ fee_record.this_term_fees }}</td>
         </tr>
         <tr>
             <td class="label">Previous Balance:</td>
-            <td class="value">₹{{ fee_record.previous_term_balance }}</td>
+            <td class="value">Rs:{{ fee_record.previous_term_balance }}</td>
         </tr>
         <tr>
             <td class="label">Total Amount:</td>
-            <td class="value">₹{{ fee_record.total_amount }}</td>
+            <td class="value">Rs:{{ fee_record.total_amount }}</td>
         </tr>
         <tr>
             <td class="label">
                 {% if is_payment_complete %}Paid Amount:{% else %}Attempted Amount:{% endif %}
             </td>
-            <td class="value">₹{{ latest_payment.amount }}</td>
+            <td class="value">Rs:{{ latest_payment.amount }}</td>
         </tr>
         <tr>
             <td class="label">Total Paid So Far:</td>
-            <td class="value">₹{{ fee_record.paid_amount }}</td>
+            <td class="value">Rs:{{ fee_record.paid_amount }}</td>
         </tr>
         <tr>
             <td class="label">Balance Payable:</td>
-            <td class="value">₹{{ fee_record.balance_payable_amount }}</td>
+            <td class="value">Rs:{{ fee_record.balance_payable_amount }}</td>
         </tr>
     </table>
 
@@ -451,23 +451,23 @@
         </tr>
         <tr>
             <td class="label">This Term Fees</td>
-            <td class="value">₹{{ latest_payment.fees_record.this_term_fees }}</td>
+            <td class="value">Rs:{{ latest_payment.fees_record.this_term_fees }}</td>
         </tr>
         <tr>
             <td class="label">Previous Balance</td>
-            <td class="value">₹{{ latest_payment.fees_record.previous_term_balance }}</td>
+            <td class="value">Rs:{{ latest_payment.fees_record.previous_term_balance }}</td>
         </tr>
         <tr>
             <td class="label">Total Amount</td>
-            <td class="value">₹{{ latest_payment.fees_record.total_amount }}</td>
+            <td class="value">Rs:{{ latest_payment.fees_record.total_amount }}</td>
         </tr>
         <tr>
             <td class="label">Total Paid</td>
-            <td class="value">₹{{ fee_record.paid_amount }}</td>
+            <td class="value">Rs:{{ fee_record.paid_amount }}</td>
         </tr>
         <tr>
             <td class="label">Balance Payable</td>
-            <td class="value">₹{{ latest_payment.fees_record.balance_payable_amount }}</td>
+            <td class="value">Rs:{{ latest_payment.fees_record.balance_payable_amount }}</td>
         </tr>
         <tr class="spacer">
             <td colspan="2"></td>
@@ -497,7 +497,6 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        /* === Reset & Base === */
         body {
             font-family: DejaVu Sans, sans-serif;
             margin: 0;
@@ -507,11 +506,9 @@
 
         .container {
             width: 100%;
-            padding: 40px 30px;
             box-sizing: border-box;
         }
 
-        /* === Header === */
         .header {
             display: table;
             width: 100%;
@@ -559,7 +556,6 @@
             margin: 10px 0 20px;
         }
 
-        /* === Summary Table === */
         table.summary {
             width: 100%;
             border-collapse: collapse;
@@ -582,19 +578,11 @@
         table.summary td.right {
             text-align: right;
         }
-
-        /* === Footer Note === */
-        .footer-note {
-            font-size: 11px;
-            color: #555;
-            margin-top: 10px;
-        }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <!-- Header -->
         <div class="header">
             <div class="cell logo">
                 <img src="{{ logo_url }}" width="80" />
@@ -617,7 +605,6 @@
 
         <div class="divider"></div>
 
-        <!-- Payment Summary Table -->
         <table class="summary">
             <tr>
                 <th colspan="2">Payment Details</th>
@@ -638,7 +625,7 @@
                     Attempted Amount
                     {% endif %}
                 </td>
-                <td class="right">₹ {{ latest_payment.amount }}</td>
+                <td class="right">Rs: {{ latest_payment.amount }}</td>
             </tr>
             <tr>
                 <th colspan="2">Student & Academic Info</th>
@@ -660,23 +647,23 @@
             </tr>
             <tr>
                 <td>This Term Fees</td>
-                <td class="right">₹ {{ fee_record.this_term_fees }}</td>
+                <td class="right">Rs: {{ fee_record.this_term_fees }}</td>
             </tr>
             <tr>
                 <td>Previous Balance</td>
-                <td class="right">₹ {{ fee_record.previous_term_balance }}</td>
+                <td class="right">Rs: {{ fee_record.previous_term_balance }}</td>
             </tr>
             <tr>
                 <td>Total Amount</td>
-                <td class="right">₹ {{ fee_record.total_amount }}</td>
+                <td class="right">Rs: {{ fee_record.total_amount }}</td>
             </tr>
             <tr>
                 <td>Total Paid So Far</td>
-                <td class="right">₹ {{ fee_record.paid_amount }}</td>
+                <td class="right">Rs: {{ fee_record.paid_amount }}</td>
             </tr>
             <tr>
                 <td>Balance Payable</td>
-                <td class="right">₹ {{ fee_record.balance_payable_amount }}</td>
+                <td class="right">Rs: {{ fee_record.balance_payable_amount }}</td>
             </tr>
             <tr>
                 <th colspan="2">Payment Info</th>
@@ -695,9 +682,7 @@
             </tr>
         </table>
 
-        <p class="footer-note">
-            This is a computer-generated invoice and does not require a signature.
-        </p>
+
     </div>
 </body>
 
