@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from apps.corecode.models import AcademicTerm, AcademicSession, StudentClass, UserProfile  # replace 'your_app' with actual app name
+from decimal import Decimal
 
 class Principal_StudentFeesRecord(models.Model):
     STATUS_CHOICES = [
@@ -35,7 +36,29 @@ class Principal_StudentFeesRecord(models.Model):
     class Meta:
         ordering = ['-created_at']
 
+    # def save(self, *args, **kwargs):
+    #     self.total_amount = self.this_term_fees + self.previous_term_balance
+    #     self.balance_payable_amount = self.total_amount - self.paid_amount
+
+    #     # Automatically set status
+    #     if self.paid_amount == 0:
+    #         self.status = 'pending'
+    #     elif self.balance_payable_amount > 0:
+    #         self.status = 'partial'
+    #     else:
+    #         self.status = 'paid'
+
+    #     super().save(*args, **kwargs)
+
+
+    from decimal import Decimal
+
     def save(self, *args, **kwargs):
+        # Ensure Decimal conversion
+        self.this_term_fees = Decimal(str(self.this_term_fees))
+        self.previous_term_balance = Decimal(str(self.previous_term_balance))
+        self.paid_amount = Decimal(str(self.paid_amount))
+
         self.total_amount = self.this_term_fees + self.previous_term_balance
         self.balance_payable_amount = self.total_amount - self.paid_amount
 

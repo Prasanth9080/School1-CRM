@@ -166,6 +166,32 @@ def reportcard_create(request):
         form = StuReportCardForm()
     return render(request, 'staffs/reportcard_form.html', {'form': form})
 
+# @login_required
+# def reportcard_create(request):
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             new_card = form.save(commit=False)
+#             # Auto-assign Term
+#             existing_cards = StuReportCard.objects.filter(student=new_card.student).order_by('created_at')
+
+#             existing_terms = existing_cards.values_list('term', flat=True)
+
+#             if "Term I" not in existing_terms:
+#                 new_card.term = "Term I"
+#             elif "Term II" not in existing_terms:
+#                 new_card.term = "Term II"
+#             else:
+#                 # fallback if more terms needed
+#                 new_card.term = f"Term {len(existing_terms) + 1}"
+
+#             new_card.save()
+#             return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm()
+#     return render(request, 'staffs/reportcard_form.html', {'form': form})
+
+
 @login_required
 def reportcard_update(request, pk):
     card = get_object_or_404(StuReportCard, pk=pk)

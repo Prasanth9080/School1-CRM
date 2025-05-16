@@ -279,60 +279,192 @@ def student_leave_request(request):
 
 
 ####### new download functions:
+# from django.template.loader import get_template
+# from django.http import HttpResponse
+# from xhtml2pdf import pisa
+# from .models import StuReportCard
+# from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render
+# import uuid
+# from datetime import datetime
+# import random
+
+# def generate_unique_invoice_number():
+#     return f"{random.randint(100000, 999999)}"
+
+# @login_required
+# def student_report_card_view(request):
+#     # Fetching the report cards for the logged-in user
+#     cards = StuReportCard.objects.filter(student=request.user)
+#     invoice_number =  generate_unique_invoice_number()
+#     invoice_date = datetime.now().strftime('%B %d, %Y')  # Current date
+#     invoice_time = datetime.now().strftime('%H:%M:%S')  # Current time
+#     logo_url = request.build_absolute_uri('/media/profile_pictures/school4.png')
+
+#     if 'download' in request.GET:
+#         # Define the template and context to be passed
+#         template_path = 'students/student_report_card_pdf.html'
+#         subjects = ['tamil', 'english', 'maths', 'science', 'social']
+
+#         context = {
+#             'cards': cards,
+#             'user': request.user,
+#             'invoice_number': invoice_number,
+#             'invoice_date': invoice_date,
+#             'invoice_time': invoice_time,
+#             'logo_url': logo_url,
+#         }
+
+#         response = HttpResponse(content_type='application/pdf')
+#         response['Content-Disposition'] = f'attachment; filename="report_card_{request.user.username}.pdf"'
+
+#         template = get_template(template_path)
+#         html = template.render(context)
+
+#         pisa_status = pisa.CreatePDF(html, dest=response)
+#         if pisa_status.err:
+#             return HttpResponse('We had some errors <pre>' + html + '</pre>')
+#         return response
+
+#     return render(request, 'students/student_report_card.html', {'cards': cards})
+
+
+
+
 from django.template.loader import get_template
 from django.http import HttpResponse
 from xhtml2pdf import pisa
 from .models import StuReportCard
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
-import uuid
 from datetime import datetime
 import random
 
+# Generate a unique invoice number
 def generate_unique_invoice_number():
     return f"{random.randint(100000, 999999)}"
 
 @login_required
 def student_report_card_view(request):
-    # Fetching the report cards for the logged-in user
-    cards = StuReportCard.objects.filter(student=request.user)
+    student = request.user
 
-    # Generate a unique invoice number
-    # invoice_number = uuid.uuid4().int  # UUID will create a unique value, convert to integer
-    
-    invoice_number =  generate_unique_invoice_number()
+    # Get Term I and Term II cards
+    term1_card = StuReportCard.objects.filter(student=student, term="Term I").first()
+    term2_card = StuReportCard.objects.filter(student=student, term="Term II").first()
+    term3_card = StuReportCard.objects.filter(student=student, term="Term III").first()
 
-    invoice_date = datetime.now().strftime('%B %d, %Y')  # Current date
-    invoice_time = datetime.now().strftime('%H:%M:%S')  # Current time
-
+    # Common info
+    invoice_number = generate_unique_invoice_number()
+    invoice_date = datetime.now().strftime('%B %d, %Y')
+    invoice_time = datetime.now().strftime('%H:%M:%S')
     logo_url = request.build_absolute_uri('/media/profile_pictures/school4.png')
 
+    context = {
+        'term1': term1_card,
+        'term2': term2_card,
+        'term3': term3_card,
+        'user': student,
+        'invoice_number': invoice_number,
+        'invoice_date': invoice_date,
+        'invoice_time': invoice_time,
+        'logo_url': logo_url,
+    }
+
     if 'download' in request.GET:
-        # Define the template and context to be passed
+        # PDF generation
         template_path = 'students/student_report_card_pdf.html'
-        context = {
-            'cards': cards,
-            'user': request.user,
-            'invoice_number': invoice_number,
-            'invoice_date': invoice_date,
-            'invoice_time': invoice_time,
-            'logo_url': logo_url
-        }
-
-        response = HttpResponse(content_type='application/pdf')
-        response['Content-Disposition'] = f'attachment; filename="report_card_{request.user.username}.pdf"'
-
         template = get_template(template_path)
         html = template.render(context)
 
-        # Generate the PDF
+        response = HttpResponse(content_type='application/pdf')
+        response['Content-Disposition'] = f'attachment; filename="report_card_{student.username}.pdf"'
+
         pisa_status = pisa.CreatePDF(html, dest=response)
         if pisa_status.err:
             return HttpResponse('We had some errors <pre>' + html + '</pre>')
         return response
 
-    # Render the regular HTML page
-    return render(request, 'students/student_report_card.html', {'cards': cards})
+    # Render HTML view
+    return render(request, 'students/student_report_card.html', context)
+
+
+
+# @login_required
+# def student_report_card_view(request):
+#     # Fetch all report cards for this student, sorted by term
+#     cards = StuReportCard.objects.filter(student=request.user).order_by('term')
+
+#     invoice_number = generate_unique_invoice_number()
+#     invoice_date = datetime.now().strftime('%B %d, %Y')  # Current date
+#     invoice_time = datetime.now().strftime('%H:%M:%S')  # Current time
+#     logo_url = request.build_absolute_uri('/media/profile_pictures/school4.png')
+
+#     if 'download' in request.GET:
+#         template_path = 'students/student_report_card_pdf.html'
+#         context = {
+#             'cards': cards,
+#             'user': request.user,
+#             'invoice_number': invoice_number,
+#             'invoice_date': invoice_date,
+#             'invoice_time': invoice_time,
+#             'logo_url': logo_url,
+#             "terms": ["Term I", "Term II"],
+#         }
+
+#         response = HttpResponse(content_type='application/pdf')
+#         response['Content-Disposition'] = f'attachment; filename="report_card_{request.user.username}.pdf"'
+
+#         template = get_template(template_path)
+#         html = template.render(context)
+
+#         pisa_status = pisa.CreatePDF(html, dest=response)
+#         if pisa_status.err:
+#             return HttpResponse('We had some errors <pre>' + html + '</pre>')
+#         return response
+
+#     return render(request, 'students/student_report_card.html', {'cards': cards})
+
+
+
+###### new functions for term wise report card generation
+
+# from collections import defaultdict
+
+# @login_required
+# def student_report_card_view(request):
+#     cards = StuReportCard.objects.filter(student=request.user).order_by('term')
+
+#     # Organize by term
+#     term_data = {term: None for term, _ in StuReportCard._meta.get_field('term').choices}
+#     for card in cards:
+#         term_data[card.term] = card
+
+#     invoice_number = generate_unique_invoice_number()
+#     invoice_date = datetime.now().strftime('%B %d, %Y')
+#     invoice_time = datetime.now().strftime('%H:%M:%S')
+#     logo_url = request.build_absolute_uri('/media/profile_pictures/school4.png')
+
+#     context = {
+#         'term_data': term_data,
+#         'user': request.user,
+#         'invoice_number': invoice_number,
+#         'invoice_date': invoice_date,
+#         'invoice_time': invoice_time,
+#         'logo_url': logo_url,
+#     }
+
+#     if 'download' in request.GET:
+#         template = get_template('students/student_report_card_pdf.html')
+#         html = template.render(context)
+#         response = HttpResponse(content_type='application/pdf')
+#         response['Content-Disposition'] = f'attachment; filename="report_card_{request.user.username}.pdf"'
+#         pisa_status = pisa.CreatePDF(html, dest=response)
+#         if pisa_status.err:
+#             return HttpResponse('We had some errors <pre>' + html + '</pre>')
+#         return response
+
+#     return render(request, 'students/student_report_card.html', {'term_data': term_data})
+
 
 
 

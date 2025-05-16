@@ -1,132 +1,227 @@
+{% extends 'students/student_index.html' %}
+{% load report_tags %}
+
+{% block content %}
 <style>
     table {
         border-collapse: collapse;
         width: 100%;
     }
-    th, td {
+
+    th,
+    td {
         border: 1px solid black;
         padding: 10px;
-        text-align: start;
+        text-align: left;
     }
-    /* td {
-        font-size: 16px;
-        background-color: #E3E3E1;
-    } */
-    tbody tr {
-        font-size: 16px;
-        background-color: #E3E3E3;
-    }
-    tbody tr:hover {
-    background-color: #c8c7c7;
-    cursor: pointer;
-}
+
     thead {
         background-color: #FF7D7D;
-    }
-    /* NEW working colors */
-    .pending {
-        color: orange;
-        font-weight: bold;
-    }
-    .approved {
-        color: green;
-        font-weight: bold;
-    }
-    .rejected {
-        color: red;
-        font-weight: bold;
-    }
-    .submit-btn button{
-        background-color: #FF7D7D;
-        border-color: transparent;
         color: white;
-        border-radius: 3px;
     }
+
+    tbody tr {
+        background-color: #F9F9F9;
+    }
+
+    tbody tr:hover {
+        background-color: #ecebeb;
+        cursor: pointer;
+    }
+
+    .submit-btn button {
+        background-color: #FF7D7D;
+        border: none;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
     .scroll-table {
-    overflow-x: auto;
-    max-width: 100%;
-}
+        overflow-x: auto;
+        max-width: 100%;
+        margin-top: 20px;
+    }
 </style>
 
-
-{% extends 'students/student_index.html' %}
-
-{% block content %}
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <h2>Your Report Card</h2>
-    <!-- <a href="?download=true" class="btn btn-primary" style="background-color:blue;color:white;padding:10px;text-decoration:none;">Download PDF</a> -->
     <a href="{% url 'student-report-card' %}?download=1" target="_blank" class="submit-btn">
-        <button type="submit">Download Pdf</button>
-    </a>    
+        <button type="submit">Download PDF</button>
+    </a>
 </div>
 
 <div class="scroll-table">
     <table>
         <thead>
-        <tr>
-            <th>standard</th>
-            <th>section</th>
-            <th>academic_session</th>
-            <th>father_name</th>
-            <th>mother_name</th>
-            <th>address</th>
-            <th>admission_number</th>
-            <th>roll_number</th>
-            <th>date_of_birth</th>  
-            <th>tamil</th>
-            <th>english</th>
-            <th>maths</th>
-            <th>science</th>
-            <th>social</th>
-            <th>overall_total</th>
-            <th>overall_precentage</th>
-            <th>overall_grade</th>
-            <th>term</th>
-            <th>status</th>
-            <th>comments</th>
-            <th>date</th>
-            <th>signature_class_teacher</th>
-            <th>signature_principal</th>
-            <th>parent_signature</th>
-            <th>created_at</th>
-            
-        </tr>
+            <tr>
+                <th>Field</th>
+                <th>Term I</th>
+                <th>Term II</th>
+                <th>Term III</th>
+            </tr>
         </thead>
-    
         <tbody>
-        {% for card in cards %}
-        <tr>
-            <td>{{ card.standard }}</td>
-            <td>{{ card.section }}</td>
-            <td>{{ card.academic_session }}</td> 
-            <td>{{ card.father_name }}</td>
-            <td>{{ card.mother_name }}</td>
-            <td>{{ card.address }}</td>
-            <td>{{ card.admission_number }}</td>
-            <td>{{ card.roll_number }}</td>
-            <td>{{ card.date_of_birth }}</td>
-    
-            <td>{{ card.tamil }}</td>
-            <td>{{ card.english }}</td>
-            <td>{{ card.maths }}</td>
-            <td>{{ card.science }}</td>
-            <td>{{ card.social }}</td>
-            <td>{{ card.overall_total }}</td>
-            <td>{{ card.overall_percentage }}</td>
-            <td>{{ card.overall_grade }}</td>
-            <td>{{ card.term }}</td>
-            <td>{{ card.status }}</td>
-            <td>{{ card.comments }}</td>
-    
-            <td>{{ card.date }}</td>
-            <td>{{ card.signature_class_teacher }}</td>
-            <td>{{ card.signature_principal }}</td>
-            <td>{{ card.parent_signature }}</td>
-            <td>{{ card.created_at }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
+            <tr>
+                <td>Student</td>
+                <td>{{ term1.student }}</td>
+                <td>{{ term2.student }}</td>
+                <td>{{ term3.student }}</td>
+            </tr>
+            <tr>
+                <td>Standard</td>
+                <td>{{ term1.standard }}</td>
+                <td>{{ term2.standard }}</td>
+                <td>{{ term3.standard }}</td>
+            </tr>
+            <tr>
+                <td>Section</td>
+                <td>{{ term1.section }}</td>
+                <td>{{ term2.section }}</td>
+                <td>{{ term3.section }}</td>
+            </tr>
+            <tr>
+                <td>Academic Session</td>
+                <td>{{ term1.academic_session }}</td>
+                <td>{{ term2.academic_session }}</td>
+                <td>{{ term3.academic_session }}</td>
+            </tr>
+            <tr>
+                <td>Admission Number</td>
+                <td>{{ term1.admission_number }}</td>
+                <td>{{ term2.admission_number }}</td>
+                <td>{{ term3.admission_number }}</td>
+            </tr>
+            <tr>
+                <td>Roll Number</td>
+                <td>{{ term1.roll_number }}</td>
+                <td>{{ term2.roll_number }}</td>
+                <td>{{ term3.roll_number }}</td>
+            </tr>
+            <tr>
+                <td>Father's Name</td>
+                <td>{{ term1.father_name }}</td>
+                <td>{{ term2.father_name }}</td>
+                <td>{{ term3.father_name }}</td>
+            </tr>
+            <tr>
+                <td>Mother's Name</td>
+                <td>{{ term1.mother_name }}</td>
+                <td>{{ term2.mother_name }}</td>
+                <td>{{ term3.mother_name }}</td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>{{ term1.date_of_birth }}</td>
+                <td>{{ term2.date_of_birth }}</td>
+                <td>{{ term3.date_of_birth }}</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>{{ term1.address }}</td>
+                <td>{{ term2.address }}</td>
+                <td>{{ term3.address }}</td>
+            </tr>
+
+            <!-- Subject wise marks -->
+            <tr>
+                <td>Tamil</td>
+                <td>{{ term1.tamil }}</td>
+                <td>{{ term2.tamil }}</td>
+                <td>{{ term3.tamil }}</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>{{ term1.english }}</td>
+                <td>{{ term2.english }}</td>
+                <td>{{ term3.english }}</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>{{ term1.maths }}</td>
+                <td>{{ term2.maths }}</td>
+                <td>{{ term3.maths }}</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>{{ term1.science }}</td>
+                <td>{{ term2.science }}</td>
+                <td>{{ term3.science }}</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>{{ term1.social }}</td>
+                <td>{{ term2.social }}</td>
+                <td>{{ term3.social }}</td>
+            </tr>
+
+            <!-- Overall -->
+            <tr>
+                <td>Overall Total</td>
+                <td>{{ term1.overall_total }}</td>
+                <td>{{ term2.overall_total }}</td>
+                <td>{{ term3.overall_total }}</td>
+            </tr>
+            <tr>
+                <td>Percentage</td>
+                <td>{{ term1.overall_percentage }}</td>
+                <td>{{ term2.overall_percentage }}</td>
+                <td>{{ term3.overall_percentage }}</td>
+            </tr>
+            <tr>
+                <td>Grade</td>
+                <td>{{ term1.overall_grade }}</td>
+                <td>{{ term2.overall_grade }}</td>
+                <td>{{ term3.overall_grade }}</td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td>{{ term1.status }}</td>
+                <td>{{ term2.status }}</td>
+                <td>{{ term3.status }}</td>
+            </tr>
+            <tr>
+                <td>Comments</td>
+                <td>{{ term1.comments|safe }}</td>
+                <td>{{ term2.comments|safe }}</td>
+                <td>{{ term3.comments|safe }}</td>
+            </tr>
+
+            <!-- Signatures -->
+            <tr>
+                <td>Class Teacher Signature</td>
+                <td>{{ term1.signature_class_teacher }}</td>
+                <td>{{ term2.signature_class_teacher }}</td>
+                <td>{{ term3.signature_class_teacher }}</td>
+            </tr>
+            <tr>
+                <td>Principal Signature</td>
+                <td>{{ term1.signature_principal }}</td>
+                <td>{{ term2.signature_principal }}</td>
+                <td>{{ term3.signature_principal }}</td>
+            </tr>
+            <tr>
+                <td>Parent Signature</td>
+                <td>{{ term1.parent_signature }}</td>
+                <td>{{ term2.parent_signature }}</td>
+                <td>{{ term3.parent_signature }}</td>
+            </tr>
+
+            <!-- Misc -->
+            <tr>
+                <td>Date</td>
+                <td>{{ term1.date }}</td>
+                <td>{{ term2.date }}</td>
+                <td>{{ term3.date }}</td>
+            </tr>
+            <tr>
+                <td>Created At</td>
+                <td>{{ term1.created_at }}</td>
+                <td>{{ term2.created_at }}</td>
+                <td>{{ term3.created_at }}</td>
+            </tr>
+        </tbody>
     </table>
 </div>
-
 {% endblock %}

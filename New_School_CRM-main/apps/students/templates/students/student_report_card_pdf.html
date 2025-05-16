@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Report Card</title>
@@ -8,416 +9,304 @@
             font-family: Arial, sans-serif;
             font-size: 12px;
         }
-        table, th, td {
+
+        table,
+        th,
+        td {
             border: 1px solid black;
             border-collapse: collapse;
             padding: 5px;
         }
+
         th {
-            background-color: #f2f2f2; 
+            background-color: #f2f2f2;
         }
-        /* .header, .footer {
-        text-align: center;
-    }
-    .header h2 {
-        margin: 5px 0;
-    } */
-    .invoice-details {
-        margin-top: 20px;
-    }
-    .invoice-circle {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        display: inline-block;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 150px;
-    }
-    .invoice-date {
-        background-color: green;
-        color: white;
-    }
-    .invoice-logo {
-        background-color: red;
-        padding: 20px;
-    }
-        .sub-header{
+
+        .invoice-details {
+            margin-top: 20px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             text-align: center;
+            margin-bottom: 20px;
         }
-        .info-table, .marks-table, .gradescale-table {
-            width: 100%;
-            margin-bottom: 10px;
+
+        .header-logo img {
+            width: 70px;
         }
+
+        .header-center {
+            flex: 1;
+            margin: 0 20px;
+            font-size: 12px;
+        }
+
+        .header-center h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .header-center p {
+            margin: 5px 0;
+            font-size: 11px;
+        }
+
+        .invoice-info {
+            text-align: right;
+            font-size: 11px;
+            min-width: 170px;
+        }
+
+        .invoice-info p {
+            margin: 2px 0;
+        }
+
         .signatures {
             width: 100%;
             margin-top: 20px;
             text-align: center;
         }
+
         .signatures td {
             padding-top: 40px;
         }
-        /* new style for header alignment */
-
-        /* 1st style */
-
-        .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        border-bottom: 2px solid #000;
-    }
-
-    .header-logo img {
-        width: 80px;
-        height: auto;
-    }
-
-    .header-center {
-        text-align: center;
-        flex: 1;
-        margin: 0 20px;
-        font-family: Arial, sans-serif;
-    }
-
-    .header-center h1 {
-        margin: 0;
-        font-size: 20px;
-        font-weight: bold;
-    }
-
-    .header-center p {
-        margin: 3px 0;
-        font-size: 13px;
-        line-height: 1.4;
-    }
-
-    .invoice-info {
-        text-align: right;
-        font-size: 13px;
-        font-family: Arial, sans-serif;
-    }
-
-    .invoice-info p {
-        margin: 3px 0;
-    }
-
-    /* 2nd style */
-        
-/* .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-   
-    .header-logo img {
-        width: 70px;
-    }
-
-    .header-center {
-        flex: 1;
-        margin: 0 20px;
-        font-size: 12px;
-    }
-
-    .header-center h1 {
-        font-size: 18px;
-        margin: 0;
-    }
-
-    .header-center p {
-        margin: 5px 0;
-        font-size: 11px;
-    }
-
-    .invoice-info {
-        text-align: right;
-        font-size: 11px;
-        min-width: 170px;
-    }
-
-    .invoice-info p {
-        margin: 2px 0;
-    } */
-
-    /* 3rd style */
-
-    /* .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #000;
-}
-
-.header-logo img {
-    width: 70px;
-}
-
-.header-center {
-    flex: 1;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.header-center h1 {
-    margin: 0;
-    font-size: 20px;
-}
-
-.header-center p {
-    font-size: 12px;
-    margin: 5px 0;
-    line-height: 1.4;
-}
-
-.invoice-info {
-    text-align: right;
-    font-size: 12px;
-    min-width: 160px;
-} */
-
-
-/* 4th style */
-
     </style>
 </head>
+
 <body>
 
-
-<div class="header-container">
-    <!-- Left: School Logo -->
-    <div class="header-logo">
-        <!-- <img src="http://127.0.0.1:8000/media/profile_pictures/school4.png" style="width:80px;" alt="School Logo"> -->
-        <img src="{{ logo_url }}"alt="School Logo" style="width:80px;" >
-        
+    <div class="header-container">
+        <div class="header-logo">
+            <img src="{{ logo_url }}" alt="School Logo">
+        </div>
+        <div class="header-center">
+            <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
+            <p>Gurua, Maniyapul, Bastih Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
+                Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
+                lakshyainternationalschoolbth.com</p>
+        </div>
+        <div class="invoice-info">
+            <p>Invoice Date: {{ invoice_date }}</p>
+            <p>Invoice Time: {{ invoice_time }}</p>
+            <p>Invoice No.: {{ invoice_number|slice:":6" }}</p>
+        </div>
     </div>
 
-    <!-- Center: School Info -->
-    <div class="header-center">
-        <h1>LAKSHYA INTERNATIONAL SCHOOL</h1>
-        <p>Gurua, Maniyapul, Bastih Affiliated to CBSE, New Delhi, Affiliation No: 331205<br>
-        Ph: +91-7004251846, Email: lakshyainternationalschool@gmail.com<br>
-        lakshyainternationalschoolbth.com</p>
+    <div class="sub-header">
+        <h2>YEARLY REPORT CARD</h2>
     </div>
 
-<!-- Right: Invoice Info -->
-    <div class="invoice-info">
-        <p>Invoice Date: {{ invoice_date }}</p>
-        <p>Invoice Time: {{ invoice_time }}</p>
-        <p>Invoice No.: {{ invoice_number|slice:":6" }}</p>
-    </div>
-</div>
+    <table class="info-table">
+        <tr>
+            <td><strong>Class:</strong> {{ term1.standard }}</td>
+            <td><strong>Academic Session:</strong> {{term1.academic_session }}</td>
+        </tr>
+        <tr>
+            <td><strong>Name Of Student:</strong> {{ term1.student }}</td>
+            <td><strong>Admission No.:</strong> {{term1.admission_number }}</td>
+        </tr>
+        <tr>
+            <td><strong>Father's Name:</strong> {{term1.father_name }}</td>
+            <td><strong>Date Of Birth:</strong> {{term1.date_of_birth }}</td>
+        </tr>
+        <tr>
+            <td><strong>Mother's Name:</strong> {{term1.mother_name }}</td>
+            <td><strong>Roll No.:</strong> {{term1.roll_number }}</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Address:</strong> {{ term1.address|safe }}</td>
+        </tr>
+    </table>
 
-<div class="sub-header">
-    <h2>YEARLY REPORT CARD</h2>
-</div>
+    {% if term3 %}
+    <h3>Scholastic - Term {{ term3.term }}</h3>
+    {% elif term2 %}
+    <h3>Scholastic - Term {{ term2.term }}</h3>
+    {% elif term1 %}
+    <h3>Scholastic - Term {{ term1.term }}</h3>
+    {% else %}
+    <h3>No Term Data Available</h3>
+    {% endif %}
 
-<table class="info-table">
-    <tr>
-        <td><strong>Class :</strong> {{ cards.first.standard }}</td>
-        <td><strong>Academic Session :</strong> {{ cards.first.academic_session }}</td>
-    </tr>
-    <tr>
-        <td><strong>Name Of Student :</strong> {{ cards.first.student.get_full_name }}</td>
-        <td><strong>Admission No. :</strong> {{ cards.first.admission_number }}</td>
-    </tr>
-    <tr>
-        <td><strong>Father's Name :</strong> {{ cards.first.father_name }}</td>
-        <td><strong>Date Of Birth :</strong> {{ cards.first.date_of_birth }}</td>
-    </tr>
-    <tr>
-        <td><strong>Mother's Name :</strong> {{ cards.first.mother_name }}</td>
-        <td><strong>Roll No. :</strong> {{ cards.first.roll_number }}</td>
-    </tr>
-    <tr>
-        <td colspan="2"><strong>Address :</strong> {{ cards.first.address }}</td>
-    </tr>
-</table>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <!-- <th>Subject</th>
+                <th>Total Marks</th>
+                <th>Marks Obtained</th>
+                <th>Status</th> -->
 
-<h3>Scholastic - Term {{ cards.first.term }}</h3>
+                <th rowspan="2">Subjects</th>
+                <th colspan="3">1st Term Exam</th>
+                <th colspan="3">2nd Term Exam</th>
+                <th colspan="3">Final Term Exam</th>
+            </tr>
 
-<!-- <table class="marks-table">
-    <thead>
-        <tr>
-            <th rowspan="1">Name: Ram prasanth vignesh kumar</th>
-            <th colspan="3">1st Term Exam</th>
-            
-            <th colspan="3">2nd Term Exam</th>
+            <tr>
+                <th>Total Marks</th>
+                <th>Obt Marks</th>
+                <th>Status</th>
 
-            <th colspan="3">3rd Term Exam</th>
-   
-        </tr>
-        <tr>
-            <th>Subject</th>
-            <th>Total Marks</th>
-            <th>Obt Marks</th>
-            <th>Status</th>
-            <th>Total Marks</th>
-            <th>Obt Marks</th>
-            <th>Status</th>
-            <th>Total Marks</th>
-            <th>Obt Marks</th>
-            <th>Status</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Tamil</td>
-            <td>{{ cards.first.tamil }}</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>100</td>
-            <td>{{ cards.first.tamil }}</td>
-        </tr>
-        <tr>
-            <td>English</td>
-            <td>{{ cards.first.english }}</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>100</td>
-            <td>{{ cards.first.english }}</td>
-        </tr>
-        <tr>
-            <td>Maths</td>
-            <td>{{ cards.first.maths }}</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>100</td>
-            <td>{{ cards.first.maths }}</td>
-        </tr>
-        <tr>
-            <td>Science</td>
-            <td>{{ cards.first.science }}</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>100</td>
-            <td>{{ cards.first.science }}</td>
-        </tr>
-        <tr>
-            <td>Social</td>
-            <td>{{ cards.first.social }}</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>100</td>
-            <td>{{ cards.first.social }}</td>
-        </tr>
-    </tbody>
-</table> -->
+                <th>Total Marks</th>
+                <th>Obt Marks</th>
+                <th>Status</th>
 
-<table border="1" cellspacing="0" cellpadding="5">
-    <thead>
-        <tr>
-            <th rowspan="2">Subjects</th>
-            <th colspan="3">1st Term Exam</th>
-            <th colspan="3">2nd Term Exam</th>
-            <th colspan="3">Final Term Exam</th>
-        </tr>
-        <tr>
-            <th>Total Marks</th>
-            <th>Obt Marks</th>
-            <th>Status</th>
-            <th>Total Marks</th>
-            <th>Obt Marks</th>
-            <th>Status</th>
-            <th>Total Marks</th>
-            <th>Obt Marks</th>
-            <th>Status</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Tamil</td>
-            <td>100</td><td>78</td><td>Pass</td>
-            <td>100</td><td>89</td><td>Pass</td>
-            <td>100</td><td>91</td><td>Pass</td>
-        </tr>
-        <tr>
-            <td>English</td>
-            <td>100</td><td>79</td><td>Pass</td>
-            <td>100</td><td>80</td><td>Pass</td>
-            <td>100</td><td>92</td><td>Pass</td>
-        </tr>
-        <tr>
-            <td>Math’s</td>
-            <td>100</td><td>75</td><td>Pass</td>
-            <td>100</td><td>85</td><td>Pass</td>
-            <td>100</td><td>85</td><td>Pass</td>
-        </tr>
-        <tr>
-            <td>Secience</td>
-            <td>100</td><td>74</td><td>Pass</td>
-            <td>100</td><td>84</td><td>Pass</td>
-            <td>100</td><td>84</td><td>Pass</td>
-        </tr>
-        <tr>
-            <td>Social</td>
-            <td>100</td><td>76</td><td>Pass</td>
-            <td>100</td><td>87</td><td>Pass</td>
-            <td>100</td><td>87</td><td>Pass</td>
-        </tr>
-        
-        <tr>
-            <td><strong>Total Marks</strong></td>
-            <td>500</td><td>625</td><td>Pass</td>
-            <td>500</td><td>667</td><td>Pass</td>
-            <td>500</td><td>690</td><td>Pass</td>
-        </tr>
-    </tbody>
-</table>
+                <th>Total Marks</th>
+                <th>Obt Marks</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tamil</td>
+                <td>{{ term1.tamil }}</td>
+                <td>{{ term1.tamil }}</td>
+                <td>{{ term1.status }}</td>
 
-<table>
-    <tr>
-        <td><strong>OVERALL TOTAL</strong></td>
-        <td>{{ cards.first.overall_total }}/500</td>
-        <td><strong>OVERALL PERCENTAGE</strong></td>
-        <td>{{ cards.first.overall_percentage }}%</td>
-        <td><strong>OVERALL GRADE</strong></td>
-        <td>{{ cards.first.overall_grade }}</td>
-    </tr>
-</table>
+                <!-- <td>{{ term2.tamil }}</td>
+                <td>{{ term2.tamil }}</td>
+                <td>{{ term2.status }}</td> -->
 
-<!-- <h3>Grading Scale for Scholastic Areas</h3>
 
-<table class="gradescale-table">
-    <thead>
+
+
+                <td>{% if term2 %}{{ term2.tamil }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.tamil }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
+
+                <td>{% if term3 %}{{ term3.tamil }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.tamil }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
+
+                <!-- <td>{{ term3.tamil }}</td>
+                <td>{{ term3.tamil }}</td>
+                <td>{{ term3.status }}</td> -->
+            </tr>
+
+            <tr>
+                <td>English</td>
+                <td>{{term1.english }}</td>
+                <td>{{term1.english }}</td>
+                <td>{{term1.status }}</td>
+
+                <!-- <td>{{term2.english }}</td>
+                <td>{{term2.english }}</td>
+                <td>{{term2.status }}</td>
+
+                <td>{{term3.english }}</td>
+                <td>{{term3.english }}</td>
+                <td>{{term3.status }}</td> -->
+
+                <td>{% if term2 %}{{ term2.english }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.english }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
+
+                <td>{% if term3 %}{{ term3.english }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.english }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>{{term1.maths }}</td>
+                <td>{{term1.maths }}</td>
+                <td>{{term1.status }}</td>
+
+                <!-- <td>{{term2.maths }}</td>
+                <td>{{term2.maths }}</td>
+                <td>{{term2.status }}</td>
+
+                <td>{{term3.maths }}</td>
+                <td>{{term3.maths }}</td>
+                <td>{{term3.status }}</td> -->
+
+                <td>{% if term2 %}{{ term2.maths }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.maths }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
+
+                <td>{% if term3 %}{{ term3.maths }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.maths }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>{{term1.science }}</td>
+                <td>{{term1.science }}</td>
+                <td>{{term1.status }}</td>
+
+                <!-- <td>{{term2.science }}</td>
+                <td>{{term2.science }}</td>
+                <td>{{term2.status }}</td>
+
+                <td>{{term3.science }}</td>
+                <td>{{term3.science }}</td>
+                <td>{{term3.status }}</td> -->
+
+                <td>{% if term2 %}{{ term2.science }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.science }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
+
+                <td>{% if term3 %}{{ term3.science }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.science }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>{{term1.social }}</td>
+                <td>{{term1.social }}</td>
+                <td>{{term1.status }}</td>
+
+                <!-- <td>{{term2.social }}</td>
+                <td>{{term2.social }}</td>
+                <td>{{term2.status }}</td>
+
+                <td>{{term3.social }}</td>
+                <td>{{term3.social }}</td>
+                <td>{{term3.status }}</td> -->
+
+                <td>{% if term2 %}{{ term2.social }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.social }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
+
+                <td>{% if term3 %}{{ term3.social }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.social }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
+            </tr>
+
+            <tr>
+                <td><strong>Total Marks</strong></td>
+                <td>500</td>
+                <td>{{term1.overall_total }}</td>
+                <td>{{term1.status}}</td>
+
+
+                <td>500</td>
+                <td>{% if term2 %}{{ term2.overall_total }}{% else %}-{% endif %}</td>
+                <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
+
+                <td>500</td>
+                <td>{% if term3 %}{{ term3.overall_total }}{% else %}-{% endif %}</td>
+                <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
         <tr>
-            <th>Marks Range (%)</th>
-            <th>Grade</th>
+            <td colspan="2"><strong>Class Teacher Remarks:</strong> {{ term1.comments|safe }}</td>
         </tr>
-    </thead>
-    <tbody>
-        <tr><td>91-100</td><td>A1</td></tr>
-        <tr><td>81-90</td><td>A2</td></tr>
-        <tr><td>71-80</td><td>B1</td></tr>
-        <tr><td>61-70</td><td>B2</td></tr>
-        <tr><td>51-60</td><td>C1</td></tr>
-        <tr><td>41-50</td><td>C2</td></tr>
-        <tr><td>33-40</td><td>D</td></tr>
-        <tr><td>0-32</td><td>E</td></tr>
-    </tbody>
-</table> -->
-<table>
-    <tr>
-        <td colspan="2"><strong>Class Teacher Remark's :</strong> {{ cards.first.comments }}</td>
-    </tr>
-</table>
+    </table>
 
-<table class="signatures">
-    <tr>
-        <td>Signature of Parents</td>
-        <td>Signature of Class Teacher</td>
-        <td>Signature of Principal</td>
-    </tr>
-</table>
+    <table class="signatures">
+        <tr>
+            <td>{{ term1.parent_signature }}</td>
+            <td>{{ term1.signature_class_teacher }}</td>
+            <td>{{ term1.signature_principal }}</td>
+        </tr>
+    </table>
 
 </body>
+
 </html>

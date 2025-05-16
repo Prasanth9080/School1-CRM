@@ -136,13 +136,13 @@ class StuReportCard(models.Model):
     overall_grade = models.CharField(max_length=5, default="", blank=True)
 
     status = models.CharField(max_length=10, choices=[("pass", "Pass"), ("fail", "Fail")])
-    term = models.CharField(max_length=10, choices=[("Term I", "Term I"), ("Term II", "Term II")], default="")
+    term = models.CharField(max_length=10, choices=[("Term I", "Term I"), ("Term II", "Term II"), ("Term III", "Term III")], default="")
     comments = RichTextField(blank=True)
 
-    date = models.DateField(max_length=50, blank=True)
-    signature_class_teacher = models.CharField(max_length=100, blank=True)
-    signature_principal = models.CharField(max_length=100, blank=True)
-    parent_signature = models.CharField(max_length=100,default=False)
+    date = models.DateField(max_length=50, blank=True)  
+    signature_class_teacher = RichTextField(max_length=100, blank=True)
+    signature_principal = RichTextField(max_length=100, blank=True)
+    parent_signature = RichTextField(max_length=100,default=False)
 
     created_at = models.DateTimeField(auto_now_add=True)
 

@@ -1,50 +1,60 @@
 <style>
     table {
-     border-collapse: collapse;
-     width: 100%;
- }
- th, td {
-     border: 1px solid black;
-     padding: 10px;
-     text-align: start;
- }
- thead {
-     background-color: #6DE1D2;
- }
- /* NEW working colors */
- .pending {
-     color: orange;
-     font-weight: bold;
- }
- .approved {
-     color: green;
-     font-weight: bold;
- }
- .rejected {
-     color: red;
-     font-weight: bold;
- }
- .submit-btn button{
-     background-color: #6DE1D2;
-     border-color: transparent;
-     color: white;
-     border-radius: 3px;
- }
- tbody tr {
-     font-size: 16px;
-     background-color: #E3E3E3;
- }
- tbody tr:hover {
- background-color: #c8c7c7;
- cursor: pointer;
-}
-.submit-btn button{
-     background-color: #6DE1D2;
-     border-color: transparent;
-     color: white;
-     border-radius: 3px;
-     color: black;
- }
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: start;
+    }
+
+    thead {
+        background-color: #6DE1D2;
+    }
+
+    /* NEW working colors */
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+    }
+
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+
+    tbody tr:hover {
+        background-color: #c8c7c7;
+        cursor: pointer;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+        color: black;
+    }
 </style>
 
 
@@ -73,11 +83,14 @@
     <thead>
         <tr>
             <th>Student</th>
+            <th>Section</th>
+            <th>Term</th>
             <th>Tamil</th>
             <th>English</th>
             <th>Maths</th>
             <th>Science</th>
             <th>Social</th>
+            <th>Total</th>
             <th>Status</th>
             <th>Parent Signature</th>
             <th>Actions</th>
@@ -87,18 +100,22 @@
     <tbody>
         <tr>
             <td>{{ card.student.get_full_name }} ({{ card.student.username }})</td>
+            <td>{{ card.section }}</td>
+            <td>{{ card.term }}</td>
             <td>{{ card.tamil }}</td>
-            <td>{{ card.english }}</td> 
+            <td>{{ card.english }}</td>
             <td>{{ card.maths }}</td>
             <td>{{ card.science }}</td>
             <td>{{ card.social }}</td>
+            <td>{{ card.overall_total }}</td>
             <td>{{ card.status }}</td>
             <td>{{ card.parent_signature }}</td>
             <td>
                 <a href="{% url 'staff-reportcard-update' card.pk %}" title="Edit">
                     <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
                 </a> |
-                <a href="{% url 'staff-reportcard-delete' card.pk %}" title="Delete" onclick="return confirm('Are you sure you want to delete this record?');">
+                <a href="{% url 'staff-reportcard-delete' card.pk %}" title="Delete"
+                    onclick="return confirm('Are you sure you want to delete this record?');">
                     <i class="fas fa-trash-alt" style="color: red;"></i>
                 </a>
             </td>
@@ -108,4 +125,3 @@
 </table>
 
 {% endblock content%}
-

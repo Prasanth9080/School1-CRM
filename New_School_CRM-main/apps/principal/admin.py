@@ -14,3 +14,5 @@ class Principal_StudentFeesRecordAdmin(admin.ModelAdmin):
     readonly_fields = ('status', 'total_amount','paid_amount','balance_payable_amount',)
     search_fields = ('student__username', 'session__name')
     list_filter = ('status', 'term', 'session')
+
+ 
