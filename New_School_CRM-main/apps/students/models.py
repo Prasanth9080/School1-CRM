@@ -111,7 +111,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from apps.corecode.models import StudentClass, AcademicSession
 from ckeditor.fields import RichTextField
-
+from django.core.exceptions import ValidationError
 class StuReportCard(models.Model):
     student = models.ForeignKey(User, limit_choices_to={"userprofile__role":"student"}, on_delete=models.CASCADE)
     standard = models.ForeignKey(StudentClass, on_delete=models.SET_NULL, null=True, blank=True)
@@ -130,12 +130,13 @@ class StuReportCard(models.Model):
     maths = models.PositiveIntegerField()
     science = models.PositiveIntegerField()
     social = models.PositiveIntegerField()
-
+    
+    total_marks = models.PositiveIntegerField(default=0)
     overall_total = models.PositiveIntegerField(default=0)
     overall_percentage = models.FloatField(default=0.0)
     overall_grade = models.CharField(max_length=5, default="", blank=True)
 
-    status = models.CharField(max_length=10, choices=[("pass", "Pass"), ("fail", "Fail")])
+    status = models.CharField(max_length=10, choices=[("pass", "Pass"), ("fail", "Fail"),("absent", "Absent")])
     term = models.CharField(max_length=10, choices=[("Term I", "Term I"), ("Term II", "Term II"), ("Term III", "Term III")], default="")
     comments = RichTextField(blank=True)
 
@@ -150,7 +151,14 @@ class StuReportCard(models.Model):
         return f"{self.student.username} - {self.standard} - {self.term}"
 
 
-
+    def clean(self):
+        super().clean()
+        if self.term == "Term I":
+            existing = StuReportCard.objects.filter(student=self.student, term="Term I")
+            if self.pk:
+                existing = existing.exclude(pk=self.pk)
+            if existing.exists():
+                raise ValidationError("Term I report already exists for this student.")
 
 
 ########################## new models.py for another student report card

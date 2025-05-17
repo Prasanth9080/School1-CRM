@@ -164,6 +164,8 @@ def reportcard_create(request):
             return redirect('staff-reportcard-list')
     else:
         form = StuReportCardForm()
+        # form = StuReportCardForm(initial={'term': request.GET.get('term', 'Term I')})  # prefill term if passed
+
     return render(request, 'staffs/reportcard_form.html', {'form': form})
 
 # @login_required
@@ -364,6 +366,23 @@ def hide_notification(request, notification_id):
         HiddenNotification.objects.get_or_create(staff=request.user, notification=notification)
         messages.success(request, "Notification hidden.")
     return redirect('staff_notifications')
+
+@csrf_protect
+@login_required
+def hide_selected_notifications(request):
+    if request.method == 'POST':
+        selected_ids = request.POST.getlist('selected_notifications')
+        notifications = StaffNotification.objects.filter(id__in=selected_ids)
+
+        if request.user.is_superuser:
+            return HttpResponseForbidden("Principal should delete in admin panel, not hide.")
+
+        for notification in notifications:
+            HiddenNotification.objects.get_or_create(staff=request.user, notification=notification)
+
+        messages.success(request, f"{len(selected_ids)} notification(s) hidden.")
+    return redirect('staff_notifications')
+
 
 
 # Optional: Principal only can delete in admin panel.

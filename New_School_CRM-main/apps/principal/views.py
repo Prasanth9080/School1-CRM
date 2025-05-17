@@ -106,7 +106,14 @@ def mark_notification_as_read_for_principal(request, notification_id):
         messages.success(request, "Notification marked as read.")
     return redirect('principal_notifications')  # or 'staff_notifications' based on role
 
-
+@csrf_protect
+@login_required
+def delete_selected_notifications(request):
+    if request.method == 'POST':
+        selected_ids = request.POST.getlist('selected_notifications')
+        StaffNotification.objects.filter(id__in=selected_ids).delete()
+        messages.success(request, f"{len(selected_ids)} notification(s) deleted successfully.")
+    return redirect('principal_notifications')
 ######### student fees record management functionalities ##########
 
 

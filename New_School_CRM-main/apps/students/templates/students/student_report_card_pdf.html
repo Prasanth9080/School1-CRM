@@ -162,16 +162,21 @@
         <tbody>
             <tr>
                 <td>Tamil</td>
+                <!-- <td>{{ term1.tamil }}</td>
                 <td>{{ term1.tamil }}</td>
-                <td>{{ term1.tamil }}</td>
-                <td>{{ term1.status }}</td>
+                <td>{{ term1.status }}</td> -->
 
                 <!-- <td>{{ term2.tamil }}</td>
                 <td>{{ term2.tamil }}</td>
                 <td>{{ term2.status }}</td> -->
 
+                <!-- <td>{{ term3.tamil }}</td>
+                <td>{{ term3.tamil }}</td>
+                <td>{{ term3.status }}</td> -->
 
-
+                <td>{% if term1 %}{{ term1.tamil }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.tamil }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.status }}{% else %}-{% endif %}</td>
 
                 <td>{% if term2 %}{{ term2.tamil }}{% else %}-{% endif %}</td>
                 <td>{% if term2 %}{{ term2.tamil }}{% else %}-{% endif %}</td>
@@ -181,16 +186,13 @@
                 <td>{% if term3 %}{{ term3.tamil }}{% else %}-{% endif %}</td>
                 <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
 
-                <!-- <td>{{ term3.tamil }}</td>
-                <td>{{ term3.tamil }}</td>
-                <td>{{ term3.status }}</td> -->
             </tr>
 
             <tr>
                 <td>English</td>
+                <!-- <td>{{term1.english }}</td>
                 <td>{{term1.english }}</td>
-                <td>{{term1.english }}</td>
-                <td>{{term1.status }}</td>
+                <td>{{term1.status }}</td> -->
 
                 <!-- <td>{{term2.english }}</td>
                 <td>{{term2.english }}</td>
@@ -199,6 +201,10 @@
                 <td>{{term3.english }}</td>
                 <td>{{term3.english }}</td>
                 <td>{{term3.status }}</td> -->
+
+                <td>{% if term1 %}{{ term1.english }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.english }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.status }}{% else %}-{% endif %}</td>
 
                 <td>{% if term2 %}{{ term2.english }}{% else %}-{% endif %}</td>
                 <td>{% if term2 %}{{ term2.english }}{% else %}-{% endif %}</td>
@@ -210,9 +216,9 @@
             </tr>
             <tr>
                 <td>Maths</td>
+                <!-- <td>{{term1.maths }}</td>
                 <td>{{term1.maths }}</td>
-                <td>{{term1.maths }}</td>
-                <td>{{term1.status }}</td>
+                <td>{{term1.status }}</td> -->
 
                 <!-- <td>{{term2.maths }}</td>
                 <td>{{term2.maths }}</td>
@@ -221,6 +227,10 @@
                 <td>{{term3.maths }}</td>
                 <td>{{term3.maths }}</td>
                 <td>{{term3.status }}</td> -->
+
+                <td>{% if term1 %}{{ term1.maths }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.maths }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.status }}{% else %}-{% endif %}</td>
 
                 <td>{% if term2 %}{{ term2.maths }}{% else %}-{% endif %}</td>
                 <td>{% if term2 %}{{ term2.maths }}{% else %}-{% endif %}</td>
@@ -232,9 +242,9 @@
             </tr>
             <tr>
                 <td>Science</td>
+                <!-- <td>{{term1.science }}</td>
                 <td>{{term1.science }}</td>
-                <td>{{term1.science }}</td>
-                <td>{{term1.status }}</td>
+                <td>{{term1.status }}</td> -->
 
                 <!-- <td>{{term2.science }}</td>
                 <td>{{term2.science }}</td>
@@ -243,6 +253,10 @@
                 <td>{{term3.science }}</td>
                 <td>{{term3.science }}</td>
                 <td>{{term3.status }}</td> -->
+
+                <td>{% if term1 %}{{ term1.science }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.science }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.status }}{% else %}-{% endif %}</td>
 
                 <td>{% if term2 %}{{ term2.science }}{% else %}-{% endif %}</td>
                 <td>{% if term2 %}{{ term2.science }}{% else %}-{% endif %}</td>
@@ -254,9 +268,9 @@
             </tr>
             <tr>
                 <td>Social</td>
+                <!-- <td>{{term1.social }}</td>
                 <td>{{term1.social }}</td>
-                <td>{{term1.social }}</td>
-                <td>{{term1.status }}</td>
+                <td>{{term1.status }}</td> -->
 
                 <!-- <td>{{term2.social }}</td>
                 <td>{{term2.social }}</td>
@@ -265,6 +279,10 @@
                 <td>{{term3.social }}</td>
                 <td>{{term3.social }}</td>
                 <td>{{term3.status }}</td> -->
+
+                <td>{% if term1 %}{{ term1.social }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.social }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.status }}{% else %}-{% endif %}</td>
 
                 <td>{% if term2 %}{{ term2.social }}{% else %}-{% endif %}</td>
                 <td>{% if term2 %}{{ term2.social }}{% else %}-{% endif %}</td>
@@ -277,16 +295,18 @@
 
             <tr>
                 <td><strong>Total Marks</strong></td>
-                <td>500</td>
-                <td>{{term1.overall_total }}</td>
-                <td>{{term1.status}}</td>
+                <td>{{term1.total_marks}}</td>
+                <!-- <td>{{term1.overall_total }}</td>
+                <td>{{term1.status}}</td> -->
+                <td>{% if term1 %}{{ term1.overall_total }}{% else %}-{% endif %}</td>
+                <td>{% if term1 %}{{ term1.status }}{% else %}-{% endif %}</td>
 
 
-                <td>500</td>
+                <td>{{term1.total_marks}}</td>
                 <td>{% if term2 %}{{ term2.overall_total }}{% else %}-{% endif %}</td>
                 <td>{% if term2 %}{{ term2.status }}{% else %}-{% endif %}</td>
 
-                <td>500</td>
+                <td>{{term1.total_marks}}</td>
                 <td>{% if term3 %}{{ term3.overall_total }}{% else %}-{% endif %}</td>
                 <td>{% if term3 %}{{ term3.status }}{% else %}-{% endif %}</td>
             </tr>

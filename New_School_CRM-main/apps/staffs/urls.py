@@ -48,6 +48,7 @@ path('students/attendance/<int:pk>/delete/', views.attendance_delete, name='staf
     path('notifications/hide/<int:notification_id>/', views.hide_notification, name='hide_notification'),
     # path('notifications/delete/<int:notification_id>/', views.delete_notification, name='delete_notification'),
     path('notifications/mark-read-staff/<int:notification_id>/', views.mark_notification_as_read_for_staff, name='mark_notification_as_read_for_staff'),
+    path('notifications/hide-selected/', views.hide_selected_notifications, name='hide_selected_notifications'),
 
 
 ###### standard student fees url
