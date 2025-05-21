@@ -22388,3 +22388,1239 @@ INFO 2025-05-17 17:24:39,773 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jp
 INFO 2025-05-17 17:24:40,125 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
 INFO 2025-05-17 17:24:42,680 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
 INFO 2025-05-17 17:24:42,910 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22898
+INFO 2025-05-19 10:27:25,500 Watching for file changes with StatReloader
+INFO 2025-05-19 10:27:36,228 "GET / HTTP/1.1" 302 0
+INFO 2025-05-19 10:27:36,322 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-19 10:27:36,573 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-19 10:27:36,595 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-19 10:27:36,604 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-19 10:27:36,610 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-19 10:27:36,616 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-19 10:27:36,641 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-19 10:27:36,662 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-19 10:27:36,671 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-19 10:27:36,720 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-19 10:27:36,724 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-19 10:27:36,739 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-19 10:27:36,747 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-19 10:27:36,761 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-19 10:27:36,768 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-19 10:27:51,760 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-19 10:27:51,899 "GET /student/dashboard/ HTTP/1.1" 200 10290
+INFO 2025-05-19 10:27:51,962 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-19 10:27:52,073 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-19 10:27:52,314 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-19 10:27:59,694 "GET / HTTP/1.1" 302 0
+INFO 2025-05-19 10:27:59,709 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-19 10:27:59,726 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,727 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,738 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,765 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,765 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,771 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,771 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,781 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,781 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,794 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,794 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,794 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:27:59,802 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:00,046 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:15,419 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-19 10:28:15,567 "GET /staff/dashboard/ HTTP/1.1" 200 13303
+INFO 2025-05-19 10:28:15,601 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:15,607 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:15,623 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:15,624 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:15,625 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:15,708 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:19,769 "GET / HTTP/1.1" 302 0
+INFO 2025-05-19 10:28:19,786 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-19 10:28:19,816 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:19,818 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:19,992 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:40,046 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-19 10:28:40,176 "GET /principal/dashboard/ HTTP/1.1" 200 13828
+INFO 2025-05-19 10:28:40,209 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:40,210 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:40,211 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-19 10:28:40,223 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-19 10:29:01,522 "GET / HTTP/1.1" 302 0
+INFO 2025-05-19 10:29:01,543 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-19 10:29:01,568 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-19 10:29:01,571 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-19 10:29:01,582 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-19 10:29:01,585 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-19 10:29:01,588 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-19 10:29:01,589 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-19 10:29:01,591 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-19 10:29:01,598 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-19 10:29:01,599 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-19 10:29:01,600 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-19 10:29:01,605 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-19 10:29:01,609 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-19 10:29:01,610 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-19 10:29:01,941 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-19 10:29:01,998 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-19 10:29:08,103 "GET /admin HTTP/1.1" 301 0
+INFO 2025-05-19 10:29:08,131 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-19 10:29:08,173 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-19 10:29:08,186 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-19 10:29:08,205 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-19 10:29:08,208 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-19 10:29:08,230 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-19 10:29:08,243 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-19 10:29:08,258 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-19 10:29:08,272 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-19 10:29:08,304 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-19 10:29:13,325 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-19 10:29:13,581 "GET /admin/ HTTP/1.1" 200 62115
+INFO 2025-05-19 10:29:13,624 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-19 10:29:13,700 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-19 10:29:33,117 "GET /student/data/ HTTP/1.1" 200 10198
+INFO 2025-05-19 10:29:35,059 "GET /student/payments/ HTTP/1.1" 200 12421
+INFO 2025-05-19 10:29:43,921 "GET /student/reportcard/ HTTP/1.1" 200 15687
+INFO 2025-05-19 10:29:47,926 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:29:48,214 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22973
+INFO 2025-05-19 10:42:22,812 "GET /student/reportcard/ HTTP/1.1" 200 15687
+INFO 2025-05-19 10:42:23,174 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-19 10:42:24,112 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:42:24,346 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22976
+INFO 2025-05-19 10:43:23,403 "GET /student/reportcard/ HTTP/1.1" 200 15687
+INFO 2025-05-19 10:43:25,039 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:43:25,254 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22983
+INFO 2025-05-19 10:47:53,047 Watching for file changes with StatReloader
+INFO 2025-05-19 10:49:12,096 "GET /student/reportcard/ HTTP/1.1" 200 15846
+INFO 2025-05-19 10:49:45,243 "GET /student/reportcard/ HTTP/1.1" 200 15855
+INFO 2025-05-19 10:51:47,846 "GET /student/reportcard/ HTTP/1.1" 200 15855
+INFO 2025-05-19 10:51:52,424 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:51:52,706 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22973
+INFO 2025-05-19 10:54:25,473 "GET /student/reportcard/ HTTP/1.1" 200 15852
+INFO 2025-05-19 10:54:27,628 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:54:27,857 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22972
+INFO 2025-05-19 10:55:06,015 "GET /student/reportcard/ HTTP/1.1" 200 15855
+INFO 2025-05-19 10:55:31,464 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:55:31,707 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22978
+INFO 2025-05-19 10:58:24,083 "GET /student/reportcard/ HTTP/1.1" 200 15855
+INFO 2025-05-19 10:58:26,000 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 10:58:26,242 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22982
+INFO 2025-05-19 10:58:43,140 "GET /staff/students/reportcards/ HTTP/1.1" 200 15841
+INFO 2025-05-19 10:59:43,856 "GET /staff/students/reportcards/ HTTP/1.1" 200 15869
+INFO 2025-05-19 10:59:44,080 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-19 11:00:01,646 "GET /staff/students/reportcards/ HTTP/1.1" 200 15869
+INFO 2025-05-19 11:00:22,705 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 15614
+INFO 2025-05-19 11:00:50,315 "GET /staff/students/reportcards/ HTTP/1.1" 200 15841
+INFO 2025-05-19 11:01:05,388 "GET /staff/students/reportcards/ HTTP/1.1" 200 15841
+INFO 2025-05-19 11:01:54,666 "GET /staff/students/reportcards/ HTTP/1.1" 200 16301
+INFO 2025-05-19 11:03:24,187 "GET /staff/students/reportcards/ HTTP/1.1" 200 16476
+INFO 2025-05-19 11:05:30,858 "GET /staff/students/reportcards/ HTTP/1.1" 200 16330
+INFO 2025-05-19 11:05:39,611 "GET /staff/students/reportcards/ HTTP/1.1" 200 16301
+INFO 2025-05-19 11:06:01,228 "GET /staff/students/reportcards/ HTTP/1.1" 200 16481
+INFO 2025-05-19 11:06:35,734 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 15614
+INFO 2025-05-19 11:06:42,033 "POST /staff/students/reportcards/15/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 11:06:42,125 "GET /staff/students/reportcards/ HTTP/1.1" 200 16491
+INFO 2025-05-19 11:06:47,513 "GET /staff/students/reportcards/17/update/ HTTP/1.1" 200 15674
+INFO 2025-05-19 11:06:51,720 "POST /staff/students/reportcards/17/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 11:06:51,821 "GET /staff/students/reportcards/ HTTP/1.1" 200 16501
+INFO 2025-05-19 11:06:55,166 "GET /student/reportcard/ HTTP/1.1" 200 15859
+INFO 2025-05-19 11:06:56,703 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 11:06:56,939 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22983
+INFO 2025-05-19 11:07:14,691 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 21805
+INFO 2025-05-19 11:07:26,253 "POST /staff/students/reportcards/19/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 11:07:26,387 "GET /staff/students/reportcards/ HTTP/1.1" 200 16511
+INFO 2025-05-19 11:07:32,665 "GET /student/reportcard/ HTTP/1.1" 200 15861
+INFO 2025-05-19 11:07:33,661 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 11:07:33,862 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22975
+INFO 2025-05-19 11:09:01,476 "GET /student/reportcard/ HTTP/1.1" 200 15861
+INFO 2025-05-19 11:12:14,305 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 21596
+INFO 2025-05-19 11:12:21,733 "GET /staff/students/reportcards/ HTTP/1.1" 200 15744
+INFO 2025-05-19 11:12:24,284 "GET /staff/students/reportcards/ HTTP/1.1" 200 15744
+INFO 2025-05-19 11:12:24,634 "GET /staff/students/reportcards/ HTTP/1.1" 200 15744
+INFO 2025-05-19 11:12:24,998 "GET /staff/students/reportcards/ HTTP/1.1" 200 15744
+INFO 2025-05-19 11:25:51,563 Watching for file changes with StatReloader
+INFO 2025-05-19 11:25:55,702 "GET /staff/students/reportcards/ HTTP/1.1" 200 15744
+INFO 2025-05-19 11:25:59,642 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22287
+INFO 2025-05-19 11:26:06,665 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22287
+INFO 2025-05-19 11:26:08,873 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:26:31,474 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22287
+INFO 2025-05-19 11:26:34,000 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:26:42,417 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 22297
+INFO 2025-05-19 11:26:48,147 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 22297
+INFO 2025-05-19 11:26:58,368 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 22287
+INFO 2025-05-19 11:27:01,603 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:29:10,145 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:29:11,412 Watching for file changes with StatReloader
+INFO 2025-05-19 11:29:13,428 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:29:22,498 "GET /staff/students/reportcards/ HTTP/1.1" 200 15744
+INFO 2025-05-19 11:29:37,470 "GET /staff/students/reportcards/16/delete/ HTTP/1.1" 302 0
+INFO 2025-05-19 11:29:37,570 "GET /staff/students/reportcards/ HTTP/1.1" 200 14880
+INFO 2025-05-19 11:30:22,438 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 22498
+INFO 2025-05-19 11:30:39,611 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22287
+INFO 2025-05-19 11:30:41,587 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:31:16,759 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:31:17,908 Watching for file changes with StatReloader
+INFO 2025-05-19 11:31:19,952 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:32:08,266 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:32:09,257 Watching for file changes with StatReloader
+INFO 2025-05-19 11:32:13,866 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:32:19,354 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:32:20,772 Watching for file changes with StatReloader
+INFO 2025-05-19 11:32:23,128 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22297
+INFO 2025-05-19 11:32:27,070 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:32:28,175 Watching for file changes with StatReloader
+INFO 2025-05-19 11:34:51,584 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:34:52,665 Watching for file changes with StatReloader
+INFO 2025-05-19 11:35:12,298 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22412
+INFO 2025-05-19 11:35:18,149 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 22388
+INFO 2025-05-19 11:36:10,018 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:36:11,163 Watching for file changes with StatReloader
+INFO 2025-05-19 11:36:13,588 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 22388
+INFO 2025-05-19 11:36:15,312 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 22287
+INFO 2025-05-19 11:36:17,737 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 22287
+INFO 2025-05-19 11:36:22,050 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 22287
+INFO 2025-05-19 11:36:26,340 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 22287
+INFO 2025-05-19 11:36:28,519 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 22287
+INFO 2025-05-19 11:36:31,746 "GET /staff/students/reportcards/ HTTP/1.1" 200 14880
+INFO 2025-05-19 11:36:33,413 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22287
+INFO 2025-05-19 11:36:35,411 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 22412
+INFO 2025-05-19 11:36:51,145 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 22388
+INFO 2025-05-19 11:46:54,503 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\forms.py changed, reloading.
+INFO 2025-05-19 11:46:55,647 Watching for file changes with StatReloader
+INFO 2025-05-19 11:47:30,656 Watching for file changes with StatReloader
+INFO 2025-05-19 11:47:39,280 "GET /student/reportcard/ HTTP/1.1" 200 15861
+ERROR 2025-05-19 11:47:49,798 Internal Server Error: /staff/students/reportcards/create/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py", line 230, in reportcard_create
+    if request.is_ajax() and request.GET.get('student_id'):
+       ^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'is_ajax'
+ERROR 2025-05-19 11:47:49,803 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 500 75691
+WARNING 2025-05-19 11:47:50,101 Not Found: /favicon.ico
+WARNING 2025-05-19 11:47:50,101 "GET /favicon.ico HTTP/1.1" 404 8834
+INFO 2025-05-19 11:49:14,250 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:49:15,334 Watching for file changes with StatReloader
+INFO 2025-05-19 11:49:22,415 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 23908
+INFO 2025-05-19 11:49:28,517 "GET /staff/students/reportcards/create/?student_id=81 HTTP/1.1" 200 23908
+INFO 2025-05-19 11:49:32,744 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 23908
+INFO 2025-05-19 11:49:38,087 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 23908
+INFO 2025-05-19 11:49:40,080 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 23908
+INFO 2025-05-19 11:49:53,010 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 23908
+INFO 2025-05-19 11:49:54,452 "GET /staff/students/reportcards/ HTTP/1.1" 200 14880
+INFO 2025-05-19 11:49:56,220 "GET /staff/students/reportcards/ HTTP/1.1" 200 14880
+INFO 2025-05-19 11:49:57,017 "GET /staff/students/reportcards/ HTTP/1.1" 200 14880
+INFO 2025-05-19 11:49:57,943 "GET /staff/students/reportcards/ HTTP/1.1" 200 14880
+INFO 2025-05-19 11:49:59,577 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 23908
+INFO 2025-05-19 11:50:01,822 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 23908
+INFO 2025-05-19 11:50:04,732 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 23908
+INFO 2025-05-19 11:50:05,982 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 23908
+INFO 2025-05-19 11:50:13,644 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 23908
+INFO 2025-05-19 11:57:07,887 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:57:08,924 Watching for file changes with StatReloader
+INFO 2025-05-19 11:57:21,442 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:57:22,545 Watching for file changes with StatReloader
+INFO 2025-05-19 11:57:31,279 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24217
+ERROR 2025-05-19 11:57:34,551 Internal Server Error: /staff/students/reportcards/create/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py", line 255, in reportcard_create
+    return JsonResponse(data)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\http\response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\serializers\json.py", line 106, in default
+    return super().default(o)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type StudentClass is not JSON serializable
+ERROR 2025-05-19 11:57:34,556 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 500 105297
+INFO 2025-05-19 11:57:49,119 "GET /staff/students/reportcards/17/delete/ HTTP/1.1" 302 0
+INFO 2025-05-19 11:57:49,244 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 11:57:51,342 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24217
+ERROR 2025-05-19 11:57:53,401 Internal Server Error: /staff/students/reportcards/create/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py", line 255, in reportcard_create
+    return JsonResponse(data)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\http\response.py", line 731, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "C:\Program Files\Python313\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\serializers\json.py", line 106, in default
+    return super().default(o)
+           ~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type StudentClass is not JSON serializable
+ERROR 2025-05-19 11:57:53,404 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 500 105415
+INFO 2025-05-19 11:57:58,514 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24217
+INFO 2025-05-19 11:58:15,328 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 11:58:16,672 Watching for file changes with StatReloader
+INFO 2025-05-19 12:00:34,572 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24217
+INFO 2025-05-19 12:00:37,004 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 24315
+INFO 2025-05-19 12:00:43,590 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 24217
+INFO 2025-05-19 12:00:45,452 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 24217
+INFO 2025-05-19 12:06:45,004 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 24226
+INFO 2025-05-19 12:06:47,805 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 12:06:48,428 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:06:50,610 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24226
+INFO 2025-05-19 12:07:07,188 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24217
+INFO 2025-05-19 12:07:09,486 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 24315
+INFO 2025-05-19 12:17:10,514 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 12:17:11,971 Watching for file changes with StatReloader
+INFO 2025-05-19 12:17:15,675 "GET /staff/students/leavereport/ HTTP/1.1" 200 22794
+INFO 2025-05-19 12:17:17,192 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:17:18,392 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:17:20,010 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:17:20,197 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-19 12:17:20,207 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-19 12:17:20,219 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-19 12:17:20,224 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-19 12:17:20,228 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-19 12:17:20,236 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-19 12:17:20,238 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-19 12:17:20,244 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-19 12:17:20,249 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-19 12:17:20,254 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-19 12:17:20,260 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-19 12:17:20,300 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-19 12:17:20,395 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-19 12:17:20,659 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 200 5856837
+INFO 2025-05-19 12:17:21,239 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-19 12:17:23,236 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25135
+INFO 2025-05-19 12:17:28,038 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25233
+INFO 2025-05-19 12:17:32,003 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 25236
+INFO 2025-05-19 12:18:49,580 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 25434
+INFO 2025-05-19 12:18:58,092 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25236
+INFO 2025-05-19 12:19:54,403 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 12:19:55,394 Watching for file changes with StatReloader
+INFO 2025-05-19 12:21:22,003 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 12:21:23,062 Watching for file changes with StatReloader
+INFO 2025-05-19 12:21:35,374 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25238
+INFO 2025-05-19 12:21:39,198 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25238
+INFO 2025-05-19 12:21:39,542 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25238
+INFO 2025-05-19 12:21:40,068 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25238
+INFO 2025-05-19 12:24:04,421 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25244
+INFO 2025-05-19 12:24:07,514 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25244
+INFO 2025-05-19 12:24:07,740 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-19 12:24:07,745 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-19 12:24:07,746 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-19 12:24:07,751 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-19 12:24:07,752 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-19 12:24:07,758 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-19 12:24:07,761 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-19 12:24:07,764 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-19 12:24:07,765 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-19 12:24:07,769 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-19 12:24:07,769 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-19 12:24:07,774 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-19 12:24:07,791 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-19 12:24:08,277 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 200 5856837
+INFO 2025-05-19 12:24:08,868 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-19 12:24:09,414 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:24:11,104 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25141
+INFO 2025-05-19 12:24:33,491 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25135
+INFO 2025-05-19 12:25:33,000 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\forms.py changed, reloading.
+INFO 2025-05-19 12:25:34,421 Watching for file changes with StatReloader
+INFO 2025-05-19 12:25:36,550 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25135
+INFO 2025-05-19 12:25:39,115 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25235
+INFO 2025-05-19 12:25:42,191 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 25238
+INFO 2025-05-19 12:39:41,493 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 26160
+INFO 2025-05-19 12:40:29,430 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 302 0
+INFO 2025-05-19 12:40:29,530 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 12:40:55,340 "GET /staff/students/reportcards/20/update/ HTTP/1.1" 200 26256
+INFO 2025-05-19 12:42:00,600 "GET /staff/students/reportcards/20/update/ HTTP/1.1" 200 26042
+INFO 2025-05-19 12:42:05,235 "GET /staff/students/reportcards/20/update/ HTTP/1.1" 200 26042
+INFO 2025-05-19 12:42:11,629 "GET /staff/students/reportcards/20/update/ HTTP/1.1" 200 26042
+INFO 2025-05-19 12:42:14,522 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 12:42:18,195 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 12:42:21,099 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:43:59,226 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:44:25,361 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:44:47,645 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:44:48,171 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:44:48,584 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:44:48,987 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:44:50,738 "GET /staff/students/attendance/ HTTP/1.1" 200 13845
+INFO 2025-05-19 12:44:51,685 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 12:44:57,990 "GET /staff/students/reportcards/20/delete/ HTTP/1.1" 302 0
+INFO 2025-05-19 12:44:58,074 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:44:59,624 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:45:27,350 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\forms.py changed, reloading.
+INFO 2025-05-19 12:45:28,579 Watching for file changes with StatReloader
+INFO 2025-05-19 12:45:40,624 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:45:41,099 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:46:20,480 Watching for file changes with StatReloader
+INFO 2025-05-19 12:46:27,098 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:46:30,919 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 26054
+INFO 2025-05-19 12:46:40,281 "POST /staff/students/reportcards/19/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 12:46:40,395 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:46:42,498 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:48:37,263 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:49:39,411 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 12:49:40,524 Watching for file changes with StatReloader
+INFO 2025-05-19 12:49:46,321 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:49:51,301 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:49:51,643 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:49:52,140 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:49:52,494 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:49:59,294 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 12:50:00,474 Watching for file changes with StatReloader
+INFO 2025-05-19 12:51:17,746 Watching for file changes with StatReloader
+INFO 2025-05-19 12:51:42,417 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-19 12:51:42,602 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-19 12:51:42,607 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-19 12:51:42,608 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-19 12:51:42,611 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-19 12:51:42,612 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-19 12:51:42,613 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-19 12:51:42,617 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-19 12:51:42,618 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-19 12:51:42,619 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-19 12:51:42,623 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-19 12:51:42,623 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-19 12:51:42,636 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-19 12:51:42,644 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-19 12:51:42,821 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-19 12:51:42,846 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-19 12:51:50,734 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-19 12:51:50,834 "GET /staff/dashboard/ HTTP/1.1" 200 13303
+INFO 2025-05-19 12:51:50,862 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-19 12:51:50,882 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-19 12:51:50,886 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-19 12:51:50,888 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-19 12:51:50,898 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-19 12:51:50,986 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 200 5856837
+INFO 2025-05-19 12:51:53,198 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:51:55,374 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:52:10,141 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:52:11,050 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:52:12,350 "GET /staff/students/attendance/ HTTP/1.1" 200 13845
+INFO 2025-05-19 12:52:14,815 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:52:24,289 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 12:52:27,206 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:52:33,726 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 26039
+INFO 2025-05-19 12:52:43,655 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 26039
+INFO 2025-05-19 12:52:46,014 "GET /staff/students/leavereport/ HTTP/1.1" 200 22794
+INFO 2025-05-19 12:52:47,014 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 12:52:48,356 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25843
+INFO 2025-05-19 12:55:28,869 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\forms.py changed, reloading.
+INFO 2025-05-19 12:55:29,840 Watching for file changes with StatReloader
+INFO 2025-05-19 12:57:14,353 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25838
+INFO 2025-05-19 12:57:16,470 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25938
+INFO 2025-05-19 12:58:04,023 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25944
+INFO 2025-05-19 12:58:13,321 Watching for file changes with StatReloader
+INFO 2025-05-19 14:12:48,675 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25844
+INFO 2025-05-19 14:12:51,593 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:12:53,227 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25844
+INFO 2025-05-19 14:12:55,183 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 25844
+INFO 2025-05-19 14:13:02,948 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25844
+INFO 2025-05-19 14:13:07,024 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25944
+INFO 2025-05-19 14:13:26,799 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 14:13:27,599 "GET /staff/students/leavereport/ HTTP/1.1" 200 22794
+INFO 2025-05-19 14:13:28,430 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:13:35,935 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25844
+INFO 2025-05-19 14:13:38,220 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25944
+INFO 2025-05-19 14:13:46,032 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:22:39,612 D:\New folder\School1-CRM\New_School_CRM-main\apps\students\forms.py changed, reloading.
+INFO 2025-05-19 14:22:41,760 Watching for file changes with StatReloader
+INFO 2025-05-19 14:22:47,480 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:22:49,411 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24784
+INFO 2025-05-19 14:22:51,364 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24885
+INFO 2025-05-19 14:22:57,183 "GET /staff/students/reportcards/create/?student_id=74 HTTP/1.1" 200 24784
+INFO 2025-05-19 14:23:02,978 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24885
+INFO 2025-05-19 14:23:09,130 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 24894
+INFO 2025-05-19 14:23:14,006 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 24894
+INFO 2025-05-19 14:23:35,181 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:23:44,510 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24784
+INFO 2025-05-19 14:23:46,602 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24885
+INFO 2025-05-19 14:24:11,247 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:24:27,685 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24784
+INFO 2025-05-19 14:24:30,325 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24885
+INFO 2025-05-19 14:24:35,589 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 24894
+INFO 2025-05-19 14:25:27,724 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 302 0
+INFO 2025-05-19 14:25:27,827 "GET /staff/students/reportcards/ HTTP/1.1" 200 14861
+INFO 2025-05-19 14:25:51,103 "GET /staff/students/reportcards/21/update/ HTTP/1.1" 200 24991
+INFO 2025-05-19 14:25:58,806 "POST /staff/students/reportcards/21/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 14:25:58,903 "GET /staff/students/reportcards/ HTTP/1.1" 200 14861
+INFO 2025-05-19 14:26:04,547 "GET /staff/students/reportcards/21/delete/ HTTP/1.1" 302 0
+INFO 2025-05-19 14:26:04,639 "GET /staff/students/reportcards/ HTTP/1.1" 200 13995
+INFO 2025-05-19 14:26:06,565 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24784
+INFO 2025-05-19 14:26:08,407 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24885
+INFO 2025-05-19 14:26:45,425 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 24894
+ERROR 2025-05-19 14:27:26,799 Internal Server Error: /staff/students/reportcards/create/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: students_stureportcard.date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py", line 260, in reportcard_create
+    form.save()
+    ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\forms\models.py", line 542, in save
+    self.instance.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: students_stureportcard.date
+ERROR 2025-05-19 14:27:26,807 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 500 184414
+WARNING 2025-05-19 14:27:27,024 Not Found: /favicon.ico
+WARNING 2025-05-19 14:27:27,025 "GET /favicon.ico HTTP/1.1" 404 8834
+INFO 2025-05-19 14:27:46,021 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 302 0
+INFO 2025-05-19 14:27:46,124 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 14:28:04,364 "GET /student/reportcard/ HTTP/1.1" 200 15801
+INFO 2025-05-19 14:28:08,379 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-19 14:28:08,691 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22987
+INFO 2025-05-19 14:28:35,418 "GET /staff/students/reportcards/22/update/ HTTP/1.1" 200 24981
+INFO 2025-05-19 14:29:24,384 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 14:29:25,497 Watching for file changes with StatReloader
+INFO 2025-05-19 14:29:27,639 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24784
+INFO 2025-05-19 14:29:29,412 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24887
+INFO 2025-05-19 14:30:05,662 "POST /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 25074
+INFO 2025-05-19 14:30:12,824 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 24896
+ERROR 2025-05-19 14:30:25,067 Internal Server Error: /staff/students/reportcards/create/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: students_stureportcard.date
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py", line 261, in reportcard_create
+    form.save()
+    ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\forms\models.py", line 542, in save
+    self.instance.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: students_stureportcard.date
+ERROR 2025-05-19 14:30:25,077 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 500 184641
+INFO 2025-05-19 14:30:40,585 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 302 0
+INFO 2025-05-19 14:30:40,693 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 14:30:50,930 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 14:30:57,549 "GET /student/reportcard/ HTTP/1.1" 200 15801
+INFO 2025-05-19 14:31:20,742 "GET /staff/students/reportcards/23/delete/ HTTP/1.1" 302 0
+INFO 2025-05-19 14:31:20,850 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 14:31:23,501 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 14:32:09,620 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24784
+INFO 2025-05-19 14:32:12,196 "GET /staff/students/reportcards/create/?student_id=74 HTTP/1.1" 200 24784
+INFO 2025-05-19 14:32:14,805 "GET /staff/students/reportcards/create/?student_id=74 HTTP/1.1" 200 24784
+INFO 2025-05-19 14:39:48,021 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 14:39:49,164 Watching for file changes with StatReloader
+INFO 2025-05-19 14:39:56,105 "GET /staff/data/ HTTP/1.1" 200 10638
+INFO 2025-05-19 14:39:58,462 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 14:40:00,765 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 24788
+INFO 2025-05-19 14:40:02,955 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24889
+INFO 2025-05-19 14:40:06,259 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 24898
+INFO 2025-05-19 14:40:12,762 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 24898
+INFO 2025-05-19 14:40:16,205 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 24898
+INFO 2025-05-19 14:40:43,157 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25091
+INFO 2025-05-19 14:40:49,023 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 24898
+INFO 2025-05-19 14:41:31,477 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25344
+INFO 2025-05-19 14:42:01,522 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25350
+INFO 2025-05-19 14:42:06,124 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25350
+INFO 2025-05-19 14:42:12,835 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25350
+INFO 2025-05-19 14:43:12,125 "GET /staff/students/reportcards/create/?student_id=74 HTTP/1.1" 200 24788
+INFO 2025-05-19 14:43:15,732 "GET /staff/students/reportcards/create/?student_id=74 HTTP/1.1" 200 24788
+INFO 2025-05-19 14:43:17,591 "GET /staff/students/reportcards/create/?student_id=74 HTTP/1.1" 200 24788
+INFO 2025-05-19 14:43:19,817 "GET /staff/students/reportcards/create/?student_id=73 HTTP/1.1" 200 24889
+INFO 2025-05-19 14:50:16,732 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 14:50:17,684 Watching for file changes with StatReloader
+INFO 2025-05-19 14:50:30,735 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 14:50:33,202 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 14:50:34,969 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25574
+INFO 2025-05-19 14:50:41,647 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25574
+INFO 2025-05-19 14:50:45,257 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25574
+INFO 2025-05-19 14:52:21,599 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 25761
+INFO 2025-05-19 14:53:30,551 "POST /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 302 0
+INFO 2025-05-19 14:53:30,674 "GET /staff/students/reportcards/ HTTP/1.1" 200 15886
+INFO 2025-05-19 14:53:38,270 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 14:53:40,065 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25699
+INFO 2025-05-19 14:53:58,381 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25574
+INFO 2025-05-19 14:54:12,695 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25574
+INFO 2025-05-19 14:54:17,439 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 14:54:23,432 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 14:54:25,767 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25699
+INFO 2025-05-19 14:54:32,011 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25699
+INFO 2025-05-19 14:54:36,613 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25699
+INFO 2025-05-19 14:54:39,689 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25574
+INFO 2025-05-19 14:54:46,842 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 14:54:48,284 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 14:54:51,985 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 14:54:54,070 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25675
+INFO 2025-05-19 14:55:01,898 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 25675
+INFO 2025-05-19 14:55:06,192 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 25675
+INFO 2025-05-19 14:55:19,563 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 14:55:23,681 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 14:55:45,206 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25574
+INFO 2025-05-19 14:55:50,183 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25699
+INFO 2025-05-19 14:58:43,589 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 14:58:44,771 Watching for file changes with StatReloader
+INFO 2025-05-19 14:59:06,768 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 26539
+INFO 2025-05-19 14:59:09,333 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 15:02:58,013 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 15:03:02,882 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 26405
+INFO 2025-05-19 15:03:05,572 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 26515
+INFO 2025-05-19 15:03:07,693 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26539
+INFO 2025-05-19 15:03:18,388 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 26539
+INFO 2025-05-19 15:03:21,764 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 26414
+INFO 2025-05-19 15:03:31,451 "GET /staff/students/reportcards/ HTTP/1.1" 200 15738
+INFO 2025-05-19 15:03:35,753 "GET /staff/students/reportcards/24/delete/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:03:35,859 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 15:03:37,796 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 15:03:38,135 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 15:03:38,496 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 15:03:38,863 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 15:03:58,712 "GET /staff/students/reportcards/ HTTP/1.1" 200 14862
+INFO 2025-05-19 15:05:15,387 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 26405
+INFO 2025-05-19 15:05:21,940 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26414
+INFO 2025-05-19 15:06:45,932 "POST /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 302 0
+INFO 2025-05-19 15:06:46,023 "GET /staff/students/reportcards/ HTTP/1.1" 200 15883
+INFO 2025-05-19 15:07:00,099 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 26405
+INFO 2025-05-19 15:07:04,164 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26414
+INFO 2025-05-19 15:07:07,023 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 26515
+INFO 2025-05-19 15:07:14,762 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 26515
+INFO 2025-05-19 15:07:22,024 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 26515
+INFO 2025-05-19 15:08:03,216 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 27147
+INFO 2025-05-19 15:08:12,252 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 26518
+INFO 2025-05-19 15:08:19,272 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26414
+INFO 2025-05-19 15:08:23,240 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 26518
+INFO 2025-05-19 15:10:06,832 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:10:07,790 Watching for file changes with StatReloader
+INFO 2025-05-19 15:11:37,579 "GET /staff/students/reportcards/15/update/?student_id=74&term=Term%20II HTTP/1.1" 200 25761
+INFO 2025-05-19 15:11:41,706 "GET /staff/students/reportcards/15/update/?student_id=73&term=Term%20III HTTP/1.1" 200 25761
+INFO 2025-05-19 15:11:51,618 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:11:53,425 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25565
+INFO 2025-05-19 15:11:56,070 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25574
+INFO 2025-05-19 15:11:59,596 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25678
+INFO 2025-05-19 15:12:04,582 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25678
+INFO 2025-05-19 15:12:12,126 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25574
+INFO 2025-05-19 15:12:37,420 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25678
+INFO 2025-05-19 15:12:42,780 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25678
+INFO 2025-05-19 15:12:58,803 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25678
+INFO 2025-05-19 15:13:10,191 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 25574
+INFO 2025-05-19 15:13:14,640 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 15:13:15,910 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:16:16,708 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:16:17,829 Watching for file changes with StatReloader
+INFO 2025-05-19 15:17:09,587 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:17:11,095 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25568
+INFO 2025-05-19 15:17:13,102 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 25971
+WARNING 2025-05-19 15:17:31,437 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-19 15:17:31,437 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-19 15:17:31,617 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-19 15:17:31,763 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-19 15:17:31,769 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-19 15:17:31,770 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-19 15:17:31,845 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-19 15:18:49,494 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 26005
+WARNING 2025-05-19 15:19:01,699 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-19 15:19:01,699 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-19 15:19:01,810 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-19 15:19:33,927 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-19 15:19:33,962 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-19 15:19:33,963 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-19 15:20:13,253 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 26016
+INFO 2025-05-19 15:20:20,136 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26013
+INFO 2025-05-19 15:20:28,450 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25679
+INFO 2025-05-19 15:20:35,986 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 25679
+INFO 2025-05-19 15:20:39,888 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 26005
+INFO 2025-05-19 15:20:43,864 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 26001
+INFO 2025-05-19 15:20:53,443 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 26016
+INFO 2025-05-19 15:22:51,237 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:22:53,576 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 25764
+INFO 2025-05-19 15:23:00,608 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:23:04,314 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 25764
+INFO 2025-05-19 15:23:10,894 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:23:14,868 "GET /staff/students/reportcards/22/update/ HTTP/1.1" 200 25765
+INFO 2025-05-19 15:23:24,750 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:23:37,021 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25568
+INFO 2025-05-19 15:23:40,915 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 25568
+INFO 2025-05-19 15:23:43,532 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 25568
+INFO 2025-05-19 15:23:47,884 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 26016
+INFO 2025-05-19 15:24:15,736 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26013
+INFO 2025-05-19 15:24:20,572 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 25679
+INFO 2025-05-19 15:24:28,242 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 26013
+INFO 2025-05-19 15:24:34,886 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:24:39,054 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 25568
+INFO 2025-05-19 15:24:41,527 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 25568
+INFO 2025-05-19 15:24:43,269 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 25568
+INFO 2025-05-19 15:27:20,356 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:27:21,528 Watching for file changes with StatReloader
+INFO 2025-05-19 15:27:31,466 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 36697
+INFO 2025-05-19 15:27:32,399 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:27:49,740 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36697
+INFO 2025-05-19 15:27:52,492 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 36697
+INFO 2025-05-19 15:28:02,395 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20II HTTP/1.1" 200 36697
+INFO 2025-05-19 15:28:07,530 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38446
+INFO 2025-05-19 15:28:41,444 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38440
+INFO 2025-05-19 15:28:44,845 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38440
+INFO 2025-05-19 15:33:02,411 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:33:03,755 Watching for file changes with StatReloader
+INFO 2025-05-19 15:33:07,412 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38067
+INFO 2025-05-19 15:33:15,712 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38059
+INFO 2025-05-19 15:33:22,926 "POST /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38019
+INFO 2025-05-19 15:33:27,720 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38031
+INFO 2025-05-19 15:39:04,134 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:39:05,307 Watching for file changes with StatReloader
+INFO 2025-05-19 15:39:14,210 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:39:16,053 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:39:21,582 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:39:24,625 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38597
+INFO 2025-05-19 15:39:34,296 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38605
+INFO 2025-05-19 15:39:49,118 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 15:39:51,136 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 15:39:52,100 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:39:57,389 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:39:59,081 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:40:02,057 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38597
+INFO 2025-05-19 15:40:07,148 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:40:13,226 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38605
+INFO 2025-05-19 15:40:17,326 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:40:26,241 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 37162
+INFO 2025-05-19 15:40:35,284 "POST /staff/students/reportcards/19/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:40:35,375 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:40:38,210 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:40:40,369 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:40:48,308 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38597
+INFO 2025-05-19 15:40:56,795 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:41:02,797 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 37132
+INFO 2025-05-19 15:41:11,501 "POST /staff/students/reportcards/15/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:41:11,601 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:41:14,427 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:41:16,983 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:41:28,157 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38597
+INFO 2025-05-19 15:42:44,907 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36738
+INFO 2025-05-19 15:42:48,808 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38621
+INFO 2025-05-19 15:42:51,465 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:42:54,158 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38621
+INFO 2025-05-19 15:43:13,469 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36738
+INFO 2025-05-19 15:43:18,728 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38621
+INFO 2025-05-19 15:43:23,890 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36738
+INFO 2025-05-19 15:43:33,034 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 36738
+INFO 2025-05-19 15:44:53,785 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38627
+INFO 2025-05-19 15:49:42,758 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:49:43,844 Watching for file changes with StatReloader
+INFO 2025-05-19 15:49:52,716 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38605
+INFO 2025-05-19 15:49:56,971 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38605
+INFO 2025-05-19 15:50:11,368 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:50:14,758 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 37132
+INFO 2025-05-19 15:50:24,178 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:50:28,058 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 37162
+INFO 2025-05-19 15:50:40,076 "POST /staff/students/reportcards/19/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:50:40,168 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:50:48,449 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:50:54,185 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 37132
+INFO 2025-05-19 15:51:02,819 "POST /staff/students/reportcards/15/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:51:02,911 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:51:03,761 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:51:06,957 "GET /staff/students/reportcards/22/update/ HTTP/1.1" 200 37134
+INFO 2025-05-19 15:51:21,362 "POST /staff/students/reportcards/22/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:51:21,459 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:51:24,044 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:51:24,886 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:51:27,671 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38655
+INFO 2025-05-19 15:51:35,860 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38619
+INFO 2025-05-19 15:51:38,894 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38633
+INFO 2025-05-19 15:52:37,841 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:52:38,869 Watching for file changes with StatReloader
+INFO 2025-05-19 15:52:43,542 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38693
+INFO 2025-05-19 15:53:02,202 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:53:07,538 "GET /staff/students/reportcards/22/update/ HTTP/1.1" 200 37162
+INFO 2025-05-19 15:53:28,287 "POST /staff/students/reportcards/22/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:53:28,384 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:53:30,197 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:53:32,019 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38713
+INFO 2025-05-19 15:54:03,525 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:54:04,594 Watching for file changes with StatReloader
+INFO 2025-05-19 15:54:23,492 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38717
+INFO 2025-05-19 15:54:30,395 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:54:33,272 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 37182
+INFO 2025-05-19 15:54:48,477 "POST /staff/students/reportcards/19/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:54:48,574 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:54:53,154 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:54:54,118 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:54:55,822 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38717
+INFO 2025-05-19 15:55:07,026 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:55:09,394 "GET /staff/students/reportcards/19/update/ HTTP/1.1" 200 37182
+INFO 2025-05-19 15:55:22,479 "POST /staff/students/reportcards/19/update/ HTTP/1.1" 302 0
+INFO 2025-05-19 15:55:22,579 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:55:26,181 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:55:28,093 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38717
+INFO 2025-05-19 15:55:52,064 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 15:55:53,209 Watching for file changes with StatReloader
+INFO 2025-05-19 15:55:55,162 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38717
+INFO 2025-05-19 15:56:04,863 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 38697
+INFO 2025-05-19 15:56:10,143 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 36738
+INFO 2025-05-19 15:56:13,677 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38705
+INFO 2025-05-19 15:56:24,565 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36738
+INFO 2025-05-19 15:56:30,601 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38705
+INFO 2025-05-19 15:57:28,408 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36738
+INFO 2025-05-19 15:57:31,926 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 15:57:33,068 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 15:57:36,211 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38705
+INFO 2025-05-19 15:57:50,676 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38705
+INFO 2025-05-19 16:08:41,971 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 16:08:43,193 Watching for file changes with StatReloader
+INFO 2025-05-19 16:08:49,012 "GET /student/reportcard/ HTTP/1.1" 200 15832
+INFO 2025-05-19 16:08:52,727 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38705
+INFO 2025-05-19 16:08:55,945 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 16:08:57,916 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 16:08:59,996 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38717
+INFO 2025-05-19 16:09:03,214 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38681
+INFO 2025-05-19 16:09:09,967 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36942
+INFO 2025-05-19 16:09:21,483 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36942
+INFO 2025-05-19 16:09:35,853 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 16:09:45,334 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 36738
+INFO 2025-05-19 16:09:48,491 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38705
+INFO 2025-05-19 16:09:54,260 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 36942
+INFO 2025-05-19 16:21:47,438 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 16:21:48,495 Watching for file changes with StatReloader
+INFO 2025-05-19 16:21:57,285 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 16:22:05,913 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 37428
+INFO 2025-05-19 16:22:12,374 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 39407
+INFO 2025-05-19 16:22:30,873 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 39371
+INFO 2025-05-19 16:22:42,311 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 39387
+INFO 2025-05-19 16:23:19,659 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 37632
+INFO 2025-05-19 16:23:33,173 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 37632
+INFO 2025-05-19 16:23:40,309 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 37632
+INFO 2025-05-19 16:23:42,693 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 16:23:44,483 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 37428
+INFO 2025-05-19 16:23:46,684 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 39395
+INFO 2025-05-19 16:24:02,018 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 16:24:10,263 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 37428
+INFO 2025-05-19 16:24:12,180 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 39395
+INFO 2025-05-19 16:24:19,967 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 37632
+INFO 2025-05-19 16:24:27,578 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 37632
+INFO 2025-05-19 16:24:50,170 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 37632
+INFO 2025-05-19 16:25:35,564 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 37428
+INFO 2025-05-19 16:25:38,448 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 37428
+INFO 2025-05-19 16:58:54,331 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 16:58:55,508 Watching for file changes with StatReloader
+INFO 2025-05-19 16:59:16,782 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 16:59:17,868 Watching for file changes with StatReloader
+INFO 2025-05-19 16:59:26,538 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 16:59:37,551 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 16:59:41,058 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-19 16:59:48,255 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 16:59:51,645 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 16:59:53,496 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 16:59:55,380 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 16:59:57,456 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 17:00:00,710 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-19 17:00:08,260 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-19 17:06:10,795 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:06:11,879 Watching for file changes with StatReloader
+INFO 2025-05-19 17:06:56,267 "GET /staff/data/ HTTP/1.1" 200 10638
+INFO 2025-05-19 17:06:57,749 "GET /staff/data/ HTTP/1.1" 200 10638
+INFO 2025-05-19 17:06:58,076 "GET /staff/data/ HTTP/1.1" 200 10638
+INFO 2025-05-19 17:06:58,414 "GET /staff/data/ HTTP/1.1" 200 10638
+INFO 2025-05-19 17:06:58,547 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-19 17:06:58,603 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-19 17:06:58,622 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-19 17:06:58,628 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-19 17:06:58,638 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-19 17:06:58,654 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-19 17:06:58,675 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-19 17:06:58,682 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-19 17:06:58,700 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-19 17:06:58,706 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-19 17:06:58,719 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-19 17:06:58,738 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-19 17:06:59,033 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-19 17:06:59,141 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 200 5856837
+INFO 2025-05-19 17:06:59,845 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-19 17:07:01,827 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:07:06,070 "GET /staff/students/reportcards/15/update/ HTTP/1.1" 200 39629
+INFO 2025-05-19 17:07:11,272 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 17:07:13,278 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:07:15,079 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39221
+INFO 2025-05-19 17:07:17,841 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 41612
+INFO 2025-05-19 17:07:28,054 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 41612
+INFO 2025-05-19 17:07:31,305 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:07:32,327 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 17:07:34,573 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:07:37,283 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39221
+INFO 2025-05-19 17:07:39,555 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 41600
+INFO 2025-05-19 17:08:15,433 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:08:16,963 Watching for file changes with StatReloader
+INFO 2025-05-19 17:08:19,057 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 17:08:24,201 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:08:26,310 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 17:08:32,904 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 40594
+INFO 2025-05-19 17:08:37,456 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 17:08:42,814 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:11:29,985 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:11:31,028 Watching for file changes with StatReloader
+INFO 2025-05-19 17:11:36,600 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:12:15,699 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 17:12:18,331 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 40594
+INFO 2025-05-19 17:12:28,151 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 40558
+INFO 2025-05-19 17:12:35,165 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-19 17:12:42,242 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:12:44,007 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 17:12:45,835 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:12:51,063 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 17:14:07,863 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 38671
+INFO 2025-05-19 17:33:30,190 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:33:31,891 Watching for file changes with StatReloader
+INFO 2025-05-19 17:33:35,542 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-19 17:33:37,465 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:33:39,449 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 17:33:42,295 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 40594
+INFO 2025-05-19 17:33:48,089 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 40558
+INFO 2025-05-19 17:33:53,007 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 40574
+INFO 2025-05-19 17:33:56,100 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20III HTTP/1.1" 200 38467
+INFO 2025-05-19 17:34:01,758 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 17:36:22,248 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:36:23,815 Watching for file changes with StatReloader
+INFO 2025-05-19 17:36:26,641 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-19 17:36:37,447 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:36:41,022 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 17:36:45,888 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:37:04,948 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 22619
+INFO 2025-05-19 17:37:06,637 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:37:08,591 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22619
+INFO 2025-05-19 17:39:55,129 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:39:56,736 Watching for file changes with StatReloader
+INFO 2025-05-19 17:39:58,920 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 22619
+INFO 2025-05-19 17:40:09,577 "GET /staff/students/leavereport/ HTTP/1.1" 200 22794
+INFO 2025-05-19 17:40:12,853 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:43:09,580 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:43:10,686 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 17:43:13,656 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38673
+INFO 2025-05-19 17:43:19,867 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38673
+INFO 2025-05-19 17:43:53,372 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 38673
+INFO 2025-05-19 17:43:57,021 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:43:59,166 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 38673
+INFO 2025-05-19 17:44:06,752 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:44:10,318 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:44:25,501 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:45:21,560 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 17:45:22,622 Watching for file changes with StatReloader
+INFO 2025-05-19 17:45:28,086 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-19 17:45:31,264 "GET /staff/students/fees/ HTTP/1.1" 200 12018
+INFO 2025-05-19 17:45:32,310 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-19 17:45:33,869 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-19 18:16:58,984 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-19 18:17:00,573 Watching for file changes with StatReloader
+INFO 2025-05-21 10:21:02,545 Watching for file changes with StatReloader
+INFO 2025-05-21 11:38:29,566 "GET / HTTP/1.1" 302 0
+INFO 2025-05-21 11:38:29,684 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-21 11:38:29,902 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-21 11:38:29,916 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-21 11:38:29,922 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-21 11:38:29,940 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-21 11:38:29,955 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-21 11:38:29,968 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-21 11:38:29,986 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-21 11:38:30,002 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-21 11:38:30,019 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-21 11:38:30,029 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-21 11:38:30,039 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-21 11:38:30,054 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-21 11:38:30,075 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-21 11:38:30,120 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-21 11:38:39,972 - Broken pipe from ('127.0.0.1', 54288)
+INFO 2025-05-21 11:38:40,421 - Broken pipe from ('127.0.0.1', 54287)
+INFO 2025-05-21 11:38:40,939 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-21 11:38:41,109 - Broken pipe from ('127.0.0.1', 54289)
+INFO 2025-05-21 11:38:41,188 "GET /student/dashboard/ HTTP/1.1" 200 10290
+INFO 2025-05-21 11:38:41,252 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-21 11:38:41,410 "GET /media/7babfdc9-c36d-4e48-bbb8-61bef3c0bd41.jpg HTTP/1.1" 200 1043186
+INFO 2025-05-21 11:38:41,723 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-21 11:38:47,499 "GET /student/data/ HTTP/1.1" 200 10198
+INFO 2025-05-21 11:38:50,025 "GET /login/ HTTP/1.1" 200 5357
+INFO 2025-05-21 11:38:56,336 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-21 11:38:56,483 "GET /staff/dashboard/ HTTP/1.1" 200 13303
+INFO 2025-05-21 11:38:56,545 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-21 11:38:56,550 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-21 11:38:56,559 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-21 11:38:56,726 "GET /media/b4164186-9ac3-429d-ac6a-7dc3a89f237f.jpg HTTP/1.1" 200 5856837
+INFO 2025-05-21 11:39:07,365 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:44:05,240 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-21 11:44:07,580 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-21 11:44:10,172 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 40594
+INFO 2025-05-21 11:44:13,932 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 40558
+INFO 2025-05-21 11:44:20,237 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 40594
+INFO 2025-05-21 11:44:28,791 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 40574
+INFO 2025-05-21 11:44:35,944 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 38671
+INFO 2025-05-21 11:44:51,508 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:46:39,923 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-21 11:46:41,014 Watching for file changes with StatReloader
+INFO 2025-05-21 11:46:46,662 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-21 11:46:47,608 Watching for file changes with StatReloader
+INFO 2025-05-21 11:46:52,825 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:46:53,475 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-21 11:46:54,359 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-21 11:46:56,329 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20I HTTP/1.1" 200 40594
+INFO 2025-05-21 11:47:00,161 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20II HTTP/1.1" 200 40558
+INFO 2025-05-21 11:47:03,790 "GET /staff/students/reportcards/create/?student_id=73&term=Term%20III HTTP/1.1" 200 40574
+INFO 2025-05-21 11:47:13,177 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:47:15,901 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-21 11:47:18,318 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-21 11:47:22,147 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-21 11:47:32,985 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20II HTTP/1.1" 200 38671
+INFO 2025-05-21 11:47:37,612 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:47:40,154 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-21 11:47:49,483 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20III HTTP/1.1" 200 38671
+INFO 2025-05-21 11:47:53,518 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:47:54,841 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-21 11:47:56,736 "GET /staff/students/reportcards/create/?student_id=74&term=Term%20I HTTP/1.1" 200 40582
+INFO 2025-05-21 11:48:01,122 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 11:48:04,970 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 38467
+INFO 2025-05-21 11:48:06,948 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-21 11:52:31,133 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-21 11:52:32,153 Watching for file changes with StatReloader
+INFO 2025-05-21 11:52:36,419 "GET /staff/students/reportcards/create/?student_id=81&term=Term%20I HTTP/1.1" 200 38467
+INFO 2025-05-21 12:49:39,463 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-05-21 12:49:41,499 Watching for file changes with StatReloader
+INFO 2025-05-21 12:50:06,385 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 12:50:09,400 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 12:50:12,126 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 12:50:14,730 "GET /staff/students/reportcards/create/?student_id=73&term=Term+I HTTP/1.1" 200 41835
+INFO 2025-05-21 12:50:21,455 "GET /staff/students/reportcards/create/?student_id=73&term=Term+II HTTP/1.1" 200 41799
+INFO 2025-05-21 12:50:34,888 "GET /staff/students/reportcards/create/?student_id=73&term=Term+III HTTP/1.1" 200 41815
+INFO 2025-05-21 12:50:39,896 "GET /staff/students/reportcards/create/?student_id=74&term=Term+III HTTP/1.1" 200 39930
+INFO 2025-05-21 12:50:50,711 "GET /staff/students/reportcards/create/?student_id=74&term=Term+II HTTP/1.1" 200 39930
+INFO 2025-05-21 12:50:54,701 "GET /staff/students/reportcards/create/?student_id=74&term=Term+I HTTP/1.1" 200 41823
+INFO 2025-05-21 12:51:02,007 "GET /staff/students/reportcards/ HTTP/1.1" 200 15735
+INFO 2025-05-21 12:51:03,638 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 12:51:05,314 "GET /staff/students/reportcards/create/?student_id=81&term=Term+I HTTP/1.1" 200 39726
+INFO 2025-05-21 12:51:12,320 "GET /staff/students/reportcards/create/?student_id=81&term=Term+I HTTP/1.1" 200 39726
+INFO 2025-05-21 12:51:18,781 "GET /staff/students/reportcards/create/?student_id=74&term=Term+I HTTP/1.1" 200 41823
+INFO 2025-05-21 12:51:25,575 "GET /staff/students/reportcards/create/?student_id=74&term=Term+II HTTP/1.1" 200 39930
+INFO 2025-05-21 12:52:27,834 "POST /staff/students/reportcards/create/?student_id=74&term=Term+II HTTP/1.1" 302 0
+INFO 2025-05-21 12:52:27,931 "GET /staff/students/reportcards/ HTTP/1.1" 200 16758
+INFO 2025-05-21 12:52:33,153 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 12:52:37,138 "GET /staff/students/reportcards/create/?student_id=74&term=Term+I HTTP/1.1" 200 41823
+INFO 2025-05-21 12:52:47,298 "GET /staff/students/reportcards/create/?student_id=74&term=Term+II HTTP/1.1" 200 41839
+INFO 2025-05-21 12:52:53,086 "GET /staff/students/reportcards/create/?student_id=74&term=Term+III HTTP/1.1" 200 39930
+INFO 2025-05-21 12:53:33,792 "GET /staff/students/reportcards/ HTTP/1.1" 200 16610
+INFO 2025-05-21 12:53:46,088 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 12:53:49,034 "GET /staff/students/reportcards/create/?student_id=73&term=Term+I HTTP/1.1" 200 41835
+INFO 2025-05-21 12:53:56,717 "GET /staff/students/reportcards/create/?student_id=73&term=Term+II HTTP/1.1" 200 41799
+INFO 2025-05-21 12:54:03,056 "GET /staff/students/reportcards/create/?student_id=73&term=Term+III HTTP/1.1" 200 41815
+INFO 2025-05-21 12:54:08,266 "GET /staff/students/reportcards/ HTTP/1.1" 200 16610
+INFO 2025-05-21 12:54:17,137 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 12:54:18,993 "GET /staff/students/reportcards/create/?student_id=74&term=Term+I HTTP/1.1" 200 41823
+INFO 2025-05-21 12:54:22,552 "GET /staff/students/reportcards/create/?student_id=74&term=Term+II HTTP/1.1" 200 41839
+INFO 2025-05-21 12:54:27,207 "GET /staff/students/reportcards/create/?student_id=74&term=Term+III HTTP/1.1" 200 39930
+INFO 2025-05-21 12:54:36,927 "GET /staff/students/reportcards/ HTTP/1.1" 200 16610
+INFO 2025-05-21 12:54:42,705 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 12:54:45,906 "GET /staff/students/reportcards/create/?student_id=74&term=Term+I HTTP/1.1" 200 41823
+INFO 2025-05-21 12:54:50,989 "GET /staff/students/reportcards/create/?student_id=74&term=Term+II HTTP/1.1" 200 41839
+INFO 2025-05-21 12:55:08,498 "GET /staff/students/reportcards/ HTTP/1.1" 200 16610
+INFO 2025-05-21 12:59:06,814 "GET /staff/students/attendance/ HTTP/1.1" 200 13845
+INFO 2025-05-21 14:13:29,874 "GET /staff/students/attendance/ HTTP/1.1" 200 13845
+INFO 2025-05-21 14:13:32,217 "GET /staff/students/attendance/ HTTP/1.1" 200 13845
+INFO 2025-05-21 14:13:35,265 "GET /staff/students/attendance/create/ HTTP/1.1" 200 12253
+INFO 2025-05-21 14:13:37,960 "GET /staff/students/reportcards/ HTTP/1.1" 200 16610
+INFO 2025-05-21 14:13:52,321 "GET / HTTP/1.1" 302 0
+INFO 2025-05-21 14:13:52,364 "GET /accounts/login/?next=/ HTTP/1.1" 200 4587
+INFO 2025-05-21 14:13:52,513 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-21 14:13:52,547 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-21 14:13:52,569 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-21 14:13:52,578 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-21 14:13:52,601 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-21 14:13:52,628 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-21 14:13:52,643 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-21 14:13:52,680 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-21 14:13:52,728 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-21 14:13:52,749 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-21 14:13:52,781 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-21 14:13:52,815 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-21 14:13:52,822 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-21 14:13:52,999 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-21 14:14:02,084 "POST /login/ HTTP/1.1" 200 5500
+INFO 2025-05-21 14:14:15,851 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-21 14:14:15,989 "GET /student/dashboard/ HTTP/1.1" 200 10292
+INFO 2025-05-21 14:14:16,045 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-21 14:14:16,148 "GET /media/caf87dde-930a-44c7-b9f9-c256ded6381f.jpg HTTP/1.1" 200 48013
+INFO 2025-05-21 14:14:16,329 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-21 14:14:20,561 "GET /student/reportcard/ HTTP/1.1" 200 15699
+INFO 2025-05-21 14:14:25,967 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-21 14:14:26,302 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22957
+INFO 2025-05-21 14:28:59,115 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 14:29:01,273 "GET /staff/students/reportcards/create/?student_id=81&term=Term+I HTTP/1.1" 200 39726
+INFO 2025-05-21 14:29:05,366 "GET /staff/students/reportcards/create/?student_id=81&term=Term+II HTTP/1.1" 200 39726
+INFO 2025-05-21 14:33:12,014 "POST /staff/students/reportcards/create/?student_id=81&term=Term+II HTTP/1.1" 302 0
+INFO 2025-05-21 14:33:12,147 "GET /staff/students/reportcards/ HTTP/1.1" 200 17621
+INFO 2025-05-21 14:33:24,331 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 39708
+INFO 2025-05-21 14:33:26,520 "GET /staff/students/reportcards/create/?student_id=81&term=Term+I HTTP/1.1" 200 39944
+INFO 2025-05-21 14:33:30,324 "GET /staff/students/reportcards/create/?student_id=81&term=Term+II HTTP/1.1" 200 41817
+INFO 2025-05-21 14:33:41,313 Watching for file changes with StatReloader

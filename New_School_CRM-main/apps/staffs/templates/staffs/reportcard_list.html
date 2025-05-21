@@ -62,13 +62,10 @@
 
 {% block content%}
 
-<!-- <h2>All Report Cards</h2>
-<a href="{% url 'staff-reportcard-create' %}">Add New Report Card</a> -->
-
 
 <div class="d-flex justify-content-between">
     <div>
-        <h2>All Report Cards</h2>
+        <h2>All Students Report Cards</h2>
     </div>
     <div>
         <div class="submit-btn">
@@ -90,8 +87,8 @@
             <th>Maths</th>
             <th>Science</th>
             <th>Social</th>
-            <th>Total </th>
             <th>Total Marks</th>
+            <th>Total </th>
             <th>Status</th>
             <th>Parent Signature</th>
             <th>Actions</th>
@@ -108,8 +105,8 @@
             <td>{{ card.maths }}</td>
             <td>{{ card.science }}</td>
             <td>{{ card.social }}</td>
-            <td>{{ card.total_marks }}</td>
             <td>{{ card.overall_total }}</td>
+            <td>{{ card.total_marks }}</td>
             <td>{{ card.status }}</td>
             <td>{{ card.parent_signature }}</td>
             <td>

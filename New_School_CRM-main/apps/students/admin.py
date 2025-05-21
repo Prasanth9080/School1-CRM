@@ -18,7 +18,7 @@ class LeaveRequeststudentAdmin(admin.ModelAdmin):
 
 
 class StuReportCardAdmin(admin.ModelAdmin):
-    list_display = ('student', 'standard', 'tamil','english','maths','science','social','total_marks','overall_total','overall_percentage','overall_grade',
+    list_display = ('student', 'standard', 'tamil','english','maths','science','social','all_subject_mark','total_marks','overall_total','overall_percentage','overall_grade',
     'father_name','mother_name','address','date_of_birth','admission_number','roll_number',
  'status','term','comments', 'signature_class_teacher','signature_principal','parent_signature',   'created_at')
 #     list_display =('student','standard','section','academic_session', 'father_name', 'mother_name','address','admission_number','roll_number','date_of_birth','subjects','total_term1','total_term2','total_final',

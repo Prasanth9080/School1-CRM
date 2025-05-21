@@ -2,13 +2,294 @@
 
 {% block content %}
 
+
+
 <h2>{% if form.instance.pk %}Edit{% else %}Create{% endif %} Report Card</h2>
-<form method="post">
+<!-- <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
 
 
     <button type="submit">Save</button>
+
+
+</form> -->
+
+
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    {% if not readonly %}
+    <button type="submit">Save</button>
+    {% endif %}
 </form>
+
+
+<!-- Assuming you have dropdowns for student and term -->
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function reloadWithParams() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+            if (studentId && term) {
+                window.location.href = `?student_id=${studentId}&term=${term}`;
+            }
+        }
+
+        termSelect.addEventListener('change', reloadWithParams);
+        studentSelect.addEventListener('change', reloadWithParams);
+    });
+</script> -->
+
+
+<!-- working good.... only refreshing term ....... -->
+
+
+<!-- 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function maybeReload() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+            if (studentId && term) {
+                // Avoid reloading if already on the correct combination
+                const currentParams = new URLSearchParams(window.location.search);
+                if (currentParams.get('student_id') !== studentId || currentParams.get('term') !== term) {
+                    window.location.href = `?student_id=${studentId}&term=${term}`;
+                }
+            }
+        }
+
+        studentSelect.addEventListener('change', maybeReload);
+        termSelect.addEventListener('change', maybeReload);
+    });
+</script> -->
+
+
+
+
+
+
+<!-- without selecting term -->
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+
+        function maybeReload() {
+            const studentId = studentSelect.value;
+            if (studentId) {
+                const currentParams = new URLSearchParams(window.location.search);
+                if (currentParams.get('student_id') !== studentId) {
+                    window.location.href = `?student_id=${studentId}`;
+                }
+            }
+        }
+
+        studentSelect.addEventListener('change', maybeReload);
+    });
+</script> -->
+
+
+
+<!-- 3rd  -->
+<!-- 
+{% if messages %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        {% for message in messages %}
+        alert("{{ message|escapejs }}");
+        {% endfor %}
+    });
+</script>
+{% endif %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function reloadWithStudent() {
+            const studentId = studentSelect.value;
+            if (studentId) {
+                window.location.href = `?student_id=${studentId}`;
+            }
+        }
+
+        function reloadWithStudentAndTerm() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+            if (studentId && term) {
+                window.location.href = `?student_id=${studentId}&term=${term}`;
+            }
+        }
+
+        studentSelect.addEventListener('change', reloadWithStudent);
+        termSelect.addEventListener('change', reloadWithStudentAndTerm);
+    });
+</script> -->
+
+
+<!-- 4th -->
+
+
+<!-- {% if existing_card %}
+<div
+    style="background-color: #ffeeba; padding: 10px; margin-bottom: 10px; border: 1px solid #f0ad4e; position: absolute; top: 0px; left: 50%;">
+    <strong>Note:</strong> A report card for this student and term already exists. Prefilled for your reference.
+</div>
+{% endif %} -->
+
+
+<!-- 5th -->
+<!-- {% if readonly %}
+<div style="background-color: #ffeeba; padding: 10px; margin-bottom: 10px;">
+    <strong>Note:</strong> Report card for this student and term already exists. It's shown in read-only mode.
+</div>
+{% endif %} -->
+
+
+
+
+<!-- 7th -->
+<!-- {% if readonly %}
+<div style="background-color: #ffeeba; padding: 10px; margin-bottom: 10px;">
+    <strong>Note:</strong> Report card already exists. You can only view the data or use the edit button on the list
+    page.
+</div>
+{% endif %} -->
+
+
+
+<!-- 10th -->
+
+{% if readonly %}
+<div style="background-color: #ffeeba; padding: 10px;">
+    <strong>Note:</strong> Report card already exists. You can only view this data.
+</div>
+{% endif %}
+
+{% if messages %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // {% for message in messages %}
+        alert("{{ message|escapejs }}");
+        // {% endfor %}
+    });
+</script>
+{% endif %}
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function reloadWithParams() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+
+            if (studentId) {
+                let url = `?student_id=${studentId}`;
+                if (term) {
+                    url += `&term=${term}`;
+                }
+                window.location.href = url;
+            }
+        }
+
+        studentSelect.addEventListener('change', reloadWithParams);
+        termSelect.addEventListener('change', reloadWithParams);
+    });
+</script> -->
+
+
+<!-- 9th -->
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function reloadWithParams() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+            if (studentId && term) {
+                const url = `?student_id=${studentId}&term=${term}`;
+                window.location.href = url;
+            }
+        }
+
+        studentSelect.addEventListener('change', reloadWithParams);
+        termSelect.addEventListener('change', reloadWithParams);
+    });
+</script> -->
+
+<!-- 10th -->
+
+<!-- <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function reloadWithParams() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+
+            if (studentId && term) {
+                const currentParams = new URLSearchParams(window.location.search);
+                const currentStudent = currentParams.get('student_id');
+                const currentTerm = currentParams.get('term');
+
+                if (currentStudent !== studentId || currentTerm !== term) {
+                    const url = `?student_id=${studentId}&term=${term}`;
+                    window.location.href = url;
+                }
+            }
+        }
+
+        studentSelect.addEventListener('change', reloadWithParams);
+        termSelect.addEventListener('change', reloadWithParams);
+    });
+</script> -->
+
+<!-- ##################################### this is new for staff already created student report not craeted function
+
+######### newly 1st type for student report card -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const studentSelect = document.querySelector('#id_student');
+        const termSelect = document.querySelector('#id_term');
+
+        function reloadWithParams() {
+            const studentId = studentSelect.value;
+            const term = termSelect.value;
+
+            if (studentId && term) {
+                const params = new URLSearchParams(window.location.search);
+                const currentStudent = params.get('student_id');
+                const currentTerm = params.get('term');
+
+                // Only reload if there's a change
+                if (studentId !== currentStudent || term !== currentTerm) {
+                    params.set('student_id', studentId);
+                    params.set('term', term);
+                    window.location.search = params.toString();
+                }
+            }
+        }
+
+        studentSelect.addEventListener('change', reloadWithParams);
+        termSelect.addEventListener('change', reloadWithParams);
+    });
+</script>
 
 {% endblock content %}

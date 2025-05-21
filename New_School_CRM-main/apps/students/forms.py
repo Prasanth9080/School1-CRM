@@ -89,43 +89,73 @@ class LeaveRequeststudentForm(forms.ModelForm):
 
 # students/forms.py
 
+# from django import forms
+# from .models import StuReportCard
+
+# class StuReportCardForm(forms.ModelForm):
+#     class Meta:
+#         model = StuReportCard
+#         fields = '__all__'
+
+#     def __init__(self, *args, **kwargs):
+#         super(StuReportCardForm, self).__init__(*args, **kwargs)
+
+#         if 'student' in self.data:
+#             student_id = self.data.get('student')
+#         elif self.instance and self.instance.pk:
+#             student_id = self.instance.student.id
+#         else:
+#             student_id = None
+
+#         # If Term I already exists for this student, hide certain fields
+#         if student_id:
+#             from .models import StuReportCard
+#             try:
+#                 term1_card = StuReportCard.objects.get(student__id=student_id, term="Term I")
+#                 if not self.instance.pk or self.instance.term != "Term I":
+#                     # Hide all the common fields
+#                     for field_name in [
+#                         'standard', 'section', 'academic_session',
+#                         'father_name', 'mother_name', 'address',
+#                         'admission_number', 'roll_number', 'date_of_birth',
+#                         'comments', 'signature_class_teacher', 'signature_principal'
+#                     ]:
+#                         self.fields[field_name].widget = forms.HiddenInput()
+#                         self.fields[field_name].required = False
+#             except StuReportCard.DoesNotExist:
+#                 pass
+
+
+# students/forms.py
 from django import forms
 from .models import StuReportCard
+
+# class StuReportCardForm(forms.ModelForm):
+#     class Meta:
+#         model = StuReportCard
+#         exclude = []  # Or list only the fields you want
+
+#     def __init__(self, *args, **kwargs):
+#         super().__init__(*args, **kwargs)
+#         # You can also disable or hide certain fields here dynamically
+
 
 class StuReportCardForm(forms.ModelForm):
     class Meta:
         model = StuReportCard
-        fields = '__all__'
+        exclude = []
+
+    # def __init__(self, *args, **kwargs):
+    #     super().__init__(*args, **kwargs)
+    #     self.fields['student'].empty_label = 'Select Student'
+    #     self.fields['term'].empty_label = 'Select Term'
 
     def __init__(self, *args, **kwargs):
-        super(StuReportCardForm, self).__init__(*args, **kwargs)
-
-        if 'student' in self.data:
-            student_id = self.data.get('student')
-        elif self.instance and self.instance.pk:
-            student_id = self.instance.student.id
-        else:
-            student_id = None
-
-        # If Term I already exists for this student, hide certain fields
-        if student_id:
-            from .models import StuReportCard
-            try:
-                term1_card = StuReportCard.objects.get(student__id=student_id, term="Term I")
-                if not self.instance.pk or self.instance.term != "Term I":
-                    # Hide all the common fields
-                    for field_name in [
-                        'standard', 'section', 'academic_session',
-                        'father_name', 'mother_name', 'address',
-                        'admission_number', 'roll_number', 'date_of_birth',
-                        'comments', 'signature_class_teacher', 'signature_principal'
-                    ]:
-                        self.fields[field_name].widget = forms.HiddenInput()
-                        self.fields[field_name].required = False
-            except StuReportCard.DoesNotExist:
-                pass
-
-
+        super().__init__(*args, **kwargs)
+        self.fields['student'].required = True
+        self.fields['term'].required = True
+        self.fields['student'].empty_label = 'Select Student'
+        self.fields['term'].empty_label = 'Select Term'
 
 
 

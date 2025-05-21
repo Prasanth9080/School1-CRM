@@ -130,6 +130,7 @@ class StuReportCard(models.Model):
     maths = models.PositiveIntegerField()
     science = models.PositiveIntegerField()
     social = models.PositiveIntegerField()
+    all_subject_mark = models.PositiveIntegerField(default=0)
     
     total_marks = models.PositiveIntegerField(default=0)
     overall_total = models.PositiveIntegerField(default=0)

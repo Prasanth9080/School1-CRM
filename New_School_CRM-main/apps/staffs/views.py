@@ -146,7 +146,7 @@ def staff_leave_request(request):
 
 
 from django.shortcuts import render, redirect, get_object_or_404
-from ..students.models import StuReportCard
+from ..students.models import StuReportCard , Student
 from ..students.forms import StuReportCardForm
 from django.contrib.auth.decorators import login_required
 
@@ -155,43 +155,735 @@ def reportcard_list(request):
     cards = StuReportCard.objects.all()
     return render(request, 'staffs/reportcard_list.html', {'cards': cards})
 
-@login_required
-def reportcard_create(request):
-    if request.method == 'POST':
-        form = StuReportCardForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('staff-reportcard-list')
-    else:
-        form = StuReportCardForm()
-        # form = StuReportCardForm(initial={'term': request.GET.get('term', 'Term I')})  # prefill term if passed
-
-    return render(request, 'staffs/reportcard_form.html', {'form': form})
-
 # @login_required
 # def reportcard_create(request):
 #     if request.method == 'POST':
 #         form = StuReportCardForm(request.POST)
 #         if form.is_valid():
-#             new_card = form.save(commit=False)
-#             # Auto-assign Term
-#             existing_cards = StuReportCard.objects.filter(student=new_card.student).order_by('created_at')
-
-#             existing_terms = existing_cards.values_list('term', flat=True)
-
-#             if "Term I" not in existing_terms:
-#                 new_card.term = "Term I"
-#             elif "Term II" not in existing_terms:
-#                 new_card.term = "Term II"
-#             else:
-#                 # fallback if more terms needed
-#                 new_card.term = f"Term {len(existing_terms) + 1}"
-
-#             new_card.save()
+#             form.save()
 #             return redirect('staff-reportcard-list')
 #     else:
 #         form = StuReportCardForm()
+
 #     return render(request, 'staffs/reportcard_form.html', {'form': form})
+
+
+
+
+######### new function for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+
+#     # Check if we are creating a new report card for an existing student
+#     if student_id and term:
+#         # Get latest report card of student (excluding same term)
+#         previous_cards = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id')
+#         if previous_cards.exists():
+#             previous = previous_cards.first()
+#             # Pre-fill data except marks, totals, status, parent signature
+#             initial_data = {
+#                 'student': previous.student,
+#                 'standard': previous.standard,
+#                 'section': previous.section,
+#                 'academic_session': previous.academic_session,
+#                 'father_name': previous.father_name,
+#                 'mother_name': previous.mother_name,
+#                 'address': previous.address,
+#                 'admission_number': previous.admission_number,
+#                 'roll_number': previous.roll_number,
+#                 'date_of_birth': previous.date_of_birth,
+
+                
+#                 'all_subject_mark': previous.all_subject_mark,
+#                 'total_marks': previous.total_marks,
+
+#                 'signature_class_teacher': previous.signature_class_teacher,
+#                 'signature_principal': previous.signature_principal,
+#                 # leave marks blank
+#             }
+
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#     return render(request, 'staffs/reportcard_form.html', {'form': form})
+
+
+
+
+
+##### 2nd type for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+
+#     if student_id:
+#         # Fetch previous report card for this student
+#         previous_cards = StuReportCard.objects.filter(student_id=student_id).order_by('-id')
+
+#         if previous_cards.exists():
+#             previous = previous_cards.first()
+#             initial_data = {
+#                 'student': previous.student,
+#                 'standard': previous.standard,
+#                 'section': previous.section,
+#                 'academic_session': previous.academic_session,
+#                 'father_name': previous.father_name,
+#                 'mother_name': previous.mother_name,
+#                 'address': previous.address,
+#                 'admission_number': previous.admission_number,
+#                 'roll_number': previous.roll_number,
+#                 'date_of_birth': previous.date_of_birth,
+#                 'all_subject_mark': previous.all_subject_mark,
+#                 'total_marks': previous.total_marks,
+#                 'signature_class_teacher': previous.signature_class_teacher,
+#                 'signature_principal': previous.signature_principal,
+#                 # Term will be selected separately
+#                 'term': term if term else None
+#             }
+
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#     return render(request, 'staffs/reportcard_form.html', {'form': form})
+
+
+##### 3rd type for student report card
+
+# from django.contrib import messages
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+#     if student_id:
+#         previous_cards = StuReportCard.objects.filter(student_id=student_id).order_by('-id')
+#         if previous_cards.exists():
+#             previous = previous_cards.first()
+#             initial_data = {
+#                 'student': previous.student,
+#                 'standard': previous.standard,
+#                 'section': previous.section,
+#                 'academic_session': previous.academic_session,
+#                 'father_name': previous.father_name,
+#                 'mother_name': previous.mother_name,
+#                 'address': previous.address,
+#                 'admission_number': previous.admission_number,
+#                 'roll_number': previous.roll_number,
+#                 'date_of_birth': previous.date_of_birth,
+#                 'all_subject_mark': previous.all_subject_mark,
+#                 'signature_class_teacher': previous.signature_class_teacher,
+#                 'signature_principal': previous.signature_principal,
+#                 'term': term if term else None
+#             }
+
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             student = form.cleaned_data.get('student')
+#             term = form.cleaned_data.get('term')
+
+#             # Check for duplicate
+#             if StuReportCard.objects.filter(student=student, term=term).exists():
+#                 messages.error(request, f"Report card for {student.get_full_name()} in {term} already exists.")
+#             else:
+#                 form.save()
+#                 messages.success(request, "Report card created successfully.")
+#                 return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#     return render(request, 'staffs/reportcard_form.html', {'form': form})
+
+
+
+######### 4th type for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+
+#     if student_id:
+#         previous_cards = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id')
+#         if previous_cards.exists():
+#             previous = previous_cards.first()
+#             initial_data = {
+#                 'student': previous.student,
+#                 'standard': previous.standard,
+#                 'section': previous.section,
+#                 'academic_session': previous.academic_session,
+#                 'father_name': previous.father_name,
+#                 'mother_name': previous.mother_name,
+#                 'address': previous.address,
+#                 'admission_number': previous.admission_number,
+#                 'roll_number': previous.roll_number,
+#                 'date_of_birth': previous.date_of_birth,
+#                 'all_subject_mark': previous.all_subject_mark,
+#                 'signature_class_teacher': previous.signature_class_teacher,
+#                 'signature_principal': previous.signature_principal,
+#                 'term': term if term else None
+#             }
+#         else:
+#             # Student has no report card yet, just prefill student and term
+#             initial_data = {
+#                 'student': student_id,
+#                 'term': term if term else None
+#             }
+
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             student = form.cleaned_data['student']
+#             term = form.cleaned_data['term']
+#             # Check if already exists
+#             if StuReportCard.objects.filter(student=student, term=term).exists():
+#                 messages.error(request, f"Report card for {student.get_full_name()} in {term} already exists.")
+#             else:
+#                 form.save()
+#                 messages.success(request, "Report card created successfully.")
+#                 return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#     return render(request, 'staffs/reportcard_form.html', {'form': form})
+
+
+
+
+###### 5th type for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+#     existing_card = None
+
+#     if student_id and term:
+#         # Check if this exact student-term already has a report card
+#         existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+#         if existing_card:
+#             # Already created — display existing data
+#             initial_data = {
+#                 'student': existing_card.student,
+#                 'term': existing_card.term,
+#                 'standard': existing_card.standard,
+#                 'section': existing_card.section,
+#                 'academic_session': existing_card.academic_session,
+#                 'father_name': existing_card.father_name,
+#                 'mother_name': existing_card.mother_name,
+#                 'address': existing_card.address,
+#                 'admission_number': existing_card.admission_number,
+#                 'roll_number': existing_card.roll_number,
+#                 'date_of_birth': existing_card.date_of_birth,
+#                 'tamil': existing_card.tamil,
+#                 'english': existing_card.english,
+#                 'maths': existing_card.maths,
+#                 'science': existing_card.science,
+#                 'social': existing_card.social,
+#                 'overall_total': existing_card.overall_total,
+#                 'total_marks': existing_card.total_marks,
+#                 'status': existing_card.status,
+#                 'parent_signature': existing_card.parent_signature,
+#                 'signature_class_teacher': existing_card.signature_class_teacher,
+#                 'signature_principal': existing_card.signature_principal,
+#             }
+
+#         else:
+#             # Get from previous term for same student
+#             previous_cards = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id')
+#             if previous_cards.exists():
+#                 prev = previous_cards.first()
+#                 initial_data = {
+#                     'student': prev.student,
+#                     'term': term,
+#                     'standard': prev.standard,
+#                     'section': prev.section,
+#                     'academic_session': prev.academic_session,
+#                     'father_name': prev.father_name,
+#                     'mother_name': prev.mother_name,
+#                     'address': prev.address,
+#                     'admission_number': prev.admission_number,
+#                     'roll_number': prev.roll_number,
+#                     'date_of_birth': prev.date_of_birth,
+#                     'signature_class_teacher': prev.signature_class_teacher,
+#                     'signature_principal': prev.signature_principal,
+#                 }
+
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             # Prevent duplicate creation
+#             existing = StuReportCard.objects.filter(student=form.cleaned_data['student'], term=form.cleaned_data['term'])
+#             if existing.exists():
+#                 messages.error(request, 'Report card already exists for this student and term.')
+#             else:
+#                 form.save()
+#                 messages.success(request, 'Report card created successfully.')
+#                 return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#     return render(request, 'staffs/reportcard_form.html', {'form': form, 'existing_card': existing_card})
+
+
+###### 6th type for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+#     existing_card = None
+#     readonly = False  # <- flag
+
+#     if student_id and term:
+#         existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+#         if existing_card:
+#             readonly = True  # Make form non-editable
+#             initial_data = {
+#                 'student': existing_card.student,
+#                 'term': existing_card.term,
+#                 'standard': existing_card.standard,
+#                 'section': existing_card.section,
+#                 'academic_session': existing_card.academic_session,
+#                 'father_name': existing_card.father_name,
+#                 'mother_name': existing_card.mother_name,
+#                 'address': existing_card.address,
+#                 'admission_number': existing_card.admission_number,
+#                 'roll_number': existing_card.roll_number,
+#                 'date_of_birth': existing_card.date_of_birth,
+#                 'tamil': existing_card.tamil,
+#                 'english': existing_card.english,
+#                 'maths': existing_card.maths,
+#                 'science': existing_card.science,
+#                 'social': existing_card.social,
+#                 'overall_total': existing_card.overall_total,
+#                 'total_marks': existing_card.total_marks,
+#                 'status': existing_card.status,
+#                 'parent_signature': existing_card.parent_signature,
+#                 'signature_class_teacher': existing_card.signature_class_teacher,
+#                 'signature_principal': existing_card.signature_principal,
+#             }
+
+#     form = StuReportCardForm(initial=initial_data)
+
+#     if readonly:
+#         for field in form.fields.values():
+#             field.widget.attrs['readonly'] = True
+#             field.widget.attrs['disabled'] = True  # prevents POSTing values too
+
+#     if request.method == 'POST' and not readonly:
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             existing = StuReportCard.objects.filter(student=form.cleaned_data['student'], term=form.cleaned_data['term'])
+#             if existing.exists():
+#                 messages.error(request, 'Report card already exists for this student and term.')
+#             else:
+#                 form.save()
+#                 messages.success(request, 'Report card created successfully.')
+#                 return redirect('staff-reportcard-list')
+
+#     return render(request, 'staffs/reportcard_form.html', {
+#         'form': form,
+#         'readonly': readonly,
+#         'existing_card': existing_card,
+#     })
+
+##### 7th type for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     existing_card = None
+#     initial_data = {}
+#     disable_fields = []  # list of fields to disable
+
+#     if student_id and term:
+#         existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+#         if existing_card:
+#             # Report card already exists — show all in read-only
+#             initial_data = {field.name: getattr(existing_card, field.name) for field in StuReportCard._meta.fields}
+#             disable_fields = [field.name for field in StuReportCard._meta.fields if field.name != 'student']
+#         else:
+#             # New term for same student → fetch previous data to prefill
+#             previous_cards = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id')
+#             if previous_cards.exists():
+#                 prev = previous_cards.first()
+#                 initial_data = {
+#                     'student': prev.student,
+#                     'standard': prev.standard,
+#                     'section': prev.section,
+#                     'academic_session': prev.academic_session,
+#                     'father_name': prev.father_name,
+#                     'mother_name': prev.mother_name,
+#                     'address': prev.address,
+#                     'admission_number': prev.admission_number,
+#                     'roll_number': prev.roll_number,
+#                     'date_of_birth': prev.date_of_birth,
+#                     'signature_class_teacher': prev.signature_class_teacher,
+#                     'signature_principal': prev.signature_principal,
+#                 }
+
+#                 # Disable prefilled fields except marks and student
+#                 disable_fields = list(initial_data.keys())
+
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             student = form.cleaned_data['student']
+#             term = form.cleaned_data['term']
+#             # Prevent duplicates
+#             if StuReportCard.objects.filter(student=student, term=term).exists():
+#                 messages.error(request, 'This student already has a report card for the selected term.')
+#             else:
+#                 form.save()
+#                 messages.success(request, 'Report card created successfully.')
+#                 return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#         # Disable specified fields
+#         for field_name in disable_fields:
+#             if field_name in form.fields:
+#                 form.fields[field_name].widget.attrs['readonly'] = True
+#                 form.fields[field_name].widget.attrs['disabled'] = True
+
+#     return render(request, 'staffs/reportcard_form.html', {
+#         'form': form,
+#         'student_selected': student_id is not None,
+#     })
+
+
+###### 8th type for student report card'
+
+# @login_required
+# def reportcard_create(request):
+#     from django.contrib import messages
+
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+#     existing_card = None
+#     readonly = False
+
+#     if student_id and term:
+#         existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+#         if existing_card:
+#             readonly = True
+#             initial_data = {
+#                 'student': existing_card.student,
+#                 'term': existing_card.term,
+#                 'standard': existing_card.standard,
+#                 'section': existing_card.section,
+#                 'academic_session': existing_card.academic_session,
+#                 'father_name': existing_card.father_name,
+#                 'mother_name': existing_card.mother_name,
+#                 'address': existing_card.address,
+#                 'admission_number': existing_card.admission_number,
+#                 'roll_number': existing_card.roll_number,
+#                 'date_of_birth': existing_card.date_of_birth,
+#                 'tamil': existing_card.tamil,
+#                 'english': existing_card.english,
+#                 'maths': existing_card.maths,
+#                 'science': existing_card.science,
+#                 'social': existing_card.social,
+#                 'overall_total': existing_card.overall_total,
+#                 'total_marks': existing_card.total_marks,
+#                 'status': existing_card.status,
+#                 'parent_signature': existing_card.parent_signature,
+#                 'signature_class_teacher': existing_card.signature_class_teacher,
+#                 'signature_principal': existing_card.signature_principal,
+
+#                 'comments': existing_card.comments,
+#                 'overall_grade': existing_card.overall_grade,
+#                 'date': existing_card.date,
+#                 'total_marks': existing_card.total_marks,
+#                 'all_subject_mark': existing_card.all_subject_mark,
+#                 'overall_percentage': existing_card.overall_percentage,
+#             }
+
+#         else:
+#         # If no card for this term, try fetching latest other term card for prefill
+#             previous_card = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id').first()
+#             if previous_card:
+#                 initial_data = {
+#                     'student': previous_card.student,
+#                     'standard': previous_card.standard,
+#                     'section': previous_card.section,
+#                     'academic_session': previous_card.academic_session,
+#                     'father_name': previous_card.father_name,
+#                     'mother_name': previous_card.mother_name,
+#                     'address': previous_card.address,
+#                     'admission_number': previous_card.admission_number,
+#                     'roll_number': previous_card.roll_number,
+#                     'date_of_birth': previous_card.date_of_birth,
+#                     'signature_class_teacher': previous_card.signature_class_teacher,
+#                     'signature_principal': previous_card.signature_principal,
+#                 }
+
+#     form = StuReportCardForm(initial=initial_data)
+
+#     if readonly:
+#         for name, field in form.fields.items():
+#             if name not in ['student', 'term']:
+#                 field.widget.attrs['readonly'] = True
+#                 field.widget.attrs['disabled'] = True  # prevents POST value
+
+#     if request.method == 'POST' and not readonly:
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             exists = StuReportCard.objects.filter(
+#                 student=form.cleaned_data['student'],
+#                 term=form.cleaned_data['term']
+#             ).exists()
+#             if exists:
+#                 messages.error(request, "A report card already exists for this student and term.")
+#             else:
+#                 form.save()
+#                 messages.success(request, "Report card created successfully.")
+#                 return redirect('staff-reportcard-list')
+
+#     return render(request, 'staffs/reportcard_form.html', {
+#         'form': form,
+#         'readonly': readonly,
+#         'existing_card': existing_card,
+#     })
+
+
+
+####### 9th type for student report card
+
+# @login_required
+# def reportcard_create(request):
+#     from django.contrib import messages
+
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     initial_data = {}
+#     existing_card = None
+#     readonly = False
+
+#     if student_id and term:
+#         # Try to get existing report card for this student and term
+#         existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+#         if existing_card:
+#             readonly = True
+#             initial_data = {
+#                 field.name: getattr(existing_card, field.name)
+#                 for field in StuReportCard._meta.fields
+#             }
+#         else:
+#             # Try to prefill from latest other term if available
+#             previous_card = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id').first()
+#             if previous_card:
+#                 fields_to_copy = [
+#                     'student', 'standard', 'section', 'academic_session',
+#                     'father_name', 'mother_name', 'address',
+#                     'admission_number', 'roll_number', 'date_of_birth',
+#                     'signature_class_teacher', 'signature_principal',
+#                 ]
+#                 for field in fields_to_copy:
+#                     initial_data[field] = getattr(previous_card, field)
+
+#     # If POST, process the form
+#     if request.method == 'POST':
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             student = form.cleaned_data['student']
+#             term = form.cleaned_data['term']
+#             # Prevent duplicate
+#             if StuReportCard.objects.filter(student=student, term=term).exists():
+#                 messages.error(request, "Report card already exists for this student and term.")
+#             else:
+#                 form.save()
+#                 messages.success(request, "Report card created successfully.")
+#                 return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+
+#         if readonly:
+#             for name, field in form.fields.items():
+#                 if name not in ['student', 'term']:
+#                     field.widget.attrs['readonly'] = True
+#                     field.widget.attrs['disabled'] = True
+
+#     return render(request, 'staffs/reportcard_form.html', {
+#         'form': form,
+#         'readonly': readonly,
+#         'existing_card': existing_card,
+#     })
+
+
+
+######### 10th type for student report card
+
+# from django.contrib import messages
+# from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render, redirect
+# from ..students.models import StuReportCard
+# from ..students.forms import StuReportCardForm
+
+# @login_required
+# def reportcard_create(request):
+#     student_id = request.GET.get('student_id')
+#     term = request.GET.get('term')
+
+#     existing_card = None
+#     readonly = False
+#     initial_data = {}
+
+#     if student_id and term:
+#         # Check if report card exists for this student and term
+#         existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+#         if existing_card:
+#             # Display existing report in readonly mode
+#             readonly = True
+#             for field in StuReportCard._meta.fields:
+#                 initial_data[field.name] = getattr(existing_card, field.name)
+#         else:
+#             # Try to prefill from previous report (different term)
+#             previous_card = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id').first()
+#             if previous_card:
+#                 fields_to_copy = [
+#                     'student', 'standard', 'section', 'academic_session',
+#                     'father_name', 'mother_name', 'address',
+#                     'admission_number', 'roll_number', 'date_of_birth',
+#                     'signature_class_teacher', 'signature_principal'
+#                 ]
+#                 for field in fields_to_copy:
+#                     initial_data[field] = getattr(previous_card, field)
+
+#     # Handle form submission
+#     if request.method == 'POST' and not readonly:
+#         form = StuReportCardForm(request.POST)
+#         if form.is_valid():
+#             student = form.cleaned_data['student']
+#             term = form.cleaned_data['term']
+#             if StuReportCard.objects.filter(student=student, term=term).exists():
+#                 messages.error(request, "A report card already exists for this student and term.")
+#             else: 
+#                 form.save()
+#                 messages.success(request, "Report card created successfully.")
+#                 return redirect('staff-reportcard-list')
+#     else:
+#         form = StuReportCardForm(initial=initial_data)
+#         if readonly:
+#             for name, field in form.fields.items():
+#                 if name not in ['student', 'term']:
+#                     field.widget.attrs['readonly'] = True
+#                     field.widget.attrs['disabled'] = True
+
+#     return render(request, 'staffs/reportcard_form.html', {
+#         'form': form,
+#         'readonly': readonly,
+#         'existing_card': existing_card,
+#     })
+
+##################################### this is new for staff already created student report not craeted function
+
+######### newly 1st type for student report card
+
+@login_required
+def reportcard_create(request):
+    from django.contrib import messages
+
+    student_id = request.GET.get('student_id')
+    term = request.GET.get('term')
+
+    initial_data = {}
+    readonly = False
+    existing_card = None
+
+    if student_id and term:
+        existing_card = StuReportCard.objects.filter(student_id=student_id, term=term).first()
+
+        if existing_card:
+            readonly = True
+            initial_data = {
+                field.name: getattr(existing_card, field.name)
+                for field in StuReportCard._meta.fields
+            }
+        else:
+            # Prefill from latest previous card (for the same student, different term)
+            previous_card = StuReportCard.objects.filter(student_id=student_id).exclude(term=term).order_by('-id').first()
+            if previous_card:
+                prefill_fields = [
+                    'student', 'standard', 'section', 'academic_session',
+                    'father_name', 'mother_name', 'address',
+                    'admission_number', 'roll_number', 'date_of_birth',
+                    'signature_class_teacher', 'signature_principal',
+                ]
+                initial_data = {
+                    field: getattr(previous_card, field) for field in prefill_fields
+                }
+            # Also include term and student in initial data to retain selection
+            initial_data['term'] = term
+            initial_data['student'] = student_id
+
+    form = StuReportCardForm(initial=initial_data)
+
+    if readonly:
+        for name, field in form.fields.items():
+            if name not in ['student', 'term']:
+                field.widget.attrs['readonly'] = True
+                field.widget.attrs['disabled'] = True
+
+    if request.method == 'POST' and not readonly:
+        form = StuReportCardForm(request.POST)
+        if form.is_valid():
+            exists = StuReportCard.objects.filter(
+                student=form.cleaned_data['student'],
+                term=form.cleaned_data['term']
+            ).exists()
+            if exists:
+                messages.error(request, "A report card already exists for this student and term.")
+            else:
+                form.save()
+                messages.success(request, "Report card created successfully.")
+                return redirect('staff-reportcard-list')
+
+    return render(request, 'staffs/reportcard_form.html', {
+        'form': form,
+        'readonly': readonly,
+        'existing_card': existing_card,
+    })
+
 
 
 @login_required
