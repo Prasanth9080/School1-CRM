@@ -121,6 +121,8 @@ class StudentFeesRecord(models.Model):
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='pending')
     created_at = models.DateTimeField(auto_now_add=True)
 
+    #### for principal role to hide the stu fees record ####
+    hidden_by_principal = models.BooleanField(default=False)
     class Meta:
         ordering = ['-created_at']
         verbose_name = "Staff Stu-Fees Record"

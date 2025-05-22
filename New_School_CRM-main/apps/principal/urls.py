@@ -29,8 +29,12 @@ urlpatterns = [
     # path('student-fees/<int:fee_id>/delete/', views.principal_delete_student_fee, name='principal-delete-student-fee'),
 
 
-    path('student-fees', views.principal_student_fees, name="principal-student-fees"),
-    path('student-fees/<int:fee_id>/delete', views.principal_delete_student_fee, name="principal-delete-student-fee")
+    # path('student-fees', views.principal_student_fees, name="principal-student-fees"),
+    # path('student-fees/<int:fee_id>/delete', views.principal_delete_student_fee, name="principal-delete-student-fee")
+
+##### student fee record only hide on principal role #####
+    path('student-fees/', views.principal_student_fees, name='principal-student-fees'),
+    path('student-fees/<int:fee_id>/hide/', views.principal_hide_student_fee, name='principal-hide-student-fee'),
 
 ]
  

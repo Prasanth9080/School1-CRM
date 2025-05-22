@@ -55,3 +55,10 @@ class UserProfileAdmin(admin.ModelAdmin):
 # from django.contrib.auth.models import User
 
 # admin.site.register(User, UserAdmin)
+
+
+
+from django.contrib import admin
+from rest_framework.authtoken.models import Token
+
+admin.site.register(Token)

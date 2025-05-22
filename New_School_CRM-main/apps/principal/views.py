@@ -114,18 +114,23 @@ def delete_selected_notifications(request):
         StaffNotification.objects.filter(id__in=selected_ids).delete()
         messages.success(request, f"{len(selected_ids)} notification(s) deleted successfully.")
     return redirect('principal_notifications')
-######### student fees record management functionalities ##########
 
 
-from django.shortcuts import render
+
+
+######### student fees record management functionalities only hide for principal role 
+# not fully deleted staff and also database ##########
+
+
+from django.shortcuts import render, redirect, get_object_or_404
 from ..staffs.models import StudentFeesRecord
-from .models import Principal_StudentFeesRecord
 
 def principal_student_fees(request):
-    fees = StudentFeesRecord.objects.select_related('student').all()
+    fees = StudentFeesRecord.objects.select_related('student').filter(hidden_by_principal=False)
     return render(request, 'principal/principal_student_fees.html', {'fees': fees})
 
-def principal_delete_student_fee(request, fee_id):
-    fee = get_object_or_404(Principal_StudentFeesRecord, id=fee_id)
-    fee.delete()
+def principal_hide_student_fee(request, fee_id):
+    fee = get_object_or_404(StudentFeesRecord, id=fee_id)
+    fee.hidden_by_principal = True
+    fee.save()
     return redirect('principal-student-fees')

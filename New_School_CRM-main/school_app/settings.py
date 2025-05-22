@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     "apps.finance",
     "apps.result",
     'ckeditor',
+    'rest_framework',
+    'rest_framework.authtoken',
    
     # 'crispy_forms',
     # 'crispy_bootstrap5'

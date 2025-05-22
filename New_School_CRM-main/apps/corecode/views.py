@@ -626,16 +626,60 @@ def password_reset_complete(request):
 ##### old sign-up view function:
 
 
-from django.shortcuts import render, redirect
-from django.views import View
-from django.contrib.auth.models import User
-from .models import UserProfile
-from django.contrib import messages
+# from django.shortcuts import render, redirect
+# from django.views import View
+# from django.contrib.auth.models import User
+# from .models import UserProfile
+# from django.contrib import messages
+
+# class SignupView(View):
+#     def get(self, request):
+#         return render(request, 'corecode/signup.html')
+    
+
+#     def post(self, request):
+#         username = request.POST['username']
+#         email = request.POST['email']
+#         first_name = request.POST['first_name']
+#         last_name = request.POST['last_name']
+#         password = request.POST['password']
+        
+#         if User.objects.filter(username=username).exists():
+#             messages.error(request, 'Username already exists')
+#             return redirect('signup')
+        
+#         user = User.objects.create_user(
+#             username=username,
+#             email=email,
+#             password=password,
+#             first_name=first_name,
+#             last_name=last_name
+#         )
+
+#         # Create UserProfile instance and link to the User
+#         UserProfile.objects.create(
+#             user=user,
+#             first_name=first_name,
+#             last_name=last_name,
+#             email=email
+#             # Add other fields as needed
+#         )
+
+#         messages.success(request, 'Signup successful! Please login.')
+#         return redirect('login')
+
+
+
+#################################  mela ula function correct ah workagum, 
+
+
+#################################### 1st this is for update in authentication in JWT 
+
+from rest_framework.authtoken.models import Token
 
 class SignupView(View):
     def get(self, request):
         return render(request, 'corecode/signup.html')
-    
 
     def post(self, request):
         username = request.POST['username']
@@ -643,11 +687,11 @@ class SignupView(View):
         first_name = request.POST['first_name']
         last_name = request.POST['last_name']
         password = request.POST['password']
-        
+
         if User.objects.filter(username=username).exists():
             messages.error(request, 'Username already exists')
             return redirect('signup')
-        
+
         user = User.objects.create_user(
             username=username,
             email=email,
@@ -656,17 +700,19 @@ class SignupView(View):
             last_name=last_name
         )
 
-        # Create UserProfile instance and link to the User
         UserProfile.objects.create(
             user=user,
             first_name=first_name,
             last_name=last_name,
             email=email
-            # Add other fields as needed
         )
+
+        # Create Token
+        Token.objects.create(user=user)
 
         messages.success(request, 'Signup successful! Please login.')
         return redirect('login')
+
 
 
 ### Login view
@@ -731,7 +777,75 @@ class SignupView(View):
 ###### //////////////// ########### end .....
 
 
+
 # views.py
+# from django.shortcuts import render, redirect
+# from django.contrib.auth import authenticate, login
+# from django.contrib import messages
+# from .decorators import role_required
+# from .models import UserProfile
+
+# from django.contrib.auth.decorators import login_required
+# from .decorators import role_required
+
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         username_or_email = request.POST['username']
+#         password = request.POST['password']
+
+#         # Try login with username or email
+#         user = authenticate(request, username=username_or_email, password=password)
+#         if user is None:
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             role = user.userprofile.role
+#             if role == "principal":
+#                 messages.success(request, f"Hi welcome, {user.get_full_name() or user.username}")
+#                 return redirect("principal_index")
+#             elif role == "teacher":
+#                 messages.success(request, f"Hi welcome, {user.get_full_name() or user.username}")
+#                 return redirect("staff_index")
+#             elif role == "student":
+#                 messages.success(request, f"Hi welcome, {user.get_full_name() or user.username}")
+#                 return redirect("student_index")
+#             else:
+#                 return redirect("home")
+#         else:
+#             messages.error(request, "Invalid credentials. Please try again.")
+
+#     return render(request, "corecode/login.html")
+
+# @login_required
+# @role_required('principal')
+# def principal_index(request):
+#     # return render(request, 'corecode/student_dashboard.html')s
+#     return render(request, 'principal/principal_index.html')
+
+# @login_required
+# @role_required('teacher')
+# def staff_index(request):
+#     # return render(request, 'corecode/teacher_dashboard.html')
+#     return render(request, 'staffs/staff_index.html')
+
+# @login_required
+# @role_required('student')
+# def student_index(request):
+#     # return render(request, 'corecode/student_dashboard.html')
+#     # return render(request, 'index.html')
+#     return render(request, 'students/student_index.html')
+
+#################################  mela ula function correct ah workagum, 
+
+
+#################################### 1st this is for update in authentication in JWT 
+
+
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib import messages
@@ -741,56 +855,179 @@ from .models import UserProfile
 from django.contrib.auth.decorators import login_required
 from .decorators import role_required
 
+from rest_framework.authtoken.models import Token
+
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         username_or_email = request.POST['username']
+#         password = request.POST['password']
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         if user is None:
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             role = user.userprofile.role
+#             token, created = Token.objects.get_or_create(user=user)
+
+#             # Pass token to template via session or context
+#             response = redirect({
+#                 "principal": "principal_index",
+#                 "teacher": "staff_index",
+#                 "student": "student_index"
+#             }.get(role, "home"))
+
+#             response.set_cookie('auth_token', token.key)
+#             return response
+#         else:
+#             messages.error(request, "Invalid credentials. Please try again.")
+
+#     return render(request, "corecode/login.html")
+
+
+
+import json
+from django.http import JsonResponse
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
+
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         try:
+#             data = json.loads(request.body)
+#             username_or_email = data.get("username")
+#             password = data.get("password")
+#         except:
+#             return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         if user is None:
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             token, _ = Token.objects.get_or_create(user=user)
+#             return JsonResponse({
+#                 "status": "success",
+#                 "message": "Login successfully.",
+#                 "token": token.key,
+#                 "redirect_url": get_redirect_url_based_on_role(user)
+#             })
+#         else:
+#             return JsonResponse({"status": "error", "message": "Check username and password"}, status=400)
+
+#     return render(request, "corecode/login.html")
+
+
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         username_or_email = request.POST.get("username")
+#         password = request.POST.get("password")
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         if user is None:
+#             # Try login with email
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             token, _ = Token.objects.get_or_create(user=user)
+#             role = user.userprofile.role
+
+#             response = redirect({
+#                 "principal": "principal_index",
+#                 "teacher": "staff_index",
+#                 "student": "student_index"
+#             }.get(role, "home"))
+
+#             response.set_cookie("auth_token", token.key)
+#             messages.success(request, "Login successfully")
+#             return response
+#         else:
+#             messages.error(request, "Check username and password")
+
+#     return render(request, "corecode/login.html")   
+
+
+
+####### this is 3rd working good and login with username and email address
+
+from django.http import JsonResponse
+import json
+
 def custom_login_view(request):
     if request.method == "POST":
-        username_or_email = request.POST['username']
-        password = request.POST['password']
+        try:
+            # Load JSON data from request body
+            data = json.loads(request.body)
+            username_or_email = data.get("username")
+            password = data.get("password")
+        except (json.JSONDecodeError, KeyError):
+            return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
 
-        # Try login with username or email
         user = authenticate(request, username=username_or_email, password=password)
+
         if user is None:
             try:
                 user_obj = User.objects.get(email=username_or_email)
                 user = authenticate(request, username=user_obj.username, password=password)
-            except:
+            except User.DoesNotExist:
                 user = None
 
         if user is not None:
             login(request, user)
-            role = user.userprofile.role
-            if role == "principal":
-                messages.success(request, f"Hi welcome, {user.get_full_name() or user.username}")
-                return redirect("principal_index")
-            elif role == "teacher":
-                messages.success(request, f"Hi welcome, {user.get_full_name() or user.username}")
-                return redirect("staff_index")
-            elif role == "student":
-                messages.success(request, f"Hi welcome, {user.get_full_name() or user.username}")
-                return redirect("student_index")
-            else:
-                return redirect("home")
-        else:
-            messages.error(request, "Invalid credentials. Please try again.")
+            token, _ = Token.objects.get_or_create(user=user)
+
+            return JsonResponse({
+                "status": "success",
+                "token": token.key,
+                "redirect_url": get_redirect_url_based_on_role(user)
+            })
+
+        return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
 
     return render(request, "corecode/login.html")
+
+
+def get_redirect_url_based_on_role(user):
+    role = user.userprofile.role
+    if role == "principal":
+        return "/principal/dashboard/"
+    elif role == "teacher":
+        return "/staff/dashboard/"
+    elif role == "student":
+        return "/student/dashboard/"
+    return "/"
+
 
 @login_required
 @role_required('principal')
 def principal_index(request):
-    # return render(request, 'corecode/student_dashboard.html')s
     return render(request, 'principal/principal_index.html')
 
 @login_required
 @role_required('teacher')
 def staff_index(request):
-    # return render(request, 'corecode/teacher_dashboard.html')
     return render(request, 'staffs/staff_index.html')
 
 @login_required
 @role_required('student')
 def student_index(request):
-    # return render(request, 'corecode/student_dashboard.html')
-    # return render(request, 'index.html')
     return render(request, 'students/student_index.html')
 
 
@@ -798,7 +1035,7 @@ def student_index(request):
 
 
 
-
+############## working signup view function: in old
 
 # from django.contrib.auth import login, authenticate
 # from django.contrib.auth.forms import UserCreationForm
@@ -821,11 +1058,76 @@ def student_index(request):
 
 
 
+###### testing for new signup view function:
+
+# from django.contrib.auth.models import User
+# from django.contrib import messages
+# from django.shortcuts import render, redirect
+# from rest_framework.authtoken.models import Token
+
+# def signup_view(request):
+#     if request.method == "POST":
+#         first_name = request.POST['first_name']
+#         last_name = request.POST['last_name']
+#         username = request.POST['username']
+#         email = request.POST['email']
+#         password = request.POST['password']
+
+#         if User.objects.filter(username=username).exists() or User.objects.filter(email=email).exists():
+#             messages.error(request, "Username or Email already exists.")
+#             return redirect('signup')
+
+#         user = User.objects.create_user(
+#             username=username,
+#             email=email,
+#             password=password,
+#             first_name=first_name,
+#             last_name=last_name
+#         )
+
+#         # Create token
+#         Token.objects.get_or_create(user=user)
+
+#         messages.success(request, "Signup successfully. Please login.")
+#         return redirect('login')
+
+#     return render(request, "corecode/signup.html")
 
 
+###### testing 2nd for new signup view function:
+
+from django.contrib.auth import authenticate, login
+from django.contrib import messages
+from django.shortcuts import render, redirect
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
+from .models import UserProfile
 
 
+def signup_view(request):
+    if request.method == "POST":
+        first_name = request.POST.get("first_name")
+        last_name = request.POST.get("last_name")
+        username = request.POST.get("username")
+        email = request.POST.get("email")
+        password = request.POST.get("password")
 
+        if User.objects.filter(username=username).exists() or User.objects.filter(email=email).exists():
+            messages.error(request, "Username or email already exists.")
+            return redirect("signup")
+
+        user = User.objects.create_user(
+            username=username,
+            email=email,
+            password=password,
+            first_name=first_name,
+            last_name=last_name
+        )
+        Token.objects.get_or_create(user=user)
+        messages.success(request, "Signup is successful")
+        return redirect("login")
+
+    return render(request, "corecode/signup.html")
 
 
 
