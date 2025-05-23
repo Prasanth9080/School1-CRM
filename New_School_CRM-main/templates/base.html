@@ -3,14 +3,15 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <title>{{ School_name | default:"Sample-School" }}</title>
-<!-- bootstrap related links -->
- 
+  <!-- bootstrap related links -->
+
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css'>
   <!--edit_profile page bootstarap  -->
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css'>
@@ -24,34 +25,29 @@
   <link rel="stylesheet" href="{% static 'plugins/toastr/toastr.min.css' %}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet"
-    href="{% static 'plugins/overlayScrollbars/css/OverlayScrollbars.min.css' %}">
+  <link rel="stylesheet" href="{% static 'plugins/overlayScrollbars/css/OverlayScrollbars.min.css' %}">
   <link rel="stylesheet" href="{% static 'plugins/Datatables/datatables.min.css' %}" />
   <!-- Theme style -->
   <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
   <!-- Google Font: Source Sans Pro -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-<!-- Favicon added -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
+  <!-- Favicon added -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
 
-</head> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 
-<body
-  class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
   <div class="wrapper">
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-    
+
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i
-              class="fas fa-bars"></i></a>
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
           <a href="{% url 'home' %} " class="nav-link"><i class="fa fa-home"></i></a>
@@ -66,22 +62,78 @@
 
       <ul class="navbar-nav ml-auto">
 
-        <li class="nav-item d-none d-sm-inline-block" >
+        <!-- <li class="nav-item d-none d-sm-inline-block">
           <a href="{% url 'principal_notifications' %}" class="nav-link">
-            <i class="fa fa-bell"></i> Notification
-        </a>
+            <i class="fa fa-bell"></i> Notificationsss
+          </a>
+        </li> -->
+
+        <!-- <li class="nav-item d-none d-sm-inline-block">
+          <a href="{% url 'principal_notifications' %}" class="nav-link position-relative">
+            <i class="fa fa-bell"></i> Notifications
+            {% if unread_count > 0 %}
+            <span class="badge badge-danger position-absolute" style="top: 0; right: 0; font-size: 0.75rem;">
+              {{unread_count}}
+            </span>
+            {% else %}
+            <span class="badge badge-success position-absolute" style="top: 0; right: 0; font-size: 0.75rem;">
+              0
+            </span>
+            {% endif %}
+
+          </a>
+        </li> -->
+
+
+        {% if user.is_authenticated %}
+        {% if user.is_superuser %}
+        <!-- Principal Notification Link -->
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="{% url 'principal_notifications' %}" class="nav-link position-relative">
+            <i class="fa fa-bell"></i> Notifications
+            {% if unread_count > 0 %}
+            <span class="badge badge-danger position-absolute" style="top: 0; right: 0; font-size: 0.75rem;">
+              {{ unread_count }}
+            </span>
+            {% else %}
+            <span class="badge badge-success position-absolute" style="top: 0; right: 0; font-size: 0.75rem;">
+              0
+            </span>
+            {% endif %}
+          </a>
         </li>
-        
+
+        {% elif user.is_staff %}
+        <!-- Staff Notification Link -->
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="{% url 'staff_notifications' %}" class="nav-link position-relative">
+            <i class="fa fa-bell"></i> Notifications
+            {% if unread_count > 0 %}
+            <span class="badge badge-danger position-absolute" style="top: 0; right: 0; font-size: 0.75rem;">
+              {{ unread_count }}
+            </span>
+            {% else %}
+            <span class="badge badge-success position-absolute" style="top: 0; right: 0; font-size: 0.75rem;">
+              0
+            </span>
+            {% endif %}
+          </a>
+        </li>
+        {% endif %}
+        {% endif %}
+
+
         <li class="nav-item dropdown">
-          
+
           <a class="nav-link" data-toggle="dropdown" href="#">
             {% if user.profile.profile_picture %}
-                <img src="{{ user.profile.profile_picture.url }}" class="rounded-circle" alt="Profile Image" width="30" height="30">
+            <img src="{{ user.profile.profile_picture.url }}" class="rounded-circle" alt="Profile Image" width="30"
+              height="30">
             {% else %}
-                <img src="{% static 'dist/img/avatar.png' %}" alt="Default Profile Picture"
-                class="rounded-circle" alt="Profile Image" width="30" height="30">
+            <img src="{% static 'dist/img/avatar.png' %}" alt="Default Profile Picture" class="rounded-circle"
+              alt="Profile Image" width="30" height="30">
             {% endif %}
-        </a>
+          </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
             <a href="{% url 'profile' %}" class="dropdown-item">
               <i class="fas fa-user mr-2"></i> Profile
@@ -90,18 +142,18 @@
               <i class="fas fa-user mr-2"></i> Edit_profile
             </a>
             <div class="dropdown-divider"></div>
-          
+
             <div class="dropdown-divider"></div>
             <a href="{% url 'login' %}" class="dropdown-item">
               <i class="fas fa-sign-out-alt"></i> Log-out
             </a>
-          </div> 
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-widget="control-sidebar" data-slide="true"
-            href="#" role="button"><i class="fas fa-th-large"></i></a>
+          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button"><i
+              class="fas fa-th-large"></i></a>
         </li>
-        
+
       </ul>
     </nav>
 
@@ -111,7 +163,7 @@
       <div class="sidebar">
         <nav class="mt-2">
           <!-- old base html without condition for role based -->
-        <!-- <ul class="nav nav-pills nav-sidebar flex-column"
+          <!-- <ul class="nav nav-pills nav-sidebar flex-column"
             data-widget="treeview" role="menu" data-accordion="false">
 
 
@@ -197,324 +249,323 @@
             </li>
 
           </ul>   -->
-        
-        <!-- new base html with condition for role based -->
-         
-          <ul class="nav nav-pills nav-sidebar flex-column"
-          data-widget="treeview" role="menu" data-accordion="false">
 
-          {# ==== STUDENT ==== #}
-          {% if user|is_role:"student" %}
-          <!-- <li class="nav-item">
+          <!-- new base html with condition for role based -->
+
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+            {# ==== STUDENT ==== #}
+            {% if user|is_role:"student" %}
+            <!-- <li class="nav-item">
           <a href="{% url 'student-list' %}" class="nav-link">
           <i class="nav-icon fas fa-graduation-cap"></i>
           <p>Students</p>
           </a>
           </li> -->
-          <li class="nav-item">
-            <a href="{% url 'student-data' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Students
-              </p>
-            </a>
-          </li>
+            <li class="nav-item">
+              <a href="{% url 'student-data' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Students
+                </p>
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a href="{% url 'student-data' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                 Payments
-              </p>
-            </a>
-          </li>
-         
-          <li class="nav-item">
-            <a href="{% url 'student-attendance' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Leave Management
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="{% url 'student-attendance-report' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Attendance Management
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="{% url 'student-report-card' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Report Card
-              </p>
-            </a>
-          </li>
+            <li class="nav-item">
+              <a href="{% url 'student-data' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Payments
+                </p>
+              </a>
+            </li>
 
-       
-
-          {# ==== TEACHER ==== #}
-          {% elif user|is_role:"teacher" %}
-
-          <li class="nav-item">
-            <a href="{% url 'staff-data' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Staff
-              </p>
-            </a>
-          </li>
-         
-         
-          <li class="nav-item">
-            <a href="{% url 'staff-attendance' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Leave Management
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="{% url 'staff-attendance-view' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Attendance Management
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="{% url 'staff-class-sechedule' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-               class sechedule
-              </p>
-            </a>
-          </li>
-          <hr>
-
-          <li class="nav-item">
-            <a href="{% url 'staff-attendance-list' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Student Attendance Management
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="{% url 'staff-student-leave-report' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-               Student Leave Report
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="{% url 'staff-reportcard-list' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Student Report card Management
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="{% url 'student-fees' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Student Fees Management
-              </p>
-            </a>
-          </li>
+            <li class="nav-item">
+              <a href="{% url 'student-attendance' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Leave Management
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'student-attendance-report' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Attendance Management
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'student-report-card' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Report Card
+                </p>
+              </a>
+            </li>
 
 
-          <li class="nav-item">
-            <a href="{% url 'student-list' %}" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>Students</p>
-            </a>
+
+            {# ==== TEACHER ==== #}
+            {% elif user|is_role:"teacher" %}
+
+            <li class="nav-item">
+              <a href="{% url 'staff-data' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Staff
+                </p>
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="{% url 'staff-attendance' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Leave Management
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'staff-attendance-view' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Attendance Management
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'staff-class-sechedule' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  class sechedule
+                </p>
+              </a>
+            </li>
+            <hr>
+
+            <li class="nav-item">
+              <a href="{% url 'staff-attendance-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Student Attendance Management
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'staff-student-leave-report' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Student Leave Report
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'staff-reportcard-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Student Report card Management
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'student-fees' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Student Fees Management
+                </p>
+              </a>
+            </li>
+
+
+            <li class="nav-item">
+              <a href="{% url 'student-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>Students</p>
+              </a>
             </li>
 
             <li class="nav-header">Finance</li>
             <li class="nav-item">
-            <a href="{% url 'invoice-list' %}" class="nav-link">
-            <i class="nav-icon fas fa-money-bill-alt"></i>
-            <p>Student Invoices</p>
-            </a>
+              <a href="{% url 'invoice-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-money-bill-alt"></i>
+                <p>Student Invoices</p>
+              </a>
             </li>
 
 
-          <li class="nav-header">Others</li>
-          <li class="nav-item has-treeview">
-          <a href="#" class="nav-link">
-          <i class="nav-icon fas fa-copy"></i>
-          <p>Management <i class="fas fa-angle-left right"></i></p>
-          </a>
-          <ul class="nav nav-treeview">
-          <li class="nav-item">
-          <a href="{% url 'sessions' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Sessions</p>
-          </a>
-          </li>
-          <li class="nav-item">
-          <a href="{% url 'terms' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Terms</p>
-          </a>
-          </li>
-          <li class="nav-item">
-          <a href="{% url 'subjects' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Subjects</p>
-          </a>
-          </li>
-          <li class="nav-item">
-          <a href="{% url 'classes' %}" class="nav-link">
-          <i class="nav-icon fas fa-bars"></i>
-          <p>Classes</p>
-          </a>
-          </li>
-          </ul> 
-          </li>
+            <li class="nav-header">Others</li>
+            <li class="nav-item has-treeview">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-copy"></i>
+                <p>Management <i class="fas fa-angle-left right"></i></p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="{% url 'sessions' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>Sessions</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'terms' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>Terms</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'subjects' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>Subjects</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'classes' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>Classes</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
 
-          {# ==== PRINCIPAL ==== #}
-          {% elif user|is_role:"principal" %}
+            {# ==== PRINCIPAL ==== #}
+            {% elif user|is_role:"principal" %}
 
-          <li class="nav-item">
-            <a href="{% url 'principal-data' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Principal
-              </p>
-            </a>
-          </li>
+            <li class="nav-item">
+              <a href="{% url 'principal-data' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Principal
+                </p>
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a href="{% url 'principal-data' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
-                Leave Management
-              </p>
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a href="{% url 'principal-attendance-list' %}" class="nav-link">
-              <i class="nav-icon fas fa-graduation-cap"></i>
-              <p>
+            <li class="nav-item">
+              <a href="{% url 'principal-data' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Leave Management
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'principal-attendance-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
                   Staff Attendance Management
-              </p>
-            </a>
-          </li>
+                </p>
+              </a>
+            </li>
 
-        <li class="nav-item">
-          <a href="{% url 'principal-staff-leave-report' %}" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>
-             Staff Leave Report
-            </p>
-          </a>
-        </li>
-        
-        <li class="nav-item">
-          <a href="{% url 'principal-student-fees' %}" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>
-              Student Fees Management
-            </p>
-          </a>
-        </li>
-        <hr>
+            <li class="nav-item">
+              <a href="{% url 'principal-staff-leave-report' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Staff Leave Report
+                </p>
+              </a>
+            </li>
 
-        <li class="nav-item">
-          <a href="{% url 'student-list' %}" class="nav-link">
-            <i class="nav-icon fas fa-graduation-cap"></i>
-            <p>
-              Students List / Create
-            </p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="{% url 'staff-list' %}" class="nav-link">
-            <i class="nav-icon fas fa-users"></i>
-            <p>
-              Staff List / Create
-            </p>
-          </a>
-        </li>
+            <li class="nav-item">
+              <a href="{% url 'principal-student-fees' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Student Fees Management
+                </p>
+              </a>
+            </li>
+            <hr>
 
-        <li class="nav-header">Finance</li>
-        <li class="nav-item">
-          <a href="{% url 'invoice-list' %}" class="nav-link">
-            <i class="nav-icon fas fa-money-bill-alt"></i>
-            <p>
-              Invoices
-            </p>
-          </a>
-        </li>
-     
-        <li class="nav-header">Others</li>
-        <li class="nav-item has-treeview">
-          <a href="#" class="nav-link">
-            <i class="nav-icon fas fa-copy"></i>
-            <p>
-              Management
-              <i class="fas fa-angle-left right"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="{% url 'sessions' %}" class="nav-link">
-                <i class="nav-icon fas fa-bars"></i>
+              <a href="{% url 'student-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
-                  Sessions
+                  Students List / Create
                 </p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'terms' %}" class="nav-link">
-                <i class="nav-icon fas fa-bars"></i>
+              <a href="{% url 'staff-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-users"></i>
                 <p>
-                  Terms
-                  <i class="right"></i>
+                  Staff List / Create
                 </p>
               </a>
+            </li>
+
+            <li class="nav-header">Finance</li>
+            <li class="nav-item">
+              <a href="{% url 'invoice-list' %}" class="nav-link">
+                <i class="nav-icon fas fa-money-bill-alt"></i>
+                <p>
+                  Invoices
+                </p>
+              </a>
+            </li>
+
+            <li class="nav-header">Others</li>
+            <li class="nav-item has-treeview">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-copy"></i>
+                <p>
+                  Management
+                  <i class="fas fa-angle-left right"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="{% url 'sessions' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>
+                      Sessions
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'terms' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>
+                      Terms
+                      <i class="right"></i>
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'subjects' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>
+                      Subjects
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="{% url 'classes' %}" class="nav-link">
+                    <i class="nav-icon fas fa-bars"></i>
+                    <p>
+                      Classes
+                    </p>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a href="{% url 'subjects' %}" class="nav-link">
-                <i class="nav-icon fas fa-bars"></i>
+              <a href="{% url 'configs' %}" class="nav-link">
+                <i class="nav-icon fas fa-cog"></i>
                 <p>
-                  Subjects
+                  Settings
                 </p>
               </a>
             </li>
-            <li class="nav-item">
-              <a href="{% url 'classes' %}" class="nav-link">
-                <i class="nav-icon fas fa-bars"></i>
-                <p>
-                  Classes
-                </p>
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a href="{% url 'configs' %}" class="nav-link">
-            <i class="nav-icon fas fa-cog"></i>
-            <p>
-              Settings
-            </p>
-          </a>
-        </li>
-          {% endif %}
+            {% endif %}
           </ul>
 
         </nav>
@@ -553,7 +604,7 @@
                   </div>
                 </div>
 
-              </div> 
+              </div>
               {% endblock fullcard %}
             </div>
           </div>
@@ -572,11 +623,10 @@
   <script src="{% static 'dist/js/jquery.formset.js' %}"> </script>
   <script src="{% static 'plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
   <script src="{% static 'plugins/toastr/toastr.min.js' %}"></script>
-  <script
-    src="{% static 'plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js' %}"></script>
+  <script src="{% static 'plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js' %}"></script>
 
   <script src="{% static 'dist/js/adminlte.js' %}"></script>
- 
+
   <script src="{% static 'dist/js/demo.js' %}"></script>
 
   {% if messages %}

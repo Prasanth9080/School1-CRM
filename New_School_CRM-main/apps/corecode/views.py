@@ -970,19 +970,60 @@ from rest_framework.authtoken.models import Token
 from django.http import JsonResponse
 import json
 
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         try:
+#             # Load JSON data from request body
+#             data = json.loads(request.body)
+#             username_or_email = data.get("username")
+#             password = data.get("password")
+#         except (json.JSONDecodeError, KeyError):
+#             return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         if user is None:
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             token, _ = Token.objects.get_or_create(user=user)
+
+#             return JsonResponse({
+#                 "status": "success",
+#                 "token": token.key,
+#                 "redirect_url": get_redirect_url_based_on_role(user)
+#             })
+
+#         return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
+
+#     return render(request, "corecode/login.html")
+
+##### new....
+
 def custom_login_view(request):
     if request.method == "POST":
-        try:
-            # Load JSON data from request body
-            data = json.loads(request.body)
-            username_or_email = data.get("username")
-            password = data.get("password")
-        except (json.JSONDecodeError, KeyError):
-            return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+        # Check content type
+        if request.content_type == "application/json":
+            try:
+                data = json.loads(request.body)
+                username_or_email = data.get("username")
+                password = data.get("password")
+            except (json.JSONDecodeError, KeyError):
+                return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+        else:
+            # Fallback for standard HTML form submission (non-JS)
+            username_or_email = request.POST.get("username")
+            password = request.POST.get("password")
 
         user = authenticate(request, username=username_or_email, password=password)
 
         if user is None:
+            # Try email fallback
             try:
                 user_obj = User.objects.get(email=username_or_email)
                 user = authenticate(request, username=user_obj.username, password=password)
@@ -993,15 +1034,31 @@ def custom_login_view(request):
             login(request, user)
             token, _ = Token.objects.get_or_create(user=user)
 
-            return JsonResponse({
-                "status": "success",
-                "token": token.key,
-                "redirect_url": get_redirect_url_based_on_role(user)
-            })
+            # Handle JSON vs HTML
+            if request.content_type == "application/json":
+                return JsonResponse({
+                    "status": "success",
+                    "token": token.key,
+                    "redirect_url": get_redirect_url_based_on_role(user)
+                })
+            else:
+                # Standard HTML redirect
+                return redirect(get_redirect_url_based_on_role(user))
 
-        return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
+        # Authentication failed
+        if request.content_type == "application/json":
+            return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
+        else:
+            messages.error(request, "Invalid username or password.")
+            return redirect("login")
 
     return render(request, "corecode/login.html")
+
+
+
+
+##### new .... 2nd try
+
 
 
 def get_redirect_url_based_on_role(user):

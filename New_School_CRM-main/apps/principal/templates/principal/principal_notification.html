@@ -16,37 +16,40 @@
 
 <form method="post" action="{% url 'delete_selected_notifications' %}" id="bulk-delete-form">
   {% csrf_token %}
-  <button type="submit">Delete Selected</button>
+  <button type="submit">Deletee Selected</button>
 
   <br><br>
   <label><input type="checkbox" id="select-all"> Select All</label>
-
-  <ul>
-    {% for notification in notifications %}
-    <li class="{% if notification.is_read %}read{% else %}unread{% endif %}">
-      <input type="checkbox" name="selected_notifications" value="{{ notification.id }}" class="notification-checkbox">
-
-      <strong>{{ notification.student.username }}</strong>: {{ notification.message }} <br>
-      <small>{{ notification.created_at|date:"Y-m-d H:i" }}</small>
-
-      <form method="post" action="{% url 'mark_notification_as_read_for_principal' notification.id %}"
-        style="display:inline;">
-        {% csrf_token %}
-        {% if not notification.is_read %}
-        <button type="submit">Mark as Read</button>
-        {% endif %}
-      </form>
-
-      <form method="post" action="{% url 'delete_notification' notification.id %}" style="display:inline;">
-        {% csrf_token %}
-        <button type="submit">Delete</button>
-      </form>
-    </li>
-    {% empty %}
-    <li>No notifications found.</li>
-    {% endfor %}
-  </ul>
 </form>
+
+<ul>
+  {% for notification in notifications %}
+  <li class="{% if notification.is_read %}read{% else %}unread{% endif %}">
+    <input type="checkbox" form="bulk-delete-form" name="selected_notifications" value="{{ notification.id }}"
+      class="notification-checkbox">
+
+    <strong>{{ notification.student.username }}</strong>: {{ notification.message }}<br>
+    <small>{{ notification.created_at|date:"Y-m-d H:i" }}</small>
+
+    {% if not notification.is_read %}
+    <!-- Mark as Read Form -->
+    <form method="post" action="{% url 'mark_notification_as_read_for_principal' notification.id %}"
+      style="display:inline-block; margin-right: 5px;">
+      {% csrf_token %}
+      <button type="submit">Mark as Read</button>
+    </form>
+    {% endif %}
+
+    <!-- Hide Form -->
+    <form method="post" action="{% url 'delete_notification' notification.id %}" style="display:inline;">
+      {% csrf_token %}
+      <button type="submit">Deletee</button>
+    </form>
+  </li>
+  {% empty %}
+  <li>No notifications found.</li>
+  {% endfor %}
+</ul>
 
 <script>
   document.getElementById('select-all').addEventListener('change', function () {

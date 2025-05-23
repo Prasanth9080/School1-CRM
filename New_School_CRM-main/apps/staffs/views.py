@@ -1045,6 +1045,27 @@ def mark_notification_as_read_for_staff(request, notification_id):
     return redirect('staff_notifications')
 
 
+
+########### new 
+
+# @csrf_protect
+# @login_required
+# def mark_notification_as_read_for_staff(request, notification_id):
+#     if request.method == 'POST':
+#         notification = get_object_or_404(StaffNotification, id=notification_id)
+#         if not notification.is_read:
+#             notification.is_read = True
+#             notification.save()
+#             messages.success(request, "Notification marked as read.")
+#         else:
+#             messages.info(request, "Notification already marked as read.")
+        
+#         # Always show "0 notification(s) deleted successfully"
+#         messages.info(request, "0 notification(s) deleted successfully.")
+#     return redirect('staff_notifications')
+
+
+
 @csrf_protect
 @login_required
 def hide_notification(request, notification_id):
@@ -1074,6 +1095,9 @@ def hide_selected_notifications(request):
 
         messages.success(request, f"{len(selected_ids)} notification(s) hidden.")
     return redirect('staff_notifications')
+
+
+
 
 
 

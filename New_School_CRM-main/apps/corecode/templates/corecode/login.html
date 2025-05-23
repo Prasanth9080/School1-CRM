@@ -25,8 +25,9 @@
                 <div class="login100-pic js-tilt" style="width: 400px;">
                     <img src="{% static 'dist/img/school.png' %}">
                 </div>
-                <form class="login100-form validate-form" method="post" action="{% url 'login' %}"
-                    onsubmit="return validateForm()">
+                <!-- <form class="login100-form validate-form" method="post" action="{% url 'login' %}"
+                onsubmit="return validateForm()"> -->
+                <form class="login100-form validate-form" onsubmit="return false;">
                     {% csrf_token %}
                     <span class="login100-form-title">
                         {{ School_name| default:"Sample-Schooltrtrtr" }}
@@ -90,7 +91,9 @@
     <script src="{% static 'plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js' %}"></script>
     <script src="{% static 'dist/js/adminlte.js' %}"></script>
     <script src="{% static 'dist/js/demo.js' %}"></script>
-    <script>
+
+    <!-- //////// original code  -->
+    <!-- <script>
         function validateForm() {
             var username = document.getElementById("id_username").value;
             var password = document.getElementById("id_password").value;
@@ -128,68 +131,6 @@
         });
     </script>
 
-    <!-- This is for jwt authentication token store in localstorage  -->
-
-    <!-- <script>
-        // Store auth token from cookie to localStorage
-        document.addEventListener("DOMContentLoaded", function () {
-            const cookies = document.cookie.split("; ");
-            let token = null;
-
-            for (let i = 0; i < cookies.length; i++) {
-                const [name, value] = cookies[i].split("=");
-                if (name === "auth_token") {
-                    token = value;
-                    break;
-                }
-            }
-
-            if (token) {
-                localStorage.setItem("auth_token", token);
-                // Optional: Remove cookie for security
-                document.cookie = "auth_token=; Max-Age=0";
-            }
-        });
-    </script> -->
-
-
-    <!-- this jwt 2nd type -->
-
-    <!-- <script>
-        document.querySelector('.login100-form').addEventListener('submit', function (e) {
-            e.preventDefault();
-
-            const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
-            const username = document.getElementById('id_username').value;
-            const password = document.getElementById('id_password').value;
-
-            fetch("{% url 'login' %}", {
-                method: 'POST',
-                headers: {
-                    'X-CSRFToken': csrfToken,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ username: username, password: password })
-            })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.status === "success") {
-                        localStorage.setItem("auth_token", data.token);
-                        alert(data.message);
-                        window.location.href = data.redirect_url;
-                    } else {
-                        alert(data.message);
-                    }
-                })
-                .catch(err => {
-                    console.error("Error:", err);
-                    alert("Something went wrong");
-                });
-        });
-    </script> -->
-
-    <!-- this is jwt 3rd type -->
-
     <script>
         document.querySelector('.login100-form').addEventListener('submit', function (e) {
             e.preventDefault();
@@ -200,6 +141,7 @@
 
             fetch("{% url 'login' %}", {
                 method: 'POST',
+                credentials: 'include',  // <--- important
                 headers: {
                     'X-CSRFToken': csrfToken,
                     'Content-Type': 'application/json'
@@ -210,15 +152,6 @@
                 })
             })
                 .then(response => response.json())
-                // .then(data => {
-                //     if (data.status === "success") {
-                //         localStorage.setItem("user_token", data.token);
-                //         toastr.success("Login successfully");
-                //         window.location.href = data.redirect_url;
-                //     } else {
-                //         toastr.error(data.message || "Login failed");
-                //     }
-                // })
                 .then(data => {
                     if (data.status === "success") {
                         toastr.success("Login successfully");
@@ -234,6 +167,130 @@
                 });
         });
 
+    </script> -->
+
+
+
+    <!-- //////     2nd try ..... -->
+
+
+    <!-- <script>
+        document.querySelector('.login100-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const username = document.getElementById("id_username").value;
+            const password = document.getElementById("id_password").value;
+
+            // Simple validation
+            if (!username || !password) {
+                if (!username) {
+                    document.getElementById("username-error").innerText = "Please enter your username";
+                }
+                if (!password) {
+                    document.getElementById("password-error").innerText = "Please enter your password";
+                }
+                setTimeout(() => {
+                    document.getElementById("username-error").innerText = "";
+                    document.getElementById("password-error").innerText = "";
+                }, 5000);
+                return;
+            }
+
+            const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+            fetch("{% url 'login' %}", {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "X-CSRFToken": csrfToken,
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.status === "success") {
+                        toastr.success("Login successful");
+                        localStorage.setItem("auth_token", data.token);
+                        window.location.href = data.redirect_url;
+                    } else {
+                        toastr.error(data.message || "Invalid login. Try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Login error:", error);
+                    toastr.error("Login request failed. Try again.");
+                });
+        });
+    </script> -->
+
+
+
+
+
+    <script>
+        document.querySelector('.login100-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const username = document.getElementById("id_username").value;
+            const password = document.getElementById("id_password").value;
+
+            if (!username || !password) {
+                if (!username) document.getElementById("username-error").innerText = "Please enter your username";
+                if (!password) document.getElementById("password-error").innerText = "Please enter your password";
+                setTimeout(() => {
+                    document.getElementById("username-error").innerText = "";
+                    document.getElementById("password-error").innerText = "";
+                }, 5000);
+                return;
+            }
+
+            const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+            fetch("{% url 'login' %}", {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "X-CSRFToken": csrfToken
+                },
+                body: new URLSearchParams({
+                    username: username,
+                    password: password,
+                    csrfmiddlewaretoken: csrfToken  // Important for CSRF middleware!
+                })
+            })
+                .then(response => {
+                    if (response.redirected) {
+                        window.location.href = response.url;
+                        return;
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (!data) return;
+
+                    if (data.status === "success") {
+                        toastr.success("Login successful");
+                        localStorage.removeItem("auth_token", data.token);
+                        window.location.href = data.redirect_url;
+                    } else {
+                        toastr.error(data.message || "Invalid login. Try again.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Login error:", error);
+                    toastr.error("Login request failed. Try again.");
+                });
+        });
     </script>
 
 
