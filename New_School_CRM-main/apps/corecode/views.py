@@ -891,6 +891,9 @@ from rest_framework.authtoken.models import Token
 
 
 
+
+
+
 import json
 from django.http import JsonResponse
 from django.contrib.auth import authenticate, login
@@ -967,8 +970,8 @@ from rest_framework.authtoken.models import Token
 
 ####### this is 3rd working good and login with username and email address
 
-from django.http import JsonResponse
-import json
+# from django.http import JsonResponse
+# import json
 
 # def custom_login_view(request):
 #     if request.method == "POST":
@@ -1003,56 +1006,213 @@ import json
 
 #     return render(request, "corecode/login.html")
 
-##### new....
 
+
+######## 24-5-25
+
+# from django.http import JsonResponse
+# from django.shortcuts import render
+# from django.contrib.auth import authenticate, login
+# from django.contrib.auth.models import User
+# from rest_framework.authtoken.models import Token
+# import json
+
+# def get_redirect_url_based_on_role(user):
+#     # Dummy placeholder - replace with your actual logic
+#     return "/dashboard/"
+
+
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         try:
+#             if request.content_type == "application/json":
+#                 data = json.loads(request.body)
+#             else:
+#                 data = request.POST
+
+#             username_or_email = data.get("username")
+#             password = data.get("password")
+
+#             if not username_or_email or not password:
+#                 raise KeyError("Missing fields")
+
+#         except (json.JSONDecodeError, KeyError):
+#             return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+
+#         # Try to authenticate with username
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         if user is None:
+#             # Try using email
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             token, _ = Token.objects.get_or_create(user=user)
+#             return JsonResponse({
+#                 "status": "success",
+#                 "token": token.key,
+#                 "redirect_url": get_redirect_url_based_on_role(user)
+#             })
+
+#         return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
+
+#     return render(request, "corecode/login.html")
+
+
+##### 24-05-25  2nd
+
+# from django.shortcuts import render, redirect
+# from django.contrib.auth import authenticate, login
+# from django.contrib.auth.models import User
+# from django.views.decorators.csrf import csrf_protect
+# from django.http import HttpResponse
+# from django.contrib import messages
+
+# @csrf_protect
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         username_or_email = request.POST.get("username")
+#         password = request.POST.get("password")
+
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         # If login using email
+#         if user is None:
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 pass
+
+#         if user is not None:
+#             login(request, user)
+            
+#             # REDIRECT BASED ON ROLE
+#             if hasattr(user, 'student'):
+#                 return redirect('/student/dashboard/')
+#             elif hasattr(user, 'teacher'):
+#                 return redirect('/teacher/dashboard/')
+#             else:
+#                 return redirect('/')  # Default fallback
+
+#         else:
+#             return render(request, "corecode/login.html", {
+#                 "login_error": "Invalid username/email or password."
+#             })
+
+#     return render(request, "corecode/login.html")
+
+
+########### 24-05-25
+
+from django.shortcuts import render
+from django.contrib.auth import authenticate, login
+from django.contrib.auth.models import User
+from django.views.decorators.csrf import csrf_protect
+from django.http import JsonResponse
+from rest_framework.authtoken.models import Token
+
+@csrf_protect
 def custom_login_view(request):
-    if request.method == "POST":
-        # Check content type
-        if request.content_type == "application/json":
-            try:
-                data = json.loads(request.body)
-                username_or_email = data.get("username")
-                password = data.get("password")
-            except (json.JSONDecodeError, KeyError):
-                return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
-        else:
-            # Fallback for standard HTML form submission (non-JS)
-            username_or_email = request.POST.get("username")
-            password = request.POST.get("password")
+    if request.method == "POST" and request.headers.get("x-requested-with") == "XMLHttpRequest":
+        import json
+        data = json.loads(request.body)
+        username_or_email = data.get("username")
+        password = data.get("password")
 
         user = authenticate(request, username=username_or_email, password=password)
 
+        # Try to login via email
         if user is None:
-            # Try email fallback
             try:
                 user_obj = User.objects.get(email=username_or_email)
                 user = authenticate(request, username=user_obj.username, password=password)
             except User.DoesNotExist:
-                user = None
+                return JsonResponse({"status": "error", "message": "Invalid credentials"}, status=400)
 
         if user is not None:
             login(request, user)
             token, _ = Token.objects.get_or_create(user=user)
 
-            # Handle JSON vs HTML
-            if request.content_type == "application/json":
-                return JsonResponse({
-                    "status": "success",
-                    "token": token.key,
-                    "redirect_url": get_redirect_url_based_on_role(user)
-                })
+            # Decide redirect based on user type
+            if hasattr(user, 'student'):
+                redirect_url = '/student/dashboard/'
+            elif hasattr(user, 'teacher'):
+                redirect_url = '/teacher/dashboard/'
+            elif hasattr(user, 'principal'):
+                redirect_url = '/principal/dashboard/'
             else:
-                # Standard HTML redirect
-                return redirect(get_redirect_url_based_on_role(user))
+                redirect_url = '/'
 
-        # Authentication failed
-        if request.content_type == "application/json":
-            return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
+            return JsonResponse({
+                "status": "success",
+                "token": token.key,
+                "redirect_url": redirect_url
+            })
         else:
-            messages.error(request, "Invalid username or password.")
-            return redirect("login")
+            return JsonResponse({"status": "error", "message": "Invalid username/email or password."}, status=401)
 
     return render(request, "corecode/login.html")
+
+
+
+
+
+##### new....
+
+# def custom_login_view(request):
+#     if request.method == "POST":
+#         # Check content type
+#         if request.content_type == "application/json":
+#             try:
+#                 data = json.loads(request.body)
+#                 username_or_email = data.get("username")
+#                 password = data.get("password")
+#             except (json.JSONDecodeError, KeyError):
+#                 return JsonResponse({"status": "error", "message": "Invalid request"}, status=400)
+#         else:
+#             # Fallback for standard HTML form submission (non-JS)
+#             username_or_email = request.POST.get("username")
+#             password = request.POST.get("password")
+
+#         user = authenticate(request, username=username_or_email, password=password)
+
+#         if user is None:
+#             # Try email fallback
+#             try:
+#                 user_obj = User.objects.get(email=username_or_email)
+#                 user = authenticate(request, username=user_obj.username, password=password)
+#             except User.DoesNotExist:
+#                 user = None
+
+#         if user is not None:
+#             login(request, user)
+#             token, _ = Token.objects.get_or_create(user=user)
+
+#             # Handle JSON vs HTML
+#             if request.content_type == "application/json":
+#                 return JsonResponse({
+#                     "status": "success",
+#                     "token": token.key,
+#                     "redirect_url": get_redirect_url_based_on_role(user)
+#                 })
+#             else:
+#                 # Standard HTML redirect
+#                 return redirect(get_redirect_url_based_on_role(user))
+
+#         # Authentication failed
+#         if request.content_type == "application/json":
+#             return JsonResponse({"status": "error", "message": "Check username and password"}, status=401)
+#         else:
+#             messages.error(request, "Invalid username or password.")
+#             return redirect("login")
+
+#     return render(request, "corecode/login.html")
 
 
 
@@ -1061,15 +1221,15 @@ def custom_login_view(request):
 
 
 
-def get_redirect_url_based_on_role(user):
-    role = user.userprofile.role
-    if role == "principal":
-        return "/principal/dashboard/"
-    elif role == "teacher":
-        return "/staff/dashboard/"
-    elif role == "student":
-        return "/student/dashboard/"
-    return "/"
+# def get_redirect_url_based_on_role(user):
+#     role = user.userprofile.role
+#     if role == "principal":
+#         return "/principal/dashboard/"
+#     elif role == "teacher":
+#         return "/staff/dashboard/"
+#     elif role == "student":
+#         return "/student/dashboard/"
+#     return "/"
 
 
 @login_required
@@ -1179,6 +1339,12 @@ def signup_view(request):
             password=password,
             first_name=first_name,
             last_name=last_name
+        )
+        UserProfile.objects.create(
+            user=user,
+            first_name=first_name,
+            last_name=last_name,
+            email=email
         )
         Token.objects.get_or_create(user=user)
         messages.success(request, "Signup is successful")

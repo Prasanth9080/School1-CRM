@@ -29113,3 +29113,1596 @@ INFO 2025-05-23 15:03:20,564 "GET /staff/dashboard/ HTTP/1.1" 200 13219
 INFO 2025-05-23 15:03:23,198 "GET /staff/notifications/ HTTP/1.1" 200 14893
 INFO 2025-05-23 15:05:21,916 "POST /staff/notifications/hide/95/ HTTP/1.1" 302 0
 INFO 2025-05-23 15:05:22,044 "GET /staff/notifications/ HTTP/1.1" 200 14380
+INFO 2025-05-24 10:13:52,881 Watching for file changes with StatReloader
+INFO 2025-05-24 10:14:10,615 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 10:14:10,713 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 10:14:10,880 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 10:14:10,936 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 10:14:10,936 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 10:14:10,943 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 10:14:10,953 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 10:14:10,959 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 10:14:10,985 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 10:14:10,987 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 10:14:10,994 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 10:14:11,025 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 10:14:11,026 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 10:14:11,029 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 10:14:11,059 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 10:14:11,072 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 10:14:20,186 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 10:14:20,378 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 10:14:20,434 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 10:14:20,439 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 10:14:20,442 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 10:14:20,445 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 10:14:20,468 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 10:14:20,830 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 11:24:59,242 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 11:24:59,717 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 11:24:59,917 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 11:25:02,276 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:25:03,960 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-24 11:26:07,837 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:26:07,964 "GET /login/ HTTP/1.1" 200 12147
+INFO 2025-05-24 11:26:10,479 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-24 11:26:46,656 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:26:46,753 "GET /login/ HTTP/1.1" 200 12147
+INFO 2025-05-24 11:26:48,711 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-24 11:28:12,356 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:28:12,489 "GET /login/ HTTP/1.1" 200 12147
+INFO 2025-05-24 11:28:29,839 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 11:28:29,858 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 11:28:29,877 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 11:28:29,879 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 11:28:29,883 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 11:28:29,884 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 11:28:29,885 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 11:28:29,886 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 11:28:29,889 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 11:28:29,904 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 11:28:29,926 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 11:28:29,927 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 11:28:29,927 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 11:28:29,928 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 11:28:29,928 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 11:28:30,180 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 11:28:30,216 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 11:28:43,985 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:28:44,040 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-24 11:28:44,056 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-24 11:28:44,078 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-24 11:28:44,082 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-24 11:28:44,096 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-24 11:28:44,125 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-24 11:28:44,130 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-24 11:28:44,160 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-24 11:28:44,177 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-24 11:28:49,754 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:28:49,979 "GET /admin/ HTTP/1.1" 200 68577
+INFO 2025-05-24 11:28:50,027 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-24 11:28:50,084 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-24 11:28:53,422 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40059
+INFO 2025-05-24 11:28:53,458 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-05-24 11:28:53,465 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-24 11:28:53,476 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-05-24 11:28:53,477 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-05-24 11:28:53,483 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-05-24 11:28:53,493 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-24 11:28:53,497 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-24 11:28:53,510 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-05-24 11:28:53,527 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-05-24 11:28:53,551 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-05-24 11:28:53,555 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:28:58,982 "GET /admin/corecode/userprofile/79/change/ HTTP/1.1" 200 34564
+INFO 2025-05-24 11:28:59,010 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-24 11:28:59,010 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-24 11:28:59,025 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-24 11:28:59,030 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-24 11:28:59,042 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-24 11:28:59,052 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-05-24 11:28:59,082 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:14,722 "POST /admin/corecode/userprofile/79/change/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:29:14,856 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40642
+INFO 2025-05-24 11:29:14,938 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:17,773 "GET /admin/corecode/userprofile/80/change/ HTTP/1.1" 200 34568
+INFO 2025-05-24 11:29:17,865 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:22,458 "POST /admin/corecode/userprofile/80/change/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:29:22,592 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40648
+INFO 2025-05-24 11:29:22,667 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:25,778 "GET /admin/corecode/userprofile/80/change/ HTTP/1.1" 200 34591
+INFO 2025-05-24 11:29:25,868 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:31,504 "POST /admin/corecode/userprofile/80/change/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:29:31,612 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40648
+INFO 2025-05-24 11:29:31,704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:34,289 "GET /admin/corecode/userprofile/81/change/ HTTP/1.1" 200 34572
+INFO 2025-05-24 11:29:34,380 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:46,126 "POST /admin/corecode/userprofile/81/change/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:29:46,243 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40659
+INFO 2025-05-24 11:29:46,326 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:49,002 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40079
+INFO 2025-05-24 11:29:49,085 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:49,227 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40079
+INFO 2025-05-24 11:29:49,319 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:50,578 "GET /admin/auth/user/ HTTP/1.1" 200 43231
+INFO 2025-05-24 11:29:50,611 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-05-24 11:29:50,611 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-24 11:29:50,661 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:52,487 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 32948
+INFO 2025-05-24 11:29:52,804 "GET /admin/authtoken/token/ HTTP/1.1" 200 33786
+INFO 2025-05-24 11:29:52,887 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:29:56,173 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 32948
+INFO 2025-05-24 11:30:10,928 "GET /admin/authtoken/token/ HTTP/1.1" 200 33786
+INFO 2025-05-24 11:30:11,019 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:30:21,115 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 32948
+INFO 2025-05-24 11:30:32,961 "GET /admin/authtoken/token/ HTTP/1.1" 200 33786
+INFO 2025-05-24 11:30:33,053 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:30:49,067 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 32948
+INFO 2025-05-24 11:31:44,757 "POST /admin/authtoken/token/ HTTP/1.1" 200 29110
+INFO 2025-05-24 11:31:44,795 "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+INFO 2025-05-24 11:31:47,141 "POST /admin/authtoken/token/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:31:47,233 "GET /admin/authtoken/token/ HTTP/1.1" 200 30037
+INFO 2025-05-24 11:31:47,316 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:31:49,518 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29565
+INFO 2025-05-24 11:31:51,485 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29565
+INFO 2025-05-24 11:31:55,044 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29565
+INFO 2025-05-24 11:31:57,646 "GET /admin/authtoken/token/ HTTP/1.1" 200 29538
+INFO 2025-05-24 11:31:57,771 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:32:10,167 "GET /admin/auth/user/ HTTP/1.1" 200 43231
+INFO 2025-05-24 11:32:10,276 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:32:12,627 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 40079
+INFO 2025-05-24 11:32:12,710 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:32:17,888 "GET /admin/auth/user/ HTTP/1.1" 200 43231
+INFO 2025-05-24 11:32:17,987 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:32:55,319 "POST /admin/auth/user/ HTTP/1.1" 200 35709
+INFO 2025-05-24 11:32:57,955 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:32:58,120 "GET /admin/auth/user/ HTTP/1.1" 200 38085
+INFO 2025-05-24 11:32:58,205 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 11:33:15,495 "POST /admin/logout/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:33:15,503 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 11:33:15,513 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 11:33:22,503 "GET /admin HTTP/1.1" 301 0
+INFO 2025-05-24 11:33:22,511 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:33:22,519 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-24 11:33:30,755 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3380
+INFO 2025-05-24 11:33:47,315 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:33:47,448 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:33:52,893 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:33:53,100 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:33:55,127 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:34:06,646 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:34:14,209 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:34:14,256 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 11:34:14,266 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 11:34:14,268 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 11:34:14,275 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 11:34:14,277 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 11:34:14,278 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 11:34:14,282 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 11:34:14,295 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 11:34:14,295 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 11:34:14,297 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 11:34:14,297 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 11:34:14,298 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 11:34:14,298 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 11:34:14,639 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 11:34:20,300 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:34:20,341 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 11:34:20,356 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 11:34:20,356 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 11:34:20,357 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 11:34:20,357 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 11:34:20,358 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 11:34:20,366 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 11:34:20,367 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 11:34:20,367 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 11:34:20,368 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 11:34:20,370 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 11:34:20,372 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 11:34:20,372 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 11:34:20,613 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 11:35:28,064 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:35:28,374 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:35:28,542 "GET /admin/ HTTP/1.1" 200 64369
+INFO 2025-05-24 11:35:52,042 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:35:52,224 "GET /principal/dashboard/ HTTP/1.1" 200 13270
+INFO 2025-05-24 11:35:52,326 "GET /principal/dashboard/ HTTP/1.1" 200 13270
+INFO 2025-05-24 11:35:52,361 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 11:35:52,361 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 11:35:52,362 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 11:35:52,364 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 11:35:52,365 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 11:35:52,381 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 11:35:55,793 "GET /profile/ HTTP/1.1" 200 19649
+INFO 2025-05-24 11:36:06,881 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:36:06,963 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 11:36:07,071 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 11:36:07,123 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 11:36:07,134 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 11:36:07,135 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 11:36:07,135 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 11:36:07,136 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 11:36:07,152 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 11:36:10,731 "GET /profile/ HTTP/1.1" 200 19641
+INFO 2025-05-24 11:36:22,437 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:36:22,603 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 11:36:22,687 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 11:36:23,055 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:36:25,671 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:52:02,004 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 11:52:03,336 Watching for file changes with StatReloader
+INFO 2025-05-24 11:52:05,701 "GET /login/ HTTP/1.1" 200 7930
+INFO 2025-05-24 11:52:14,672 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:52:14,785 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 11:52:14,878 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 11:52:15,204 "GET /login/ HTTP/1.1" 200 7930
+INFO 2025-05-24 11:52:37,438 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:52:37,520 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 11:52:37,605 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 11:52:37,905 "GET /login/ HTTP/1.1" 200 7929
+INFO 2025-05-24 11:53:11,819 "GET /login/ HTTP/1.1" 200 7930
+INFO 2025-05-24 11:53:12,102 "GET /login/ HTTP/1.1" 200 7930
+INFO 2025-05-24 11:53:19,689 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:53:19,787 "GET /login/ HTTP/1.1" 200 8292
+INFO 2025-05-24 11:53:19,864 "GET /login/ HTTP/1.1" 200 7930
+INFO 2025-05-24 11:53:30,608 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:53:30,676 "GET /login/ HTTP/1.1" 200 8292
+INFO 2025-05-24 11:53:30,752 "GET /login/ HTTP/1.1" 200 7930
+WARNING 2025-05-24 11:53:58,193 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 11:53:58,194 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 11:53:58,449 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 11:54:05,215 "GET /login/ HTTP/1.1" 200 7930
+WARNING 2025-05-24 11:54:05,381 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 11:54:05,382 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 11:54:05,544 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 11:54:05,550 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 11:54:05,564 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 11:54:14,560 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29569
+INFO 2025-05-24 11:54:30,240 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:54:30,332 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 11:54:30,465 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+WARNING 2025-05-24 11:54:30,606 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 11:54:30,607 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 11:54:30,992 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 11:58:20,066 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-24 11:58:21,324 Watching for file changes with StatReloader
+ERROR 2025-05-24 11:58:26,137 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1058, in custom_login_view
+    return render(request, "corecode/login.html")
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'signup' not found. 'signup' is not a valid view function or pattern name.
+ERROR 2025-05-24 11:58:26,144 "GET /login/ HTTP/1.1" 500 124110
+WARNING 2025-05-24 11:58:26,457 Not Found: /favicon.ico
+WARNING 2025-05-24 11:58:26,457 "GET /favicon.ico HTTP/1.1" 404 8833
+INFO 2025-05-24 11:58:47,703 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-24 11:58:48,805 Watching for file changes with StatReloader
+INFO 2025-05-24 11:58:51,034 "GET /login/ HTTP/1.1" 200 11777
+INFO 2025-05-24 11:58:54,018 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-24 11:59:32,957 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 11:59:33,050 "GET /signup/ HTTP/1.1" 200 6072
+INFO 2025-05-24 12:00:16,285 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:00:16,375 "GET /login/ HTTP/1.1" 200 12123
+INFO 2025-05-24 12:00:26,439 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:00:26,530 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 12:00:26,629 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 12:00:26,972 "GET /login/ HTTP/1.1" 200 11777
+ERROR 2025-05-24 12:00:40,577 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1049, in custom_login_view
+    return redirect(get_redirect_url_based_on_role(user))
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1068, in get_redirect_url_based_on_role
+    role = user.userprofile.role
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+    ...<2 lines>...
+    )
+django.contrib.auth.models.User.userprofile.RelatedObjectDoesNotExist: User has no userprofile.
+ERROR 2025-05-24 12:00:40,581 "POST /login/ HTTP/1.1" 500 79625
+WARNING 2025-05-24 12:01:15,838 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:01:15,901 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 12:01:49,047 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:01:49,113 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 12:01:51,207 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:01:51,273 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 12:01:53,014 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:01:53,082 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 12:01:53,381 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:01:53,448 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 12:01:53,976 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:01:54,074 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 12:02:00,711 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 12:02:00,777 "POST /login/ HTTP/1.1" 403 2518
+INFO 2025-05-24 12:03:12,677 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 12:03:13,893 Watching for file changes with StatReloader
+INFO 2025-05-24 12:03:17,290 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:03:27,286 "POST /login/ HTTP/1.1" 200 147
+INFO 2025-05-24 12:03:27,401 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 12:03:36,271 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 12:03:47,692 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29904
+INFO 2025-05-24 12:04:06,134 "GET /profile/ HTTP/1.1" 200 17120
+INFO 2025-05-24 12:04:11,484 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:04:13,770 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-24 12:04:38,255 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:04:38,338 "GET /login/ HTTP/1.1" 200 12127
+INFO 2025-05-24 12:04:42,822 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 30247
+INFO 2025-05-24 12:04:47,125 "GET /admin/authtoken/token/ HTTP/1.1" 200 30391
+INFO 2025-05-24 12:04:47,208 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:04:49,168 "GET /admin/authtoken/token/ HTTP/1.1" 200 30391
+INFO 2025-05-24 12:04:49,251 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:04:50,709 "GET /admin/authtoken/token/ HTTP/1.1" 200 30391
+INFO 2025-05-24 12:04:50,785 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:04:52,818 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 30247
+INFO 2025-05-24 12:04:55,520 "GET /admin/authtoken/token/ HTTP/1.1" 200 30391
+INFO 2025-05-24 12:04:55,610 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-05-24 12:05:20,653 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:05:20,654 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:05:20,930 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 12:05:20,936 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 12:05:20,939 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 12:05:20,984 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+WARNING 2025-05-24 12:05:31,533 Bad Request: /login/
+WARNING 2025-05-24 12:05:31,533 "POST /login/ HTTP/1.1" 400 61
+ERROR 2025-05-24 12:05:38,175 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 928, in custom_login_view
+    "redirect_url": get_redirect_url_based_on_role(user)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1068, in get_redirect_url_based_on_role
+    role = user.userprofile.role
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\fields\related_descriptors.py", line 492, in __get__
+    raise self.RelatedObjectDoesNotExist(
+    ...<2 lines>...
+    )
+django.contrib.auth.models.User.userprofile.RelatedObjectDoesNotExist: User has no userprofile.
+ERROR 2025-05-24 12:05:38,181 "POST /login/ HTTP/1.1" 500 79147
+WARNING 2025-05-24 12:06:03,392 Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /login/
+WARNING 2025-05-24 12:06:03,471 "POST /login/ HTTP/1.1" 403 2553
+INFO 2025-05-24 12:06:08,574 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:08,673 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:12,318 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:12,400 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:13,459 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:13,543 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:13,818 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:13,917 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:14,126 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:14,225 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:14,476 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:14,585 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:22,354 "GET /admin/auth/user/ HTTP/1.1" 200 38632
+INFO 2025-05-24 12:06:22,445 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:29,541 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:29,624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:42,671 "GET /admin/auth/user/ HTTP/1.1" 200 38632
+INFO 2025-05-24 12:06:42,761 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:45,296 "GET /admin/auth/user/100/change/ HTTP/1.1" 200 53697
+INFO 2025-05-24 12:06:45,355 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-05-24 12:06:45,357 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-05-24 12:06:45,361 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-05-24 12:06:45,362 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-05-24 12:06:45,404 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:06:49,457 "GET /static/jazzmin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2025-05-24 12:06:53,508 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:06:53,592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:09,039 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:09,123 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:14,025 "GET /admin/corecode/userprofile/add/ HTTP/1.1" 200 33518
+INFO 2025-05-24 12:07:14,132 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:22,486 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:22,568 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:46,082 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 12:07:47,288 Watching for file changes with StatReloader
+INFO 2025-05-24 12:07:49,489 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:49,587 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:49,829 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:49,905 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:50,188 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:50,264 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:50,571 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:50,656 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:50,922 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:07:51,004 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:07:52,955 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 30247
+INFO 2025-05-24 12:07:56,407 "GET /admin/auth/user/ HTTP/1.1" 200 38632
+INFO 2025-05-24 12:07:56,491 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:03,569 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:03,676 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:08,737 "GET /admin/corecode/userprofile/add/ HTTP/1.1" 200 33518
+INFO 2025-05-24 12:08:08,821 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:24,436 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:34,904 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 12:08:36,102 Watching for file changes with StatReloader
+INFO 2025-05-24 12:08:38,124 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:38,223 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:38,433 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:38,533 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:38,815 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:38,900 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:39,200 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:39,283 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:39,575 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:39,658 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:39,901 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:40,000 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:40,317 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34836
+INFO 2025-05-24 12:08:40,399 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:08:45,939 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 12:08:47,407 Watching for file changes with StatReloader
+INFO 2025-05-24 12:10:09,125 Watching for file changes with StatReloader
+INFO 2025-05-24 12:10:19,992 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:10:20,227 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 12:10:20,276 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 12:10:20,289 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 12:10:20,289 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 12:10:20,312 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 12:10:20,328 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 12:10:20,372 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 12:10:20,373 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 12:10:20,382 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 12:10:20,424 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 12:10:20,438 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 12:10:20,444 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 12:10:20,488 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 12:10:20,548 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 12:10:22,726 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 12:10:22,777 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 12:10:22,777 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 12:10:22,792 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 12:10:22,794 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 12:10:22,797 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 12:10:22,804 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 12:10:22,824 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 12:10:22,824 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 12:10:22,825 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 12:10:22,827 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 12:10:22,827 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 12:10:22,827 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 12:10:22,871 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 12:10:22,883 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 12:10:22,888 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 12:10:22,891 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 12:10:23,331 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 12:10:25,685 "GET /principal/dashboard/ HTTP/1.1" 200 13270
+INFO 2025-05-24 12:10:25,737 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 12:10:25,739 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 12:10:25,751 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 12:10:25,751 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 12:10:25,754 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 12:10:25,759 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 12:10:25,760 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 12:10:25,761 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 12:10:25,767 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 12:10:25,769 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 12:10:25,770 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 12:10:25,772 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 12:10:25,780 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 12:10:25,787 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 12:10:25,793 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 12:10:25,798 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 12:10:25,802 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 12:10:28,737 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:10:28,760 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 12:10:28,760 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 12:10:28,831 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 12:10:36,582 "POST /login/ HTTP/1.1" 200 115
+INFO 2025-05-24 12:10:36,856 "GET /principal/dashboard/ HTTP/1.1" 200 13270
+INFO 2025-05-24 12:10:43,692 "GET /profile/ HTTP/1.1" 200 19641
+INFO 2025-05-24 12:10:45,102 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:10:45,127 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 12:10:45,134 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 12:10:45,209 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 12:10:51,987 "POST /login/ HTTP/1.1" 200 111
+INFO 2025-05-24 12:10:52,312 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 12:10:56,164 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:11:02,174 Unauthorized: /login/
+WARNING 2025-05-24 12:11:02,175 "POST /login/ HTTP/1.1" 401 61
+INFO 2025-05-24 12:11:06,660 "POST /login/ HTTP/1.1" 200 111
+INFO 2025-05-24 12:11:06,910 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+INFO 2025-05-24 12:11:11,478 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 12:11:11,478 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 12:11:11,500 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+WARNING 2025-05-24 12:11:11,539 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-24 12:11:11,788 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:11:11,788 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:11:11,806 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 12:11:28,451 "GET /admin HTTP/1.1" 301 0
+INFO 2025-05-24 12:11:28,595 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:11:28,646 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-24 12:11:28,675 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-24 12:11:28,695 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-24 12:11:28,698 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-24 12:11:28,734 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-24 12:11:28,768 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-24 12:11:28,779 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-24 12:11:28,794 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-24 12:11:28,838 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-24 12:11:38,252 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3380
+INFO 2025-05-24 12:11:44,508 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:11:44,841 "GET /admin/ HTTP/1.1" 200 64347
+INFO 2025-05-24 12:11:44,874 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-24 12:11:44,916 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-24 12:11:46,692 "GET /admin/auth/user/ HTTP/1.1" 200 38628
+INFO 2025-05-24 12:11:48,430 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-05-24 12:11:48,435 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-24 12:11:48,449 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-24 12:11:48,453 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-05-24 12:11:48,460 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-05-24 12:11:48,472 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-24 12:11:48,485 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-24 12:11:48,488 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-05-24 12:11:48,500 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-05-24 12:11:48,524 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-05-24 12:11:48,526 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-05-24 12:11:48,559 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-05-24 12:11:48,668 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:11:51,619 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34832
+INFO 2025-05-24 12:11:51,984 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:12:05,833 "POST /login/ HTTP/1.1" 200 113
+INFO 2025-05-24 12:12:06,183 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 12:12:06,260 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 12:12:06,263 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 12:12:06,648 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 12:12:10,852 "GET /profile/ HTTP/1.1" 200 19641
+WARNING 2025-05-24 12:12:11,170 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:12:11,171 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:12:11,438 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 12:12:17,137 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 30585
+INFO 2025-05-24 12:12:26,416 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:12:26,722 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:12:26,723 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:12:28,484 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:12:28,752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:12:28,753 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:12:28,764 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+WARNING 2025-05-24 12:12:37,722 Unauthorized: /login/
+WARNING 2025-05-24 12:12:37,723 "POST /login/ HTTP/1.1" 401 61
+INFO 2025-05-24 12:12:42,956 "POST /login/ HTTP/1.1" 200 111
+INFO 2025-05-24 12:12:43,231 "GET /staff/dashboard/ HTTP/1.1" 200 13219
+WARNING 2025-05-24 12:12:43,589 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:12:43,590 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:12:43,717 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 12:12:53,869 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:12:54,177 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:12:54,177 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:12:55,703 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:12:55,979 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:12:55,980 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:13:30,149 Unauthorized: /login/
+WARNING 2025-05-24 12:13:30,150 "POST /login/ HTTP/1.1" 401 61
+INFO 2025-05-24 12:13:35,894 "POST /login/ HTTP/1.1" 200 115
+INFO 2025-05-24 12:13:36,143 "GET /principal/dashboard/ HTTP/1.1" 200 13270
+WARNING 2025-05-24 12:13:36,461 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:13:36,463 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:13:36,649 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 12:14:01,995 "GET /profile/ HTTP/1.1" 200 17120
+INFO 2025-05-24 12:14:03,904 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:14:11,683 "POST /login/ HTTP/1.1" 200 113
+INFO 2025-05-24 12:14:11,941 "GET /student/dashboard/ HTTP/1.1" 200 10532
+WARNING 2025-05-24 12:14:14,818 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:14:14,819 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:14:14,925 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 12:14:14,927 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 12:14:14,928 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+WARNING 2025-05-24 12:14:14,945 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 12:14:15,076 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 12:14:45,079 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:14:45,402 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:14:45,403 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:14:46,780 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 12:14:47,055 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:14:47,055 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:15:20,385 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:15:20,619 "GET /login/ HTTP/1.1" 200 12127
+WARNING 2025-05-24 12:15:20,952 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:15:20,953 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:15:25,153 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 30926
+INFO 2025-05-24 12:15:27,313 "GET /admin/auth/user/ HTTP/1.1" 200 39148
+INFO 2025-05-24 12:15:27,546 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:15:32,256 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34832
+INFO 2025-05-24 12:15:32,481 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:15:36,683 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34832
+INFO 2025-05-24 12:15:36,933 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:18:07,788 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 12:18:09,828 Watching for file changes with StatReloader
+INFO 2025-05-24 12:18:26,531 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 34832
+INFO 2025-05-24 12:18:26,789 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:18:37,777 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 12:18:38,119 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:18:38,120 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:19:09,548 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:19:09,898 "GET /login/ HTTP/1.1" 200 12127
+WARNING 2025-05-24 12:19:10,206 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:19:10,207 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:19:14,341 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35302
+INFO 2025-05-24 12:19:14,583 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-05-24 12:19:40,468 Unauthorized: /login/
+WARNING 2025-05-24 12:19:40,469 "POST /login/ HTTP/1.1" 401 61
+INFO 2025-05-24 12:19:45,053 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 12:19:45,437 "GET / HTTP/1.1" 200 11129
+INFO 2025-05-24 12:19:45,652 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 12:19:45,676 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 12:19:45,682 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+WARNING 2025-05-24 12:19:45,743 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:19:45,745 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:19:45,951 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 12:19:49,330 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:19:49,623 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:19:49,624 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:19:55,600 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31265
+INFO 2025-05-24 12:20:08,613 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35302
+INFO 2025-05-24 12:20:08,871 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:20:10,738 "GET /admin/corecode/userprofile/82/change/ HTTP/1.1" 200 34311
+INFO 2025-05-24 12:20:10,767 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-24 12:20:10,767 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-24 12:20:10,786 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-24 12:20:10,794 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-24 12:20:10,806 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-24 12:20:10,822 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-05-24 12:20:10,997 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:20:21,526 "POST /admin/corecode/userprofile/82/change/ HTTP/1.1" 302 0
+INFO 2025-05-24 12:20:21,769 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35883
+INFO 2025-05-24 12:20:22,002 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 12:20:27,920 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:20:28,187 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:28,188 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:20:28,195 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 12:20:32,339 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:20:32,631 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:32,631 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:20:34,381 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:20:34,640 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:34,640 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:20:36,899 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 12:20:36,943 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 12:20:36,965 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 12:20:36,966 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 12:20:36,981 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 12:20:36,982 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 12:20:36,995 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 12:20:36,996 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 12:20:37,025 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 12:20:37,084 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 12:20:37,086 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 12:20:37,097 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 12:20:37,098 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 12:20:37,121 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+WARNING 2025-05-24 12:20:37,190 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:37,191 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:20:37,256 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 12:20:37,485 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+WARNING 2025-05-24 12:20:43,868 Unauthorized: /login/
+WARNING 2025-05-24 12:20:43,869 "POST /login/ HTTP/1.1" 401 61
+INFO 2025-05-24 12:20:51,038 "POST /login/ HTTP/1.1" 200 113
+INFO 2025-05-24 12:20:51,288 "GET /student/dashboard/ HTTP/1.1" 200 10532
+WARNING 2025-05-24 12:20:51,630 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:51,631 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:20:51,854 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 12:20:56,557 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:20:56,857 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:56,857 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:20:58,758 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:20:58,991 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:20:58,991 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:20:59,458 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 12:21:00,016 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:21:00,017 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 12:21:13,647 "POST /login/ HTTP/1.1" 200 113
+INFO 2025-05-24 12:21:13,888 "GET /student/dashboard/ HTTP/1.1" 200 10532
+WARNING 2025-05-24 12:21:14,216 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 12:21:14,218 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 12:21:14,262 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 14:01:14,530 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 14:01:14,977 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:14,978 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:01:26,255 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 14:01:26,323 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:01:33,601 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:33,602 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:01:33,692 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 14:01:33,705 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 14:01:33,718 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 14:01:33,736 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+WARNING 2025-05-24 14:01:39,580 Bad Request: /login/
+WARNING 2025-05-24 14:01:39,580 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:39,636 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:39,637 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:39,648 Not Found: /favicon.ico
+WARNING 2025-05-24 14:01:39,648 "GET /favicon.ico HTTP/1.1" 404 8834
+WARNING 2025-05-24 14:01:44,798 Bad Request: /login/
+WARNING 2025-05-24 14:01:44,798 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:44,828 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:44,829 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:45,161 Bad Request: /login/
+WARNING 2025-05-24 14:01:45,161 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:45,193 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:45,193 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:45,387 Bad Request: /login/
+WARNING 2025-05-24 14:01:45,387 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:45,420 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:45,421 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:45,587 Bad Request: /login/
+WARNING 2025-05-24 14:01:45,587 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:45,622 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:45,623 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:45,819 Bad Request: /login/
+WARNING 2025-05-24 14:01:45,820 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:45,849 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:45,849 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:46,395 Bad Request: /login/
+WARNING 2025-05-24 14:01:46,395 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:46,423 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:46,423 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:46,883 Bad Request: /login/
+WARNING 2025-05-24 14:01:46,883 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:46,913 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:46,914 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:47,460 Bad Request: /login/
+WARNING 2025-05-24 14:01:47,460 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:47,489 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:47,489 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:47,972 Bad Request: /login/
+WARNING 2025-05-24 14:01:47,972 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:48,001 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:48,002 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:48,394 Bad Request: /login/
+WARNING 2025-05-24 14:01:48,395 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:48,423 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:48,423 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:51,899 Bad Request: /login/
+WARNING 2025-05-24 14:01:51,900 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:51,954 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:51,955 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:51,959 Not Found: /favicon.ico
+WARNING 2025-05-24 14:01:51,960 "GET /favicon.ico HTTP/1.1" 404 8834
+INFO 2025-05-24 14:01:53,965 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:01:54,006 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:54,007 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:01:57,885 Bad Request: /login/
+WARNING 2025-05-24 14:01:57,886 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:01:57,933 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:01:57,933 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:02:00,126 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:02:00,164 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:00,164 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:02:02,312 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 14:02:02,356 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:02,356 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:02:05,534 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:02:05,573 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:05,575 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:09,817 Bad Request: /login/
+WARNING 2025-05-24 14:02:09,817 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:09,867 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:09,867 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:15,115 Bad Request: /login/
+WARNING 2025-05-24 14:02:15,115 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:15,146 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:15,146 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:15,344 Bad Request: /login/
+WARNING 2025-05-24 14:02:15,344 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:15,370 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:15,371 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:15,634 Bad Request: /login/
+WARNING 2025-05-24 14:02:15,635 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:15,663 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:15,663 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:15,834 Bad Request: /login/
+WARNING 2025-05-24 14:02:15,834 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:15,866 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:15,867 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:16,027 Bad Request: /login/
+WARNING 2025-05-24 14:02:16,027 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:16,058 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:16,059 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:16,210 Bad Request: /login/
+WARNING 2025-05-24 14:02:16,211 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:16,239 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:16,239 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:02:16,423 Bad Request: /login/
+WARNING 2025-05-24 14:02:16,423 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:02:16,454 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:02:16,455 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:21:35,978 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 14:21:36,321 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:21:36,322 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:22:22,547 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:22:26,049 "GET / HTTP/1.1" 200 15233
+INFO 2025-05-24 14:22:32,385 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:22:33,893 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:22:33,929 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 14:22:34,294 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:22:34,644 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:22:43,322 "GET / HTTP/1.1" 200 15233
+INFO 2025-05-24 14:22:48,774 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:22:51,862 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 14:22:51,864 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 14:22:51,865 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 14:22:51,891 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+WARNING 2025-05-24 14:22:51,942 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:22:51,943 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:23:00,345 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 14:23:00,595 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:23:00,596 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:23:05,297 "GET / HTTP/1.1" 200 15233
+INFO 2025-05-24 14:23:11,408 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:23:18,203 "GET / HTTP/1.1" 200 15233
+INFO 2025-05-24 14:23:22,922 "GET /login/ HTTP/1.1" 200 11781
+INFO 2025-05-24 14:23:30,149 "POST /login/ HTTP/1.1" 200 113
+INFO 2025-05-24 14:23:30,391 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 14:27:32,189 "GET /login/ HTTP/1.1" 200 11781
+WARNING 2025-05-24 14:27:32,455 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:27:32,456 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:32:30,513 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:32:30,565 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:32:30,566 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:32:40,983 Bad Request: /login/
+WARNING 2025-05-24 14:32:40,983 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:32:41,030 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:32:41,030 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:49:30,782 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 14:51:35,242 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:51:35,308 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:35,308 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:51:44,817 Bad Request: /login/
+WARNING 2025-05-24 14:51:44,818 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:51:44,873 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:44,874 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:51:47,141 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:51:47,182 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:47,182 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:51:48,665 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 14:51:48,714 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:48,715 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:51:50,070 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 14:51:50,108 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:50,109 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:51:51,006 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:51:51,051 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:51,052 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 14:51:52,984 Bad Request: /login/
+WARNING 2025-05-24 14:51:52,985 "POST /login/ HTTP/1.1" 400 49
+WARNING 2025-05-24 14:51:53,037 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:53,038 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:51:54,616 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:51:54,666 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:51:54,666 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:59:19,252 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 14:59:21,375 Watching for file changes with StatReloader
+INFO 2025-05-24 14:59:34,715 "GET /login/ HTTP/1.1" 200 13413
+WARNING 2025-05-24 14:59:35,114 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:59:35,115 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:59:38,563 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+WARNING 2025-05-24 14:59:38,609 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:59:38,610 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 14:59:47,445 "POST /login/ HTTP/1.1" 200 113
+WARNING 2025-05-24 14:59:47,577 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 14:59:47,578 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:00:23,109 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31265
+WARNING 2025-05-24 15:01:40,043 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:01:40,142 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:01:40,267 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:01:40,267 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:01:41,311 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:01:41,392 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:01:41,509 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:01:41,509 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:01:41,521 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:01:41,584 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:01:41,700 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:01:41,701 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:01:41,723 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:01:41,793 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:01:41,909 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:01:41,910 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:07:50,472 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 15:07:51,452 Watching for file changes with StatReloader
+INFO 2025-05-24 15:07:59,519 "GET /student/dashboard/ HTTP/1.1" 200 10532
+INFO 2025-05-24 15:07:59,694 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 15:07:59,704 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 15:07:59,723 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 15:07:59,732 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 15:07:59,733 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 15:07:59,735 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 15:07:59,757 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 15:07:59,782 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 15:07:59,784 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 15:07:59,799 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 15:07:59,802 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 15:07:59,808 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 15:07:59,827 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 15:08:00,062 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 15:08:00,894 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 15:08:03,446 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:08:03,621 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:08:03,621 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:08:04,562 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:08:04,705 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:08:04,706 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:08:10,848 "POST /login/ HTTP/1.1" 200 113
+WARNING 2025-05-24 15:08:10,973 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:08:10,973 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:08:14,311 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:08:14,392 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:08:14,499 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:08:14,500 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:25,689 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 15:11:26,945 Watching for file changes with StatReloader
+WARNING 2025-05-24 15:11:32,314 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:11:32,402 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:11:32,535 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:32,535 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:11:33,062 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:11:33,144 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:11:33,252 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:33,252 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:11:33,412 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:11:33,485 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:11:33,593 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:33,594 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:11:33,696 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:11:33,769 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:11:33,868 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:33,869 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:11:33,942 Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2025-05-24 15:11:34,019 "POST /login/ HTTP/1.1" 403 2518
+WARNING 2025-05-24 15:11:34,110 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:34,111 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:34,703 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:34,821 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:34,822 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:35,528 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:35,627 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:35,628 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:35,912 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:36,028 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:36,029 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:36,278 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:36,387 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:36,388 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:36,495 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:36,604 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:36,605 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:41,680 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:11:41,839 "GET /admin/dashboard/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:11:41,922 "GET /admin/login/?next=/admin/dashboard/ HTTP/1.1" 200 3402
+WARNING 2025-05-24 15:11:42,147 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:42,148 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:42,212 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-24 15:11:42,218 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-24 15:11:42,232 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-24 15:11:42,274 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-24 15:11:42,281 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-24 15:11:42,343 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-24 15:11:42,349 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-24 15:11:42,433 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-24 15:11:42,435 "GET /static/vendor/adminlte/css/adminlte.min.css.map HTTP/1.1" 200 3783134
+INFO 2025-05-24 15:11:42,511 "GET /static/vendor/adminlte/js/adminlte.min.js.map HTTP/1.1" 200 129651
+INFO 2025-05-24 15:11:42,513 "GET /static/vendor/bootstrap/js/bootstrap.min.js.map HTTP/1.1" 200 187646
+INFO 2025-05-24 15:11:44,982 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:45,099 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:45,100 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:46,299 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:11:46,415 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:46,416 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:11:56,736 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:11:56,853 "GET /admin/dashboard/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:11:56,928 "GET /admin/login/?next=/admin/dashboard/ HTTP/1.1" 200 3402
+WARNING 2025-05-24 15:11:57,054 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:11:57,054 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:12:55,444 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:12:55,588 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:12:55,589 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:13:01,939 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:13:02,039 "GET /admin/dashboard/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:13:02,147 "GET /admin/login/?next=/admin/dashboard/ HTTP/1.1" 200 3402
+WARNING 2025-05-24 15:13:02,272 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:13:02,274 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:14:05,168 "GET /accounts/login/?next=/ HTTP/1.1" 200 5057
+WARNING 2025-05-24 15:14:05,299 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:14:05,300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:14:09,576 "POST /login/ HTTP/1.1" 200 4654
+WARNING 2025-05-24 15:14:09,700 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:14:09,701 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:15:30,567 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 15:15:32,433 Watching for file changes with StatReloader
+INFO 2025-05-24 15:15:36,696 "POST /login/ HTTP/1.1" 200 4670
+WARNING 2025-05-24 15:15:36,838 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:15:36,838 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:15:39,514 "POST /login/ HTTP/1.1" 200 4670
+WARNING 2025-05-24 15:15:39,623 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:15:39,624 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:15:49,209 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:15:49,360 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:15:49,535 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:15:49,537 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:15:49,869 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:15:55,204 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:15:55,328 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:15:55,329 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:15:55,616 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:15:59,147 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:15:59,255 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:15:59,255 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:15:59,575 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:16:01,756 "GET /login/ HTTP/1.1" 200 4527
+WARNING 2025-05-24 15:16:01,906 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:16:01,907 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:16:11,210 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:16:11,295 "GET / HTTP/1.1" 200 12714
+WARNING 2025-05-24 15:16:11,428 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:16:11,429 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:16:11,746 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:16:14,895 "GET /login/ HTTP/1.1" 200 4527
+WARNING 2025-05-24 15:16:15,029 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:16:15,030 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:16:22,640 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:16:22,723 "GET / HTTP/1.1" 200 15233
+WARNING 2025-05-24 15:16:22,866 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:16:22,867 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:16:23,219 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:17:07,096 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 15:17:07,143 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 15:17:07,248 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 15:17:07,252 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 15:17:07,258 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 15:17:07,262 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 15:17:07,274 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 15:17:07,278 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 15:17:07,282 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 15:17:07,288 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 15:17:07,329 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 15:17:07,337 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 15:17:07,345 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 15:17:07,354 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 15:17:07,358 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 15:17:07,540 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 15:17:07,560 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 15:17:14,752 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:17:14,835 "GET / HTTP/1.1" 200 12714
+INFO 2025-05-24 15:17:14,868 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 15:17:14,889 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 15:17:14,890 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 15:17:14,892 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 15:17:14,896 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 15:17:14,912 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 15:17:21,164 "GET /profile/ HTTP/1.1" 200 17120
+INFO 2025-05-24 15:17:24,164 "GET /login/ HTTP/1.1" 200 4527
+WARNING 2025-05-24 15:17:34,069 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:17:34,070 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:17:34,124 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 15:17:34,126 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 15:17:34,164 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 15:17:34,206 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 15:17:41,804 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:17:41,906 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:17:42,013 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:17:42,013 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:17:42,319 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:17:44,173 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:17:44,281 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:17:44,282 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:17:44,622 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:21:12,631 "GET /login/ HTTP/1.1" 200 4503
+INFO 2025-05-24 15:21:12,754 "GET /static/dist/js/adminlte.min.js HTTP/1.1" 200 24995
+WARNING 2025-05-24 15:21:12,772 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:21:12,773 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:21:12,852 "GET /static/dist/js/adminlte.min.js.map HTTP/1.1" 200 81902
+INFO 2025-05-24 15:21:13,440 "GET /login/ HTTP/1.1" 200 4503
+WARNING 2025-05-24 15:21:13,530 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:21:13,531 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:21:18,516 "POST /login/ HTTP/1.1" 200 4634
+INFO 2025-05-24 15:21:33,446 "GET /login/ HTTP/1.1" 200 4503
+WARNING 2025-05-24 15:21:33,563 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:21:33,564 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:21:33,656 "GET /login/ HTTP/1.1" 200 4503
+WARNING 2025-05-24 15:21:33,763 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:21:33,764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:21:33,965 "GET /login/ HTTP/1.1" 200 4503
+WARNING 2025-05-24 15:21:34,073 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:21:34,074 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:21:34,330 "GET /login/ HTTP/1.1" 200 4503
+WARNING 2025-05-24 15:21:34,455 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:21:34,456 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:21:40,401 "POST /login/ HTTP/1.1" 200 4634
+INFO 2025-05-24 15:21:53,914 "POST /login/ HTTP/1.1" 200 4634
+INFO 2025-05-24 15:22:01,167 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 15:22:01,340 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:22:01,342 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:22:02,434 "GET /login/ HTTP/1.1" 200 4503
+WARNING 2025-05-24 15:22:02,558 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:22:02,559 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:22:07,595 "POST /login/ HTTP/1.1" 200 4634
+INFO 2025-05-24 15:22:22,859 "GET /login/ HTTP/1.1" 200 4527
+WARNING 2025-05-24 15:22:22,991 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:22:22,991 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:22:29,802 "POST /login/ HTTP/1.1" 302 0
+INFO 2025-05-24 15:22:29,895 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:22:30,052 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:22:30,053 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:22:30,550 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:26:20,483 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 15:26:21,844 Watching for file changes with StatReloader
+INFO 2025-05-24 15:26:24,519 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:26:24,659 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:26:24,660 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:26:24,908 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:26:27,185 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:26:27,352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:26:27,352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:26:43,626 "POST /login/ HTTP/1.1" 200 95
+WARNING 2025-05-24 15:26:43,671 Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /login/
+WARNING 2025-05-24 15:26:43,735 "POST /login/ HTTP/1.1" 403 2553
+WARNING 2025-05-24 15:26:43,855 Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /login/
+WARNING 2025-05-24 15:26:43,950 "POST /login/ HTTP/1.1" 403 2553
+INFO 2025-05-24 15:26:44,550 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:26:44,702 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:26:44,702 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:26:44,879 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:26:47,669 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:26:47,786 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:26:47,787 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:26:48,004 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:26:50,662 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:26:50,811 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:26:50,813 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:27:01,733 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:27:01,850 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:27:01,851 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:27:02,074 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:27:02,191 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:27:02,192 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:27:02,441 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:27:02,558 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:27:02,559 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:27:15,622 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:27:16,546 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:27:16,680 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:27:16,681 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:27:16,832 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:27:27,050 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:27:27,177 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:27:27,178 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:27:28,693 "GET /login/ HTTP/1.1" 200 7771
+WARNING 2025-05-24 15:27:28,810 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:27:28,811 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:32:36,591 "GET /login/ HTTP/1.1" 200 8348
+WARNING 2025-05-24 15:32:36,706 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:32:36,707 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:33:00,601 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:33:01,525 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:33:01,683 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:33:01,684 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:33:02,034 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:33:04,884 "GET /login/ HTTP/1.1" 200 8348
+WARNING 2025-05-24 15:33:05,036 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:33:05,038 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:33:11,645 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:33:12,547 "GET / HTTP/1.1" 200 12714
+WARNING 2025-05-24 15:33:12,680 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:33:12,681 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:33:12,945 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:33:15,547 "GET /login/ HTTP/1.1" 200 8348
+WARNING 2025-05-24 15:33:15,714 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:33:15,714 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:35:22,734 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-24 15:35:23,800 Watching for file changes with StatReloader
+INFO 2025-05-24 15:35:25,827 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:35:25,984 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:35:25,986 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:35:30,494 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35308
+INFO 2025-05-24 15:35:30,620 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 15:35:37,490 "GET /admin/ HTTP/1.1" 200 65107
+INFO 2025-05-24 15:35:38,916 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31265
+INFO 2025-05-24 15:36:45,122 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 15:36:45,162 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 15:36:45,410 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 15:36:45,430 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 15:36:45,434 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 15:36:45,442 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 15:36:45,448 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 15:36:45,452 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+WARNING 2025-05-24 15:36:45,459 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:36:45,459 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:36:45,461 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 15:36:45,461 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 15:36:45,465 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 15:36:45,466 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 15:36:45,482 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 15:36:45,486 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 15:36:45,497 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 15:36:45,731 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 15:36:45,766 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 15:36:45,767 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 15:36:45,773 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 15:36:45,873 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 15:36:45,886 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 15:36:51,727 "POST /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:36:51,781 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:36:51,782 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:37:03,609 Bad Request: /login/
+WARNING 2025-05-24 15:37:03,609 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-24 15:37:21,383 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:37:22,284 "GET / HTTP/1.1" 200 15227
+INFO 2025-05-24 15:37:22,327 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 15:37:22,328 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 15:37:22,334 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 15:37:22,345 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 15:37:22,348 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+WARNING 2025-05-24 15:37:22,426 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:37:22,426 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:37:22,446 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+WARNING 2025-05-24 15:37:24,365 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:37:39,866 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:37:39,999 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:37:39,999 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:37:40,329 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:41:35,182 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:41:35,316 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:41:35,318 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:41:47,653 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:41:48,579 "GET / HTTP/1.1" 200 12714
+WARNING 2025-05-24 15:41:48,713 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:41:48,713 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:41:49,014 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:41:52,764 "GET /profile/ HTTP/1.1" 200 17120
+WARNING 2025-05-24 15:41:52,896 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:41:52,897 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:41:53,163 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:41:57,983 "GET /student/data/ HTTP/1.1" 200 10625
+WARNING 2025-05-24 15:41:58,116 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:41:58,117 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:41:58,323 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:42:09,646 "GET /student/data/ HTTP/1.1" 200 10625
+WARNING 2025-05-24 15:42:09,764 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:09,765 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:42:09,920 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:42:10,163 "GET /student/data/ HTTP/1.1" 200 10625
+WARNING 2025-05-24 15:42:10,304 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:10,305 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:42:10,445 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:42:13,623 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:42:13,756 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:13,757 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:42:15,563 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:42:15,682 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:15,682 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:42:48,661 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:42:49,578 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:42:49,711 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:49,712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:42:49,965 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:42:55,121 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:42:55,262 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:55,263 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:42:57,164 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:42:57,288 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:42:57,289 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:44:46,928 D:\New folder\School1-CRM\New_School_CRM-main\apps\staffs\urls.py changed, reloading.
+INFO 2025-05-24 15:44:48,409 Watching for file changes with StatReloader
+INFO 2025-05-24 15:48:09,228 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:48:10,218 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:48:10,370 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:48:10,371 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:48:10,651 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:48:15,428 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:48:15,555 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:48:15,557 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:48:18,098 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:48:18,205 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:48:18,206 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:06,997 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-24 15:51:08,293 Watching for file changes with StatReloader
+INFO 2025-05-24 15:51:41,019 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-24 15:51:41,931 Watching for file changes with StatReloader
+INFO 2025-05-24 15:51:47,404 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-24 15:51:48,550 Watching for file changes with StatReloader
+INFO 2025-05-24 15:51:51,007 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:51:51,148 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:51,150 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:51,756 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:51:51,856 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:51,857 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:52,057 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:51:52,182 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:52,183 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:52,306 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:51:52,443 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:52,443 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:52,665 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:51:52,774 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:52,775 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:52,866 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:51:53,008 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:53,010 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:51:58,768 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:51:59,718 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 15:51:59,859 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:51:59,859 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 15:52:00,227 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:56:45,053 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 15:56:45,201 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:56:45,202 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:57:14,383 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 15:57:14,398 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 15:57:14,531 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 15:57:14,533 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 15:57:14,537 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 15:57:14,541 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 15:57:14,545 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 15:57:14,547 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 15:57:14,550 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 15:57:14,552 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 15:57:14,554 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 15:57:14,585 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 15:57:14,596 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 15:57:14,604 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 15:57:14,606 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 15:57:14,872 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 15:57:14,912 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 15:57:21,027 "POST /login/ HTTP/1.1" 200 8350
+INFO 2025-05-24 15:57:27,574 "POST /login/ HTTP/1.1" 200 8350
+INFO 2025-05-24 15:57:30,833 "GET /login/ HTTP/1.1" 200 8350
+INFO 2025-05-24 15:57:38,307 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:57:39,198 "GET / HTTP/1.1" 200 15227
+INFO 2025-05-24 15:57:39,230 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 15:57:39,230 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 15:57:39,231 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 15:57:39,232 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 15:57:39,234 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 15:57:39,248 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-24 15:57:42,892 "GET /login/ HTTP/1.1" 200 8350
+INFO 2025-05-24 15:57:49,994 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 15:57:50,902 "GET / HTTP/1.1" 200 12714
+WARNING 2025-05-24 15:58:00,055 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:58:00,056 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 15:58:00,101 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 15:58:00,102 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 15:58:00,109 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+WARNING 2025-05-24 15:58:00,112 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 15:58:00,194 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 15:58:08,786 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 15:58:08,935 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 15:58:08,935 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:10,047 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:10,173 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:10,174 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:10,464 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:10,571 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:10,572 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:10,788 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:10,897 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:10,897 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:11,079 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:11,181 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:11,182 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:11,439 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:11,539 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:11,540 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:21,183 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 16:02:22,093 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 16:02:22,233 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:22,234 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:02:22,558 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 16:02:25,851 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:26,018 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:26,019 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:41,256 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:41,356 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:41,357 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:47,878 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 16:02:48,002 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:48,002 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:02:48,320 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 16:02:50,703 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:50,829 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:50,830 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:02:59,033 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:02:59,165 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:02:59,165 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:03:00,024 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-24 16:03:00,148 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:03:00,149 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:03:00,274 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:03:00,275 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:03:02,734 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:03:02,866 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:03:02,868 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:05:08,087 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:05:08,218 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:05:08,219 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:05:08,452 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:05:08,560 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:05:08,561 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:05:08,770 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:05:08,886 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:05:08,886 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:05:12,487 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 16:05:12,622 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:05:12,623 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:05:58,073 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-24 16:05:58,157 "GET /login/ HTTP/1.1" 200 8559
+WARNING 2025-05-24 16:05:58,331 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:05:58,331 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:06:12,596 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31604
+INFO 2025-05-24 16:06:17,589 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35782
+INFO 2025-05-24 16:06:17,697 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 16:06:21,066 "GET /admin/corecode/userprofile/83/change/ HTTP/1.1" 200 34351
+INFO 2025-05-24 16:06:21,150 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 16:06:27,602 "POST /admin/corecode/userprofile/83/change/ HTTP/1.1" 302 0
+INFO 2025-05-24 16:06:27,709 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36363
+INFO 2025-05-24 16:06:27,793 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-24 16:07:01,065 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 16:07:01,099 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 16:07:01,135 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 16:07:01,142 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 16:07:01,144 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 16:07:01,152 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 16:07:01,161 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 16:07:01,164 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 16:07:01,168 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 16:07:01,169 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 16:07:01,179 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 16:07:01,181 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 16:07:01,183 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 16:07:01,187 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 16:07:01,192 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 16:07:01,401 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 16:07:01,432 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-24 16:07:16,221 "POST /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:07:26,110 Bad Request: /login/
+WARNING 2025-05-24 16:07:26,111 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-24 16:07:32,530 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:07:32,531 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:07:32,586 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 16:07:32,589 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 16:07:32,595 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 16:07:32,616 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 16:07:39,039 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31604
+INFO 2025-05-24 16:07:48,497 "POST /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:07:48,541 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:07:48,542 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:07:56,360 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 16:07:57,294 "GET / HTTP/1.1" 200 12714
+INFO 2025-05-24 16:07:57,336 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 16:07:57,353 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 16:07:57,395 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 16:07:57,395 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 16:07:57,409 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+WARNING 2025-05-24 16:07:57,468 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:07:57,469 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:07:57,495 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+WARNING 2025-05-24 16:07:58,163 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 16:08:30,938 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 16:08:30,954 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 16:08:30,999 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 16:08:31,004 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 16:08:31,015 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 16:08:31,016 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 16:08:31,017 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 16:08:31,018 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 16:08:31,019 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 16:08:31,022 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 16:08:31,030 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 16:08:31,031 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 16:08:31,032 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 16:08:31,032 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 16:08:31,039 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 16:08:31,308 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 16:08:31,345 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+WARNING 2025-05-24 16:08:54,550 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:08:54,551 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:08:54,589 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 16:08:54,590 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 16:08:54,591 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 16:08:54,635 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 16:09:01,293 "POST /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:09:01,344 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:09:01,345 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:09:11,739 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 16:09:12,640 "GET / HTTP/1.1" 200 12714
+INFO 2025-05-24 16:09:12,683 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 16:09:12,683 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 16:09:12,689 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 16:09:12,691 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 16:09:12,693 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-24 16:09:12,714 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+WARNING 2025-05-24 16:09:12,791 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:09:12,792 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:09:13,436 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 16:10:22,520 "GET / HTTP/1.1" 200 12714
+WARNING 2025-05-24 16:10:22,630 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:10:22,630 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:10:22,872 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 16:36:29,929 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:36:30,120 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:36:30,121 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:36:31,287 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-24 16:36:31,495 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:36:31,496 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:36:32,922 "GET /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:36:33,062 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:36:33,063 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:36:47,492 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 16:36:48,442 "GET / HTTP/1.1" 200 15227
+WARNING 2025-05-24 16:36:48,610 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:36:48,610 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-24 16:36:48,820 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-24 16:36:57,011 "GET / HTTP/1.1" 302 0
+INFO 2025-05-24 16:36:57,033 "GET /accounts/login/?next=/ HTTP/1.1" 200 4884
+INFO 2025-05-24 16:36:57,080 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-24 16:36:57,086 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-24 16:36:57,097 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-24 16:36:57,099 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-24 16:36:57,102 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-24 16:36:57,103 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-24 16:36:57,111 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-24 16:36:57,120 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-24 16:36:57,122 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-24 16:36:57,124 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-24 16:36:57,128 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-24 16:36:57,133 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-24 16:36:57,141 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-24 16:36:57,292 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-24 16:36:57,322 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+WARNING 2025-05-24 16:37:06,232 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:37:06,232 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:37:06,250 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-24 16:37:06,255 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-24 16:37:06,261 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-24 16:37:06,285 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-24 16:37:09,307 "POST /login/ HTTP/1.1" 200 8350
+WARNING 2025-05-24 16:37:09,356 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:37:09,357 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:37:20,647 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-24 16:37:21,556 "GET / HTTP/1.1" 200 15227
+INFO 2025-05-24 16:37:21,600 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-24 16:37:21,602 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-24 16:37:21,603 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-24 16:37:21,606 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-24 16:37:21,615 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+WARNING 2025-05-24 16:37:21,741 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-24 16:37:21,742 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-24 16:37:21,761 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+WARNING 2025-05-24 16:37:22,105 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870

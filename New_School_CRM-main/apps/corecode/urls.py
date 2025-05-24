@@ -40,7 +40,8 @@ urlpatterns = [
 
     # path('login/', auth_views.LoginView.as_view(), name='login'),
 
-    path('signup/', views.SignupView.as_view(), name='signup'),
+    # path('signup/', views.SignupView.as_view(), name='signup'),
+    path('signup/', views.signup_view, name='signup'),
     path('login/', views.custom_login_view, name='login'),
 
     path('principal/dashboard/', views.principal_index, name='principal_index'),

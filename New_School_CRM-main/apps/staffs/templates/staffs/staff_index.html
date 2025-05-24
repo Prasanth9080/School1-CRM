@@ -78,8 +78,6 @@
         </li>
 
         <li class="nav-item dropdown">
-
-
           <a class="nav-link" data-toggle="dropdown" href="#">
             {% if user.profile.profile_picture %}
             <img src="{{ user.profile.profile_picture.url }}" class="rounded-circle" alt="Profile Image" width="30"
@@ -104,6 +102,7 @@
             </a>
           </div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button"><i
               class="fas fa-th-large"></i></a>
@@ -389,6 +388,18 @@
 
   </script>
 
+
+
+
+
+
+
+  <!-- <script>
+    function logoutUser() {
+      localStorage.removeItem("auth_token");
+      window.location.href = "{% url 'login' %}";
+    }
+  </script> -->
 
   <!-- <script>
     const token = localStorage.getItem("user_token");
