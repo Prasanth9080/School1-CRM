@@ -144,7 +144,7 @@
             <div class="dropdown-divider"></div>
 
             <div class="dropdown-divider"></div>
-            <a href="{% url 'login' %}" class="dropdown-item">
+            <a href="{% url 'logout' %}" onclick="logoutUser()" class="dropdown-item">
               <i class="fas fa-sign-out-alt"></i> Log-out
             </a>
           </div>
@@ -648,6 +648,13 @@
       });
     })(jQuery)
 
+  </script>
+
+  <!-- ////// user if logout the website automatically remove the token -->
+  <script>
+    function logoutUser() {
+      localStorage.removeItem("auth_token");  // Remove token from browser
+    }
   </script>
 
   {% block morejs %}

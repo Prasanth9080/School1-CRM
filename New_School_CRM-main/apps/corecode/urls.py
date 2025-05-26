@@ -27,7 +27,7 @@ from django.contrib.auth import views as auth_views
 from . import views
 from .views import profile_view
 # from .views import CustomPasswordResetView
-from .views import custom_password_reset
+from .views import  custom_login_view
 from .views import password_reset_confirm, password_reset_complete
 
 
@@ -43,6 +43,7 @@ urlpatterns = [
     # path('signup/', views.SignupView.as_view(), name='signup'),
     path('signup/', views.signup_view, name='signup'),
     path('login/', views.custom_login_view, name='login'),
+    path('logout/', views.logout_view, name='logout'),
 
     path('principal/dashboard/', views.principal_index, name='principal_index'),
     path('staff/dashboard/', views.staff_index, name='staff_index'),
@@ -107,7 +108,6 @@ urlpatterns = [
 
 
     # path('signup/', views.signup, name='signup'),
-    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
  
 
     path("site-config", SiteConfigView.as_view(), name="configs"),

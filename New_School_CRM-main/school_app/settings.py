@@ -79,6 +79,16 @@ MIDDLEWARE = [
 #     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 # ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
+
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'full',
@@ -175,6 +185,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 MEDIA_URL = "/media/"
 
+LOGIN_URL = '/login/'
+
 LOGIN_REDIRECT_URL = "/"
 
 LOGOUT_REDIRECT_URL = "/"
@@ -223,8 +235,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
 
 
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
 
 
 #### for forgot password 

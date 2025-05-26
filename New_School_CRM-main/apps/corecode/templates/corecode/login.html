@@ -151,8 +151,9 @@
     </script> -->
 
 
-    <script>
-        document.getElementById("login-button").addEventListener("click", function () {
+    <!-- <script>
+        document.getElementById("login-button").addEventListener("click", function (event) {
+            event.preventDefault();
             const username = document.getElementById("id_username").value.trim();
             const password = document.getElementById("id_password").value.trim();
             const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
@@ -194,7 +195,69 @@
             localStorage.removeItem("auth_token");
             window.location.href = "{% url 'login' %}";
         }
+    </script> -->
+
+
+
+    <!-- new for today -->
+
+
+
+
+    <script>
+        document.getElementById("login-button").addEventListener("click", function (event) {
+            event.preventDefault();
+
+            const username = document.getElementById("id_username").value.trim();
+            const password = document.getElementById("id_password").value.trim();
+            const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+            if (!username || !password) {
+                toastr.error("Username and password are required.");
+                return;
+            }
+
+            // Get the "next" parameter from the URL if it exists
+            const params = new URLSearchParams(window.location.search);
+            const next = params.get("next");
+            const loginUrl = "{% url 'login' %}" + (next ? `?next=${encodeURIComponent(next)}` : "");
+
+            fetch(loginUrl, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRFToken": csrfToken,
+                    "X-Requested-With": "XMLHttpRequest"
+                },
+                body: JSON.stringify({ username, password }),
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.status === "success") {
+                        localStorage.setItem("auth_token", data.token);
+                        toastr.success("Login successful!");
+                        setTimeout(() => {
+                            window.location.href = data.redirect_url;
+                        }, 800);
+                    } else {
+                        toastr.error(data.message || "Invalid login credentials.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Login Error:", error);
+                    toastr.error("An unexpected server error occurred.");
+                });
+        });
+
+        // Optional: Logout helper function
+        function logoutUser() {
+            localStorage.removeItem("auth_token");
+            window.location.href = "{% url 'login' %}";
+        }
     </script>
+
+
+
 
 </body>
 
