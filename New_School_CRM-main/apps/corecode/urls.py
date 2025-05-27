@@ -45,6 +45,30 @@ urlpatterns = [
     path('login/', views.custom_login_view, name='login'),
     path('logout/', views.logout_view, name='logout'),
 
+
+
+
+    # path('password_reset/', auth_views.PasswordResetView.as_view(template_name='corecode/password-reset.html'), 
+    #      name='password_reset'),
+    # path('reset/<uidb64>/<token>/', auth_views.PasswordResetConfirmView.as_view(template_name='corecode/password-reset-confirm.html'), 
+    #      name='password_reset_confirm'),
+    # path('reset/done/', auth_views.PasswordResetCompleteView.as_view(template_name='corecode/password-reset-complete.html'), 
+    #      name='password_reset_complete'),
+
+
+    # path('password_reset/', views.password_reset_view, name='password_reset'),
+    # path('reset/<uidb64>/<token>/', views.password_reset_confirm_view, name='password_reset_confirm'),
+    # path('reset/done/', views.password_reset_complete_view, name='password_reset_complete'),
+
+    #### new for forgotpassword
+
+
+    path('password_reset/', views.password_reset_view, name='password_reset'),
+    path('reset/<uidb64>/<token>/', views.password_reset_confirm_view, name='password_reset_confirm'),
+    path('reset/done/', views.password_reset_complete_view, name='password_reset_complete'),
+
+
+
     path('principal/dashboard/', views.principal_index, name='principal_index'),
     path('staff/dashboard/', views.staff_index, name='staff_index'),
     path('student/dashboard/', views.student_index, name='student_index'),

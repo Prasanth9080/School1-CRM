@@ -32448,3 +32448,1485 @@ INFO 2025-05-26 15:48:07,893 "GET / HTTP/1.1" 200 15466
 WARNING 2025-05-26 15:48:08,068 Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-05-26 15:48:08,069 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
 WARNING 2025-05-26 15:48:08,367 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 15:52:16,630 Watching for file changes with StatReloader
+INFO 2025-05-26 15:52:18,604 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:52:18,623 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:52:18,677 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:52:18,678 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:53:03,846 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-26 15:53:04,894 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-26 15:53:07,187 "GET /principal/staff/attendance/ HTTP/1.1" 200 12853
+INFO 2025-05-26 15:53:09,179 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12411
+INFO 2025-05-26 15:53:10,673 "GET /principal/student-fees/ HTTP/1.1" 200 11699
+INFO 2025-05-26 15:53:12,641 "GET /student/list HTTP/1.1" 200 15292
+INFO 2025-05-26 15:53:12,860 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+INFO 2025-05-26 15:53:16,023 "GET /staff/list/ HTTP/1.1" 200 14748
+INFO 2025-05-26 15:53:19,027 "GET /finance/list/ HTTP/1.1" 200 15550
+INFO 2025-05-26 15:54:38,028 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-26 15:54:38,186 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:54:38,187 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:54:40,262 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:54:40,396 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:54:40,398 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:54:41,279 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 15:54:41,413 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:54:41,413 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:54:49,483 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:54:49,658 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:54:49,658 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:54:59,603 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:54:59,736 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:54:59,737 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:06,854 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-26 15:55:07,779 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-26 15:55:07,954 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:07,955 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 15:55:08,191 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 15:55:09,547 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:55:09,559 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:55:09,630 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:09,631 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:11,709 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:55:11,760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:11,761 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:12,060 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:55:12,106 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:12,107 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:14,389 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-26 15:55:14,466 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:14,467 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:15,646 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:55:15,715 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:15,715 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:18,028 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:55:18,074 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:18,074 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:18,372 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:55:18,407 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:18,407 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:55:35,459 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-26 15:55:36,374 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-26 15:55:36,543 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:36,544 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 15:55:36,804 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 15:55:38,193 "GET /edit_profile/ HTTP/1.1" 200 25571
+WARNING 2025-05-26 15:55:38,491 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:38,493 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 15:55:38,569 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 15:55:59,685 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:55:59,777 "GET /edit_profile/ HTTP/1.1" 200 25736
+WARNING 2025-05-26 15:55:59,902 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:55:59,903 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 15:56:00,064 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 15:56:06,094 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:56:06,104 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:56:06,181 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:56:06,181 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:56:08,489 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 15:56:08,563 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:56:08,564 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:57:05,030 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-26 15:57:05,944 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-26 15:57:06,079 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:57:06,080 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 15:57:06,327 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 15:57:08,929 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:57:08,939 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 15:57:08,979 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:57:08,980 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:57:29,966 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:57:29,987 "GET /accounts/password_reset/done/ HTTP/1.1" 200 2201
+INFO 2025-05-26 15:57:58,798 "GET /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:57:58,934 "GET /reset/MTA1/set-password/ HTTP/1.1" 200 3668
+INFO 2025-05-26 15:58:14,746 "POST /reset/MTA1/set-password/ HTTP/1.1" 200 3668
+INFO 2025-05-26 15:58:26,468 "POST /reset/MTA1/set-password/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 15:58:30,128 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:58:30,129 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:58:48,726 "POST /reset/MTA1/set-password/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 15:58:48,870 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:58:48,870 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:59:10,568 "POST /reset/MTA1/set-password/ HTTP/1.1" 302 0
+INFO 2025-05-26 15:59:10,704 "GET /reset/done/ HTTP/1.1" 200 1803
+WARNING 2025-05-26 15:59:10,846 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:59:10,847 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:59:26,931 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 15:59:26,992 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:59:26,992 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 15:59:40,791 "GET /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+INFO 2025-05-26 15:59:42,873 "GET /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+INFO 2025-05-26 15:59:43,617 "GET /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+INFO 2025-05-26 15:59:51,987 "POST /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 15:59:53,902 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 15:59:53,902 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 16:00:20,227 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 16:00:20,317 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:00:20,318 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 16:00:32,448 Bad Request: /login/
+WARNING 2025-05-26 16:00:32,448 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-26 16:00:46,100 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-26 16:00:47,017 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-26 16:00:47,231 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:00:47,232 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 16:00:47,557 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 16:00:58,678 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-26 16:00:58,689 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 16:00:58,760 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:00:58,761 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 16:01:15,268 "POST /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 16:01:15,428 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:01:15,428 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 16:01:39,571 "GET /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 16:01:43,879 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:01:43,879 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 16:01:57,953 "POST /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 16:01:58,086 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:01:58,087 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 16:02:11,298 "POST /reset/MTA1/cqf2zr-0d680cb4c90ec4dc341c77dd0b0c91b5/ HTTP/1.1" 200 3668
+WARNING 2025-05-26 16:02:11,436 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:02:11,437 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+INFO 2025-05-26 16:02:17,642 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 16:02:17,762 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:02:17,765 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 16:02:24,053 Bad Request: /login/
+WARNING 2025-05-26 16:02:24,053 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-26 16:02:35,283 Bad Request: /login/
+WARNING 2025-05-26 16:02:35,283 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-26 16:02:43,453 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-26 16:02:44,372 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-26 16:02:44,530 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:02:44,530 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 8945
+WARNING 2025-05-26 16:02:44,781 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 16:21:05,050 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-26 16:21:06,459 Watching for file changes with StatReloader
+INFO 2025-05-26 16:21:25,062 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-26 16:21:26,256 Watching for file changes with StatReloader
+INFO 2025-05-26 16:22:03,006 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 16:22:03,071 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:22:03,071 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-26 16:22:10,989 Bad Request: /login/
+WARNING 2025-05-26 16:22:10,989 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-26 16:22:19,034 Bad Request: /login/
+WARNING 2025-05-26 16:22:19,035 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-26 16:22:22,274 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:22:22,351 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:22:22,352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-26 16:22:32,472 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1256, in password_reset_view
+    message = render_to_string("corecode/password-reset-email.html", {
+        "user": user,
+        "reset_link": reset_link,
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/password-reset-email.html
+ERROR 2025-05-26 16:22:32,475 "POST /password_reset/ HTTP/1.1" 500 86067
+ERROR 2025-05-26 16:22:41,131 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1256, in password_reset_view
+    message = render_to_string("corecode/password-reset-email.html", {
+        "user": user,
+        "reset_link": reset_link,
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/password-reset-email.html
+ERROR 2025-05-26 16:22:41,133 "POST /password_reset/ HTTP/1.1" 500 86067
+INFO 2025-05-26 16:24:22,337 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-26 16:24:23,956 Watching for file changes with StatReloader
+INFO 2025-05-26 16:28:42,438 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-26 16:28:43,320 Watching for file changes with StatReloader
+INFO 2025-05-26 16:28:59,360 "GET / HTTP/1.1" 302 0
+INFO 2025-05-26 16:28:59,376 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 16:29:03,531 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:29:03,532 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-26 16:29:22,424 Bad Request: /login/
+WARNING 2025-05-26 16:29:22,425 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-05-26 16:29:30,522 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-26 16:29:31,448 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-26 16:29:31,655 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:29:31,656 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-26 16:29:31,967 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 16:29:34,822 "GET /profile/ HTTP/1.1" 200 19930
+WARNING 2025-05-26 16:29:34,982 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:29:34,983 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-26 16:29:35,187 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-26 16:29:39,018 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-26 16:29:39,027 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-26 16:29:39,081 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:29:39,081 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-26 16:29:42,634 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:29:42,710 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:29:42,711 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-26 16:29:54,635 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1256, in password_reset_view
+    message = render_to_string("corecode/password-reset-email.html", {
+        "user": user,
+        "reset_link": reset_link,
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: corecode/password-reset-email.html
+ERROR 2025-05-26 16:29:54,637 "POST /password_reset/ HTTP/1.1" 500 86067
+INFO 2025-05-26 16:34:35,362 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-26 16:34:36,951 Watching for file changes with StatReloader
+ERROR 2025-05-26 16:34:43,641 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1261, in password_reset_view
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 134, in send_messages
+    sent = self._send(message)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 152, in _send
+    self.connection.sendmail(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        from_email, recipients, message.as_bytes(linesep="\r\n")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 897, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (552, b'5.7.0 This message was blocked because its content presents a potential\n5.7.0 security issue. To review our message content and attachment content\n5.7.0 guidelines, go to\n5.7.0  https://support.google.com/mail/?p=BlockedMessage 41be03b00d2f7-b26eaf70870sm16676718a12.30 - gsmtp')
+ERROR 2025-05-26 16:34:43,646 "POST /password_reset/ HTTP/1.1" 500 115109
+INFO 2025-05-26 16:34:58,985 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:34:59,060 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:34:59,060 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-26 16:34:59,382 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:34:59,435 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:34:59,436 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-26 16:34:59,865 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:34:59,910 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:34:59,910 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-26 16:35:13,963 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1261, in password_reset_view
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 134, in send_messages
+    sent = self._send(message)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 152, in _send
+    self.connection.sendmail(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        from_email, recipients, message.as_bytes(linesep="\r\n")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 897, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (552, b'5.7.0 This message was blocked because its content presents a potential\n5.7.0 security issue. To review our message content and attachment content\n5.7.0 guidelines, go to\n5.7.0  https://support.google.com/mail/?p=BlockedMessage d9443c01a7336-23433b21e6csm28353285ad.70 - gsmtp')
+ERROR 2025-05-26 16:35:13,966 "POST /password_reset/ HTTP/1.1" 500 115104
+INFO 2025-05-26 16:35:57,769 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-26 16:35:58,929 Watching for file changes with StatReloader
+INFO 2025-05-26 16:36:00,957 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:36:01,027 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:36:01,029 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-26 16:36:19,888 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1261, in password_reset_view
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 134, in send_messages
+    sent = self._send(message)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 152, in _send
+    self.connection.sendmail(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        from_email, recipients, message.as_bytes(linesep="\r\n")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 897, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (552, b'5.7.0 This message was blocked because its content presents a potential\n5.7.0 security issue. To review our message content and attachment content\n5.7.0 guidelines, go to\n5.7.0  https://support.google.com/mail/?p=BlockedMessage d2e1a72fcca58-742a987707fsm17312153b3a.140 - gsmtp')
+ERROR 2025-05-26 16:36:19,893 "POST /password_reset/ HTTP/1.1" 500 115118
+INFO 2025-05-26 16:39:25,866 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-26 16:39:26,679 "GET /student/data/ HTTP/1.1" 200 10625
+INFO 2025-05-26 16:43:18,886 "GET /password_reset/ HTTP/1.1" 200 4830
+WARNING 2025-05-26 16:43:18,970 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-26 16:43:18,970 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-26 16:43:37,862 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1261, in password_reset_view
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 134, in send_messages
+    sent = self._send(message)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 152, in _send
+    self.connection.sendmail(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        from_email, recipients, message.as_bytes(linesep="\r\n")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 897, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (552, b'5.7.0 This message was blocked because its content presents a potential\n5.7.0 security issue. To review our message content and attachment content\n5.7.0 guidelines, go to\n5.7.0  https://support.google.com/mail/?p=BlockedMessage 98e67ed59e1d1-30f365b22a9sm12085780a91.6 - gsmtp')
+ERROR 2025-05-26 16:43:37,866 "POST /password_reset/ HTTP/1.1" 500 115108
+INFO 2025-05-27 09:49:52,212 Watching for file changes with StatReloader
+INFO 2025-05-27 09:50:04,555 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 09:50:04,670 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-27 09:50:09,870 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:09,872 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:09,873 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:09,931 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 304 0
+WARNING 2025-05-27 09:50:10,042 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:10,043 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 09:50:21,220 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-27 09:50:22,262 "GET / HTTP/1.1" 200 15460
+INFO 2025-05-27 09:50:22,327 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,344 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,348 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,348 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,352 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,352 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,354 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-27 09:50:22,355 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+WARNING 2025-05-27 09:50:22,437 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:22,438 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:22,821 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 09:50:32,618 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 09:50:32,631 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 09:50:32,710 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:32,712 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 09:50:36,794 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 09:50:36,839 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:36,840 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 09:50:37,275 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 09:50:37,314 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:37,314 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:39,441 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 09:50:39,479 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:39,480 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:39,528 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:39,529 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:40,185 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:40,186 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:40,240 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:40,241 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 09:50:41,528 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 09:50:41,574 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:41,575 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:42,436 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 09:50:42,464 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:42,465 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:42,537 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:42,538 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 09:50:44,785 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 09:50:44,794 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 09:50:44,841 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:44,841 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:46,635 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:46,636 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:46,678 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:46,679 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:47,656 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:47,657 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:47,702 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:47,702 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:48,103 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:48,103 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:48,160 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:48,161 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:48,973 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:48,974 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:49,012 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:49,012 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:49,193 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:49,194 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 09:50:49,244 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:50:49,245 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 09:53:45,077 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 09:53:45,143 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 09:53:45,143 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-27 09:54:02,610 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1261, in password_reset_view
+    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+           ~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 134, in send_messages
+    sent = self._send(message)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\mail\backends\smtp.py", line 152, in _send
+    self.connection.sendmail(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        from_email, recipients, message.as_bytes(linesep="\r\n")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Program Files\Python313\Lib\smtplib.py", line 897, in sendmail
+    raise SMTPDataError(code, resp)
+smtplib.SMTPDataError: (552, b'5.7.0 This message was blocked because its content presents a potential\n5.7.0 security issue. To review our message content and attachment content\n5.7.0 guidelines, go to\n5.7.0  https://support.google.com/mail/?p=BlockedMessage d9443c01a7336-2348c39a323sm11187255ad.20 - gsmtp')
+ERROR 2025-05-27 09:54:02,617 "POST /password_reset/ HTTP/1.1" 500 114908
+INFO 2025-05-27 10:02:41,308 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:02:41,443 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:02:41,444 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:13:16,408 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-27 10:13:17,561 Watching for file changes with StatReloader
+INFO 2025-05-27 10:13:21,023 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:13:21,116 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:13:21,117 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:13:36,029 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:13:36,078 "GET /accounts/password_reset/done/ HTTP/1.1" 200 2201
+INFO 2025-05-27 10:15:46,128 "GET /reset/MTA1/cqghqk-67c2b17a7ff2b03690bfb47cca73d1cc/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:15:46,245 "GET /reset/MTA1/set-password/ HTTP/1.1" 200 3668
+INFO 2025-05-27 10:15:57,807 "GET /reset/MTA1/set-password/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:17:23,593 "POST /reset/MTA1/set-password/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:17:23,694 "GET /reset/done/ HTTP/1.1" 200 1803
+INFO 2025-05-27 10:30:33,400 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 10:30:34,445 Watching for file changes with StatReloader
+INFO 2025-05-27 10:30:39,445 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 10:30:40,763 Watching for file changes with StatReloader
+INFO 2025-05-27 10:30:45,738 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:30:45,808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:30:45,809 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:31:00,557 "GET /reset/done/ HTTP/1.1" 200 1803
+INFO 2025-05-27 10:31:01,815 "GET /reset/done/ HTTP/1.1" 200 1803
+INFO 2025-05-27 10:31:02,024 "GET /reset/done/ HTTP/1.1" 200 1803
+INFO 2025-05-27 10:31:08,443 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 10:31:08,536 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:31:17,747 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:31:17,748 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:31:17,764 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 10:31:17,765 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 10:31:17,767 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 10:31:17,774 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 304 0
+INFO 2025-05-27 10:31:31,452 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-27 10:31:32,386 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 10:31:32,578 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:31:32,579 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:31:32,808 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:31:36,247 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:31:36,259 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:31:36,350 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:31:36,351 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:31:38,018 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:31:38,090 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:31:38,091 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:31:51,492 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:31:51,567 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:31:51,568 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:31:59,337 Bad Request: /login/
+WARNING 2025-05-27 10:31:59,337 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 10:32:06,133 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:32:07,058 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 10:32:07,266 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:07,266 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:32:07,459 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:32:09,276 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 10:32:09,417 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:09,418 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:32:09,595 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:32:09,812 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 10:32:10,010 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:10,011 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:32:10,172 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:32:13,644 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:32:13,654 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:32:13,715 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:13,715 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:32:18,789 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:32:18,864 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:18,865 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:32:24,756 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:32:25,673 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 10:32:25,826 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:25,828 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:32:26,078 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:32:31,614 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:32:31,678 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:31,679 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:32:40,078 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:32:40,133 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:40,134 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:32:46,732 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:32:47,649 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 10:32:47,807 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:47,808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:32:47,974 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:32:51,075 "GET /edit_profile/ HTTP/1.1" 200 25549
+WARNING 2025-05-27 10:32:51,309 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:32:51,310 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:32:51,418 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:33:01,922 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:33:01,932 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:33:01,984 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:33:01,988 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:34:01,513 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:34:02,430 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:34:02,606 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:02,607 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:03,039 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:34:07,457 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:34:07,469 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:34:07,520 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:07,522 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:34:15,543 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:34:16,470 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:34:16,602 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:16,603 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:16,767 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:34:20,463 "GET /profile/ HTTP/1.1" 200 17393
+WARNING 2025-05-27 10:34:20,612 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:20,612 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:20,749 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:34:23,139 "GET /edit_profile/ HTTP/1.1" 200 23036
+WARNING 2025-05-27 10:34:23,297 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:23,298 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:23,480 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:34:33,342 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:34:33,443 "GET /edit_profile/ HTTP/1.1" 200 23205
+WARNING 2025-05-27 10:34:33,585 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:33,585 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:33,801 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:34:39,205 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:34:39,215 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:34:39,265 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:39,265 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:34:40,817 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:34:40,863 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:40,863 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:34:50,432 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:34:51,349 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:34:51,491 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:51,491 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:51,672 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:34:54,259 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 10:34:54,400 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:34:54,401 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:34:54,649 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:35:00,637 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:35:00,646 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:35:00,696 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:35:00,697 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:35:02,915 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:35:02,973 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:35:02,974 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:35:11,042 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:35:11,050 "GET /password-reset/done/ HTTP/1.1" 200 2093
+INFO 2025-05-27 10:35:20,650 "GET /reset/MTA1/cqgiqh-8db9d36b97a508aa2e12e1d0a0f6dcb2/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:35:38,120 "POST /reset/MTA1/cqgiqh-8db9d36b97a508aa2e12e1d0a0f6dcb2/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:35:38,133 "GET /reset/MTA1/cqgiqh-8db9d36b97a508aa2e12e1d0a0f6dcb2/ HTTP/1.1" 200 3953
+WARNING 2025-05-27 10:35:43,351 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:35:43,351 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:35:51,208 "POST /reset/MTA1/cqgiqh-8db9d36b97a508aa2e12e1d0a0f6dcb2/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:35:51,217 "GET /password-reset/done/ HTTP/1.1" 200 2229
+WARNING 2025-05-27 10:35:51,277 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:35:51,278 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:36:03,884 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:36:03,944 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:36:03,944 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:36:05,984 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:36:06,045 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:36:06,046 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:36:12,331 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:36:13,274 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:36:13,425 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:36:13,425 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:36:13,652 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:36:17,617 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:36:17,627 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:36:17,678 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:36:17,679 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:36:33,945 Bad Request: /login/
+WARNING 2025-05-27 10:36:33,945 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 10:36:47,553 "GET /reset/MTA1/cqgiqh-8db9d36b97a508aa2e12e1d0a0f6dcb2/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:36:47,575 "GET /password_reset/ HTTP/1.1" 200 5510
+INFO 2025-05-27 10:36:51,210 "GET /reset/MTA1/cqgiqh-8db9d36b97a508aa2e12e1d0a0f6dcb2/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:36:51,235 "GET /password_reset/ HTTP/1.1" 200 5510
+INFO 2025-05-27 10:37:11,656 "GET /reset/MTA2/cqgiqk-e92eb2e49703d58e9878d40b6753a8cb/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:37:11,676 "GET /password_reset/ HTTP/1.1" 200 5510
+INFO 2025-05-27 10:37:35,174 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:37:35,185 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:37:35,286 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:37:35,286 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:37:38,957 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:37:39,002 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:37:39,003 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:38:43,106 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:38:43,169 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:38:43,170 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:38:44,148 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:38:44,202 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:38:44,202 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:38:50,855 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:38:51,790 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:38:51,981 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:38:51,981 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:38:52,247 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:38:54,984 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 10:38:55,174 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:38:55,175 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+WARNING 2025-05-27 10:38:55,460 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:39:00,491 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:39:00,520 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:39:00,618 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:39:00,618 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:39:02,957 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:39:03,028 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:39:03,029 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:39:08,411 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:39:08,421 "GET /password-reset/done/ HTTP/1.1" 200 2093
+INFO 2025-05-27 10:39:22,284 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:39:22,342 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:39:22,343 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:39:29,923 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:39:29,931 "GET /password-reset/done/ HTTP/1.1" 200 2093
+INFO 2025-05-27 10:41:03,085 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:03,140 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:03,141 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:41:03,466 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:03,511 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:03,511 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:41:03,817 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:03,859 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:03,860 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:41:04,183 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:04,243 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:04,244 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:41:04,545 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:04,587 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:04,587 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:41:04,887 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:04,934 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:04,934 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:41:05,237 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:41:05,293 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:41:05,293 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9538
+INFO 2025-05-27 10:42:19,943 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-27 10:42:21,011 Watching for file changes with StatReloader
+INFO 2025-05-27 10:42:26,332 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:26,386 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:26,387 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:26,655 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:26,705 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:26,706 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:27,001 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:27,049 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:27,049 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:27,345 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:27,390 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:27,390 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:27,755 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:27,813 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:27,813 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:28,100 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:28,153 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:28,154 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:34,261 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:42:34,271 "GET /password-reset/done/ HTTP/1.1" 200 2093
+INFO 2025-05-27 10:42:37,929 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:38,003 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:38,004 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:40,755 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:40,809 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:40,810 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:41,278 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:42:41,330 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:41,331 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:42:41,985 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:41,986 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:42:42,026 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:42,027 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:42,639 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:42,703 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:42,704 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:42,992 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:43,042 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:43,043 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:43,348 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:43,399 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:43,400 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:43,707 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:43,746 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:43,747 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:44,098 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:44,148 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:44,149 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:44,501 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:44,558 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:44,559 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:44,886 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:44,938 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:44,939 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:45,260 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:45,309 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:45,310 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:45,658 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:45,717 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:45,718 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:46,021 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:42:46,062 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:46,063 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:48,948 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-27 10:42:49,099 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:49,099 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:42:51,278 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:51,278 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:42:51,328 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:51,329 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:42:57,533 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:42:58,474 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:42:58,644 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:42:58,647 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:42:58,871 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:43:01,845 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 10:43:02,028 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:43:02,028 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:43:02,197 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:43:11,229 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 10:43:11,405 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:43:11,405 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:43:11,608 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:43:12,156 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 10:43:12,322 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:43:12,323 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:43:12,468 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:44:10,565 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:44:10,577 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:44:10,689 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:44:10,690 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:44:12,189 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:44:12,274 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:44:12,274 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:44:18,692 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:44:18,700 "GET /password-reset/done/ HTTP/1.1" 200 2093
+WARNING 2025-05-27 10:44:23,040 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:44:23,041 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+WARNING 2025-05-27 10:44:23,097 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:44:23,097 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:44:24,706 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:44:24,814 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:44:24,814 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:44:41,051 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:44:41,059 "GET /password-reset/done/ HTTP/1.1" 200 2093
+INFO 2025-05-27 10:44:48,085 "GET /reset/MTA1/cqgj6b-89a3e810867717b5b2ee27ab15273375/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:44:53,388 "POST /reset/MTA1/cqgj6b-89a3e810867717b5b2ee27ab15273375/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:44:53,404 "GET /reset/MTA1/cqgj6b-89a3e810867717b5b2ee27ab15273375/ HTTP/1.1" 200 3981
+INFO 2025-05-27 10:45:02,384 "POST /reset/MTA1/cqgj6b-89a3e810867717b5b2ee27ab15273375/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:45:02,396 "GET /reset/done/ HTTP/1.1" 200 1952
+INFO 2025-05-27 10:45:04,563 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:45:19,456 Bad Request: /login/
+WARNING 2025-05-27 10:45:19,457 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 10:45:23,742 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:45:24,667 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 10:45:28,338 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:45:28,348 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:45:37,525 Bad Request: /login/
+WARNING 2025-05-27 10:45:37,526 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 10:49:04,702 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:49:04,762 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:49:04,762 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:49:05,183 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:49:05,225 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:49:05,225 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:49:05,517 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:49:05,569 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:49:05,570 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:49:05,888 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:49:05,936 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:49:05,937 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:49:06,284 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:49:06,343 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:49:06,344 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9728
+INFO 2025-05-27 10:49:15,851 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:49:15,860 "GET /password-reset/done/ HTTP/1.1" 200 2093
+INFO 2025-05-27 10:50:57,258 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 10:50:58,545 Watching for file changes with StatReloader
+INFO 2025-05-27 10:51:00,639 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:51:00,715 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:51:00,716 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:51:10,069 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:51:10,083 "GET /accounts/password_reset/done/ HTTP/1.1" 200 2201
+INFO 2025-05-27 10:51:25,391 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:51:25,473 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:51:25,474 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:51:36,335 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:51:36,421 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:51:36,422 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:51:42,227 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:51:43,171 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:51:43,338 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:51:43,339 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:51:43,571 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:51:48,513 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 10:51:48,696 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:51:48,696 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:51:48,924 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:52:20,401 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:52:20,414 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:52:20,511 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:52:20,512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:52:40,244 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:52:41,158 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:52:41,351 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:52:41,352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:52:41,591 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:52:46,794 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:52:46,804 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:52:46,902 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:52:46,903 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:52:49,195 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 10:52:49,279 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:52:49,280 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:53:07,501 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:53:07,511 "GET /accounts/password_reset/done/ HTTP/1.1" 200 2201
+INFO 2025-05-27 10:53:19,007 "GET /reset/MTA2/cqgjkb-bfdd79fc915e5405ba40061118a5d189/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:53:19,116 "GET /reset/MTA2/set-password/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:53:26,460 "POST /reset/MTA2/set-password/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:53:33,162 "POST /reset/MTA2/set-password/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:53:55,622 "POST /reset/MTA2/set-password/ HTTP/1.1" 200 3799
+WARNING 2025-05-27 10:53:59,473 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:53:59,474 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:54:06,669 "POST /reset/MTA2/set-password/ HTTP/1.1" 200 3799
+WARNING 2025-05-27 10:54:06,844 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:54:06,845 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:54:31,938 "POST /reset/MTA2/set-password/ HTTP/1.1" 200 3799
+WARNING 2025-05-27 10:54:32,087 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:54:32,088 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:54:45,016 "POST /reset/MTA2/set-password/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:54:45,101 "GET /reset/done/ HTTP/1.1" 200 1803
+WARNING 2025-05-27 10:54:45,243 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:54:45,243 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:54:47,202 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:54:47,344 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:54:47,344 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:55:00,806 Bad Request: /login/
+WARNING 2025-05-27 10:55:00,806 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 10:55:09,144 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:55:10,101 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:55:10,275 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:55:10,276 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:55:10,769 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:56:50,385 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 10:56:50,398 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 10:56:50,481 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:56:50,482 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:56:55,581 Bad Request: /login/
+WARNING 2025-05-27 10:56:55,582 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 10:57:00,189 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 10:57:01,108 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 10:57:01,282 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:57:01,282 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 10:57:02,788 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 10:57:10,629 "GET /reset/MTA2/cqgjkb-bfdd79fc915e5405ba40061118a5d189/ HTTP/1.1" 200 3799
+INFO 2025-05-27 10:57:30,578 "POST /reset/MTA2/cqgjkb-bfdd79fc915e5405ba40061118a5d189/ HTTP/1.1" 200 3799
+WARNING 2025-05-27 10:57:34,803 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:57:34,804 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:57:48,101 "POST /reset/MTA2/cqgjkb-bfdd79fc915e5405ba40061118a5d189/ HTTP/1.1" 200 3799
+WARNING 2025-05-27 10:57:48,283 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:57:48,284 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 10:58:00,331 "POST /reset/MTA2/cqgjkb-bfdd79fc915e5405ba40061118a5d189/ HTTP/1.1" 200 3799
+WARNING 2025-05-27 10:58:00,524 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 10:58:00,525 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:15:56,012 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-27 11:15:57,040 Watching for file changes with StatReloader
+INFO 2025-05-27 11:16:00,875 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\urls.py changed, reloading.
+INFO 2025-05-27 11:16:02,353 Watching for file changes with StatReloader
+INFO 2025-05-27 11:16:04,531 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:16:04,631 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:16:04,632 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:16:07,503 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:16:07,600 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:16:07,601 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:16:11,806 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-27 11:16:11,893 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:16:11,893 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:16:41,733 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:16:41,749 "GET /login/ HTTP/1.1" 200 10769
+WARNING 2025-05-27 11:16:41,819 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:16:41,820 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:17:02,198 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 11:17:02,222 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-27 11:17:02,401 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-27 11:17:02,414 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-27 11:17:02,428 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2025-05-27 11:17:02,437 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-27 11:17:02,459 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-27 11:17:02,464 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-27 11:17:02,494 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-27 11:17:02,532 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-27 11:17:02,536 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-27 11:17:02,537 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-27 11:17:02,549 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-27 11:17:02,625 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-27 11:17:02,652 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-27 11:17:09,278 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:17:09,318 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-27 11:17:09,341 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-27 11:17:09,365 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-27 11:17:09,366 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-27 11:17:09,378 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-27 11:17:09,409 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-27 11:17:09,413 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-27 11:17:09,451 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-27 11:17:09,461 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-27 11:17:16,071 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:17:16,380 "GET /admin/ HTTP/1.1" 200 67128
+INFO 2025-05-27 11:17:16,453 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-27 11:17:16,527 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-27 11:17:20,307 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 32981
+INFO 2025-05-27 11:17:20,345 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-05-27 11:17:20,362 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-27 11:17:20,382 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-05-27 11:17:20,382 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-27 11:17:20,385 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-05-27 11:17:20,387 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-05-27 11:17:20,400 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-27 11:17:20,413 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-05-27 11:17:20,447 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 11:17:20,448 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-05-27 11:17:20,474 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-05-27 11:17:23,232 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 34030
+INFO 2025-05-27 11:17:23,262 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-27 11:17:23,262 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-27 11:17:23,277 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-27 11:17:23,283 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-27 11:17:23,295 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-27 11:17:23,308 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-05-27 11:17:23,325 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 11:17:28,526 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 34312
+INFO 2025-05-27 11:17:28,675 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 11:17:33,061 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:17:33,163 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33565
+INFO 2025-05-27 11:17:33,271 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 11:17:37,260 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:17:37,311 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:17:37,312 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:17:44,094 Bad Request: /login/
+WARNING 2025-05-27 11:17:44,095 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 11:17:53,635 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 11:17:54,561 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 11:17:54,713 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:17:54,714 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:17:55,058 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:18:33,046 "GET /edit_profile/ HTTP/1.1" 200 23026
+WARNING 2025-05-27 11:18:33,212 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:18:33,213 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:18:33,520 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:18:37,347 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:18:37,358 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:18:37,429 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:18:37,430 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:18:38,835 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:18:38,905 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:18:38,906 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:18:45,014 "POST /password_reset/ HTTP/1.1" 200 5502
+INFO 2025-05-27 11:18:51,628 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:18:51,685 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:18:51,686 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-27 11:19:04,305 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1325, in password_reset_view
+    user = User.objects.get(email=email)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 640, in get
+    raise self.model.MultipleObjectsReturned(
+    ...<5 lines>...
+    )
+django.contrib.auth.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 2!
+ERROR 2025-05-27 11:19:04,309 "POST /password_reset/ HTTP/1.1" 500 79771
+INFO 2025-05-27 11:19:35,004 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:19:35,035 "GET /accounts/password_reset/done/ HTTP/1.1" 200 2201
+INFO 2025-05-27 11:20:06,108 "GET /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 200 3956
+INFO 2025-05-27 11:20:20,890 "POST /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 200 3953
+INFO 2025-05-27 11:20:24,449 "POST /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 200 3953
+INFO 2025-05-27 11:20:29,418 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:20:29,493 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:20:29,494 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:20:31,015 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:20:31,087 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:20:31,088 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:20:37,552 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 11:20:38,472 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 11:20:38,638 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:20:38,638 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:20:38,954 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:20:41,429 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:20:41,443 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:20:41,557 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:20:41,558 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:20:50,468 Forbidden (CSRF token from POST incorrect.): /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/
+WARNING 2025-05-27 11:20:50,468 "POST /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 403 2518
+WARNING 2025-05-27 11:20:50,597 Not Found: /favicon.ico
+WARNING 2025-05-27 11:20:50,597 "GET /favicon.ico HTTP/1.1" 404 9422
+WARNING 2025-05-27 11:20:53,902 Forbidden (CSRF token from POST incorrect.): /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/
+WARNING 2025-05-27 11:20:53,903 "POST /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 403 2518
+INFO 2025-05-27 11:21:06,959 "GET /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:21:06,984 "GET /password_reset/ HTTP/1.1" 200 5493
+INFO 2025-05-27 11:21:22,788 "GET /reset/MTA3/cqgksk-029875c2df975cbc09b8d594df9f32c0/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:21:22,808 "GET /password_reset/ HTTP/1.1" 200 5493
+INFO 2025-05-27 11:21:40,470 "POST /password_reset/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:21:40,479 "GET /accounts/password_reset/done/ HTTP/1.1" 200 2201
+INFO 2025-05-27 11:22:01,122 "GET /reset/MTA3/cqgkvx-c230cdfb767cb1ecfda9e179fef8c207/ HTTP/1.1" 200 3956
+INFO 2025-05-27 11:22:14,934 "POST /reset/MTA3/cqgkvx-c230cdfb767cb1ecfda9e179fef8c207/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:22:14,963 "GET /reset/done/ HTTP/1.1" 200 1954
+INFO 2025-05-27 11:22:20,457 "GET /reset/MTA3/cqgkvx-c230cdfb767cb1ecfda9e179fef8c207/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:22:20,480 "GET /password_reset/ HTTP/1.1" 200 5493
+INFO 2025-05-27 11:22:24,625 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:22:35,796 Bad Request: /login/
+WARNING 2025-05-27 11:22:35,796 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 11:22:40,587 Bad Request: /login/
+WARNING 2025-05-27 11:22:40,587 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 11:22:47,953 Bad Request: /login/
+WARNING 2025-05-27 11:22:47,953 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 11:22:55,284 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 11:22:56,200 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 11:23:11,773 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:23:11,906 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:23:11,907 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:24:03,128 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:24:03,294 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:24:03,295 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:47:00,702 "GET /reset/MTA2/cqgjkb-bfdd79fc915e5405ba40061118a5d189/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:47:00,795 "GET /password_reset/ HTTP/1.1" 200 5493
+INFO 2025-05-27 11:47:05,270 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 11:47:08,388 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:08,389 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:47:08,425 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:47:16,176 "GET /profile/ HTTP/1.1" 200 17401
+WARNING 2025-05-27 11:47:16,414 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:16,416 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:47:16,604 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:47:19,492 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:47:19,504 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:47:19,576 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:19,577 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:47:33,862 Bad Request: /login/
+WARNING 2025-05-27 11:47:33,863 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 11:47:38,252 Bad Request: /login/
+WARNING 2025-05-27 11:47:38,252 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 11:47:45,005 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 11:47:45,921 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 11:47:46,071 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:46,072 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:47:46,936 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:47:50,898 "GET /profile/ HTTP/1.1" 200 17376
+WARNING 2025-05-27 11:47:51,072 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:51,073 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:47:51,275 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:47:55,757 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:47:55,767 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:47:55,847 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:55,848 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:47:57,410 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:47:57,490 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:47:57,491 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:48:08,076 "POST /password_reset/ HTTP/1.1" 200 5502
+INFO 2025-05-27 11:48:20,593 "GET /password_reset/ HTTP/1.1" 200 5320
+WARNING 2025-05-27 11:48:20,639 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:48:20,640 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:57:00,440 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 11:57:02,053 Watching for file changes with StatReloader
+INFO 2025-05-27 11:57:04,895 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 11:57:05,079 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:57:05,080 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:57:16,842 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-27 11:57:18,217 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:57:21,310 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:57:21,313 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:57:46,612 Bad Request: /login/
+WARNING 2025-05-27 11:57:46,612 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 11:57:53,823 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 11:57:54,790 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 11:57:54,966 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:57:54,967 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:57:55,520 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:57:58,266 "GET /profile/ HTTP/1.1" 200 17376
+WARNING 2025-05-27 11:57:58,410 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:57:58,411 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:57:58,737 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 11:58:02,719 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:58:02,729 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:58:02,801 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:58:02,805 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 11:58:04,642 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 11:58:04,716 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:58:04,716 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:58:08,660 Bad Request: /password_reset/
+WARNING 2025-05-27 11:58:08,661 "POST /password_reset/ HTTP/1.1" 400 64
+WARNING 2025-05-27 11:58:16,090 Bad Request: /password_reset/
+WARNING 2025-05-27 11:58:16,090 "POST /password_reset/ HTTP/1.1" 400 64
+ERROR 2025-05-27 11:58:27,693 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1349, in password_reset_view
+    user = User.objects.get(email=email)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 640, in get
+    raise self.model.MultipleObjectsReturned(
+    ...<5 lines>...
+    )
+django.contrib.auth.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 2!
+ERROR 2025-05-27 11:58:27,696 "POST /password_reset/ HTTP/1.1" 500 79784
+INFO 2025-05-27 11:58:33,695 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 11:58:44,727 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 11:58:44,745 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-27 11:59:02,209 "GET /reset/MTA3/cqgmli-3c3252f1ca57f260f9e7c48d98c042a3/ HTTP/1.1" 200 3799
+INFO 2025-05-27 11:59:21,059 "POST /reset/MTA3/cqgmli-3c3252f1ca57f260f9e7c48d98c042a3/ HTTP/1.1" 200 3953
+INFO 2025-05-27 11:59:30,854 "POST /reset/MTA3/cqgmli-3c3252f1ca57f260f9e7c48d98c042a3/ HTTP/1.1" 302 0
+INFO 2025-05-27 11:59:30,865 "GET /reset/done/ HTTP/1.1" 200 1954
+INFO 2025-05-27 11:59:34,437 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 11:59:42,128 Bad Request: /login/
+WARNING 2025-05-27 11:59:42,129 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 11:59:44,068 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 11:59:44,068 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 11:59:53,709 Bad Request: /login/
+WARNING 2025-05-27 11:59:53,709 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 11:59:59,098 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:00:00,039 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:00:00,217 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:00:00,218 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:00:00,603 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:00:03,983 "GET /profile/ HTTP/1.1" 200 17376
+WARNING 2025-05-27 12:00:04,168 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:00:04,169 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:00:04,446 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:00:10,861 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:00:10,870 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:00:10,943 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:00:10,944 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:00:12,210 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:00:12,297 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:00:12,298 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:00:17,610 Bad Request: /password_reset/
+WARNING 2025-05-27 12:00:17,611 "POST /password_reset/ HTTP/1.1" 400 64
+ERROR 2025-05-27 12:00:35,303 Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1349, in password_reset_view
+    user = User.objects.get(email=email)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 640, in get
+    raise self.model.MultipleObjectsReturned(
+    ...<5 lines>...
+    )
+django.contrib.auth.models.User.MultipleObjectsReturned: get() returned more than one User -- it returned 2!
+ERROR 2025-05-27 12:00:35,305 "POST /password_reset/ HTTP/1.1" 500 79784
+INFO 2025-05-27 12:03:21,827 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 12:03:22,917 Watching for file changes with StatReloader
+INFO 2025-05-27 12:03:24,825 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:03:24,910 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:03:24,911 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:08:13,274 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:08:31,721 Bad Request: /password_reset/
+WARNING 2025-05-27 12:08:31,722 "POST /password_reset/ HTTP/1.1" 400 64
+WARNING 2025-05-27 12:08:39,565 Bad Request: /password_reset/
+WARNING 2025-05-27 12:08:39,566 "POST /password_reset/ HTTP/1.1" 400 64
+INFO 2025-05-27 12:08:52,845 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 12:09:02,686 "GET /reset/MTA3/cqgn2p-75318cc46a6f8101a8153eed97fd082c/ HTTP/1.1" 200 3799
+INFO 2025-05-27 12:16:20,372 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 12:16:21,766 Watching for file changes with StatReloader
+INFO 2025-05-27 12:16:26,766 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:16:28,831 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:16:28,832 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:16:36,629 Bad Request: /login/
+WARNING 2025-05-27 12:16:36,629 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-05-27 12:16:42,140 Bad Request: /login/
+WARNING 2025-05-27 12:16:42,141 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-05-27 12:16:48,944 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-27 12:16:49,886 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:16:50,046 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:16:50,047 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:16:50,475 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:16:53,571 "GET /edit_profile/ HTTP/1.1" 200 23026
+WARNING 2025-05-27 12:16:53,723 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:16:53,724 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:16:53,960 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:16:58,048 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:16:58,059 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:16:58,130 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:16:58,130 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:16:59,683 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:16:59,745 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:16:59,746 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:17:10,482 Bad Request: /password_reset/
+WARNING 2025-05-27 12:17:10,482 "POST /password_reset/ HTTP/1.1" 400 64
+WARNING 2025-05-27 12:17:20,560 Bad Request: /password_reset/
+WARNING 2025-05-27 12:17:20,560 "POST /password_reset/ HTTP/1.1" 400 64
+INFO 2025-05-27 12:17:36,078 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 12:17:59,238 "GET /reset/MTA3/cqgnh8-0f571201b6ca60f647fce25fe65c9496/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:18:08,094 "POST /reset/MTA3/cqgnh8-0f571201b6ca60f647fce25fe65c9496/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:18:08,104 "GET /reset/done/ HTTP/1.1" 200 1954
+INFO 2025-05-27 12:18:11,568 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:18:17,022 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:18:17,023 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:18:29,590 Bad Request: /login/
+WARNING 2025-05-27 12:18:29,591 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 12:18:33,928 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:18:34,863 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:18:35,021 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:18:35,022 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:18:35,437 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:18:41,189 "GET /profile/ HTTP/1.1" 200 17376
+WARNING 2025-05-27 12:18:41,480 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:18:41,481 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:18:41,606 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:18:43,631 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:18:43,642 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:18:43,708 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:18:43,709 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:18:53,148 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:18:53,252 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:18:53,253 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:19:03,090 Bad Request: /password_reset/
+WARNING 2025-05-27 12:19:03,090 "POST /password_reset/ HTTP/1.1" 400 64
+INFO 2025-05-27 12:19:16,166 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 12:19:21,999 "GET /reset/MTA3/cqgnk1-44fa79edb2ea27d928d1f55021346bc5/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:19:45,360 "GET /reset/MTA3/cqgnk1-44fa79edb2ea27d928d1f55021346bc5/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:19:59,040 "GET /reset/MTA3/cqgnk1-44fa79edb2ea27d928d1f55021346bc5/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:20:11,080 "GET /reset/MTA3/cqgnk1-44fa79edb2ea27d928d1f55021346bc5/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:20:18,355 "POST /reset/MTA3/cqgnk1-44fa79edb2ea27d928d1f55021346bc5/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:20:18,370 "GET /reset/done/ HTTP/1.1" 200 1954
+INFO 2025-05-27 12:20:20,690 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:20:28,761 Bad Request: /login/
+WARNING 2025-05-27 12:20:28,762 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 12:20:33,223 Bad Request: /login/
+WARNING 2025-05-27 12:20:33,224 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 12:20:36,267 Bad Request: /login/
+WARNING 2025-05-27 12:20:36,267 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 12:20:40,403 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:20:41,330 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:20:44,323 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:20:44,324 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:20:44,568 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:20:47,690 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:20:47,700 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:20:47,779 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:20:47,780 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:20:55,602 "GET /reset/MTA3/cqgnk1-44fa79edb2ea27d928d1f55021346bc5/ HTTP/1.1" 200 2228
+INFO 2025-05-27 12:21:09,789 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:21:09,844 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:21:09,844 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:29:56,705 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 12:29:57,866 Watching for file changes with StatReloader
+INFO 2025-05-27 12:31:46,047 "GET /reset/MTA3/cqgn2p-75318cc46a6f8101a8153eed97fd082c/ HTTP/1.1" 200 2228
+INFO 2025-05-27 12:31:52,645 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:31:52,727 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:31:52,728 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:31:54,270 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:31:54,343 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:31:54,344 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:32:48,135 Bad Request: /login/
+WARNING 2025-05-27 12:32:48,136 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 12:32:50,406 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:32:51,365 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:32:51,574 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:32:51,575 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:32:51,908 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:32:55,600 "GET /profile/ HTTP/1.1" 200 17376
+WARNING 2025-05-27 12:32:55,768 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:32:55,769 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:32:56,049 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:33:00,627 "GET /edit_profile/ HTTP/1.1" 200 23026
+WARNING 2025-05-27 12:33:00,844 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:33:00,845 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:33:01,049 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:33:21,477 "POST /edit_profile/ HTTP/1.1" 200 23463
+WARNING 2025-05-27 12:33:21,626 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:33:21,645 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:33:21,902 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:33:58,542 "POST /edit_profile/ HTTP/1.1" 200 23290
+WARNING 2025-05-27 12:33:58,695 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:33:58,696 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:33:59,002 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:34:13,048 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:34:13,157 "GET /edit_profile/ HTTP/1.1" 200 23180
+WARNING 2025-05-27 12:34:13,307 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:34:13,308 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:34:13,529 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:34:18,617 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:34:18,628 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:34:18,706 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:34:18,707 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:34:26,835 Bad Request: /login/
+WARNING 2025-05-27 12:34:26,836 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 12:34:30,082 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:34:31,022 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:34:31,207 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:34:31,209 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:34:31,503 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:34:33,340 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:34:33,350 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:34:33,450 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:34:33,451 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:35:30,959 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:35:31,056 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:35:31,057 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:35:38,035 Bad Request: /password_reset/
+WARNING 2025-05-27 12:35:38,036 "POST /password_reset/ HTTP/1.1" 400 64
+INFO 2025-05-27 12:35:53,047 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 12:36:00,238 "GET /reset/MTA3/cqgobp-d588c5114e9b0f75b4b086ce0f3d994d/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:36:22,019 "POST /reset/MTA3/cqgobp-d588c5114e9b0f75b4b086ce0f3d994d/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:36:22,029 "GET /reset/done/ HTTP/1.1" 200 1954
+INFO 2025-05-27 12:36:26,259 "GET /reset/MTA3/cqgobp-d588c5114e9b0f75b4b086ce0f3d994d/ HTTP/1.1" 200 2228
+INFO 2025-05-27 12:36:33,013 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:36:33,085 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:36:33,086 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:36:44,574 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 12:36:49,239 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:36:53,957 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:37:52,770 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:38:26,122 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:39:04,449 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:39:09,978 "POST /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:39:09,987 "GET /reset/done/ HTTP/1.1" 200 1954
+WARNING 2025-05-27 12:40:45,152 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:40:45,153 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:40:45,844 "GET /profile/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:40:45,855 "GET /login/?next=/profile/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:40:45,912 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:40:45,912 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:40:46,804 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 12:40:46,814 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:40:46,855 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:40:46,856 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:40:47,553 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:40:47,554 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:40:51,847 Bad Request: /login/
+WARNING 2025-05-27 12:40:51,847 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 12:40:54,556 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:40:55,491 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:40:55,683 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:40:55,683 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:40:56,023 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:40:57,732 "GET /edit_profile/ HTTP/1.1" 200 23026
+WARNING 2025-05-27 12:40:57,898 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:40:57,899 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:40:58,242 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:41:06,385 "POST /edit_profile/ HTTP/1.1" 200 23290
+WARNING 2025-05-27 12:41:06,568 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:41:06,569 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:41:06,739 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:41:20,099 "POST /edit_profile/ HTTP/1.1" 200 23317
+WARNING 2025-05-27 12:41:20,240 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:41:20,241 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:41:20,405 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:44:49,761 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 12:44:51,307 Watching for file changes with StatReloader
+INFO 2025-05-27 12:45:39,581 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-27 12:45:40,637 Watching for file changes with StatReloader
+INFO 2025-05-27 12:45:45,554 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:45:45,638 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:45:45,638 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:45:46,061 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:45:46,134 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:45:46,135 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:45:54,881 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 2228
+INFO 2025-05-27 12:46:07,041 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:46:07,106 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:46:07,107 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:46:22,065 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:46:23,018 "GET / HTTP/1.1" 200 12947
+WARNING 2025-05-27 12:46:23,183 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:46:23,184 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 12:46:23,620 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 12:46:26,676 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:46:26,684 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:46:26,740 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:46:26,741 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:46:27,980 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 12:46:28,061 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 12:46:28,062 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 12:46:39,450 "POST /password_reset/ HTTP/1.1" 200 41
+INFO 2025-05-27 12:46:49,341 "GET /reset/MTA3/cqgod4-c44310ffb5b8e58dd436ca82e9dbb7bb/ HTTP/1.1" 200 2228
+INFO 2025-05-27 12:46:55,104 "GET /reset/MTA3/cqgoto-890abac3ac38a4d28005efbb14fa3c02/ HTTP/1.1" 200 3121
+INFO 2025-05-27 12:47:00,207 "POST /reset/MTA3/cqgoto-890abac3ac38a4d28005efbb14fa3c02/ HTTP/1.1" 200 3525
+INFO 2025-05-27 12:47:14,677 "POST /reset/MTA3/cqgoto-890abac3ac38a4d28005efbb14fa3c02/ HTTP/1.1" 200 3525
+INFO 2025-05-27 12:47:33,185 "POST /reset/MTA3/cqgoto-890abac3ac38a4d28005efbb14fa3c02/ HTTP/1.1" 200 3369
+INFO 2025-05-27 12:48:07,907 D:\New folder\School1-CRM\New_School_CRM-main\apps\corecode\views.py changed, reloading.
+INFO 2025-05-27 12:48:09,337 Watching for file changes with StatReloader
+INFO 2025-05-27 12:48:13,522 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-27 12:48:14,894 Watching for file changes with StatReloader
+INFO 2025-05-27 12:48:17,405 "POST /reset/MTA3/cqgoto-890abac3ac38a4d28005efbb14fa3c02/ HTTP/1.1" 302 0
+INFO 2025-05-27 12:48:17,443 "GET /reset/done/ HTTP/1.1" 200 1954
+INFO 2025-05-27 12:48:20,683 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 12:48:34,169 Bad Request: /login/
+WARNING 2025-05-27 12:48:34,170 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 12:48:39,356 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 12:48:40,273 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 12:48:48,968 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 12:49:01,923 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 12:49:02,615 "GET / HTTP/1.1" 200 12947
