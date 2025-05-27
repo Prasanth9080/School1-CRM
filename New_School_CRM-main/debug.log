@@ -33930,3 +33930,2359 @@ INFO 2025-05-27 12:48:40,273 "GET / HTTP/1.1" 200 12947
 INFO 2025-05-27 12:48:48,968 "GET / HTTP/1.1" 200 12947
 INFO 2025-05-27 12:49:01,923 "GET / HTTP/1.1" 200 12947
 INFO 2025-05-27 12:49:02,615 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 14:17:50,003 Watching for file changes with StatReloader
+INFO 2025-05-27 14:21:12,040 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:21:12,235 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 14:21:12,551 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:21:12,552 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:21:20,006 Bad Request: /login/
+WARNING 2025-05-27 14:21:20,006 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:21:27,248 Bad Request: /login/
+WARNING 2025-05-27 14:21:27,249 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 14:21:35,734 "GET /password_reset/ HTTP/1.1" 200 4792
+WARNING 2025-05-27 14:21:35,797 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:21:35,798 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:21:38,348 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:21:38,349 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:21:38,409 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:21:38,410 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 14:21:55,077 "GET /admin/corecode/userprofile/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:21:55,099 "GET /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 200 3078
+INFO 2025-05-27 14:21:55,273 "GET /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 200 3078
+INFO 2025-05-27 14:21:55,418 "GET /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 200 3078
+INFO 2025-05-27 14:22:01,520 "POST /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:22:01,745 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 32987
+INFO 2025-05-27 14:22:01,829 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:22:10,439 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 14:22:10,455 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 14:22:16,541 Bad Request: /login/
+WARNING 2025-05-27 14:22:16,541 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-05-27 14:22:28,990 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 34053
+INFO 2025-05-27 14:22:29,090 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:22:32,332 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:22:32,449 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33567
+INFO 2025-05-27 14:22:32,548 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-05-27 14:22:40,641 Bad Request: /login/
+WARNING 2025-05-27 14:22:40,642 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-05-27 14:22:45,111 Bad Request: /login/
+WARNING 2025-05-27 14:22:45,111 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-05-27 14:22:48,364 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-27 14:22:49,348 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-27 14:22:52,732 "GET /principal/staff/attendance/ HTTP/1.1" 200 12853
+INFO 2025-05-27 14:22:58,693 "GET /principal/staff/attendance/create/ HTTP/1.1" 200 12689
+INFO 2025-05-27 14:23:14,533 "POST /principal/staff/attendance/create/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:23:14,615 "GET /principal/staff/attendance/ HTTP/1.1" 200 13485
+INFO 2025-05-27 14:23:55,332 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:23:58,283 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:23:58,824 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:23:59,184 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:23:59,566 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:23:59,950 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+WARNING 2025-05-27 14:24:24,135 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:24:24,136 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:24:24,253 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:24:35,231 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 14:24:37,782 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 14:24:40,075 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:24:41,317 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12411
+INFO 2025-05-27 14:26:55,573 "GET /principal/notifications/ HTTP/1.1" 200 13879
+INFO 2025-05-27 14:27:14,680 "GET /profile/ HTTP/1.1" 200 19895
+INFO 2025-05-27 14:27:21,074 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 14:27:22,207 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12411
+INFO 2025-05-27 14:28:32,396 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12976
+INFO 2025-05-27 14:28:36,047 "GET /principal/student-fees/ HTTP/1.1" 200 11699
+INFO 2025-05-27 14:29:54,828 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 34053
+INFO 2025-05-27 14:29:54,919 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:29:59,463 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:29:59,580 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33565
+INFO 2025-05-27 14:29:59,663 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:39:29,107 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 34053
+INFO 2025-05-27 14:39:29,190 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:39:33,692 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:39:33,816 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33565
+INFO 2025-05-27 14:39:33,901 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:48:25,753 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+INFO 2025-05-27 14:48:28,004 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+INFO 2025-05-27 14:48:28,921 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12976
+INFO 2025-05-27 14:48:29,729 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:48:30,305 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 14:48:31,555 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:48:34,023 "GET /student/list HTTP/1.1" 200 12773
+INFO 2025-05-27 14:48:34,243 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+INFO 2025-05-27 14:48:52,322 "GET /profile/ HTTP/1.1" 200 17376
+INFO 2025-05-27 14:49:37,141 "GET /principal/staff/attendance/ HTTP/1.1" 200 14331
+INFO 2025-05-27 14:49:49,937 "GET /profile/ HTTP/1.1" 200 17376
+INFO 2025-05-27 14:49:57,148 "GET /student/list HTTP/1.1" 200 12773
+INFO 2025-05-27 14:50:08,328 "GET /staff/list/ HTTP/1.1" 200 12229
+INFO 2025-05-27 14:50:12,154 "GET /student/data/ HTTP/1.1" 200 10782
+INFO 2025-05-27 14:50:14,013 "GET /student/payments/ HTTP/1.1" 200 12606
+INFO 2025-05-27 14:50:22,358 "GET /student/attendance/ HTTP/1.1" 200 12840
+INFO 2025-05-27 14:50:24,241 "GET /student/reportcard/ HTTP/1.1" 200 16596
+INFO 2025-05-27 14:50:30,979 "GET /student/student/attendance/ HTTP/1.1" 200 11373
+INFO 2025-05-27 14:50:39,082 "GET /finance/list/ HTTP/1.1" 200 13031
+INFO 2025-05-27 14:50:53,845 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 14:50:55,254 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 14:51:01,132 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 14:51:49,311 Bad Request: /login/
+WARNING 2025-05-27 14:51:49,311 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:51:54,279 Bad Request: /login/
+WARNING 2025-05-27 14:51:54,280 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:51:57,212 Bad Request: /login/
+WARNING 2025-05-27 14:51:57,213 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:52:04,083 Bad Request: /login/
+WARNING 2025-05-27 14:52:04,084 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:52:10,493 Bad Request: /login/
+WARNING 2025-05-27 14:52:10,493 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:52:16,737 Bad Request: /login/
+WARNING 2025-05-27 14:52:16,738 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 14:52:23,450 "GET /admin/corecode/userprofile/85/change/ HTTP/1.1" 200 34066
+INFO 2025-05-27 14:52:23,549 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2025-05-27 14:52:45,808 Bad Request: /login/
+WARNING 2025-05-27 14:52:45,808 "POST /login/ HTTP/1.1" 400 53
+WARNING 2025-05-27 14:52:58,345 Bad Request: /login/
+WARNING 2025-05-27 14:52:58,345 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-05-27 14:53:02,290 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 14:53:03,190 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 14:53:06,533 "GET /student/data/ HTTP/1.1" 200 10782
+INFO 2025-05-27 14:53:07,542 "GET /student/payments/ HTTP/1.1" 200 12606
+INFO 2025-05-27 14:53:08,684 "GET /student/attendance/ HTTP/1.1" 200 12840
+INFO 2025-05-27 14:53:09,843 "GET /student/student/attendance/ HTTP/1.1" 200 11373
+INFO 2025-05-27 14:53:10,892 "GET /student/reportcard/ HTTP/1.1" 200 16596
+INFO 2025-05-27 14:53:47,691 "GET /admin/auth/user/ HTTP/1.1" 200 35615
+INFO 2025-05-27 14:53:47,725 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-27 14:53:47,725 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-05-27 14:53:47,799 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:54:00,595 "POST /admin/auth/user/ HTTP/1.1" 200 27556
+INFO 2025-05-27 14:54:00,629 "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+INFO 2025-05-27 14:54:02,064 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:54:02,173 "GET /admin/auth/user/ HTTP/1.1" 200 35021
+INFO 2025-05-27 14:54:02,263 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:54:05,999 "POST /admin/auth/user/ HTTP/1.1" 200 26806
+INFO 2025-05-27 14:54:07,491 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:54:07,598 "GET /admin/auth/user/ HTTP/1.1" 200 34474
+INFO 2025-05-27 14:54:07,707 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:54:17,110 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-27 14:54:21,778 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:54:21,787 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-27 14:54:23,283 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-27 14:54:57,803 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:54:57,814 "GET /signup/ HTTP/1.1" 200 6072
+INFO 2025-05-27 14:55:42,690 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:55:42,701 "GET /login/ HTTP/1.1" 200 10769
+INFO 2025-05-27 14:55:51,596 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 14:55:52,516 "GET / HTTP/1.1" 200 11362
+WARNING 2025-05-27 14:55:52,692 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:55:52,693 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:55:53,105 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:55:57,826 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:55:57,836 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 14:55:57,904 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:55:57,905 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 14:56:01,261 "GET /admin/auth/user/ HTTP/1.1" 200 34494
+INFO 2025-05-27 14:56:01,386 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:56:08,406 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29218
+INFO 2025-05-27 14:56:12,998 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 31950
+INFO 2025-05-27 14:56:13,099 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:56:14,533 "GET /admin/corecode/userprofile/88/change/ HTTP/1.1" 200 33926
+INFO 2025-05-27 14:56:14,641 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:56:28,946 "POST /admin/corecode/userprofile/88/change/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:56:29,072 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 32537
+INFO 2025-05-27 14:56:29,163 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:56:34,214 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 14:56:34,266 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:56:34,267 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 14:56:41,760 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 14:56:42,686 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-27 14:56:42,852 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:56:42,852 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:56:43,022 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:56:48,471 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:56:48,482 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-27 14:56:48,564 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:56:48,564 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 14:56:53,591 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 14:56:54,507 "GET / HTTP/1.1" 200 15466
+WARNING 2025-05-27 14:56:54,698 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:56:54,699 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:56:54,895 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:56:59,158 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 14:56:59,333 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:56:59,334 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:56:59,500 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:57:02,835 "GET /principal/notifications/ HTTP/1.1" 200 13879
+WARNING 2025-05-27 14:57:03,035 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:57:03,036 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:57:03,174 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:57:04,644 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 14:57:04,846 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:57:04,846 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:57:05,051 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:57:05,761 "GET /principal/staff/attendance/ HTTP/1.1" 200 13623
+WARNING 2025-05-27 14:57:05,947 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:57:05,948 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:57:06,153 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:57:06,945 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12976
+WARNING 2025-05-27 14:57:07,124 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:57:07,125 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:57:07,311 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:57:08,579 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+WARNING 2025-05-27 14:57:08,773 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:57:08,773 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:57:08,931 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:57:46,987 "GET / HTTP/1.1" 302 0
+INFO 2025-05-27 14:57:47,000 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-27 14:57:47,042 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,042 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,043 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,048 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,049 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,055 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,056 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,056 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,070 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,070 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,073 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:47,217 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-05-27 14:57:50,162 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-27 14:57:50,180 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:58:51,891 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:58:51,900 "GET /login/ HTTP/1.1" 200 10769
+INFO 2025-05-27 14:58:58,408 "GET /admin/auth/user/ HTTP/1.1" 200 35026
+INFO 2025-05-27 14:58:58,501 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:58:59,567 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 29557
+WARNING 2025-05-27 14:59:05,088 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:59:05,088 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 14:59:05,093 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:05,094 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:05,097 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:05,117 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:13,306 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-27 14:59:14,232 "GET / HTTP/1.1" 200 11362
+INFO 2025-05-27 14:59:14,275 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:14,276 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:14,286 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:14,287 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:14,287 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:14,287 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-27 14:59:14,289 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+WARNING 2025-05-27 14:59:14,391 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 14:59:14,391 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 14:59:14,736 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 14:59:21,408 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 32452
+INFO 2025-05-27 14:59:21,502 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:59:23,434 "GET /admin/corecode/userprofile/89/change/ HTTP/1.1" 200 33979
+INFO 2025-05-27 14:59:23,561 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 14:59:28,622 "POST /admin/corecode/userprofile/89/change/ HTTP/1.1" 302 0
+INFO 2025-05-27 14:59:28,730 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33033
+INFO 2025-05-27 14:59:28,836 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-27 15:00:10,553 "GET / HTTP/1.1" 200 15460
+WARNING 2025-05-27 15:00:10,686 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:10,687 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:11,981 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:12,007 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-27 15:00:23,400 "GET /staff/data/ HTTP/1.1" 200 11226
+WARNING 2025-05-27 15:00:23,558 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:23,559 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:23,913 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:00:26,103 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:00:26,226 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:26,227 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:26,351 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:26,352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:00:28,104 "GET /staff/data/ HTTP/1.1" 200 11226
+WARNING 2025-05-27 15:00:28,229 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:28,229 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:28,479 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:29,719 "GET /staff/staff-leave/ HTTP/1.1" 200 14080
+WARNING 2025-05-27 15:00:29,852 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:29,853 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:30,103 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:31,156 "GET /staff/staff-attendance/ HTTP/1.1" 200 12457
+WARNING 2025-05-27 15:00:31,303 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:31,304 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:31,626 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:34,023 "GET /staff/staff-class/ HTTP/1.1" 200 11296
+WARNING 2025-05-27 15:00:34,171 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:34,171 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:34,429 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:37,139 "GET /staff/notifications/ HTTP/1.1" 200 12100
+WARNING 2025-05-27 15:00:37,289 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:37,290 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:37,693 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:40,065 "POST /staff/notifications/hide-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:00:40,158 "GET /staff/notifications/ HTTP/1.1" 200 12240
+WARNING 2025-05-27 15:00:40,275 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:40,276 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:40,565 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:44,784 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:00:44,933 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:44,934 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:45,256 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:49,961 "GET /staff/students/attendance/ HTTP/1.1" 200 13531
+WARNING 2025-05-27 15:00:50,102 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:50,103 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:50,421 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:51,872 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:00:52,013 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:52,014 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:52,353 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:54,004 "GET /staff/students/reportcards/ HTTP/1.1" 200 13482
+WARNING 2025-05-27 15:00:54,147 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:54,148 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:54,485 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:00:58,223 "GET /staff/students/fees/ HTTP/1.1" 200 13515
+WARNING 2025-05-27 15:00:58,364 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:00:58,364 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:00:58,627 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:05,325 "GET /student/list HTTP/1.1" 200 15286
+WARNING 2025-05-27 15:01:05,475 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:05,476 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:05,881 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:25,141 "GET /staff/students/reportcards/ HTTP/1.1" 200 13482
+WARNING 2025-05-27 15:01:25,292 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:25,293 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:25,549 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:31,519 "GET /student/list HTTP/1.1" 200 15286
+WARNING 2025-05-27 15:01:31,677 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:31,678 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:32,121 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:36,871 "GET /finance/list/ HTTP/1.1" 200 15544
+WARNING 2025-05-27 15:01:37,037 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:37,038 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:37,337 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:41,564 "GET /finance/create/ HTTP/1.1" 200 18921
+WARNING 2025-05-27 15:01:41,731 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:41,731 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:42,036 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:42,942 "GET /finance/list/ HTTP/1.1" 200 15544
+WARNING 2025-05-27 15:01:43,075 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:43,075 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:43,351 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:43,667 "GET /student/list HTTP/1.1" 200 15286
+WARNING 2025-05-27 15:01:43,808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:43,808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:44,268 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:46,308 "GET /staff/students/fees/ HTTP/1.1" 200 13515
+WARNING 2025-05-27 15:01:46,458 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:46,458 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:46,786 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:49,993 "GET /staff/notifications/ HTTP/1.1" 200 12100
+WARNING 2025-05-27 15:01:50,142 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:50,143 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:50,403 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:51,420 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:01:51,579 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:51,579 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:51,928 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:53,272 "GET /staff/notifications/ HTTP/1.1" 200 12100
+WARNING 2025-05-27 15:01:53,429 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:53,429 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:53,691 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:54,271 "GET /student/list HTTP/1.1" 200 15286
+WARNING 2025-05-27 15:01:54,419 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:54,420 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:54,883 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:56,395 "GET /staff/students/reportcards/ HTTP/1.1" 200 13482
+WARNING 2025-05-27 15:01:56,562 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:56,562 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:56,846 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:01:58,181 "GET /staff/notifications/ HTTP/1.1" 200 12100
+WARNING 2025-05-27 15:01:58,337 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:01:58,338 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:01:58,700 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:00,830 "GET /staff/data/ HTTP/1.1" 200 11226
+WARNING 2025-05-27 15:02:00,997 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:00,997 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:01,241 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:07,633 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 15:02:07,808 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:07,809 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:08,213 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:10,218 "GET /finance/list/ HTTP/1.1" 200 15550
+WARNING 2025-05-27 15:02:10,409 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:10,409 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:10,630 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:13,346 "GET /student/list HTTP/1.1" 200 15292
+WARNING 2025-05-27 15:02:13,521 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:13,522 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:02:13,680 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+WARNING 2025-05-27 15:02:13,747 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:16,087 "GET /staff/list/ HTTP/1.1" 200 14748
+WARNING 2025-05-27 15:02:16,278 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:16,279 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:16,520 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:19,348 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+WARNING 2025-05-27 15:02:19,541 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:19,542 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:19,727 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:22,689 "GET /staff/list/ HTTP/1.1" 200 14748
+WARNING 2025-05-27 15:02:22,889 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:22,890 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:23,098 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:23,731 "GET /student/list HTTP/1.1" 200 15292
+WARNING 2025-05-27 15:02:23,942 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:23,942 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:24,124 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:25,524 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+WARNING 2025-05-27 15:02:25,723 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:25,724 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:25,924 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:27,393 "GET /principal/staff/leavereport/ HTTP/1.1" 200 12976
+WARNING 2025-05-27 15:02:27,591 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:27,592 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:27,835 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:28,710 "GET /principal/staff/attendance/ HTTP/1.1" 200 13623
+WARNING 2025-05-27 15:02:28,916 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:28,917 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:29,128 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:30,384 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 15:02:30,617 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:30,618 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:30,826 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:32,243 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 15:02:32,378 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:32,378 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:32,532 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:34,079 "GET /principal/notifications/ HTTP/1.1" 200 13879
+WARNING 2025-05-27 15:02:34,295 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:34,296 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:34,494 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:02:35,569 "POST /principal/notifications/delete-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:02:35,677 "GET /principal/notifications/ HTTP/1.1" 200 14033
+WARNING 2025-05-27 15:02:35,804 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:02:35,805 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:02:36,074 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:03:00,788 "GET /staff/students/fees/ HTTP/1.1" 200 13515
+WARNING 2025-05-27 15:03:00,963 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:03:00,964 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:03:01,218 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:03:02,746 "GET /staff/students/fees/add/ HTTP/1.1" 200 14835
+WARNING 2025-05-27 15:03:02,898 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:03:02,899 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:03:03,161 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:03:42,888 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:03:43,005 "GET /staff/students/fees/ HTTP/1.1" 200 14534
+WARNING 2025-05-27 15:03:43,165 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:03:43,165 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:03:43,520 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2025-05-27 15:03:50,995 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:03:51,002 "GET /principal/student-fees/ HTTP/1.1" 500 197220
+WARNING 2025-05-27 15:03:51,183 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:03:51,184 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:04:03,508 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:04:03,672 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:04:03,673 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:04:03,847 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:04:03,848 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-27 15:04:17,123 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:04:17,127 "GET /principal/student-fees/ HTTP/1.1" 500 197220
+WARNING 2025-05-27 15:04:17,276 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:04:17,277 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:06:42,046 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:06:42,261 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:06:42,261 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:06:42,430 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:06:42,430 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:06:43,856 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 15:06:44,031 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:06:44,031 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:06:44,256 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:06:44,790 "GET /principal/attendance/ HTTP/1.1" 200 11143
+WARNING 2025-05-27 15:06:44,925 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:06:44,925 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:06:45,065 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:06:48,560 "GET /principal/staff/attendance/ HTTP/1.1" 200 13623
+WARNING 2025-05-27 15:06:48,735 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:06:48,735 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:06:48,953 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:06:58,829 "GET /staff/staff-leave/ HTTP/1.1" 200 14080
+WARNING 2025-05-27 15:06:58,987 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:06:58,987 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:06:59,244 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:24,030 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:07:24,130 "GET /staff/staff-leave/ HTTP/1.1" 200 14220
+WARNING 2025-05-27 15:07:24,240 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:24,241 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:24,526 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:26,942 "GET /staff/staff-attendance/ HTTP/1.1" 200 12457
+WARNING 2025-05-27 15:07:27,075 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:27,075 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:27,372 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:29,682 "GET /staff/staff-class/ HTTP/1.1" 200 11296
+WARNING 2025-05-27 15:07:29,832 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:29,833 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:30,084 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:31,758 "GET /staff/staff-leave/ HTTP/1.1" 200 14220
+WARNING 2025-05-27 15:07:31,902 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:31,902 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:32,147 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:36,437 "GET /staff/staff-leave/ HTTP/1.1" 200 14220
+WARNING 2025-05-27 15:07:36,588 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:36,589 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:36,804 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:40,745 "GET /staff/staff-attendance/ HTTP/1.1" 200 12457
+WARNING 2025-05-27 15:07:40,897 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:40,897 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:41,198 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:42,287 "GET /staff/staff-class/ HTTP/1.1" 200 11296
+WARNING 2025-05-27 15:07:42,446 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:42,446 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:42,743 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:43,498 "GET /staff/students/attendance/ HTTP/1.1" 200 13531
+WARNING 2025-05-27 15:07:43,640 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:43,640 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:43,959 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:07:45,122 "GET /staff/students/attendance/create/ HTTP/1.1" 200 13310
+WARNING 2025-05-27 15:07:45,265 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:07:45,266 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:07:45,597 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:23,812 "POST /staff/students/attendance/create/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:08:23,921 "GET /staff/students/attendance/ HTTP/1.1" 200 14088
+WARNING 2025-05-27 15:08:24,073 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:24,074 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:24,314 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:27,623 "GET /staff/staff-attendance/ HTTP/1.1" 200 12457
+WARNING 2025-05-27 15:08:27,749 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:27,749 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:27,991 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:28,590 "GET /staff/staff-class/ HTTP/1.1" 200 11296
+WARNING 2025-05-27 15:08:28,733 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:28,734 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:28,975 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:29,706 "GET /staff/students/attendance/ HTTP/1.1" 200 14088
+WARNING 2025-05-27 15:08:29,850 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:29,851 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:30,122 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:30,750 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:08:30,907 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:30,908 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:31,120 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:33,283 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:08:33,399 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:33,400 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:33,647 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:34,050 "GET /staff/students/reportcards/ HTTP/1.1" 200 13482
+WARNING 2025-05-27 15:08:34,208 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:34,209 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:34,451 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:36,018 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 40158
+WARNING 2025-05-27 15:08:36,161 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:36,161 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:36,456 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:08:38,012 "GET /staff/students/reportcards/create/?student_id=107&term=Term+I HTTP/1.1" 200 40176
+WARNING 2025-05-27 15:08:38,168 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:08:38,169 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:08:38,428 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:10:44,048 "POST /staff/students/reportcards/create/?student_id=107&term=Term+I HTTP/1.1" 302 0
+INFO 2025-05-27 15:10:44,157 "GET /staff/students/reportcards/ HTTP/1.1" 200 14617
+WARNING 2025-05-27 15:10:44,358 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:10:44,359 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:10:44,696 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:10:47,160 "GET /staff/students/reportcards/create/ HTTP/1.1" 200 40158
+WARNING 2025-05-27 15:10:47,309 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:10:47,310 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:10:47,661 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:10:49,083 "GET /staff/students/reportcards/create/?student_id=107&term=Term+I HTTP/1.1" 200 42305
+WARNING 2025-05-27 15:10:49,227 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:10:49,227 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:10:49,577 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:10:52,843 "GET /staff/students/reportcards/create/?student_id=107&term=Term+II HTTP/1.1" 200 40394
+WARNING 2025-05-27 15:10:52,985 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:10:52,985 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:10:53,230 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:11,918 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:11:12,068 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:12,068 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:12,312 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:18,303 "GET /staff/students/attendance/ HTTP/1.1" 200 14088
+WARNING 2025-05-27 15:11:18,504 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:18,505 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:18,780 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:19,996 "GET /staff/students/leavereport/ HTTP/1.1" 200 13810
+WARNING 2025-05-27 15:11:20,154 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:20,155 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:20,487 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:22,424 "GET /staff/students/reportcards/ HTTP/1.1" 200 14469
+WARNING 2025-05-27 15:11:22,565 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:22,566 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:23,041 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:28,983 "GET /staff/students/reportcards/ HTTP/1.1" 200 14469
+WARNING 2025-05-27 15:11:29,108 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:29,108 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:29,419 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:30,183 "GET /staff/students/fees/ HTTP/1.1" 200 14534
+WARNING 2025-05-27 15:11:30,341 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:30,342 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:30,569 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:32,944 "GET /student/list HTTP/1.1" 200 15286
+WARNING 2025-05-27 15:11:33,078 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:11:33,079 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:11:33,521 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:11:42,896 "GET /student/data/ HTTP/1.1" 200 10782
+INFO 2025-05-27 15:11:44,989 "GET /profile/ HTTP/1.1" 200 17376
+INFO 2025-05-27 15:11:46,757 "GET /student/data/ HTTP/1.1" 200 10782
+INFO 2025-05-27 15:11:49,824 "GET /student/payments/ HTTP/1.1" 200 12979
+INFO 2025-05-27 15:12:05,889 "POST /student/payments/ HTTP/1.1" 200 12489
+INFO 2025-05-27 15:12:32,958 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:12:33,085 "GET /student/payments/show_success/ HTTP/1.1" 200 11172
+INFO 2025-05-27 15:12:43,312 "GET /student/payments/ HTTP/1.1" 200 14314
+INFO 2025-05-27 15:12:46,224 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-27 15:12:46,506 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20545
+WARNING 2025-05-27 15:13:35,733 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:13:35,734 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:13:35,789 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:14:44,371 "GET /student/attendance/ HTTP/1.1" 200 12840
+INFO 2025-05-27 15:15:16,609 "POST /student/attendance/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:15:16,717 "GET /student/attendance/ HTTP/1.1" 200 12989
+INFO 2025-05-27 15:16:04,178 "POST /student/attendance/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:16:04,303 "GET /student/attendance/ HTTP/1.1" 200 13252
+INFO 2025-05-27 15:16:07,396 "GET /student/reportcard/ HTTP/1.1" 200 16767
+INFO 2025-05-27 15:16:10,689 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-27 15:16:10,941 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22944
+INFO 2025-05-27 15:16:31,414 "GET /staff/students/reportcards/ HTTP/1.1" 200 14468
+WARNING 2025-05-27 15:16:31,580 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:16:31,581 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:16:32,117 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:16:34,590 "GET /staff/students/reportcards/28/update/ HTTP/1.1" 200 40621
+WARNING 2025-05-27 15:16:34,741 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:16:34,741 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:16:35,253 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:17:13,323 "POST /staff/students/reportcards/28/update/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:17:13,431 "GET /staff/students/reportcards/ HTTP/1.1" 200 14468
+WARNING 2025-05-27 15:17:13,583 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:17:13,583 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:17:13,728 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:17:16,715 "GET /student/reportcard/ HTTP/1.1" 200 16767
+INFO 2025-05-27 15:17:17,708 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-27 15:17:17,908 "GET /student/reportcard/?download=1 HTTP/1.1" 200 22944
+INFO 2025-05-27 15:17:34,956 "GET /student/reportcard/ HTTP/1.1" 200 16767
+INFO 2025-05-27 15:17:36,015 "GET /student/student/attendance/ HTTP/1.1" 200 11652
+INFO 2025-05-27 15:17:47,561 "GET /student/attendance/ HTTP/1.1" 200 13252
+INFO 2025-05-27 15:17:54,080 "GET /student/student/attendance/ HTTP/1.1" 200 11652
+INFO 2025-05-27 15:17:56,748 "GET /student/payments/ HTTP/1.1" 200 14314
+INFO 2025-05-27 15:18:40,182 "GET /student/reportcard/ HTTP/1.1" 200 16767
+INFO 2025-05-27 15:18:41,766 "GET /student/student/attendance/ HTTP/1.1" 200 11652
+INFO 2025-05-27 15:18:43,142 "GET /student/attendance/ HTTP/1.1" 200 13252
+INFO 2025-05-27 15:18:48,886 "GET /staff/students/leavereport/ HTTP/1.1" 200 15427
+WARNING 2025-05-27 15:18:49,061 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:18:49,061 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:18:49,217 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:18:52,379 "POST /staff/students/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:18:52,473 "GET /staff/students/leavereport/ HTTP/1.1" 200 15428
+WARNING 2025-05-27 15:18:52,612 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:18:52,613 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:18:52,725 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:18:54,271 "POST /staff/students/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:18:54,373 "GET /staff/students/leavereport/ HTTP/1.1" 200 15429
+WARNING 2025-05-27 15:18:54,505 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:18:54,506 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:18:54,624 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:18:56,616 "GET /staff/students/reportcards/ HTTP/1.1" 200 14468
+WARNING 2025-05-27 15:18:56,766 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:18:56,766 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:18:56,947 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:18:58,739 "GET /staff/students/fees/ HTTP/1.1" 200 14537
+WARNING 2025-05-27 15:18:58,898 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:18:58,899 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:18:59,102 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:03,216 "GET /staff/students/fees/ HTTP/1.1" 200 14537
+WARNING 2025-05-27 15:19:03,350 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:03,351 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:03,487 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:04,542 "GET /staff/students/fees/ HTTP/1.1" 200 14537
+WARNING 2025-05-27 15:19:04,660 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:04,661 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:04,802 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:05,078 "GET /staff/students/fees/ HTTP/1.1" 200 14537
+WARNING 2025-05-27 15:19:05,211 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:05,211 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:05,354 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:30,702 "GET /student/list HTTP/1.1" 200 15285
+WARNING 2025-05-27 15:19:30,861 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:30,864 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:30,995 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:32,528 "GET /staff/students/attendance/ HTTP/1.1" 200 14087
+WARNING 2025-05-27 15:19:32,678 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:32,678 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:32,828 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:38,347 "GET /staff/students/leavereport/ HTTP/1.1" 200 15429
+WARNING 2025-05-27 15:19:38,532 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:38,534 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:38,661 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:39,772 "GET /staff/students/attendance/ HTTP/1.1" 200 14087
+WARNING 2025-05-27 15:19:39,935 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:39,936 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:40,037 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:42,017 "GET /staff/staff-class/ HTTP/1.1" 200 11295
+WARNING 2025-05-27 15:19:42,150 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:42,151 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:42,293 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:43,126 "GET /staff/staff-attendance/ HTTP/1.1" 200 12456
+WARNING 2025-05-27 15:19:43,282 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:43,283 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:43,411 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:47,617 "GET /principal/staff/attendance/ HTTP/1.1" 200 13622
+WARNING 2025-05-27 15:19:47,769 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:47,770 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:48,099 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:19:48,984 "GET /principal/staff/attendance/create/ HTTP/1.1" 200 12686
+WARNING 2025-05-27 15:19:49,151 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:19:49,152 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:19:49,391 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:18,538 "POST /principal/staff/attendance/create/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:20:18,646 "GET /principal/staff/attendance/ HTTP/1.1" 200 14329
+WARNING 2025-05-27 15:20:18,840 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:18,841 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:18,971 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:27,758 "GET /staff/staff-attendance/ HTTP/1.1" 200 12746
+WARNING 2025-05-27 15:20:27,891 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:27,892 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:28,130 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:32,987 "GET /principal/attendance/ HTTP/1.1" 200 11142
+WARNING 2025-05-27 15:20:33,187 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:33,189 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:33,378 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:33,827 "GET /principal/staff/attendance/ HTTP/1.1" 200 14329
+WARNING 2025-05-27 15:20:33,987 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:33,988 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:34,166 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:39,039 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13808
+WARNING 2025-05-27 15:20:39,204 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:39,204 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:39,422 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:43,656 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:20:43,748 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13809
+WARNING 2025-05-27 15:20:43,899 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:43,899 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:44,039 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:49,335 "GET /staff/students/leavereport/ HTTP/1.1" 200 15429
+WARNING 2025-05-27 15:20:49,491 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:49,492 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:49,651 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:54,612 "GET /staff/staff-leave/ HTTP/1.1" 200 14221
+WARNING 2025-05-27 15:20:54,777 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:54,778 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:54,923 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:20:59,045 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:20:59,146 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13809
+WARNING 2025-05-27 15:20:59,295 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:20:59,296 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:20:59,446 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:02,040 "GET /staff/staff-leave/ HTTP/1.1" 200 14221
+WARNING 2025-05-27 15:21:02,180 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:02,180 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:02,375 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:04,091 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:21:04,181 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13809
+WARNING 2025-05-27 15:21:04,328 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:04,329 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:04,608 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:05,606 "GET /staff/staff-leave/ HTTP/1.1" 200 14221
+WARNING 2025-05-27 15:21:05,733 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:05,734 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:05,879 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2025-05-27 15:21:27,907 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:21:27,911 "GET /principal/student-fees/ HTTP/1.1" 500 197225
+WARNING 2025-05-27 15:21:28,078 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:28,079 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:31,356 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:21:31,491 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:31,492 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:31,625 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:31,626 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-27 15:21:33,362 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:21:33,367 "GET /principal/student-fees/ HTTP/1.1" 500 197225
+WARNING 2025-05-27 15:21:33,542 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:33,542 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:35,105 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:21:35,234 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:35,235 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:35,378 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:35,379 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:21:37,336 "GET /student/list HTTP/1.1" 200 15291
+WARNING 2025-05-27 15:21:37,479 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:37,480 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:37,666 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:39,130 "GET /staff/list/ HTTP/1.1" 200 14747
+WARNING 2025-05-27 15:21:39,311 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:39,311 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:39,462 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:40,453 "GET /finance/list/ HTTP/1.1" 200 15549
+WARNING 2025-05-27 15:21:40,622 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:40,623 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:40,790 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:43,855 "GET /site-config HTTP/1.1" 200 15622
+WARNING 2025-05-27 15:21:44,055 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:44,056 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:44,230 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:45,206 "POST /site-config HTTP/1.1" 200 15639
+WARNING 2025-05-27 15:21:45,366 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:45,367 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:45,516 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:46,906 "GET /student/list HTTP/1.1" 200 15291
+WARNING 2025-05-27 15:21:47,050 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:47,051 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:47,192 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:49,892 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13809
+WARNING 2025-05-27 15:21:50,118 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:50,118 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:50,309 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:53,577 "GET /staff/list/ HTTP/1.1" 200 14747
+WARNING 2025-05-27 15:21:53,777 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:53,777 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:53,939 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:57,185 "GET /student/list HTTP/1.1" 200 15291
+WARNING 2025-05-27 15:21:57,387 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:21:57,388 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:21:57,621 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:21:59,786 "GET /finance/list/ HTTP/1.1" 200 15549
+WARNING 2025-05-27 15:22:00,011 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:00,011 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:00,183 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2025-05-27 15:22:01,377 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:22:01,382 "GET /principal/student-fees/ HTTP/1.1" 500 197210
+WARNING 2025-05-27 15:22:01,637 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:01,637 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:03,285 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:22:03,406 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:03,407 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:03,562 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:03,563 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+ERROR 2025-05-27 15:22:07,306 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:22:07,310 "GET /principal/student-fees/ HTTP/1.1" 500 197210
+WARNING 2025-05-27 15:22:07,506 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:07,507 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:09,691 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:22:09,800 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:09,801 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:09,992 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:09,993 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:22:11,491 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13809
+WARNING 2025-05-27 15:22:11,649 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:11,650 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:11,835 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:14,142 "GET /principal/staff/attendance/ HTTP/1.1" 200 14329
+WARNING 2025-05-27 15:22:14,319 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:14,319 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:14,433 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:20,703 "GET /staff/notifications/ HTTP/1.1" 200 13041
+WARNING 2025-05-27 15:22:20,878 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:20,878 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:21,122 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:23,921 "GET /principal/notifications/ HTTP/1.1" 200 15025
+WARNING 2025-05-27 15:22:24,112 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:24,113 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:24,252 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:27,322 "POST /principal/notifications/delete-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:22:27,430 "GET /principal/notifications/ HTTP/1.1" 200 15179
+WARNING 2025-05-27 15:22:27,565 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:27,566 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:27,708 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:31,526 "POST /staff/notifications/hide-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:22:31,626 "GET /staff/notifications/ HTTP/1.1" 200 13181
+WARNING 2025-05-27 15:22:31,742 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:31,742 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:31,926 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:35,042 "POST /staff/notifications/hide-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:22:35,158 "GET /staff/notifications/ HTTP/1.1" 200 13181
+WARNING 2025-05-27 15:22:35,269 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:35,271 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:35,388 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:22:54,333 "POST /principal/notifications/delete-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:22:54,458 "GET /principal/notifications/ HTTP/1.1" 200 15179
+WARNING 2025-05-27 15:22:54,650 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:22:54,650 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:22:54,784 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:24:09,122 "POST /principal/notifications/delete-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:24:09,222 "GET /principal/notifications/ HTTP/1.1" 200 15179
+WARNING 2025-05-27 15:24:09,380 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:24:09,380 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:24:09,544 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:24:23,744 "GET /principal/notifications/ HTTP/1.1" 200 12746
+WARNING 2025-05-27 15:24:23,894 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:24:23,895 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:24:24,036 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:24:27,045 "POST /principal/notifications/mark-read-principal/96/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:24:27,147 "GET /principal/notifications/ HTTP/1.1" 200 12524
+WARNING 2025-05-27 15:24:27,295 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:24:27,296 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:24:27,414 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:24:38,308 "GET /principal/notifications/ HTTP/1.1" 200 14694
+WARNING 2025-05-27 15:24:38,476 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:24:38,477 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:24:38,588 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:25:46,160 "GET /principal/notifications/ HTTP/1.1" 200 12381
+WARNING 2025-05-27 15:25:46,310 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:25:46,310 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:25:46,710 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:26:00,516 "GET /staff/notifications/ HTTP/1.1" 200 12955
+WARNING 2025-05-27 15:26:00,649 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:26:00,650 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:26:00,828 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:26:02,860 "POST /staff/notifications/hide/96/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:26:02,958 "GET /staff/notifications/ HTTP/1.1" 200 12235
+WARNING 2025-05-27 15:26:03,077 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:26:03,077 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:26:03,231 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:26:12,087 "GET /student/payments/ HTTP/1.1" 200 14314
+INFO 2025-05-27 15:26:26,376 "POST /student/payments/ HTTP/1.1" 200 12489
+ERROR 2025-05-27 15:26:35,766 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1029, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+INFO 2025-05-27 15:26:35,779 - Broken pipe from ('127.0.0.1', 60839)
+INFO 2025-05-27 15:26:50,010 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:26:50,104 "GET /student/payments/show_success/ HTTP/1.1" 200 11172
+INFO 2025-05-27 15:26:57,288 "GET /student/payments/show_success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:26:57,405 "GET /student/payments/ HTTP/1.1" 200 14314
+INFO 2025-05-27 15:27:14,877 "GET /media/profile_pictures/school4.png HTTP/1.1" 200 14315
+INFO 2025-05-27 15:27:15,055 "GET /student/payment/download/pdf/ HTTP/1.1" 200 20542
+INFO 2025-05-27 15:27:26,516 "GET /staff/notifications/ HTTP/1.1" 200 13041
+WARNING 2025-05-27 15:27:26,649 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:27:26,650 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:27:26,865 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:27:27,908 "POST /staff/notifications/hide-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:27:28,009 "GET /staff/notifications/ HTTP/1.1" 200 13181
+WARNING 2025-05-27 15:27:28,127 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:27:28,128 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:27:28,317 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:27:32,644 "GET /principal/notifications/ HTTP/1.1" 200 13405
+WARNING 2025-05-27 15:27:32,770 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:27:32,771 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:27:33,017 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:29:40,657 "GET /principal/notifications/ HTTP/1.1" 200 15886
+WARNING 2025-05-27 15:29:40,815 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:29:40,816 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:29:40,929 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:29:43,441 "POST /principal/notifications/delete-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:29:43,541 "GET /principal/notifications/ HTTP/1.1" 200 16040
+WARNING 2025-05-27 15:29:43,693 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:29:43,694 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:29:43,868 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:29:50,727 "POST /principal/notifications/delete/97/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:29:50,813 "GET /principal/notifications/ HTTP/1.1" 200 14843
+WARNING 2025-05-27 15:29:50,946 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:29:50,946 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:29:51,073 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:33:38,376 "GET /principal/notifications/ HTTP/1.1" 200 14653
+WARNING 2025-05-27 15:33:38,543 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:33:38,543 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:33:38,834 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:33:47,714 - Broken pipe from ('127.0.0.1', 61127)
+INFO 2025-05-27 15:33:47,947 "POST /student/payments/ HTTP/1.1" 200 12487
+ERROR 2025-05-27 15:34:05,776 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1029, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+INFO 2025-05-27 15:34:05,784 - Broken pipe from ('127.0.0.1', 61128)
+INFO 2025-05-27 15:34:10,481 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:34:10,566 "GET /student/payments/show_success/ HTTP/1.1" 200 11171
+INFO 2025-05-27 15:34:20,768 "GET /student/payments/ HTTP/1.1" 200 14313
+INFO 2025-05-27 15:34:31,056 "GET /principal/notifications/ HTTP/1.1" 200 15798
+WARNING 2025-05-27 15:34:31,241 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:34:31,241 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:34:31,346 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:34:32,439 "POST /principal/notifications/mark-read-principal/98/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:34:32,533 "GET /principal/notifications/ HTTP/1.1" 200 15620
+WARNING 2025-05-27 15:34:32,666 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:34:32,667 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:34:32,828 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:34:36,891 "POST /principal/notifications/delete/98/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:34:36,985 "GET /principal/notifications/ HTTP/1.1" 200 14802
+WARNING 2025-05-27 15:34:37,118 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:34:37,118 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:34:37,356 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:34:43,969 "GET /staff/notifications/ HTTP/1.1" 200 12100
+WARNING 2025-05-27 15:34:44,096 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:34:44,097 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:34:44,321 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:34:50,363 "GET /principal/notifications/ HTTP/1.1" 200 14653
+WARNING 2025-05-27 15:34:50,513 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:34:50,513 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:34:50,684 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:34:53,023 "POST /principal/notifications/delete/96/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:34:53,116 "GET /principal/notifications/ HTTP/1.1" 200 14019
+WARNING 2025-05-27 15:34:53,249 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:34:53,250 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:34:53,415 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:35:04,444 "POST /student/payments/ HTTP/1.1" 200 12489
+INFO 2025-05-27 15:35:31,996 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:35:32,105 "GET /student/payments/show_success/ HTTP/1.1" 200 11172
+INFO 2025-05-27 15:35:42,283 "GET /student/payments/ HTTP/1.1" 200 14314
+INFO 2025-05-27 15:35:51,421 "POST /student/payments/ HTTP/1.1" 200 12487
+INFO 2025-05-27 15:36:26,376 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:36:26,485 "GET /student/payments/show_success/ HTTP/1.1" 200 11171
+INFO 2025-05-27 15:36:36,655 "GET /student/payments/ HTTP/1.1" 200 14313
+INFO 2025-05-27 15:36:45,459 "GET /staff/notifications/ HTTP/1.1" 200 14027
+WARNING 2025-05-27 15:36:45,592 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:36:45,592 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:36:45,915 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:36:49,627 "POST /staff/notifications/hide-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:36:49,769 "GET /staff/notifications/ HTTP/1.1" 200 14167
+WARNING 2025-05-27 15:36:49,887 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:36:49,889 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:36:50,020 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:36:56,271 "POST /staff/notifications/mark-read-staff/99/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:36:56,371 "GET /staff/notifications/ HTTP/1.1" 200 14083
+WARNING 2025-05-27 15:36:56,479 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:36:56,480 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:36:56,658 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:37:01,440 "GET /principal/notifications/ HTTP/1.1" 200 15801
+WARNING 2025-05-27 15:37:01,590 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:37:01,590 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:37:01,779 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:37:03,474 "POST /principal/notifications/mark-read-principal/100/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:37:03,566 "GET /principal/notifications/ HTTP/1.1" 200 15622
+WARNING 2025-05-27 15:37:03,707 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:37:03,708 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:37:03,878 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:37:11,369 "GET /principal/notifications/ HTTP/1.1" 200 15479
+WARNING 2025-05-27 15:37:11,528 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:37:11,529 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:37:11,651 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:37:18,538 "POST /staff/notifications/hide-selected/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:37:18,647 "GET /staff/notifications/ HTTP/1.1" 200 13994
+WARNING 2025-05-27 15:37:18,757 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:37:18,757 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:37:18,917 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:38:12,376 "GET /staff/notifications/ HTTP/1.1" 200 13789
+WARNING 2025-05-27 15:38:12,509 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:38:12,510 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:38:12,701 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:38:38,395 "POST /student/payments/ HTTP/1.1" 200 12487
+INFO 2025-05-27 15:38:58,311 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:38:58,411 "GET /student/payments/show_success/ HTTP/1.1" 200 11171
+INFO 2025-05-27 15:39:00,320 "GET /student/payments/show_success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:39:00,421 "GET /student/payments/ HTTP/1.1" 200 14315
+INFO 2025-05-27 15:39:07,973 "POST /student/payments/ HTTP/1.1" 200 12489
+INFO 2025-05-27 15:39:29,140 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:39:29,232 "GET /student/payments/show_success/ HTTP/1.1" 200 11172
+INFO 2025-05-27 15:39:30,690 "GET /staff/notifications/ HTTP/1.1" 200 15693
+WARNING 2025-05-27 15:39:30,833 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:39:30,833 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:39:31,025 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:39:31,933 "POST /staff/notifications/mark-read-staff/101/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:39:32,033 "GET /staff/notifications/ HTTP/1.1" 200 15753
+WARNING 2025-05-27 15:39:32,183 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:39:32,183 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:39:32,327 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:39:32,958 "POST /staff/notifications/mark-read-staff/102/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:39:33,075 "GET /staff/notifications/ HTTP/1.1" 200 15671
+WARNING 2025-05-27 15:39:33,199 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:39:33,200 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:39:33,358 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:39:35,826 "GET /principal/notifications/ HTTP/1.1" 200 17132
+WARNING 2025-05-27 15:39:35,967 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:39:35,968 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:39:36,226 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:39:39,436 "GET /student/payments/ HTTP/1.1" 200 14316
+INFO 2025-05-27 15:39:49,773 "POST /student/payments/ HTTP/1.1" 200 12489
+INFO 2025-05-27 15:40:11,915 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:40:11,999 "GET /student/payments/show_success/ HTTP/1.1" 200 11172
+INFO 2025-05-27 15:40:20,227 "GET /principal/notifications/ HTTP/1.1" 200 18281
+WARNING 2025-05-27 15:40:20,376 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:40:20,377 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:40:20,589 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:40:21,527 "POST /principal/notifications/mark-read-principal/103/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:40:21,621 "GET /principal/notifications/ HTTP/1.1" 200 18102
+WARNING 2025-05-27 15:40:21,746 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:40:21,746 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:40:21,896 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:40:22,261 "GET /student/payments/ HTTP/1.1" 200 14316
+ERROR 2025-05-27 15:40:30,626 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:40:30,631 "GET /principal/student-fees/ HTTP/1.1" 500 197222
+WARNING 2025-05-27 15:40:30,789 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:40:30,791 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:40:34,589 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:40:34,741 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:40:34,741 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:40:34,866 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:40:34,866 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:41:40,710 "GET /principal/notifications/ HTTP/1.1" 200 17959
+WARNING 2025-05-27 15:41:40,885 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:41:40,885 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:41:41,237 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:41:41,877 "GET /principal/student-fees/ HTTP/1.1" 200 12369
+INFO 2025-05-27 15:41:47,354 "GET /principal/student-fees/ HTTP/1.1" 200 12369
+INFO 2025-05-27 15:45:52,196 "GET /profile/ HTTP/1.1" 200 19873
+INFO 2025-05-27 15:45:57,615 "GET /profile/ HTTP/1.1" 200 19873
+INFO 2025-05-27 15:46:15,847 "GET /profile/ HTTP/1.1" 200 17376
+INFO 2025-05-27 15:46:22,150 "GET /edit_profile/ HTTP/1.1" 200 23026
+INFO 2025-05-27 15:46:25,518 "GET /profile/ HTTP/1.1" 200 17376
+INFO 2025-05-27 15:46:26,994 "GET /student/data/ HTTP/1.1" 200 10782
+INFO 2025-05-27 15:46:33,971 "GET /profile/ HTTP/1.1" 200 17376
+ERROR 2025-05-27 15:50:40,981 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:50:40,987 "GET /principal/student-fees/ HTTP/1.1" 500 197359
+ERROR 2025-05-27 15:51:05,979 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:51:05,983 "GET /principal/student-fees/ HTTP/1.1" 500 197206
+INFO 2025-05-27 15:51:18,603 "GET /profile/ HTTP/1.1" 200 19873
+INFO 2025-05-27 15:51:20,054 "GET /principal/student-fees/ HTTP/1.1" 200 12369
+INFO 2025-05-27 15:51:29,749 "GET /principal/student-fees/20/hide/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:51:29,835 "GET /principal/student-fees/ HTTP/1.1" 200 11699
+INFO 2025-05-27 15:51:43,172 "GET /principal/student-fees/ HTTP/1.1" 200 11699
+INFO 2025-05-27 15:51:59,978 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+INFO 2025-05-27 15:52:02,304 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+INFO 2025-05-27 15:52:03,996 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+INFO 2025-05-27 15:52:36,159 "GET /staff/students/fees/ HTTP/1.1" 200 14539
+WARNING 2025-05-27 15:52:36,326 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:52:36,326 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:52:36,667 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:52:41,036 "GET /staff/students/fees/20/edit/ HTTP/1.1" 200 14926
+WARNING 2025-05-27 15:52:41,194 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:52:41,195 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:52:41,669 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:52:44,679 "POST /staff/students/fees/20/edit/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:52:44,773 "GET /staff/students/fees/ HTTP/1.1" 200 14539
+WARNING 2025-05-27 15:52:44,923 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:52:44,925 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:52:45,042 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:52:49,314 "GET /principal/student-fees/ HTTP/1.1" 200 13301
+INFO 2025-05-27 15:52:56,625 "GET /staff/students/fees/20/delete/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:52:56,725 "GET /staff/students/fees/ HTTP/1.1" 200 13515
+WARNING 2025-05-27 15:52:56,859 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:52:56,860 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:52:57,008 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:52:58,826 "GET /staff/students/fees/add/ HTTP/1.1" 200 14835
+WARNING 2025-05-27 15:52:58,968 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:52:58,968 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:52:59,144 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:53:28,965 "POST /staff/students/fees/add/ HTTP/1.1" 302 0
+INFO 2025-05-27 15:53:29,080 "GET /staff/students/fees/ HTTP/1.1" 200 14534
+WARNING 2025-05-27 15:53:29,247 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:53:29,247 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:53:29,382 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2025-05-27 15:53:30,921 Internal Server Error: /principal/student-fees/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 130, in principal_student_fees
+    return render(request, 'principal/principal_student_fees.html', {'fees': fees})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'principal-delete-student-fee' not found. 'principal-delete-student-fee' is not a valid view function or pattern name.
+ERROR 2025-05-27 15:53:30,926 "GET /principal/student-fees/ HTTP/1.1" 500 197356
+INFO 2025-05-27 15:53:39,417 "GET /principal/student-fees/ HTTP/1.1" 200 12364
+INFO 2025-05-27 15:54:21,168 "GET /principal/notifications/ HTTP/1.1" 200 17959
+WARNING 2025-05-27 15:54:26,653 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:54:26,654 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:54:26,811 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:55:04,811 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:55:04,812 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:55:04,846 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:56:44,911 "GET /principal/notifications/ HTTP/1.1" 200 17959
+WARNING 2025-05-27 15:56:45,095 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:56:45,096 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:56:45,404 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:57:07,841 "GET /principal/notifications/ HTTP/1.1" 200 17965
+WARNING 2025-05-27 15:57:08,021 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:57:08,022 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:57:08,363 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:57:15,339 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-27 15:57:15,373 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:57:15,374 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-27 15:57:32,147 "GET /principal/notifications/ HTTP/1.1" 200 17965
+WARNING 2025-05-27 15:57:37,815 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 15:57:37,816 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 15:57:38,038 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 15:59:16,272 "GET /principal/student-fees/ HTTP/1.1" 200 12364
+INFO 2025-05-27 15:59:21,907 "GET /student/list HTTP/1.1" 200 15292
+INFO 2025-05-27 15:59:23,859 "GET /staff/list/ HTTP/1.1" 200 14748
+INFO 2025-05-27 15:59:24,933 "GET /principal/attendance/ HTTP/1.1" 200 11143
+INFO 2025-05-27 15:59:25,917 "GET /principal/staff/attendance/ HTTP/1.1" 200 14330
+INFO 2025-05-27 15:59:26,684 "GET /principal/staff/leavereport/ HTTP/1.1" 200 13810
+INFO 2025-05-27 15:59:28,143 "GET /principal/student-fees/ HTTP/1.1" 200 12364
+INFO 2025-05-27 15:59:45,400 "GET /principal/student-fees/ HTTP/1.1" 200 12364
+INFO 2025-05-27 15:59:51,335 "GET /student/data/ HTTP/1.1" 200 10782
+INFO 2025-05-27 15:59:53,261 "GET /student/payments/ HTTP/1.1" 200 14281
+ERROR 2025-05-27 16:00:21,177 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1029, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+INFO 2025-05-27 16:00:21,183 - Broken pipe from ('127.0.0.1', 62059)
+ERROR 2025-05-27 16:00:24,449 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1029, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+INFO 2025-05-27 16:00:24,457 - Broken pipe from ('127.0.0.1', 62060)
+INFO 2025-05-27 16:00:25,666 "POST /student/payments/ HTTP/1.1" 200 12489
+ERROR 2025-05-27 16:00:35,670 Internal Server Error: /student/payments/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Program Files\Python313\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\students\views.py", line 1029, in initiate_payment
+    order = client.order.create({
+        "amount": amount_paise,
+        "currency": "INR",
+        "payment_capture": "1"
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\order.py", line 71, in create
+    return self.post_url(url, data, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\resources\base.py", line 20, in post_url
+    return self.client.post(url, data, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 156, in post
+    return self.request('post', path, data=data, **options)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\razorpay\client.py", line 120, in request
+    response = getattr(self.session, method)(url, auth=self.auth,
+                                             verify=self.cert_path,
+                                             **options)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.razorpay.com', port=443): Read timed out. (read timeout=None)
+INFO 2025-05-27 16:00:35,679 - Broken pipe from ('127.0.0.1', 62066)
+INFO 2025-05-27 16:00:48,725 "POST /student/payments/success/ HTTP/1.1" 302 0
+INFO 2025-05-27 16:00:48,825 "GET /student/payments/show_success/ HTTP/1.1" 200 11172
+INFO 2025-05-27 16:00:56,845 "GET /principal/student-fees/ HTTP/1.1" 200 12367
+INFO 2025-05-27 16:00:59,263 "GET /student/payments/ HTTP/1.1" 200 14314
+INFO 2025-05-27 16:01:05,207 "GET /staff/students/fees/ HTTP/1.1" 200 14537
+WARNING 2025-05-27 16:01:05,332 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 16:01:05,333 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 16:01:05,480 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 16:04:03,972 "GET /staff/notifications/ HTTP/1.1" 200 17350
+WARNING 2025-05-27 16:04:04,121 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 16:04:04,122 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 16:04:04,310 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 16:04:10,756 "POST /staff/notifications/mark-read-staff/104/ HTTP/1.1" 302 0
+INFO 2025-05-27 16:04:10,850 "GET /staff/notifications/ HTTP/1.1" 200 17411
+WARNING 2025-05-27 16:04:10,966 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 16:04:10,967 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 16:04:11,154 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 16:04:27,646 "GET /staff/students/attendance/ HTTP/1.1" 200 14088
+WARNING 2025-05-27 16:04:27,788 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 16:04:27,789 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 16:04:27,966 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 16:04:28,397 "GET /staff/students/leavereport/ HTTP/1.1" 200 15430
+WARNING 2025-05-27 16:04:28,541 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 16:04:28,542 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 16:04:28,698 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-27 16:04:29,006 "GET /staff/students/reportcards/ HTTP/1.1" 200 14469
+WARNING 2025-05-27 16:04:29,132 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-27 16:04:29,133 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-27 16:04:29,262 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870

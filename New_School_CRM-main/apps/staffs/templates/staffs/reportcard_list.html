@@ -1,7 +1,16 @@
 <style>
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        margin-top: 15px;
+    }
+
     table {
         border-collapse: collapse;
         width: 100%;
+        min-width: 1000px;
+        /* ensure table doesn't shrink too much */
     }
 
     th,
@@ -9,13 +18,14 @@
         border: 1px solid black;
         padding: 10px;
         text-align: start;
+        white-space: nowrap;
+        /* prevent text wrapping */
     }
 
     thead {
         background-color: #6DE1D2;
     }
 
-    /* NEW working colors */
     .pending {
         color: orange;
         font-weight: bold;
@@ -34,7 +44,7 @@
     .submit-btn button {
         background-color: #6DE1D2;
         border-color: transparent;
-        color: white;
+        color: black;
         border-radius: 3px;
     }
 
@@ -48,12 +58,25 @@
         cursor: pointer;
     }
 
-    .submit-btn button {
-        background-color: #6DE1D2;
-        border-color: transparent;
-        color: white;
-        border-radius: 3px;
-        color: black;
+    /* Make header and button area stack on small screens */
+    @media (max-width: 768px) {
+        .d-flex.justify-content-between {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .submit-btn {
+            width: 100%;
+        }
+
+        .submit-btn button {
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 21px !important;
+        }
     }
 </style>
 
@@ -76,51 +99,53 @@
     </div>
 </div>
 
-<table>
-    <thead>
-        <tr>
-            <th>Student</th>
-            <th>Section</th>
-            <th>Term</th>
-            <th>Tamil</th>
-            <th>English</th>
-            <th>Maths</th>
-            <th>Science</th>
-            <th>Social</th>
-            <th>Total Marks</th>
-            <th>Total </th>
-            <th>Status</th>
-            <th>Parent Signature</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    {% for card in cards %}
-    <tbody>
-        <tr>
-            <td>{{ card.student.get_full_name }} ({{ card.student.username }})</td>
-            <td>{{ card.section }}</td>
-            <td>{{ card.term }}</td>
-            <td>{{ card.tamil }}</td>
-            <td>{{ card.english }}</td>
-            <td>{{ card.maths }}</td>
-            <td>{{ card.science }}</td>
-            <td>{{ card.social }}</td>
-            <td>{{ card.overall_total }}</td>
-            <td>{{ card.total_marks }}</td>
-            <td>{{ card.status }}</td>
-            <td>{{ card.parent_signature }}</td>
-            <td>
-                <a href="{% url 'staff-reportcard-update' card.pk %}" title="Edit">
-                    <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
-                </a> |
-                <a href="{% url 'staff-reportcard-delete' card.pk %}" title="Delete"
-                    onclick="return confirm('Are you sure you want to delete this record?');">
-                    <i class="fas fa-trash-alt" style="color: red;"></i>
-                </a>
-            </td>
-        </tr>
-    </tbody>
-    {% endfor %}
-</table>
+<div class="table-responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Section</th>
+                <th>Term</th>
+                <th>Tamil</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Social</th>
+                <th>Total Marks</th>
+                <th>Total </th>
+                <th>Status</th>
+                <th>Parent Signature</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        {% for card in cards %}
+        <tbody>
+            <tr>
+                <td>{{ card.student.get_full_name }} ({{ card.student.username }})</td>
+                <td>{{ card.section }}</td>
+                <td>{{ card.term }}</td>
+                <td>{{ card.tamil }}</td>
+                <td>{{ card.english }}</td>
+                <td>{{ card.maths }}</td>
+                <td>{{ card.science }}</td>
+                <td>{{ card.social }}</td>
+                <td>{{ card.overall_total }}</td>
+                <td>{{ card.total_marks }}</td>
+                <td>{{ card.status }}</td>
+                <td>{{ card.parent_signature }}</td>
+                <td>
+                    <a href="{% url 'staff-reportcard-update' card.pk %}" title="Edit">
+                        <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
+                    </a> |
+                    <a href="{% url 'staff-reportcard-delete' card.pk %}" title="Delete"
+                        onclick="return confirm('Are you sure you want to delete this record?');">
+                        <i class="fas fa-trash-alt" style="color: red;"></i>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
+</div>
 
 {% endblock content%}

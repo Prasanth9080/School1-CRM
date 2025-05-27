@@ -45,7 +45,6 @@ INSTALLED_APPS = [
     "apps.students",
     "apps.staffs",
     "apps.principal",
-    # 'apps.principal.apps.PrincipalConfig',
     "apps.finance",
     "apps.result",
     'ckeditor',

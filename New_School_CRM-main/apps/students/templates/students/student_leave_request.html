@@ -1,5 +1,14 @@
 {% extends 'students/student_index.html' %}
 {% block content %}
+<style>
+    button {
+        background-color: #FF7D7D;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+    }
+</style>
+
 <h2>Request Leave for student</h2>
 <form method="post">
     {% csrf_token %}

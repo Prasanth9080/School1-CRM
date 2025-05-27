@@ -1,56 +1,100 @@
 <style>
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        margin-top: 15px;
+    }
+
     table {
-     border-collapse: collapse;
-     width: 100%;
- }
- th, td {
-     border: 1px solid black;
-     padding: 10px;
-     text-align: start;
- }
- thead {
-     background-color: #6DE1D2;
- }
- /* NEW working colors */
- .pending {
-     color: orange;
-     font-weight: bold;
- }
- .approved {
-     color: green;
-     font-weight: bold;
- }
- .rejected {
-     color: red;
-     font-weight: bold;
- }
- .submit-btn button{
-     background-color: #6DE1D2;
-     border-color: transparent;
-     color: white;
-     border-radius: 3px;
- }
- tbody tr {
-     font-size: 16px;
-     background-color: #E3E3E3;
- }
- tbody tr:hover {
- background-color: #c8c7c7;
- cursor: pointer;
-}
-.submit-btn button{
-     background-color: #6DE1D2;
-     border-color: transparent;
-     color: white;
-     border-radius: 3px;
-     color: black;
- }
+        border-collapse: collapse;
+        width: 100%;
+        min-width: 700px;
+        /* Prevents table columns from shrinking too much */
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: start;
+    }
+
+    thead {
+        background-color: #6DE1D2;
+    }
+
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border: none;
+        border-radius: 3px;
+        color: black;
+        font-size: 16px;
+        padding: 8px 16px;
+        width: 100%;
+    }
+
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+
+    tbody tr:hover {
+        background-color: #c8c7c7;
+        cursor: pointer;
+    }
+
+    .action-icons i {
+        font-size: 18px;
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 20px;
+        }
+
+        .submit-btn button {
+            font-size: 14px;
+            padding: 6px 12px;
+        }
+
+        table {
+            font-size: 14px;
+        }
+
+        .action-icons i {
+            font-size: 16px;
+        }
+    }
 </style>
 
 {% extends 'staffs/staff_index.html' %}
+
 {% block content %}
-<!-- <h2>Attendance Records</h2>
-<a href="{% url 'staff-attendance-create' %}">Add Attendance</a> -->
 <div class="d-flex justify-content-between">
     <div>
         <h2>Attendance Records</h2>
@@ -58,38 +102,49 @@
     <div>
         <div class="submit-btn">
             <a href="{% url 'staff-attendance-create' %}">
-                <button type="button">Add Attenance</button>
+                <button type="button">Add Attendance</button>
             </a>
-         </div>
+        </div>
     </div>
- </div>
+</div>
 
-<table>
-    <thead>
-        <tr>
-            <th>Student</th><th>Date</th><th>Day</th><th>Status</th><th>Message</th><th>Signature</th><th>Actions</th>
-        </tr>
-    </thead>
-    {% for record in records %}
-    <tbody>
-        <tr>
-            <td>{{ record.student }}</td>
-            <!-- <td>{{ record.student.get_full_name }}</td> -->
-            <td>{{ record.date }}</td>
-            <td>{{ record.get_day_display }}</td>
-            <td>{{ record.get_status_display }}</td>
-            <td>{{ record.message }}</td>
-            <td>{{ record.signature }}</td>
-            <td>
-                <a href="{% url 'staff-attendance-update' record.pk %}">
-                    <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
-                </a> |
-                <a href="{% url 'staff-attendance-delete' record.pk %}">
-                    <i class="fas fa-trash-alt" style="color: red;"></i>
-                </a>
-            </td>
-        </tr>
-    </tbody>
-    {% endfor %}
-</table>
+<div class="table-responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Status</th>
+                <th>Message</th>
+                <th>Signature</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in records %}
+            <tr>
+                <td>{{ record.student }}</td>
+                <td>{{ record.date }}</td>
+                <td>{{ record.get_day_display }}</td>
+                <td>{{ record.get_status_display }}</td>
+                <td>{{ record.message }}</td>
+                <td>{{ record.signature }}</td>
+                <td class="action-icons">
+                    <a href="{% url 'staff-attendance-update' record.pk %}">
+                        <i class="fas fa-edit" style="color: green; margin-right: 10px;"></i>
+                    </a> |
+                    <a href="{% url 'staff-attendance-delete' record.pk %}">
+                        <i class="fas fa-trash-alt" style="color: red;"></i>
+                    </a>
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="7">No attendance records found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 {% endblock %}

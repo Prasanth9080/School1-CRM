@@ -1,95 +1,152 @@
 <style>
-    table {
-     border-collapse: collapse;
-     width: 100%;
-     border-color: transparent;
- }
- th, td {
-     border: 1px solid black;
-     padding: 10px;
-     text-align: start;
- }
- thead {
-     background-color: #6DE1D2;
- }
- /* NEW working colors */
- .pending {
-     color: orange;
-     font-weight: bold;
- }
- .approved {
-     color: green;
-     font-weight: bold;
- }
- .rejected {
-     color: red;
-     font-weight: bold;
- }
- .submit-btn button{
-     background-color: #6DE1D2;
-     border-color: transparent;
-     color: white;
-     border-radius: 3px;
- }
- tbody tr {
-     font-size: 16px;
-     background-color: #E3E3E3;
- }
- tbody tr:hover {
- background-color: #c8c7c7;
- cursor: pointer;
-}
-.submit-btn button{
-     background-color: #6DE1D2;
-     border-color: transparent;
-     color: white;
-     border-radius: 3px;
-     color: black;
-     font-size: 18px;
- }
-</style>
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
 
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border-color: transparent;
+        min-width: 600px;
+        /* triggers scroll on small screens */
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: start;
+    }
+
+    thead {
+        background-color: #6DE1D2;
+    }
+
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border-color: transparent;
+        border-radius: 3px;
+        color: black;
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+
+    tbody tr:hover {
+        background-color: #c8c7c7;
+        cursor: pointer;
+    }
+
+    .heading-attendance {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    form {
+        margin-top: 20px;
+    }
+
+    form p {
+        margin-bottom: 15px;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .heading-attendance {
+            font-size: 20px;
+        }
+
+        h2,
+        h3 {
+            font-size: 18px;
+        }
+
+        th,
+        td {
+            font-size: 14px;
+            padding: 6px;
+        }
+
+        .submit-btn button {
+            font-size: 16px;
+            padding: 6px 12px;
+        }
+
+        form p {
+            margin-bottom: 10px;
+        }
+
+        form input,
+        form select,
+        form textarea {
+            font-size: 14px;
+            padding: 0px;
+        }
+    }
+</style>
 
 {% extends 'staffs/staff_index.html' %}
 
 {% block title %}
-  Attendance / Leave Management for staff
+<p class="heading-attendance">Attendance / Leave Management for staff</p>
 {% endblock title %}
 
 {% block breadcrumb %}
-  <h5>Attendance</h5>
+<h5>Attendance</h5>
 {% endblock breadcrumb %}
 
 {% block content %}
-  <!-- <h3>Staff Attendance Info</h3>
-  <p>Attendance and leave records will be shown here.</p> -->
+<div>
+    <h2>Leave Requests</h2>
 
-  <div>
-    <h2>Leave Requestsss</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Staff</th>
-                <th>Reason</th>
-                <th>Date Applied</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for leave in leaves %}
-            <tr>
-                <td>{{ leave.staff.username }}</td>
-                <td>{{ leave.reason }}</td>
-                <td>{{ leave.date_applied }}</td>
-                <td>{{ leave.status }}</td>
-            </tr>
-            {% empty %}
-            <tr>
-                <td colspan="5">No leave requests submitted.</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Staff</th>
+                    <th>Reason</th>
+                    <th>Date Applied</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for leave in leaves %}
+                <tr>
+                    <td>{{ leave.staff.username }}</td>
+                    <td>{{ leave.reason }}</td>
+                    <td>{{ leave.date_applied }}</td>
+                    <td class="{{ leave.status|lower }}">{{ leave.status }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="4">No leave requests submitted.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 
     <br>
 
@@ -102,9 +159,5 @@
             <button type="submit">Submit Leave</button>
         </div>
     </form>
-
 </div>
 {% endblock content %}
-
-
-

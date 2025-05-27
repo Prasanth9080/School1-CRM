@@ -1,46 +1,70 @@
 <style>
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+
     table {
         border-collapse: collapse;
         width: 100%;
     }
-    th, td {
+
+    th,
+    td {
         border: 1px solid black;
         padding: 10px;
         text-align: start;
     }
+
     thead {
         background-color: #FF7D7D;
     }
+
     tbody tr {
         font-size: 16px;
         background-color: #E3E3E3;
     }
+
     tbody tr:hover {
-    background-color: #c8c7c7;
-    cursor: pointer;
-}
+        background-color: #c8c7c7;
+        cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 21px !important;
+        }
+    }
 </style>
 
 {% extends 'students/student_index.html' %}
 {% block content %}
 <h2>My Attendance</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Student</th><th>Date</th><th>Day</th><th>Status</th><th>Message</th><th>Signature</th>
-        </tr>
-    </thead>
-    {% for record in records %}
-    <tbody>
-        <tr>
-            <td>{{ record.student }}</td>
-            <td>{{ record.date }}</td>
-            <td>{{ record.get_day_display }}</td>
-            <td>{{ record.get_status_display }}</td>
-            <td>{{ record.message }}</td>
-            <td>{{ record.signature }}</td>
-        </tr>
-    </tbody>
-    {% endfor %}
-</table>
+<div class="table-responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Status</th>
+                <th>Message</th>
+                <th>Signature</th>
+            </tr>
+        </thead>
+        {% for record in records %}
+        <tbody>
+            <tr>
+                <td>{{ record.student }}</td>
+                <td>{{ record.date }}</td>
+                <td>{{ record.get_day_display }}</td>
+                <td>{{ record.get_status_display }}</td>
+                <td>{{ record.message }}</td>
+                <td>{{ record.signature }}</td>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
+</div>
 {% endblock %}

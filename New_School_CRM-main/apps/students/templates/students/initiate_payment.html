@@ -1,99 +1,142 @@
-{% extends 'students/student_index.html' %} {% block content %}
+{% extends 'students/student_index.html' %}
+{% block content %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
 <style>
     .heading {
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .heading a {
         border-radius: 20px;
         outline: none;
         border: 1px solid yellowgreen;
+        padding: 5px 15px;
+        text-decoration: none;
     }
 
     .heading a:hover {
         background-color: yellowgreen;
+        color: white;
+    }
+
+    form button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    ul.fee-details {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul.fee-details li {
+        background-color: #f8f9fa;
+        padding: 10px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 576px) {
+        h2 {
+            font-size: 22px;
+        }
+
+        form button {
+            width: 100%;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .heading {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .heading a {
+            margin-top: 10px;
+        }
     }
 </style>
 
-<h2>Fee Details</h2>
-<ul>
-    <li><strong>Student Name:</strong> {{ fee_record.student }}</li>
-    <li><strong>Term:</strong> {{ fee_record.term }}</li>
-    <li><strong>Session:</strong> {{ fee_record.session }}</li>
-    <li><strong>This Term Fees:</strong> ₹{{ fee_record.this_term_fees }}</li>
-    <li> <strong>Previous Balance:</strong> ₹{{ fee_record.previous_term_balance }}</li>
-    <li><strong>Total Amount:</strong> ₹{{ fee_record.total_amount }}</li>
-    <li><strong>Paid Amount:</strong> ₹{{ fee_record.paid_amount }}</li>
-    <li><strong>Balance payable Amount:</strong> ₹{{fee_record.balance_payable_amount }}</li>
-    <!-- <li><strong>Status</strong> ₹{{ fee_record.status }}</li> -->
-    <li>
-        <strong>Status:</strong>
-        {% if fee_record.status == "paid" %}
-        <span style="color: green">Complete</span>
-        {% elif fee_record.status == "partial" %}
-        <span style="color: blue">Partial</span>
-        {% else %}
-        <span style="color: red">Pending</span>
-        {% endif %}
-    </li>
-</ul>
+<div class="container my-4">
+    <h2 class="text-center mb-4">Fee Details</h2>
 
-{% if fee_record.balance_payable_amount > 0 %}
-<form method="POST">
-    {% csrf_token %}
-    <label for="amount">Enter Amount (₹):</label>
-    <input type="number" name="amount" required min="1" max="{{ fee_record.balance_payable_amount }}" />
-    <button type="submit">Pay Now</button>
-</form>
-{% else %}
-<p style="color: green">
-    ✅ You have completed your payment. No outstanding balance.
-</p>
-{% endif %}
-
-<div>
-    {% if latest_payment %}
-    <div style="
-      border: 1px solid #ddd;
-      padding: 15px;
-      margin-top: 20px;
-      background-color: #f0f8ff;
-      border-radius: 8px;
-    ">
-        <div class="heading">
-            <h3 style="color: #007bff">🧾 Last Payment Summary</h3>
-            <!-- <input type="submit" value="download pdf"> -->
-            <a href="{% url 'student_payment_pdf' %}" class="btn btn-primary" style="float: right">📥 Download PDF</a>
-        </div>
-        <br />
-
-        <p><strong>📅 Payment Date:</strong> {{ latest_payment.created_at|date:"F j,Y" }}</p>
-        <p><strong>⏰ Payment Time:</strong> {{ latest_payment.created_at|time:"h:iA" }}</p>
-        <p><strong>student name:</strong> {{ fee_record.student }}</p>
-        <p><strong>Term</strong> {{ fee_record.term }}</p>
-        <p><strong>Session</strong> {{ fee_record.session }}</p>
-
-        {% if latest_payment.status == "Complete" and latest_payment.payment_id %}
-        <p><strong>💰 Paid Amount:</strong> ₹{{ latest_payment.amount }}</p>
-        {% else %}
-        <p><strong>💰 Attempted Amount:</strong> ₹{{ latest_payment.amount }}</p>
-        {% endif %}
-
-        <p><strong>📘 This Term Fees:</strong> ₹{{latest_payment.fees_record.this_term_fees }}</p>
-        <p><strong>📙 Previous Balance:</strong> ₹{{latest_payment.fees_record.previous_term_balance }}</p>
-        <p><strong>📗 Total Amount:</strong> ₹{{latest_payment.fees_record.total_amount }}</p>
-        <p><strong>📘 Total Paid Amount:</strong> ₹{{ fee_record.paid_amount }}</p>
-        <p><strong>📕 Balance Payable Amount:</strong> ₹{{latest_payment.fees_record.balance_payable_amount }}</p>
-        <p><strong>🧾 Order ID:</strong> {{ latest_payment.order_id }}</p>
-        <p><strong>💳 Payment ID:</strong> {{ latest_payment.payment_id|default:"—" }}</p>
-        <p><strong>📌 Status:</strong>
-            {% if latest_payment.status == "Complete" %}
-            <span style="color: green">{{ latest_payment.status }}</span>
+    <ul class="fee-details">
+        <li><strong>Student Name:</strong> {{ fee_record.student }}</li>
+        <li><strong>Term:</strong> {{ fee_record.term }}</li>
+        <li><strong>Session:</strong> {{ fee_record.session }}</li>
+        <li><strong>This Term Fees:</strong> ₹{{ fee_record.this_term_fees }}</li>
+        <li><strong>Previous Balance:</strong> ₹{{ fee_record.previous_term_balance }}</li>
+        <li><strong>Total Amount:</strong> ₹{{ fee_record.total_amount }}</li>
+        <li><strong>Paid Amount:</strong> ₹{{ fee_record.paid_amount }}</li>
+        <li><strong>Balance Payable Amount:</strong> ₹{{ fee_record.balance_payable_amount }}</li>
+        <li>
+            <strong>Status:</strong>
+            {% if fee_record.status == "paid" %}
+            <span style="color: green">Complete</span>
+            {% elif fee_record.status == "partial" %}
+            <span style="color: blue">Partial</span>
             {% else %}
-            <span style="color: orange">{{ latest_payment.status }}</span>
+            <span style="color: red">Pending</span>
             {% endif %}
-        </p>
+        </li>
+    </ul>
+
+    {% if fee_record.balance_payable_amount > 0 %}
+    <form method="POST" class="mb-4">
+        {% csrf_token %}
+        <label for="amount">Enter Amount (₹):</label><br />
+        <input type="number" name="amount" class="form-control mt-1" required min="1"
+            max="{{ fee_record.balance_payable_amount }}" />
+        <button type="submit" class="mt-3">Pay Now</button>
+    </form>
+    {% else %}
+    <p class="text-success fw-bold">✅ You have completed your payment. No outstanding balance.</p>
+    {% endif %}
+
+    {% if latest_payment %}
+    <div class="card mt-4">
+        <div class="card-body">
+            <div class="heading">
+                <h4 class="text-primary">🧾 Last Payment Summary</h4>
+                <a href="{% url 'student_payment_pdf' %}">📥 Download PDF</a>
+            </div>
+            <hr />
+            <p><strong>📅 Payment Date:</strong> {{ latest_payment.created_at|date:"F j, Y" }}</p>
+            <p><strong>⏰ Payment Time:</strong> {{ latest_payment.created_at|time:"h:i A" }}</p>
+            <p><strong>Student Name:</strong> {{ fee_record.student }}</p>
+            <p><strong>Term:</strong> {{ fee_record.term }}</p>
+            <p><strong>Session:</strong> {{ fee_record.session }}</p>
+            <p><strong>💰 Paid/Attempted Amount:</strong> ₹{{ latest_payment.amount }}</p>
+            <p><strong>📘 This Term Fees:</strong> ₹{{ latest_payment.fees_record.this_term_fees }}</p>
+            <p><strong>📙 Previous Balance:</strong> ₹{{ latest_payment.fees_record.previous_term_balance }}</p>
+            <p><strong>📗 Total Amount:</strong> ₹{{ latest_payment.fees_record.total_amount }}</p>
+            <p><strong>📘 Total Paid Amount:</strong> ₹{{ fee_record.paid_amount }}</p>
+            <p><strong>📕 Balance Payable Amount:</strong> ₹{{ latest_payment.fees_record.balance_payable_amount }}</p>
+            <p><strong>🧾 Order ID:</strong> {{ latest_payment.order_id }}</p>
+            <p><strong>💳 Payment ID:</strong> {{ latest_payment.payment_id|default:"—" }}</p>
+            <p><strong>📌 Status:</strong>
+                {% if latest_payment.status == "Complete" %}
+                <span class="text-success">{{ latest_payment.status }}</span>
+                {% else %}
+                <span class="text-warning">{{ latest_payment.status }}</span>
+                {% endif %}
+            </p>
+        </div>
     </div>
     {% endif %}
 </div>

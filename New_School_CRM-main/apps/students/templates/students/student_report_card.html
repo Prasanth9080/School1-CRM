@@ -3,16 +3,26 @@
 
 {% block content %}
 <style>
-    table {
-        border-collapse: collapse;
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
         width: 100%;
+        margin-top: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 600px;
+        /* Ensures horizontal scroll on mobile */
     }
 
     th,
     td {
-        border: 1px solid black;
         padding: 10px;
         text-align: left;
+        white-space: nowrap;
+        /* Prevent content from wrapping */
     }
 
     thead {
@@ -38,12 +48,45 @@
         cursor: pointer;
     }
 
-    .scroll-table {
-        overflow-x: auto;
-        max-width: 100%;
-        margin-top: 20px;
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 18px;
+        }
+
+        .submit-btn button {
+            padding: 6px 12px;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            padding: 6px;
+            font-size: 12px;
+        }
+
+        table {
+            font-size: 12px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h2 {
+            font-size: 16px;
+        }
+
+        .submit-btn button {
+            width: 100%;
+            display: block;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            font-size: 14px;
+        }
     }
 </style>
+
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <h2>Your Report Card</h2>
@@ -52,7 +95,7 @@
     </a>
 </div>
 
-<div class="scroll-table">
+<div class="table-responsive">
     <table>
         <thead>
             <tr>

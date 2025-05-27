@@ -10,13 +10,26 @@
   .read {
     color: gray;
   }
+
+  .mark-read-btn {
+    background-color: #6DE1D2;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .mark-read-btn:hover {
+    background-color: #50c2b6;
+  }
 </style>
 
 <h3>Student Payment Notifications</h3>
 
 <form method="post" action="{% url 'hide_selected_notifications' %}" id="bulk-hide-form">
   {% csrf_token %}
-  <button type="submit">Hide Selected</button>
+  <button type="submit" class="mark-read-btn">Hide Selected</button>
 
   <br><br>
   <label><input type="checkbox" id="select-all"> Select All</label>
@@ -25,31 +38,29 @@
 <ul>
   {% for notification in notifications %}
   <li class="{% if notification.is_read %}read{% else %}unread{% endif %}">
-    <input type="checkbox" form="bulk-hide-form" name="selected_notifications" value="{{ notification.id }}"
-      class="notification-checkbox">
+    <input type="checkbox" name="selected_notifications" value="{{ notification.id }}" class="notification-checkbox">
 
     <strong>{{ notification.student.username }}</strong>: {{ notification.message }}<br>
     <small>{{ notification.created_at|date:"Y-m-d H:i" }}</small>
 
-    {% if not notification.is_read %}
-    <!-- Mark as Read Form -->
     <form method="post" action="{% url 'mark_notification_as_read_for_staff' notification.id %}"
-      style="display:inline-block; margin-right: 5px;">
+      style="display:inline;">
       {% csrf_token %}
-      <button type="submit">Mark as Read</button>
+      {% if not notification.is_read %}
+      <button type="submit" class="btn btn-primary">Mark as Read</button>
+      {% endif %}
     </form>
-    {% endif %}
 
-    <!-- Hide Form -->
-    <form method="post" action="{% url 'hide_notification' notification.id %}" style="display:inline-block;">
+    <form method="post" action="{% url 'hide_notification' notification.id %}" style="display:inline;">
       {% csrf_token %}
-      <button type="submit">Hide</button>
+      <button type="submit" class="btn btn-danger">Hide</button>
     </form>
   </li>
   {% empty %}
   <li>No notifications found.</li>
   {% endfor %}
 </ul>
+
 
 <script>
   document.getElementById('select-all').addEventListener('change', function () {

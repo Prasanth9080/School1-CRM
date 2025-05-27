@@ -1,65 +1,165 @@
 {% extends 'staffs/staff_index.html' %}
 {% block content %}
+
+<style>
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .btn-fee-report {
+        background-color: #6DE1D2;
+        border-style: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: start;
+    }
+
+    thead {
+        background-color: #6DE1D2;
+    }
+
+    /* NEW working colors */
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+    }
+
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+
+    tbody tr:hover {
+        background-color: #c8c7c7;
+        cursor: pointer;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border-color: transparent;
+        color: white;
+        border-radius: 3px;
+        color: black;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .btn-approve {
+        color: red;
+    }
+
+    .btn-reject {
+        color: green;
+    }
+
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 21px !important;
+        }
+    }
+</style>
+
 <h2>Student Fees Management</h2>
 
-<a href="{% url 'add-student-fee' %}">
-    <button>New Fees Report</button>
-</a>
+<div class="submit-btn">
+    <a href="{% url 'add-student-fee' %}">
+        <button type="button">New Fee Report</button>
+    </a>
+</div>
 
-<table border="1">
-    <thead>
-        <tr>
-            <th>Username</th>
-            <th>Term</th>
-            <th>Session</th>
-            <th>This Term Fees (₹)</th>
-            <th>Previous Balance (₹)</th>
-            <th>Total Amount (₹)</th>
-            <th>Paid Amount (₹)</th>
-            <th>Balance Amount (₹)</th>
-            <th>Status</th>
-            <th>Gender</th>
-            <th>Start Date</th>
-            <th>End Date</th>
-            <th>Created At</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for fee in fees %}
-        <tr>
-            <td>{{ fee.student.username }}</td>
-            <td>{{ fee.term }}</td>
-            <td>{{ fee.session }}</td>
-            <td>{{ fee.this_term_fees }}</td>
-            <td>{{ fee.previous_term_balance }}</td>
-            <td>{{ fee.total_amount }}</td>
-            <td>{{ fee.paid_amount }}</td>
-            <td>{{ fee.balance_payable_amount }}</td>
-            <!-- <td>{{ fee.status }}</td> -->
-            <td>
-                {% if fee.status == "paid" %}
-                  <span style="color:green;">Paid</span>
-                {% elif fee.status == "partial" %}
+<div class="table-responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Term</th>
+                <th>Session</th>
+                <th>This Term Fees (₹)</th>
+                <th>Previous Balance (₹)</th>
+                <th>Total Amount (₹)</th>
+                <th>Paid Amount (₹)</th>
+                <th>Balance Amount (₹)</th>
+                <th>Status</th>
+                <th>Gender</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for fee in fees %}
+            <tr>
+                <td>{{ fee.student.username }}</td>
+                <td>{{ fee.term }}</td>
+                <td>{{ fee.session }}</td>
+                <td>{{ fee.this_term_fees }}</td>
+                <td>{{ fee.previous_term_balance }}</td>
+                <td>{{ fee.total_amount }}</td>
+                <td>{{ fee.paid_amount }}</td>
+                <td>{{ fee.balance_payable_amount }}</td>
+                <!-- <td>{{ fee.status }}</td> -->
+                <td>
+                    {% if fee.status == "paid" %}
+                    <span style="color:green;">Paid</span>
+                    {% elif fee.status == "partial" %}
                     <span style="color: blue;">Partial</span>
-                {% else %}
-                  <span style="color:red;">Pending</span>
-                {% endif %}
-                
-              </td>
-            <td>{{ fee.gender }}</td>
-            <td>{{ fee.starting_date }}</td>
-            <td>{{ fee.ending_date }}</td>
-            <td>{{ fee.created_at }}</td>
-            
-            <td>
-                <a href="{% url 'edit-student-fee' fee.id %}">Edit</a> |
-                <a href="{% url 'delete-student-fee' fee.id %}" onclick="return confirm('Are you sure you want to delete this fee report?');">Delete</a>
-            </td>
-        </tr>
-        {% empty %}
-        <tr><td colspan="12">No fee records found.</td></tr>
-        {% endfor %}
-    </tbody>
-</table>
+                    {% else %}
+                    <span style="color:red;">Pending</span>
+                    {% endif %}
+
+                </td>
+                <td>{{ fee.gender }}</td>
+                <td>{{ fee.starting_date }}</td>
+                <td>{{ fee.ending_date }}</td>
+                <td>{{ fee.created_at }}</td>
+
+                <td>
+                    <a href="{% url 'edit-student-fee' fee.id %}" class="btn-approve">
+                        <i class="fas fa-edit"></i>
+                    </a> |
+                    <a href="{% url 'delete-student-fee' fee.id %}" class="btn-reject"
+                        onclick="return confirm('Are you sure you want to delete this fee report?');">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </td>
+
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="12">No fee records found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 {% endblock %}

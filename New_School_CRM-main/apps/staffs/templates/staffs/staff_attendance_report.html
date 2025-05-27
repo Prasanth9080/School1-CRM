@@ -1,22 +1,91 @@
 {% extends 'staffs/staff_index.html' %}
 {% block content %}
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: start;
+    }
+
+    thead {
+        background-color: #6DE1D2;
+    }
+
+    tbody tr {
+        font-size: 16px;
+        background-color: #E3E3E3;
+    }
+
+    tbody tr:hover {
+        background-color: #c8c7c7;
+        cursor: pointer;
+    }
+
+    .pending {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .approved {
+        color: green;
+        font-weight: bold;
+    }
+
+    .rejected {
+        color: red;
+        font-weight: bold;
+    }
+
+    .submit-btn button {
+        background-color: #6DE1D2;
+        border: none;
+        color: black;
+        border-radius: 3px;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+
+    .submit-btn button:hover {
+        background-color: #4cc9bc;
+    }
+</style>
+
 <h2>My Attendance Report (staff)</h2>
-<table>
-    <tr>
-        <th>Date</th>
-        <th>Day</th>
-        <th>Status</th>
-        <th>Message</th>
-    </tr>
-    {% for record in records %}
-    <tr>
-        <td>{{ record.staff.get_full_name }} ({{ record.staff.username }})</td>
-        <td>{{ record.date }}</td>
-        <td>{{ record.get_day_display }}</td>
-        <td>{{ record.get_status_display }}</td>
-        <td>{{ record.message }}</td>
-        <td>{{ record.signature }}</td>
-    </tr>
-    {% endfor %}
-</table>
+<div class="table-responsive">
+    <table>
+        <thead>
+            <tr>
+                <th>Staff</th>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Status</th>
+                <th>Message</th>
+                <th>Signature</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for record in records %}
+            <tr class="{{ record.status|lower }}">
+                <td>{{ record.staff.get_full_name }} ({{ record.staff.username }})</td>
+                <td>{{ record.date }}</td>
+                <td>{{ record.get_day_display }}</td>
+                <td>{{ record.get_status_display }}</td>
+                <td>{{ record.message }}</td>
+                <td>{{ record.signature }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
 {% endblock %}
