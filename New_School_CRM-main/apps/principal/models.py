@@ -74,3 +74,42 @@ class Principal_StudentFeesRecord(models.Model):
 
     def __str__(self):
         return f"{self.student.username} - {self.term.name} - {self.session.name}"
+    
+
+
+###### ###### #######  
+# models.py
+from django.db import models
+from django.contrib.auth.models import User
+
+class Circulation(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField()
+    created_by = models.ForeignKey(User, on_delete=models.CASCADE)
+    audience_choices = [
+        ('all', 'All'),
+        ('staff', 'Staff'),
+        ('students', 'Students'),
+    ]
+    audience = models.CharField(max_length=10, choices=audience_choices, default='all')
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+    
+
+#### hidding cirulations 
+
+class CirculationReadHide(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    circulation = models.ForeignKey(Circulation, on_delete=models.CASCADE)
+    role = models.CharField(max_length=10)  # 'student' or 'staff'
+
+    class Meta:
+        unique_together = ('user', 'circulation', 'role')
+
+    def __str__(self):
+        return f"{self.user} - {self.role} - {self.circulation}"
+
+
+

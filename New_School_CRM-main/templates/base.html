@@ -36,6 +36,8 @@
   <!-- <link rel="shortcut icon" type="image/x-icon" href="{% static 'favicon.ico' %}"> -->
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
 
+
+
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
@@ -271,6 +273,15 @@
               </a>
             </li>
 
+
+            <a href="{% url 'student-circulation' %}"
+              class="nav-link {% if request.resolver_match.url_name == 'student-report-card' %}active{% endif %}">
+              <i class="nav-icon fas fa-graduation-cap"></i>
+              <p>Circulation for student</p>
+            </a>
+
+
+
             <li class="nav-item">
               <a href="{% url 'student-data' %}" class="nav-link">
                 <i class="nav-icon fas fa-graduation-cap"></i>
@@ -315,6 +326,14 @@
                 <i class="nav-icon fas fa-graduation-cap"></i>
                 <p>
                   Staff
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'staff-circulation' %}" class="nav-link">
+                <i class="nav-icon fas fa-graduation-cap"></i>
+                <p>
+                  Circulation for staff
                 </p>
               </a>
             </li>
@@ -445,6 +464,13 @@
                 <p>
                   Principal
                 </p>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="{% url 'circulation_list' %}" class="nav-link">
+                <i class="nav-icon fas fa-bullhorn"></i>
+                <p>Principal Circulation</p>
               </a>
             </li>
 
@@ -656,6 +682,22 @@
       localStorage.removeItem("auth_token");  // Remove token from browser
     }
   </script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('.nav-link');
+      const currentPath = window.location.pathname;
+
+      links.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+
 
   {% block morejs %}
 

@@ -1,0 +1,41 @@
+{% extends 'principal/principal_index.html' %}
+{% block content %}
+
+<h2>Circulation</h2>
+
+<a href="{% url 'circulation_create' %}" class="btn btn-primary mb-3">Add New Circulation</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Message</th>
+            <th>Audience</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for circulation in circulations %}
+        <tr>
+            <td>{{ circulation.title }}</td>
+            <td>{{ circulation.content }}</td>
+            <td>{{ circulation.get_audience_display }}</td>
+            <td>{{ circulation.created_at }}</td>
+            <td>
+                <a href="{% url 'circulation_edit' circulation.pk %}" class="btn btn-sm btn-warning">Edit</a>
+                <form action="{% url 'circulation_delete' circulation.pk %}" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">No circulations available.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

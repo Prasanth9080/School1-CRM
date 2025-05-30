@@ -47,3 +47,18 @@ class Principal_StudentFeesRecordForm(forms.ModelForm):
 #                 raise forms.ValidationError("A fee record for this student, term, and session already exists.")
         
 #         return cleaned_data
+
+
+
+
+##################### ciculation form details
+
+# forms.py
+from django import forms
+from .models import Circulation
+
+class CirculationForm(forms.ModelForm):
+    class Meta:
+        model = Circulation
+        fields = ['title', 'content', 'audience']
+

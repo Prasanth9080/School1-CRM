@@ -36286,3 +36286,1456 @@ INFO 2025-05-27 16:04:29,006 "GET /staff/students/reportcards/ HTTP/1.1" 200 144
 WARNING 2025-05-27 16:04:29,132 Not Found: /.well-known/appspecific/com.chrome.devtools.json
 WARNING 2025-05-27 16:04:29,133 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
 WARNING 2025-05-27 16:04:29,262 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-29 10:19:11,764 Watching for file changes with StatReloader
+INFO 2025-05-29 10:19:17,910 "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 10:19:18,038 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 10:19:18,083 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,097 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,106 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,106 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,108 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,109 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,112 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,119 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,119 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,120 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,120 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-29 10:19:18,179 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+WARNING 2025-05-29 10:19:24,990 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-29 10:19:24,991 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-29 10:41:30,350 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 10:41:30,575 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-29 10:43:09,623 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 10:43:13,048 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:13,183 "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 11:06:13,203 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:16,138 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:16,792 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:16,985 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:17,312 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:43,888 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:44,623 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:44,775 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:45,850 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:45,971 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-29 11:06:46,023 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-29 11:06:46,027 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-29 11:06:46,040 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-29 11:06:46,048 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-29 11:06:46,057 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-29 11:06:46,063 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-29 11:06:46,068 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-29 11:06:46,071 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-29 11:06:46,073 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-29 11:06:46,083 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-29 11:06:54,851 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:54,939 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-29 11:06:55,064 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:55,225 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:55,402 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:55,586 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:06:55,753 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:30:17,976 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:30:18,017 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-29 11:30:18,137 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:30:18,317 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:30:18,647 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:30:18,821 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-29 11:49:20,209 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-29 11:49:21,142 "GET / HTTP/1.1" 200 15460
+INFO 2025-05-29 11:49:26,569 "GET /finance/list/ HTTP/1.1" 200 15544
+INFO 2025-05-29 11:49:55,347 "GET /finance/list/ HTTP/1.1" 200 15544
+INFO 2025-05-29 11:49:57,990 "GET /finance/create/ HTTP/1.1" 200 18921
+INFO 2025-05-29 11:49:59,425 "GET /finance/list/ HTTP/1.1" 200 15544
+INFO 2025-05-29 11:50:01,616 "GET /profile/ HTTP/1.1" 200 19886
+INFO 2025-05-29 11:50:43,755 "GET / HTTP/1.1" 302 0
+INFO 2025-05-29 11:50:43,766 "GET /login/?next=/ HTTP/1.1" 200 10560
+WARNING 2025-05-29 11:50:59,161 Bad Request: /login/
+WARNING 2025-05-29 11:50:59,161 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-05-29 11:51:04,251 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-29 11:51:05,176 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-29 11:51:18,840 "GET /profile/ HTTP/1.1" 200 17376
+INFO 2025-05-29 15:55:32,032 "GET /profile/ HTTP/1.1" 302 0
+INFO 2025-05-29 15:55:32,043 "GET /login/?next=/profile/ HTTP/1.1" 200 10560
+INFO 2025-05-29 15:55:32,062 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-30 09:45:01,605 Watching for file changes with StatReloader
+INFO 2025-05-30 09:46:38,952 "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 09:46:39,136 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-30 09:46:39,374 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-30 09:46:39,385 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-30 09:46:39,416 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-30 09:46:39,418 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-30 09:46:39,427 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-30 09:46:39,441 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-30 09:46:39,471 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-30 09:46:39,489 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-30 09:46:39,491 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-30 09:46:39,503 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-30 09:46:39,525 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-30 09:46:39,673 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-30 09:46:42,783 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-30 09:46:42,878 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-30 09:54:39,167 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-30 09:54:40,176 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 09:54:40,280 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-30 09:54:40,283 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-30 09:54:40,286 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-30 09:54:40,297 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-30 09:54:40,304 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-30 09:54:40,304 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-30 09:54:40,312 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-30 09:54:40,663 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-30 09:54:47,269 "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 09:54:47,279 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-30 09:54:47,310 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-30 09:54:47,310 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-30 09:54:47,311 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-30 09:54:47,336 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-30 09:54:47,341 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-30 09:54:47,354 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-30 09:54:47,397 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-30 09:54:47,406 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-30 09:54:47,441 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-30 09:54:47,456 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-30 09:54:47,498 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-30 09:54:47,590 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-30 09:54:55,848 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-30 09:54:56,757 "GET / HTTP/1.1" 200 15460
+INFO 2025-05-30 09:54:56,787 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-30 09:54:56,793 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-30 09:54:56,794 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-30 09:54:56,795 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-30 09:54:56,795 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-30 09:54:56,796 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-30 09:54:56,800 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-30 09:54:56,815 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-30 09:54:59,808 "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 09:54:59,822 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-30 09:54:59,841 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,841 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,841 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,875 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,883 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,883 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,884 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-30 09:54:59,901 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,901 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,907 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:54:59,908 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:00,130 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+WARNING 2025-05-30 09:55:37,299 Bad Request: /login/
+WARNING 2025-05-30 09:55:37,300 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-05-30 09:55:40,532 Bad Request: /login/
+WARNING 2025-05-30 09:55:40,532 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-05-30 09:55:41,942 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-30 09:55:42,875 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-30 09:55:42,924 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,933 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,940 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,943 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,946 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,947 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,947 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-05-30 09:55:42,948 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-05-30 10:58:18,273 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-30 11:14:10,021 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-30 11:14:10,257 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-05-30 11:39:48,300 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\models.py changed, reloading.
+INFO 2025-05-30 11:39:50,313 Watching for file changes with StatReloader
+INFO 2025-05-30 11:39:52,827 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\models.py changed, reloading.
+INFO 2025-05-30 11:39:53,614 Watching for file changes with StatReloader
+INFO 2025-05-30 11:50:48,438 Watching for file changes with StatReloader
+INFO 2025-05-30 11:51:18,428 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 11:51:18,630 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-30 11:51:18,635 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-30 11:51:18,641 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-30 11:51:18,645 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-30 11:51:18,648 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-30 11:51:18,654 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-30 11:51:18,659 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-30 11:51:18,665 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-30 11:51:18,668 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-30 11:51:18,673 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-30 11:51:18,675 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-30 11:51:18,677 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-30 11:51:18,683 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-30 11:51:18,689 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-30 11:51:18,690 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-30 11:51:18,694 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-30 11:51:18,698 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-30 11:51:19,967 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-30 11:51:30,465 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 11:51:54,733 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 11:52:02,820 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 11:52:12,441 "GET /principal/attendance/ HTTP/1.1" 200 11412
+INFO 2025-05-30 11:52:14,441 "GET /principal/attendance/ HTTP/1.1" 200 11412
+ERROR 2025-05-30 11:52:15,959 Internal Server Error: /principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 169, in view_circulations
+    group = user.groups.first().name.lower()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2025-05-30 11:52:15,962 "GET /principal/list/ HTTP/1.1" 500 75368
+WARNING 2025-05-30 11:52:16,294 Not Found: /favicon.ico
+WARNING 2025-05-30 11:52:16,295 "GET /favicon.ico HTTP/1.1" 404 9422
+INFO 2025-05-30 11:52:20,877 "GET /principal/attendance/ HTTP/1.1" 200 11412
+INFO 2025-05-30 11:52:21,236 "GET /principal/attendance/ HTTP/1.1" 200 11412
+ERROR 2025-05-30 11:52:41,979 Internal Server Error: /principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 169, in view_circulations
+    group = user.groups.first().name.lower()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2025-05-30 11:52:41,983 "GET /principal/list/ HTTP/1.1" 500 75368
+INFO 2025-05-30 11:56:42,847 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 11:56:44,221 Watching for file changes with StatReloader
+INFO 2025-05-30 12:01:37,706 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-30 12:01:38,779 Watching for file changes with StatReloader
+INFO 2025-05-30 12:01:43,809 "GET /principal/attendance/ HTTP/1.1" 200 11370
+ERROR 2025-05-30 12:01:46,341 Internal Server Error: /principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 191, in view_circulations
+    group = user.groups.first().name.lower()
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+ERROR 2025-05-30 12:01:46,345 "GET /principal/list/ HTTP/1.1" 500 75425
+INFO 2025-05-30 12:04:00,067 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:04:01,226 Watching for file changes with StatReloader
+ERROR 2025-05-30 12:04:05,802 Internal Server Error: /principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 208, in view_circulations
+    return render(request, 'circulation/list.html', {
+        'circulations': [],
+        'error': 'Your account is not assigned to any role group.'
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: circulation/list.html
+ERROR 2025-05-30 12:04:05,806 "GET /principal/list/ HTTP/1.1" 500 94300
+INFO 2025-05-30 12:07:23,148 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:07:24,232 Watching for file changes with StatReloader
+INFO 2025-05-30 12:07:38,296 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 12:07:39,880 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:07:42,281 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:07:43,675 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:07:48,950 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:07:50,217 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:07:51,419 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:07:54,319 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:14:52,624 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:14:54,097 Watching for file changes with StatReloader
+INFO 2025-05-30 12:14:59,425 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:15:00,650 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:15:01,934 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:15:02,751 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:15:05,802 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:15:06,169 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:15:58,658 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:16:00,333 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:16:01,225 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:16:02,209 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:16:03,493 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:16:04,426 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:16:05,760 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:16:06,927 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:16:42,275 "GET /principal/list/ HTTP/1.1" 200 11325
+INFO 2025-05-30 12:16:43,742 "GET /principal/list/ HTTP/1.1" 200 11325
+INFO 2025-05-30 12:16:44,434 "GET /principal/list/ HTTP/1.1" 200 11325
+INFO 2025-05-30 12:17:36,697 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:17:36,730 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-30 12:17:41,049 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:17:41,182 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-30 12:17:41,185 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-30 12:17:41,191 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-30 12:17:41,195 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-30 12:17:41,200 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-30 12:17:41,205 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-30 12:17:41,257 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-30 12:17:41,266 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-30 12:17:41,270 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-30 12:17:41,280 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-30 12:17:41,282 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-30 12:17:41,949 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-30 12:17:42,015 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-30 12:17:47,693 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-30 12:17:48,635 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 12:17:51,836 "GET /principal/attendance/ HTTP/1.1" 200 11369
+INFO 2025-05-30 12:18:00,390 "GET /principal/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:18:00,514 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:03,408 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:10,269 "POST /login/?next=%2Fprincipal%2Fadd%2F HTTP/1.1" 200 109
+INFO 2025-05-30 12:18:11,186 "GET /principal/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:18:11,286 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:13,853 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:14,487 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:14,828 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:15,180 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:20,981 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 12:18:23,157 "GET /principal/attendance/ HTTP/1.1" 200 11369
+INFO 2025-05-30 12:18:23,957 "GET /principal/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:18:24,041 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:18:33,220 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:18:35,009 Watching for file changes with StatReloader
+INFO 2025-05-30 12:18:37,147 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+WARNING 2025-05-30 12:18:41,098 Not Found: /lo
+WARNING 2025-05-30 12:18:41,099 "GET /lo HTTP/1.1" 404 9395
+WARNING 2025-05-30 12:18:41,322 Not Found: /favicon.ico
+WARNING 2025-05-30 12:18:41,323 "GET /favicon.ico HTTP/1.1" 404 9422
+INFO 2025-05-30 12:18:44,890 "GET / HTTP/1.1" 200 15466
+INFO 2025-05-30 12:18:47,918 "GET /principal/staff/attendance/ HTTP/1.1" 200 14556
+INFO 2025-05-30 12:18:49,459 "GET /principal/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:18:49,551 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:19:02,748 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:19:03,864 Watching for file changes with StatReloader
+INFO 2025-05-30 12:19:19,529 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:19:23,105 "GET /principal/staff/attendance/ HTTP/1.1" 200 14556
+INFO 2025-05-30 12:19:24,574 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14036
+INFO 2025-05-30 12:19:25,832 "GET /principal/student-fees/ HTTP/1.1" 200 12594
+INFO 2025-05-30 12:19:53,559 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:19:53,613 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-30 12:19:53,790 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-30 12:19:53,800 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-30 12:19:53,803 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-30 12:19:53,829 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-30 12:19:53,856 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-30 12:19:53,898 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-30 12:19:53,911 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-30 12:19:53,917 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-30 12:19:59,520 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:19:59,704 "GET /admin/ HTTP/1.1" 200 66517
+INFO 2025-05-30 12:19:59,753 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-30 12:19:59,817 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-30 12:20:13,985 "GET /admin/ HTTP/1.1" 200 66517
+INFO 2025-05-30 12:23:09,427 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\admin.py changed, reloading.
+INFO 2025-05-30 12:23:10,584 Watching for file changes with StatReloader
+INFO 2025-05-30 12:23:17,573 "GET /admin/ HTTP/1.1" 200 68276
+INFO 2025-05-30 12:23:19,113 "GET /admin/principal/circulation/ HTTP/1.1" 200 26978
+INFO 2025-05-30 12:23:19,294 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-30 12:23:19,327 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-30 12:23:19,335 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-05-30 12:23:19,358 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-30 12:23:19,414 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-05-30 12:23:19,419 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-30 12:23:19,435 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-05-30 12:23:19,438 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-05-30 12:23:19,445 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-05-30 12:23:19,454 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-05-30 12:23:19,455 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-05-30 12:23:21,250 "GET /admin/principal/circulation/add/ HTTP/1.1" 200 32070
+INFO 2025-05-30 12:23:21,278 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-30 12:23:21,278 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-30 12:23:21,297 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-30 12:23:21,302 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-30 12:23:21,316 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-30 12:23:21,330 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-05-30 12:23:21,346 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-30 12:25:10,101 "POST /admin/principal/circulation/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:25:10,260 "GET /admin/principal/circulation/ HTTP/1.1" 200 32237
+INFO 2025-05-30 12:25:10,346 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-30 12:25:18,779 "GET /principal/attendance/ HTTP/1.1" 200 11369
+INFO 2025-05-30 12:25:20,130 "GET /principal/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:25:20,255 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:25:32,527 "GET /principal/add/ HTTP/1.1" 302 0
+INFO 2025-05-30 12:25:32,635 "GET /login/?next=/principal/add/ HTTP/1.1" 200 10560
+INFO 2025-05-30 12:25:46,014 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:25:47,526 Watching for file changes with StatReloader
+INFO 2025-05-30 12:25:49,808 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:25:51,652 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:25:52,901 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:25:53,210 "GET /principal/attendance/ HTTP/1.1" 200 11370
+INFO 2025-05-30 12:25:53,727 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:25:55,877 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:25:56,211 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:25:56,577 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:25:57,078 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:32:45,510 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:32:47,661 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:32:48,136 "GET /principal/list/ HTTP/1.1" 200 11326
+INFO 2025-05-30 12:36:46,216 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 12:36:47,278 Watching for file changes with StatReloader
+INFO 2025-05-30 12:37:08,781 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-30 12:37:09,823 Watching for file changes with StatReloader
+INFO 2025-05-30 12:37:15,145 "GET /principal/student-fees/ HTTP/1.1" 200 12605
+INFO 2025-05-30 12:37:16,995 "GET /principal/attendance/ HTTP/1.1" 200 11380
+INFO 2025-05-30 12:37:20,021 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:22,089 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:22,906 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:23,690 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:24,115 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:27,758 "GET /principal/attendance/ HTTP/1.1" 200 11380
+INFO 2025-05-30 12:37:28,925 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:37,520 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:37,878 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:37:38,245 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+INFO 2025-05-30 12:38:19,054 "GET /principal/principal/list/ HTTP/1.1" 200 11336
+WARNING 2025-05-30 12:38:22,622 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 12:38:22,622 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 12:38:22,845 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 12:38:22,962 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-30 12:38:22,963 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-30 12:38:22,989 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-30 12:38:23,019 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-30 12:38:55,735 "GET /principal/principal/list/ HTTP/1.1" 200 11345
+WARNING 2025-05-30 12:38:56,045 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 12:38:56,045 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 12:38:57,373 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 12:48:29,398 Watching for file changes with StatReloader
+INFO 2025-05-30 12:50:54,573 "GET /principal/principal/list/ HTTP/1.1" 200 11537
+INFO 2025-05-30 12:51:01,150 "GET /principal/principal/list/ HTTP/1.1" 200 11537
+INFO 2025-05-30 12:51:01,467 "GET /principal/principal/list/ HTTP/1.1" 200 11537
+INFO 2025-05-30 12:51:01,800 "GET /principal/principal/list/ HTTP/1.1" 200 11537
+INFO 2025-05-30 12:51:02,302 "GET /principal/principal/list/ HTTP/1.1" 200 11537
+INFO 2025-05-30 12:51:31,646 "GET /principal/principal/list/ HTTP/1.1" 200 11662
+INFO 2025-05-30 12:51:41,599 "GET /principal/principal/list/ HTTP/1.1" 200 11662
+INFO 2025-05-30 12:51:42,326 "GET /principal/principal/list/ HTTP/1.1" 200 11662
+INFO 2025-05-30 12:51:45,476 "GET /principal/principal/list/ HTTP/1.1" 200 11538
+INFO 2025-05-30 12:51:45,927 "GET /principal/principal/list/ HTTP/1.1" 200 11538
+INFO 2025-05-30 12:51:46,277 "GET /principal/principal/list/ HTTP/1.1" 200 11538
+ERROR 2025-05-30 12:56:52,370 Internal Server Error: /principal/principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '("name",'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 341, in view_circulations
+    return render(request, 'principal/principal_circulation.html', {
+        'circulations': circulations,
+        'error': 'Your account is not assigned to any role group.'
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 181, in translate_token
+    return self.create_var(token)
+           ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '("name",' from '("name",'
+ERROR 2025-05-30 12:56:52,380 "GET /principal/principal/list/ HTTP/1.1" 500 243735
+ERROR 2025-05-30 12:57:20,598 Internal Server Error: /principal/principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '(user.groups.all.values_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 341, in view_circulations
+    return render(request, 'principal/principal_circulation.html', {
+        'circulations': circulations,
+        'error': 'Your account is not assigned to any role group.'
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 181, in translate_token
+    return self.create_var(token)
+           ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(user.groups.all.values_list' from '(user.groups.all.values_list'
+ERROR 2025-05-30 12:57:20,605 "GET /principal/principal/list/ HTTP/1.1" 500 243877
+ERROR 2025-05-30 14:19:09,543 Internal Server Error: /principal/principal/list/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: '(user.groups.all.values_list'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 341, in view_circulations
+    return render(request, 'principal/principal_circulation.html', {
+        'circulations': circulations,
+        'error': 'Your account is not assigned to any role group.'
+    })
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\smartif.py", line 181, in translate_token
+    return self.create_var(token)
+           ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(user.groups.all.values_list' from '(user.groups.all.values_list'
+ERROR 2025-05-30 14:19:09,550 "GET /principal/principal/list/ HTTP/1.1" 500 243877
+INFO 2025-05-30 14:21:01,207 "GET /principal/principal/list/ HTTP/1.1" 200 11198
+INFO 2025-05-30 14:21:03,983 "GET /principal/principal/list/ HTTP/1.1" 200 11198
+INFO 2025-05-30 14:21:04,683 "GET /principal/attendance/ HTTP/1.1" 200 11354
+INFO 2025-05-30 14:21:05,600 "GET /principal/attendance/ HTTP/1.1" 200 11354
+INFO 2025-05-30 14:21:07,276 "GET /principal/attendance/ HTTP/1.1" 200 11354
+INFO 2025-05-30 14:21:08,401 "GET /principal/attendance/ HTTP/1.1" 200 11354
+INFO 2025-05-30 14:21:09,302 "GET /principal/attendance/ HTTP/1.1" 200 11354
+INFO 2025-05-30 14:21:10,068 "GET /principal/attendance/ HTTP/1.1" 200 11354
+INFO 2025-05-30 14:37:25,911 Watching for file changes with StatReloader
+ERROR 2025-05-30 14:37:30,007 Internal Server Error: /principal/attendance/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'principal'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 8, in principal_dashboard
+    return render (request, "principal/principal_data.html")
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'principal' is not a registered namespace
+ERROR 2025-05-30 14:37:30,013 "GET /principal/attendance/ HTTP/1.1" 500 149761
+INFO 2025-05-30 14:37:49,934 "GET /principal/attendance/ HTTP/1.1" 200 11378
+ERROR 2025-05-30 14:37:51,964 Internal Server Error: /principal/circulation/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'principal'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 150, in circulation_list
+    return render(request, 'principal/principal_circulation.html', {'circulations': circulations})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'principal' is not a registered namespace
+ERROR 2025-05-30 14:37:51,970 "GET /principal/circulation/ HTTP/1.1" 500 191020
+ERROR 2025-05-30 14:38:22,342 Internal Server Error: /principal/circulation/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'principal'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 150, in circulation_list
+    return render(request, 'principal/principal_circulation.html', {'circulations': circulations})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'principal' is not a registered namespace
+ERROR 2025-05-30 14:38:22,347 "GET /principal/circulation/ HTTP/1.1" 500 156463
+ERROR 2025-05-30 14:38:32,774 Internal Server Error: /principal/circulation/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'principal'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 150, in circulation_list
+    return render(request, 'principal/principal_circulation.html', {'circulations': circulations})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'principal' is not a registered namespace
+ERROR 2025-05-30 14:38:32,778 "GET /principal/circulation/ HTTP/1.1" 500 203514
+INFO 2025-05-30 14:39:00,361 "GET /principal/circulation/ HTTP/1.1" 200 12206
+ERROR 2025-05-30 14:39:05,890 Internal Server Error: /principal/circulation/edit/1/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 172, in circulation_edit
+    return render(request, 'principal/circulation_form.html', {'form': form})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: principal/circulation_form.html
+ERROR 2025-05-30 14:39:05,892 "GET /principal/circulation/edit/1/ HTTP/1.1" 500 95261
+INFO 2025-05-30 14:40:03,143 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-30 14:40:04,163 Watching for file changes with StatReloader
+INFO 2025-05-30 14:40:22,864 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 14:40:24,061 Watching for file changes with StatReloader
+INFO 2025-05-30 14:40:33,792 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 14:40:35,102 Watching for file changes with StatReloader
+INFO 2025-05-30 14:40:39,459 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 14:40:40,574 Watching for file changes with StatReloader
+INFO 2025-05-30 14:40:42,754 "GET /principal/circulation/edit/1/ HTTP/1.1" 200 12241
+ERROR 2025-05-30 14:40:48,419 Internal Server Error: /principal/circulation/edit/1/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'principal'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 171, in circulation_edit
+    return redirect('principal:circulation_list')
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'principal' is not a registered namespace
+ERROR 2025-05-30 14:40:48,422 "POST /principal/circulation/edit/1/ HTTP/1.1" 500 98222
+INFO 2025-05-30 14:41:02,661 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 14:41:03,864 Watching for file changes with StatReloader
+INFO 2025-05-30 14:41:12,250 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 14:41:13,290 Watching for file changes with StatReloader
+INFO 2025-05-30 14:41:15,575 "POST /principal/circulation/edit/1/ HTTP/1.1" 302 0
+INFO 2025-05-30 14:41:15,700 "GET /principal/circulation/ HTTP/1.1" 200 12206
+INFO 2025-05-30 14:41:23,462 "GET /principal/circulation/create/ HTTP/1.1" 200 12098
+INFO 2025-05-30 14:43:35,878 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-30 14:43:36,011 "GET /principal/circulation/ HTTP/1.1" 200 12839
+INFO 2025-05-30 14:44:23,898 "GET /principal/circulation/ HTTP/1.1" 200 13173
+INFO 2025-05-30 14:44:29,258 "GET /principal/circulation/ HTTP/1.1" 200 13173
+INFO 2025-05-30 15:19:02,700 "GET /principal/circulation/ HTTP/1.1" 200 13173
+INFO 2025-05-30 15:45:43,429 Watching for file changes with StatReloader
+INFO 2025-05-30 15:45:48,050 "GET /principal/circulation/ HTTP/1.1" 200 13173
+INFO 2025-05-30 15:45:51,711 "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 15:45:51,796 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-30 15:45:51,812 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-30 15:45:51,920 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-30 15:46:10,662 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-30 15:46:11,679 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-30 15:46:14,780 "GET / HTTP/1.1" 200 12947
+INFO 2025-05-30 15:46:17,981 "GET /student/data/ HTTP/1.1" 200 11062
+ERROR 2025-05-30 15:46:20,517 Internal Server Error: /principal/circulations/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'students'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 192, in student_circulation_view
+    return render(request, 'students/student_circulation.html', {'circulations': circulations})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'students' is not a registered namespace
+ERROR 2025-05-30 15:46:20,526 "GET /principal/circulations/ HTTP/1.1" 500 193554
+WARNING 2025-05-30 15:46:20,787 Not Found: /favicon.ico
+WARNING 2025-05-30 15:46:20,787 "GET /favicon.ico HTTP/1.1" 404 9422
+INFO 2025-05-30 15:50:01,259 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-30 15:50:02,248 Watching for file changes with StatReloader
+INFO 2025-05-30 15:51:08,474 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 15:51:09,843 Watching for file changes with StatReloader
+INFO 2025-05-30 15:51:13,744 "GET /student/data/ HTTP/1.1" 200 11062
+INFO 2025-05-30 15:51:15,166 "GET /student/data/ HTTP/1.1" 200 11062
+ERROR 2025-05-30 15:51:16,328 Internal Server Error: /principal/circulations/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 192, in student_circulation_view
+    return render(request, 'students/student_circulation.html', {'circulations': circulations})
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'hide_circulation' not found. 'hide_circulation' is not a valid view function or pattern name.
+ERROR 2025-05-30 15:51:16,336 "GET /principal/circulations/ HTTP/1.1" 500 191532
+INFO 2025-05-30 15:51:38,295 "GET /principal/circulations/ HTTP/1.1" 200 11956
+ERROR 2025-05-30 15:51:44,396 Internal Server Error: /principal/circulation/hide/2/student/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 211, in hide_circulation
+    return redirect('student_circulation')
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student_circulation' not found. 'student_circulation' is not a valid view function or pattern name.
+ERROR 2025-05-30 15:51:44,399 "POST /principal/circulation/hide/2/student/ HTTP/1.1" 500 94991
+INFO 2025-05-30 15:52:17,636 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 15:52:18,769 Watching for file changes with StatReloader
+INFO 2025-05-30 15:52:21,671 "GET /principal/circulations/ HTTP/1.1" 200 11440
+INFO 2025-05-30 15:52:25,610 "POST /principal/circulation/hide/1/student/ HTTP/1.1" 302 0
+INFO 2025-05-30 15:52:25,702 "GET /principal/circulations/ HTTP/1.1" 200 11011
+INFO 2025-05-30 15:52:27,387 "GET /principal/circulations/ HTTP/1.1" 200 11011
+INFO 2025-05-30 15:52:32,436 "GET / HTTP/1.1" 302 0
+INFO 2025-05-30 15:52:32,449 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-30 15:52:32,492 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+WARNING 2025-05-30 15:52:39,975 Bad Request: /login/
+WARNING 2025-05-30 15:52:39,975 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-05-30 15:52:41,755 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 15:52:41,756 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-30 15:52:41,930 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 304 0
+INFO 2025-05-30 15:52:41,930 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 304 0
+INFO 2025-05-30 15:52:41,933 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 304 0
+INFO 2025-05-30 15:52:41,948 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 304 0
+INFO 2025-05-30 15:52:53,933 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-30 15:52:54,973 "GET / HTTP/1.1" 200 15742
+WARNING 2025-05-30 15:52:55,159 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 15:52:55,160 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 15:52:55,527 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 15:52:58,326 "GET /principal/circulations/ HTTP/1.1" 200 11956
+WARNING 2025-05-30 15:52:58,482 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 15:52:58,482 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 15:52:58,747 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 15:56:59,136 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 15:57:00,436 Watching for file changes with StatReloader
+INFO 2025-05-30 15:57:06,396 "POST /principal/circulation/hide/2/student/ HTTP/1.1" 302 0
+INFO 2025-05-30 15:57:06,529 "GET /principal/circulations/ HTTP/1.1" 200 11575
+WARNING 2025-05-30 15:57:06,687 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 15:57:06,688 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 15:57:07,120 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 15:57:21,726 "GET /principal/circulation/ HTTP/1.1" 200 13173
+INFO 2025-05-30 15:57:22,868 "GET /principal/circulation/create/ HTTP/1.1" 200 12098
+INFO 2025-05-30 15:57:53,997 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-30 15:57:54,089 "GET /principal/circulation/ HTTP/1.1" 200 13843
+INFO 2025-05-30 15:57:57,516 "GET /principal/circulation/create/ HTTP/1.1" 200 12098
+INFO 2025-05-30 15:58:23,100 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-30 15:58:23,209 "GET /principal/circulation/ HTTP/1.1" 200 14512
+INFO 2025-05-30 15:58:24,259 "GET /principal/circulation/create/ HTTP/1.1" 200 12098
+INFO 2025-05-30 16:00:02,302 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:00:02,393 "GET /principal/circulation/ HTTP/1.1" 200 15212
+INFO 2025-05-30 16:00:07,746 "GET /principal/circulation/create/ HTTP/1.1" 200 12098
+INFO 2025-05-30 16:01:38,376 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:01:38,477 "GET /principal/circulation/ HTTP/1.1" 200 15966
+INFO 2025-05-30 16:01:40,761 "GET /principal/circulation/create/ HTTP/1.1" 200 12098
+INFO 2025-05-30 16:02:35,575 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:02:35,675 "GET /principal/circulation/ HTTP/1.1" 200 16687
+INFO 2025-05-30 16:02:40,648 "GET /principal/circulations/ HTTP/1.1" 200 13491
+WARNING 2025-05-30 16:02:40,806 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:02:40,812 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:02:41,166 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:02:58,230 "GET /profile/ HTTP/1.1" 200 20168
+WARNING 2025-05-30 16:02:58,413 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:02:58,414 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:02:58,751 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-30 16:03:04,908 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-30 16:03:05,088 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:03:05,089 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:03:05,216 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:03:05,216 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-30 16:03:07,547 "GET /principal/circulations/ HTTP/1.1" 200 13491
+WARNING 2025-05-30 16:03:07,692 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:03:07,692 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:03:07,851 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-30 16:03:09,267 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:03:09,268 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:03:09,451 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-30 16:03:17,654 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:03:17,654 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:03:17,891 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:04:12,572 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-05-30 16:04:14,050 Watching for file changes with StatReloader
+INFO 2025-05-30 16:04:16,133 "GET /principal/circulation/ HTTP/1.1" 200 16687
+INFO 2025-05-30 16:04:18,400 "GET /principal/circulation/ HTTP/1.1" 200 16687
+WARNING 2025-05-30 16:04:22,972 Not Found: /principal/circulations/
+WARNING 2025-05-30 16:04:22,973 "GET /principal/circulations/ HTTP/1.1" 404 13696
+WARNING 2025-05-30 16:04:24,328 Not Found: /principal/circulations/
+WARNING 2025-05-30 16:04:24,328 "GET /principal/circulations/ HTTP/1.1" 404 13696
+WARNING 2025-05-30 16:04:24,756 Not Found: /principal/circulations/
+WARNING 2025-05-30 16:04:24,757 "GET /principal/circulations/ HTTP/1.1" 404 13696
+WARNING 2025-05-30 16:04:25,115 Not Found: /principal/circulations/
+WARNING 2025-05-30 16:04:25,115 "GET /principal/circulations/ HTTP/1.1" 404 13696
+INFO 2025-05-30 16:04:31,534 "GET / HTTP/1.1" 200 13239
+INFO 2025-05-30 16:04:35,958 "GET /principal/student/circulations/ HTTP/1.1" 200 12978
+INFO 2025-05-30 16:04:39,712 "GET /student/payments/ HTTP/1.1" 200 14602
+INFO 2025-05-30 16:04:40,688 "GET /student/attendance/ HTTP/1.1" 200 13542
+INFO 2025-05-30 16:04:41,738 "GET /student/student/attendance/ HTTP/1.1" 200 11940
+INFO 2025-05-30 16:04:42,677 "GET /student/reportcard/ HTTP/1.1" 200 17055
+INFO 2025-05-30 16:04:43,507 "GET /principal/student/circulations/ HTTP/1.1" 200 12978
+INFO 2025-05-30 16:04:56,941 "GET / HTTP/1.1" 200 15748
+WARNING 2025-05-30 16:04:57,102 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:04:57,103 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:04:57,357 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:04:59,404 "GET /staff/staff-leave/ HTTP/1.1" 200 14510
+WARNING 2025-05-30 16:04:59,570 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:04:59,571 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:04:59,753 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:00,360 "GET /staff/staff-attendance/ HTTP/1.1" 200 13035
+WARNING 2025-05-30 16:05:00,518 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:05:00,518 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:05:00,705 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:01,413 "GET /staff/staff-class/ HTTP/1.1" 200 11584
+WARNING 2025-05-30 16:05:01,584 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:05:01,585 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:05:01,723 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:02,863 "GET /principal/staff/circulations/ HTTP/1.1" 200 14683
+WARNING 2025-05-30 16:05:03,035 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:05:03,036 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:05:03,251 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:11,539 "POST /principal/circulation/hide/1/staff/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:05:11,630 "GET /principal/staff/circulations/ HTTP/1.1" 200 14307
+WARNING 2025-05-30 16:05:11,763 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:05:11,764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:05:11,976 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:19,707 "POST /principal/circulation/delete/7/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:05:19,824 "GET /principal/circulation/ HTTP/1.1" 200 15966
+INFO 2025-05-30 16:05:26,161 "GET /principal/staff/circulations/ HTTP/1.1" 200 13647
+WARNING 2025-05-30 16:05:26,294 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:05:26,295 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:05:26,494 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:36,306 "GET /principal/circulation/edit/4/ HTTP/1.1" 200 12135
+INFO 2025-05-30 16:05:39,140 "POST /principal/circulation/edit/4/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:05:39,257 "GET /principal/circulation/ HTTP/1.1" 200 15968
+INFO 2025-05-30 16:05:43,579 "GET /principal/staff/circulations/ HTTP/1.1" 200 13649
+WARNING 2025-05-30 16:05:43,729 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:05:43,731 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:05:43,909 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:05:50,149 "GET /principal/student/circulations/ HTTP/1.1" 200 12470
+INFO 2025-05-30 16:06:44,345 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 16:06:45,911 Watching for file changes with StatReloader
+INFO 2025-05-30 16:06:49,620 "GET /principal/circulation/ HTTP/1.1" 200 15968
+INFO 2025-05-30 16:06:52,070 "POST /principal/circulation/delete/1/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:06:52,170 "GET /principal/circulation/ HTTP/1.1" 200 15347
+INFO 2025-05-30 16:06:59,233 "POST /principal/circulation/hide/3/student/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:06:59,344 "GET /principal/student/circulations/ HTTP/1.1" 200 12098
+INFO 2025-05-30 16:07:09,381 "GET /principal/staff/circulations/ HTTP/1.1" 200 13649
+WARNING 2025-05-30 16:07:09,536 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:07:09,537 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:07:09,810 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:07:12,566 "POST /principal/circulation/hide/2/staff/ HTTP/1.1" 302 0
+INFO 2025-05-30 16:07:12,663 "GET /principal/staff/circulations/ HTTP/1.1" 200 13278
+WARNING 2025-05-30 16:07:12,796 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:07:12,796 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:07:13,052 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:07:25,407 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-30 16:07:26,641 Watching for file changes with StatReloader
+INFO 2025-05-30 16:07:30,632 "GET /principal/staff/circulations/ HTTP/1.1" 200 13135
+WARNING 2025-05-30 16:07:30,790 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-30 16:07:30,791 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-30 16:07:30,949 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-30 16:15:00,019 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 16:15:01,503 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 16:15:03,561 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 16:15:37,008 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 16:15:38,875 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 16:15:40,984 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 16:15:41,993 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 16:15:44,848 "GET /student/data/ HTTP/1.1" 200 11070
+INFO 2025-05-30 16:15:47,374 "POST /student/data/ HTTP/1.1" 200 11070
+INFO 2025-05-30 16:58:13,816 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 16:58:47,958 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 16:58:49,392 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 16:58:51,301 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 16:59:17,074 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 16:59:19,475 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 16:59:20,630 "GET /student/data/ HTTP/1.1" 200 11070
+INFO 2025-05-30 16:59:21,785 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:01:16,963 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 17:01:20,681 "GET /profile/ HTTP/1.1" 200 20587
+INFO 2025-05-30 17:01:21,748 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 17:01:27,567 "GET /profile/ HTTP/1.1" 200 20587
+INFO 2025-05-30 17:01:47,501 "GET /profile/ HTTP/1.1" 200 20587
+INFO 2025-05-30 17:01:55,170 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 17:02:00,039 "GET /student/payments/ HTTP/1.1" 200 14602
+INFO 2025-05-30 17:02:00,659 "GET /student/payments/ HTTP/1.1" 200 14602
+INFO 2025-05-30 17:02:01,748 "GET /student/attendance/ HTTP/1.1" 200 13542
+INFO 2025-05-30 17:02:03,240 "GET /student/student/attendance/ HTTP/1.1" 200 11940
+INFO 2025-05-30 17:02:04,091 "GET /student/reportcard/ HTTP/1.1" 200 17055
+INFO 2025-05-30 17:02:04,636 "GET /student/reportcard/ HTTP/1.1" 200 17055
+INFO 2025-05-30 17:02:05,150 "GET /student/reportcard/ HTTP/1.1" 200 17055
+INFO 2025-05-30 17:02:05,571 "GET /student/reportcard/ HTTP/1.1" 200 17055
+INFO 2025-05-30 17:02:06,228 "GET /student/payments/ HTTP/1.1" 200 14602
+INFO 2025-05-30 17:02:09,104 "GET /edit_profile/ HTTP/1.1" 200 24000
+INFO 2025-05-30 17:02:10,638 "GET /profile/ HTTP/1.1" 200 18350
+INFO 2025-05-30 17:02:12,152 "GET /edit_profile/ HTTP/1.1" 200 24000
+INFO 2025-05-30 17:02:13,370 "GET /student/data/ HTTP/1.1" 200 11070
+INFO 2025-05-30 17:02:14,531 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:02:15,290 "GET /student/payments/ HTTP/1.1" 200 14602
+INFO 2025-05-30 17:02:17,366 "GET /profile/ HTTP/1.1" 200 18350
+INFO 2025-05-30 17:02:23,135 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:02:25,677 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:02:27,708 "GET /profile/ HTTP/1.1" 200 18350
+INFO 2025-05-30 17:02:32,447 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:03:44,358 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:03:46,590 "GET /principal/student/circulations/ HTTP/1.1" 200 11963
+INFO 2025-05-30 17:03:47,920 "GET /student/payments/ HTTP/1.1" 200 14602
+INFO 2025-05-30 17:03:49,049 "GET /student/attendance/ HTTP/1.1" 200 13542
+INFO 2025-05-30 17:03:50,027 "GET /student/student/attendance/ HTTP/1.1" 200 11940
+INFO 2025-05-30 17:03:51,028 "GET /student/reportcard/ HTTP/1.1" 200 17055
+INFO 2025-05-30 17:04:16,705 "GET /student/reportcard/ HTTP/1.1" 200 17078
+INFO 2025-05-30 17:04:18,656 "GET /student/payments/ HTTP/1.1" 200 14619
+INFO 2025-05-30 17:04:20,340 "GET /student/data/ HTTP/1.1" 200 11087
+INFO 2025-05-30 17:04:21,190 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
+INFO 2025-05-30 17:04:22,999 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
+INFO 2025-05-30 17:04:24,363 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
+INFO 2025-05-30 17:04:27,076 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
+INFO 2025-05-30 17:04:28,002 "GET /student/payments/ HTTP/1.1" 200 14619
+INFO 2025-05-30 17:04:29,965 "GET /student/payments/ HTTP/1.1" 200 14619
+INFO 2025-05-30 17:04:30,327 "GET /student/payments/ HTTP/1.1" 200 14619
+INFO 2025-05-30 17:04:30,860 "GET /student/payments/ HTTP/1.1" 200 14619
+INFO 2025-05-30 17:04:33,278 "GET /profile/ HTTP/1.1" 200 17952
+INFO 2025-05-30 17:04:38,694 "GET /student/data/ HTTP/1.1" 200 11087
+INFO 2025-05-30 17:04:49,601 "GET /student/data/ HTTP/1.1" 200 11087
+INFO 2025-05-30 17:04:50,907 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
+INFO 2025-05-30 17:04:59,052 "GET /principal/attendance/ HTTP/1.1" 200 11378
+INFO 2025-05-30 17:05:00,410 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-30 17:05:02,927 "GET /profile/ HTTP/1.1" 200 20474
+INFO 2025-05-30 17:05:04,487 "GET /principal/student-fees/ HTTP/1.1" 200 12603
+INFO 2025-05-30 17:05:05,245 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14045
+INFO 2025-05-30 17:05:08,222 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
+INFO 2025-05-30 17:05:08,842 "GET /student/data/ HTTP/1.1" 200 11087
+INFO 2025-05-30 17:05:11,893 "GET /profile/ HTTP/1.1" 200 17952

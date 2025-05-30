@@ -107,7 +107,7 @@
 
             <div class="dropdown-divider"></div>
             <a href="{% url 'login' %}" class="dropdown-item">
-              <i class="fas fa-sign-out-alt"></i> Log-out aaaaa
+              <i class="fas fa-sign-out-alt"></i> Log-out
             </a>
           </div>
         </li>
@@ -138,6 +138,14 @@
                 </p>
               </a>
             </li>
+
+            <li class="nav-item">
+              <a href="{% url 'circulation_list' %}" class="nav-link">
+                <i class="nav-icon fas fa-bullhorn"></i>
+                <p>Principal Circulation</p>
+              </a>
+            </li>
+
 
             <li class="nav-item">
               <a href="{% url 'principal-data' %}" class="nav-link">

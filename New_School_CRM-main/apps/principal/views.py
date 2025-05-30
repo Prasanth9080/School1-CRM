@@ -134,3 +134,83 @@ def principal_hide_student_fee(request, fee_id):
     fee.hidden_by_principal = True
     fee.save()
     return redirect('principal-student-fees')
+
+
+
+########################### principal ciculation sent function
+
+from django.shortcuts import render, get_object_or_404, redirect
+from .models import Circulation
+from .forms import CirculationForm
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def circulation_list(request):
+    circulations = Circulation.objects.all().order_by('-created_at')
+    return render(request, 'principal/principal_circulation.html', {'circulations': circulations})
+
+@login_required
+def circulation_create(request):
+    if request.method == 'POST':
+        form = CirculationForm(request.POST)
+        if form.is_valid():
+            circulation = form.save(commit=False)
+            circulation.created_by = request.user
+            circulation.save()
+            return redirect('circulation_list')
+    else:
+        form = CirculationForm()
+    return render(request, 'principal/principal_circulation_form.html', {'form': form})
+
+@login_required
+def circulation_edit(request, pk):
+    circulation = get_object_or_404(Circulation, pk=pk)
+    form = CirculationForm(request.POST or None, instance=circulation)
+    if form.is_valid():
+        form.save()
+        return redirect('circulation_list')
+    return render(request, 'principal/principal_circulation_form.html', {'form': form})
+
+@login_required
+def circulation_delete(request, pk):
+    circulation = get_object_or_404(Circulation, pk=pk)
+    if request.method == 'POST':
+        circulation.delete()
+        messages.success(request,"Circulation message deleted successfully")
+        return redirect('circulation_list')
+    return render(request, 'principal/principal_circulation_confirm_delete.html', {'circulation': circulation})
+
+
+######## student circulation views
+
+from .models import Circulation, CirculationReadHide
+
+@login_required
+def student_circulation_view(request):
+    # Filter: audience=all or students, and not hidden by this student
+    hidden_ids = CirculationReadHide.objects.filter(user=request.user, role='student').values_list('circulation_id', flat=True)
+    circulations = Circulation.objects.filter(audience__in=['all', 'students']).exclude(id__in=hidden_ids).order_by('-created_at')
+    return render(request, 'students/student_circulation.html', {'circulations': circulations})
+
+
+####### staff circulation views
+
+@login_required
+def staff_circulation_view(request):
+    hidden_ids = CirculationReadHide.objects.filter(user=request.user, role='staff').values_list('circulation_id', flat=True)
+    circulations = Circulation.objects.filter(audience__in=['all', 'staff']).exclude(id__in=hidden_ids).order_by('-created_at')
+    return render(request, 'staffs/staff_circulation.html', {'circulations': circulations})
+
+
+####### hide circulation view
+
+@login_required
+def hide_circulation(request, pk, role):
+    circulation = get_object_or_404(Circulation, pk=pk)
+    CirculationReadHide.objects.get_or_create(user=request.user, circulation=circulation, role=role)
+    if role == 'student':
+        messages.success(request,"Deleted successfully")
+        return redirect('student-circulation')
+    else:
+        messages.success(request, "Deleted successfully")
+        return redirect('staff-circulation')

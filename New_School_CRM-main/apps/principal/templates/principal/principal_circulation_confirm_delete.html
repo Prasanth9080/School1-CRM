@@ -1,0 +1,14 @@
+{% extends 'principal/principal_index.html' %}
+{% block content %}
+
+<h2>Delete Circulation</h2>
+
+<p>Are you sure you want to delete "{{ circulation.title }}"?</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Yes, delete</button>
+    <a href="{% url 'principal:circulation_list' %}" class="btn btn-secondary">Cancel</a>
+</form>
+
+{% endblock %}

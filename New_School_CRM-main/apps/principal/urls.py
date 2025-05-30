@@ -36,5 +36,26 @@ urlpatterns = [
     path('student-fees/', views.principal_student_fees, name='principal-student-fees'),
     path('student-fees/<int:fee_id>/hide/', views.principal_hide_student_fee, name='principal-hide-student-fee'),
 
+
+    ######## principal circulation:
+    # path('add/', views.add_circulation, name='add_circulation'),
+    # path('edit/<int:pk>/', views.edit_circulation, name='edit_circulation'),
+    # path('delete/<int:pk>/', views.delete_circulation, name='delete_circulation'),
+    # path('list/', views.view_circulations, name='view_circulations'),
+
+    path('circulation/', views.circulation_list, name='circulation_list'),
+    path('circulation/create/', views.circulation_create, name='circulation_create'),
+    path('circulation/edit/<int:pk>/', views.circulation_edit, name='circulation_edit'),
+    path('circulation/delete/<int:pk>/', views.circulation_delete, name='circulation_delete'),
+    
+   ######## student circulation url
+
+    path('student/circulations/', views.student_circulation_view, name='student-circulation'),
+    path('circulation/hide/<int:pk>/<str:role>/', views.hide_circulation, name='hide-circulation'),
+
+    ####### staff circulation url
+
+    path('staff/circulations/', views.staff_circulation_view, name='staff-circulation'),
+    path('circulation/hide/<int:pk>/<str:role>/', views.hide_circulation, name='hide-circulation'),
 ]
  

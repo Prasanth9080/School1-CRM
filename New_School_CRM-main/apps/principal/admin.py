@@ -2,7 +2,7 @@ from django.contrib import admin
 
 ####### student fees record admin
 
-from .models import Principal_StudentFeesRecord
+from .models import Principal_StudentFeesRecord,Circulation
 
 @admin.register(Principal_StudentFeesRecord)
 class Principal_StudentFeesRecordAdmin(admin.ModelAdmin):
@@ -15,4 +15,14 @@ class Principal_StudentFeesRecordAdmin(admin.ModelAdmin):
     search_fields = ('student__username', 'session__name')
     list_filter = ('status', 'term', 'session')
 
- 
+    
+from django.contrib import admin
+from .models import Circulation,CirculationReadHide
+
+@admin.register(Circulation)
+class CirculationAdmin(admin.ModelAdmin):
+    list_display = ['title', 'audience', 'created_by', 'created_at']
+
+@admin.register(CirculationReadHide)
+class CirculationReadHideAdmin(admin.ModelAdmin):
+    list_display = ['user', 'circulation', 'role']
