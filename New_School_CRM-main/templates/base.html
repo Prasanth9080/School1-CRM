@@ -274,8 +274,7 @@
             </li>
 
 
-            <a href="{% url 'student-circulation' %}"
-              class="nav-link {% if request.resolver_match.url_name == 'student-report-card' %}active{% endif %}">
+            <a href="{% url 'student-circulation' %}" class="nav-link">
               <i class="nav-icon fas fa-graduation-cap"></i>
               <p>Circulation for student</p>
             </a>
@@ -683,19 +682,6 @@
     }
   </script>
 
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const links = document.querySelectorAll('.nav-link');
-      const currentPath = window.location.pathname;
-
-      links.forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-          link.classList.add('active');
-        }
-      });
-    });
-  </script>
 
 
 
