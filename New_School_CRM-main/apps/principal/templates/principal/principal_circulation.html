@@ -8,9 +8,9 @@
 <table class="table table-bordered">
     <thead>
         <tr>
+            <th>Audience</th>
             <th>Title</th>
             <th>Message</th>
-            <th>Audience</th>
             <th>Created At</th>
             <th>Actions</th>
         </tr>
@@ -18,9 +18,9 @@
     <tbody>
         {% for circulation in circulations %}
         <tr>
+            <td>{{ circulation.get_audience_display }}</td>
             <td>{{ circulation.title }}</td>
             <td>{{ circulation.content }}</td>
-            <td>{{ circulation.get_audience_display }}</td>
             <td>{{ circulation.created_at }}</td>
             <td>
                 <a href="{% url 'circulation_edit' circulation.pk %}" class="btn btn-sm btn-warning">Edit</a>

@@ -34,9 +34,19 @@
   <!-- Favicon added -->
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
 
-</head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/templates/profile.css">
+
+  <!-- <style>
+    .nav-link.active {
+      background-color: red !important;
+      color: white !important;
+    }
+  </style> -->
+
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
@@ -407,12 +417,20 @@
 
   </script>
 
-  <!-- <script>
-    const token = localStorage.getItem("user_token");
-    if (!token) {
-      window.location.href = "{% url 'login' %}";
-    }
-  </script> -->
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname;
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href");
+        if (linkPath && currentPath.startsWith(linkPath)) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
 
 
   {% block morejs %}

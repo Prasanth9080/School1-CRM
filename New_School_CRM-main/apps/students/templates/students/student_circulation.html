@@ -6,8 +6,9 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Title</th>
             <th>Audience</th>
+            <th>Title</th>
+            <th>Message</th>
             <th>Created At</th>
             <th>Action</th>
         </tr>
@@ -15,8 +16,9 @@
     <tbody>
         {% for circulation in circulations %}
         <tr>
-            <td>{{ circulation.title }}</td>
             <td>{{ circulation.get_audience_display }}</td>
+            <td>{{ circulation.title }}</td>
+            <td>{{ circulation.content }}</td>
             <td>{{ circulation.created_at }}</td>
             <td>
                 <form method="post" action="{% url 'hide-circulation' circulation.id 'student' %}">

@@ -33,6 +33,7 @@
 
   <!-- Favicon added -->
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
+  <link rel="stylesheet" href="/templates/profile.css">
 
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -130,7 +131,7 @@
             </li>
             <li class="nav-item">
               <a href="{% url 'staff-circulation' %}" class="nav-link">
-                <i class="nav-icon fas fa-graduation-cap"></i>
+                <i class="nav-icon fas fa-bullhorn"></i>
                 <p>
                   circulation for Staff
                 </p>
@@ -397,32 +398,19 @@
   </script>
 
 
-
-
-
-
-
-  <!-- <script>
-    function logoutUser() {
-      localStorage.removeItem("auth_token");
-      window.location.href = "{% url 'login' %}";
-    }
-  </script> -->
-
-  <!-- <script>
-    const token = localStorage.getItem("user_token");
-    if (!token) {
-      window.location.href = "{% url 'login' %}";
-    }
-  </script> -->
-
-  <!-- <script>
+  <script>
     document.addEventListener("DOMContentLoaded", function () {
-      if (!localStorage.getItem("auth_token")) {
-        window.location.href = "{% url 'login' %}";
-      }
+      const currentPath = window.location.pathname;
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href");
+        if (linkPath && currentPath.startsWith(linkPath)) {
+          link.classList.add("active");
+        }
+      });
     });
-  </script> -->
+  </script>
 
 
 

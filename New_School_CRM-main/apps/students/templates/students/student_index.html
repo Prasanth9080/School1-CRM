@@ -34,9 +34,10 @@
   <!-- Favicon added -->
   <link rel="shortcut icon" type="image/x-icon" href="{% static 'dist/img/sclfav.png' %}">
 
-</head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/templates/profile.css">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
@@ -111,10 +112,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="{% url 'student-circulation' %}">
-                <i class="nav-icon fas fa-graduation-cap"></i>
+              <a href="{% url 'student-circulation' %}" class="nav-link">
+                <i class="nav-icon fas fa-bullhorn"></i>
                 <p>
-                  Circulation for stu
+                  Circulation for student
                 </p>
               </a>
             </li>
@@ -323,19 +324,6 @@
 
   </script>
 
-  <!-- <script>
-    const token = localStorage.getItem("user_token");
-    if (!token) {
-      window.location.href = "{% url 'login' %}";
-    }
-  </script> -->
-
-  <!-- <script>
-    const token = localStorage.getItem("auth_token");
-    if (!token) {
-      window.location.href = "{% url 'login' %}";
-    }
-  </script> -->
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -344,6 +332,22 @@
       }
     });
   </script>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname;
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href");
+        if (linkPath && currentPath.startsWith(linkPath)) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+
 
 
 

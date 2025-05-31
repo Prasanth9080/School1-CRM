@@ -37739,3 +37739,1387 @@ INFO 2025-05-30 17:05:05,245 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14
 INFO 2025-05-30 17:05:08,222 "GET /principal/student/circulations/ HTTP/1.1" 200 11980
 INFO 2025-05-30 17:05:08,842 "GET /student/data/ HTTP/1.1" 200 11087
 INFO 2025-05-30 17:05:11,893 "GET /profile/ HTTP/1.1" 200 17952
+INFO 2025-05-31 10:03:21,422 Watching for file changes with StatReloader
+INFO 2025-05-31 10:10:36,567 "GET / HTTP/1.1" 302 0
+INFO 2025-05-31 10:10:36,694 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-31 10:10:36,743 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-31 10:10:47,411 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-31 10:10:48,400 "GET / HTTP/1.1" 200 15711
+INFO 2025-05-31 10:11:02,967 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-31 10:12:41,756 "GET / HTTP/1.1" 302 0
+INFO 2025-05-31 10:12:41,780 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-31 10:12:41,867 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-31 10:13:37,639 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-31 10:13:38,614 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 10:13:40,408 "GET / HTTP/1.1" 302 0
+INFO 2025-05-31 10:13:40,419 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-31 10:13:40,448 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-05-31 10:13:48,810 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-31 10:13:49,715 "GET / HTTP/1.1" 200 13146
+INFO 2025-05-31 10:14:01,798 "GET / HTTP/1.1" 200 13146
+INFO 2025-05-31 10:34:33,698 Watching for file changes with StatReloader
+INFO 2025-05-31 10:34:44,890 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-31 10:34:45,123 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-31 10:34:45,164 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-31 10:34:45,168 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-31 10:34:45,172 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-31 10:34:45,188 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-31 10:34:45,202 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-31 10:34:45,222 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-31 10:34:45,235 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-31 10:34:45,258 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-31 10:34:45,262 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-31 10:34:45,265 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-31 10:34:45,266 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-31 10:34:45,325 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-31 10:34:45,613 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-31 10:34:49,775 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 10:34:49,831 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-31 10:34:49,832 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-31 10:34:49,843 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-31 10:34:49,844 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-31 10:34:49,846 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-31 10:34:49,852 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-31 10:34:49,854 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-31 10:34:49,868 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-31 10:34:49,870 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-31 10:34:49,871 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-31 10:34:49,879 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-31 10:34:49,879 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-31 10:34:49,889 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-31 10:34:49,907 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-31 10:34:49,915 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-31 10:34:49,921 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-31 10:34:49,923 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-31 10:34:58,924 "GET / HTTP/1.1" 200 13146
+INFO 2025-05-31 10:34:59,118 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-31 10:34:59,130 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-31 10:34:59,138 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-31 10:34:59,144 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-31 10:34:59,166 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-31 10:34:59,260 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-31 10:34:59,261 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-31 10:34:59,261 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-31 10:34:59,279 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-31 10:34:59,283 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-31 10:34:59,293 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-31 10:34:59,297 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-31 10:34:59,321 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-31 10:34:59,326 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-31 10:34:59,368 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-31 10:34:59,421 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-31 10:34:59,424 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-31 10:35:17,181 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:35:17,230 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-05-31 10:35:17,254 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-05-31 10:35:17,277 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-05-31 10:35:17,279 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-05-31 10:35:17,291 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-05-31 10:35:17,333 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-05-31 10:35:17,354 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-05-31 10:35:17,366 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-05-31 10:35:17,532 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-05-31 10:35:25,106 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:35:25,439 "GET /admin/ HTTP/1.1" 200 69813
+INFO 2025-05-31 10:35:25,497 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-05-31 10:35:25,578 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-05-31 10:35:30,200 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33770
+INFO 2025-05-31 10:35:30,237 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-05-31 10:35:30,245 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-05-31 10:35:30,261 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-05-31 10:35:30,262 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-05-31 10:35:30,262 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-05-31 10:35:30,274 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-05-31 10:35:30,283 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-05-31 10:35:30,290 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-05-31 10:35:30,314 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-05-31 10:35:30,336 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-05-31 10:35:30,483 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 10:35:35,785 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 33770
+INFO 2025-05-31 10:35:36,051 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 10:36:21,488 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-31 10:36:21,811 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-31 10:42:53,555 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-31 10:44:21,600 "GET /principal/circulation/ HTTP/1.1" 200 15192
+INFO 2025-05-31 10:56:17,192 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-31 10:56:17,272 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-31 10:56:17,276 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-31 10:56:17,555 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-31 10:56:19,319 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-31 10:56:54,499 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:56:54,582 "GET /login/ HTTP/1.1" 200 10769
+INFO 2025-05-31 10:57:02,993 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-31 10:57:51,155 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:57:51,247 "GET /login/ HTTP/1.1" 200 10769
+INFO 2025-05-31 10:57:53,923 "GET /signup/ HTTP/1.1" 200 5756
+INFO 2025-05-31 10:58:40,851 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:58:40,942 "GET /login/ HTTP/1.1" 200 10769
+INFO 2025-05-31 10:58:47,250 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-31 10:58:47,258 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+INFO 2025-05-31 10:58:47,259 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-31 10:58:47,374 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+WARNING 2025-05-31 10:58:47,513 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 10:58:47,513 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 10:58:56,298 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31904
+INFO 2025-05-31 10:58:57,598 "GET /admin/authtoken/token/ HTTP/1.1" 200 32123
+INFO 2025-05-31 10:58:57,690 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 10:59:03,117 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 31904
+INFO 2025-05-31 10:59:08,936 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-31 10:59:09,087 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 10:59:09,087 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 10:59:18,223 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-31 10:59:19,132 "GET / HTTP/1.1" 200 15711
+INFO 2025-05-31 10:59:19,273 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-31 10:59:19,274 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-31 10:59:19,275 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+WARNING 2025-05-31 10:59:19,299 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 10:59:19,300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 10:59:19,678 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 10:59:22,342 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:59:22,352 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-05-31 10:59:22,425 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 10:59:22,426 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 10:59:30,759 "GET /signup/ HTTP/1.1" 200 5756
+WARNING 2025-05-31 10:59:30,836 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 10:59:30,837 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 10:59:59,507 "POST /signup/ HTTP/1.1" 302 0
+INFO 2025-05-31 10:59:59,539 "GET /login/ HTTP/1.1" 200 10769
+WARNING 2025-05-31 10:59:59,617 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 10:59:59,618 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 11:00:11,519 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 32245
+INFO 2025-05-31 11:00:13,954 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35735
+INFO 2025-05-31 11:00:14,054 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:00:16,972 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35735
+INFO 2025-05-31 11:00:17,054 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:00:29,918 "GET /admin/corecode/userprofile/91/change/ HTTP/1.1" 200 35472
+INFO 2025-05-31 11:00:29,948 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-05-31 11:00:29,955 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-05-31 11:00:29,970 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-05-31 11:00:29,985 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-05-31 11:00:29,991 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-05-31 11:00:30,010 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:00:30,013 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-05-31 11:00:38,338 "GET /admin/auth/user/ HTTP/1.1" 200 38483
+INFO 2025-05-31 11:00:38,365 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-05-31 11:00:38,365 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-05-31 11:00:38,430 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:00:40,656 "GET /admin/auth/user/111/change/ HTTP/1.1" 200 55719
+INFO 2025-05-31 11:00:40,705 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-05-31 11:00:40,705 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-05-31 11:00:40,709 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-05-31 11:00:40,713 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-05-31 11:00:40,789 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:00:44,199 "POST /admin/auth/user/111/change/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:00:44,316 "GET /admin/auth/user/ HTTP/1.1" 200 39031
+INFO 2025-05-31 11:00:44,457 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:00:47,784 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35725
+INFO 2025-05-31 11:00:47,892 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:29,918 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35725
+INFO 2025-05-31 11:01:30,009 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:31,452 "GET /admin/corecode/userprofile/93/change/ HTTP/1.1" 200 35452
+INFO 2025-05-31 11:01:31,543 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:36,612 "POST /admin/corecode/userprofile/93/change/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:01:36,729 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36307
+INFO 2025-05-31 11:01:36,804 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:42,148 "GET /admin/corecode/userprofile/91/change/ HTTP/1.1" 200 35452
+INFO 2025-05-31 11:01:42,275 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:48,175 "POST /admin/corecode/userprofile/91/change/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:01:48,284 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36313
+INFO 2025-05-31 11:01:48,367 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:55,603 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 35476
+INFO 2025-05-31 11:01:55,695 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:01:58,004 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:01:58,154 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36315
+INFO 2025-05-31 11:01:58,229 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:00,421 "GET /admin/corecode/userprofile/92/change/ HTTP/1.1" 200 35460
+INFO 2025-05-31 11:02:00,505 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:08,608 "POST /admin/corecode/userprofile/92/change/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:02:08,708 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36321
+INFO 2025-05-31 11:02:08,784 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:11,342 "GET /admin/corecode/userprofile/90/change/ HTTP/1.1" 200 35449
+INFO 2025-05-31 11:02:11,434 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:16,519 "POST /admin/corecode/userprofile/90/change/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:02:16,636 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36327
+INFO 2025-05-31 11:02:16,736 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:26,256 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36461
+INFO 2025-05-31 11:02:26,357 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:27,933 "GET /admin/corecode/userprofile/?o=-2 HTTP/1.1" 200 36466
+INFO 2025-05-31 11:02:28,024 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:30,301 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36461
+INFO 2025-05-31 11:02:30,375 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:02:50,174 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36461
+INFO 2025-05-31 11:02:50,266 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-05-31 11:03:00,762 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:01,091 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-31 11:03:05,547 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:14,809 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:15,593 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:15,976 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:16,343 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:16,927 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:17,435 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:25,097 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:25,413 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:25,722 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:26,064 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:26,439 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:26,789 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:27,164 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:27,481 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:27,856 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:28,223 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:28,606 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:29,115 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:31,207 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:44,459 "GET / HTTP/1.1" 302 0
+INFO 2025-05-31 11:03:44,475 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-31 11:03:44,496 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-31 11:03:44,500 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-31 11:03:44,505 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-31 11:03:44,512 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-31 11:03:44,521 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-31 11:03:44,523 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-31 11:03:44,526 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-31 11:03:44,527 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-31 11:03:44,544 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-31 11:03:44,555 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-31 11:03:44,561 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-31 11:03:44,724 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-31 11:03:45,065 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-31 11:03:52,791 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-31 11:03:53,710 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:03:53,752 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-31 11:03:53,752 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-31 11:03:53,755 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-31 11:03:53,755 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-31 11:03:53,772 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-31 11:03:53,776 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-31 11:03:53,781 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-31 11:03:53,797 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-31 11:03:56,325 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:09,347 "GET /principal/staff/circulations/ HTTP/1.1" 200 13129
+INFO 2025-05-31 11:04:13,040 "GET /principal/staff/circulations/ HTTP/1.1" 200 13129
+INFO 2025-05-31 11:04:14,107 "GET /principal/staff/circulations/ HTTP/1.1" 200 13129
+INFO 2025-05-31 11:04:14,508 "GET /principal/staff/circulations/ HTTP/1.1" 200 13129
+INFO 2025-05-31 11:04:14,808 "GET /principal/staff/circulations/ HTTP/1.1" 200 13129
+INFO 2025-05-31 11:04:25,862 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:26,612 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:26,904 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:27,171 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:27,463 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:27,829 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:28,122 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:28,363 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:28,655 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:28,905 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:29,172 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:29,389 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:29,622 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:30,006 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:30,222 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:04:33,467 "GET /profile/ HTTP/1.1" 200 20183
+INFO 2025-05-31 11:04:43,111 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:04:48,871 "GET /profile/ HTTP/1.1" 200 20183
+INFO 2025-05-31 11:04:51,031 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:04:51,040 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-31 11:04:57,400 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-31 11:04:58,316 "GET / HTTP/1.1" 200 15747
+INFO 2025-05-31 11:05:00,051 "GET /principal/staff/circulations/ HTTP/1.1" 200 13643
+INFO 2025-05-31 11:05:07,320 "GET /principal/student/circulations/ HTTP/1.1" 200 11940
+INFO 2025-05-31 11:05:32,822 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-05-31 11:05:33,731 "GET / HTTP/1.1" 200 15711
+WARNING 2025-05-31 11:05:33,907 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:05:33,908 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:05:34,321 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:05:37,690 "GET /principal/circulation/ HTTP/1.1" 200 15192
+WARNING 2025-05-31 11:05:37,840 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:05:37,841 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:05:38,153 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:05:49,863 "GET / HTTP/1.1" 302 0
+INFO 2025-05-31 11:05:49,876 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-05-31 11:05:49,897 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-31 11:05:49,900 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-31 11:05:49,901 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-31 11:05:49,913 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-31 11:05:49,915 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-31 11:05:49,922 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-05-31 11:05:49,923 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-31 11:05:49,923 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-31 11:05:49,935 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-31 11:05:49,936 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-31 11:05:49,939 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-31 11:05:50,279 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-05-31 11:05:51,543 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-31 11:05:59,166 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-05-31 11:06:00,074 "GET / HTTP/1.1" 200 13146
+INFO 2025-05-31 11:06:00,096 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-31 11:06:00,102 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-31 11:06:00,102 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-05-31 11:06:00,103 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-31 11:06:00,103 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-31 11:06:00,104 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-05-31 11:06:00,107 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-05-31 11:06:00,114 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-31 11:06:02,017 "GET /principal/student/circulations/ HTTP/1.1" 200 12963
+INFO 2025-05-31 11:06:14,230 "GET /profile/ HTTP/1.1" 200 17573
+INFO 2025-05-31 11:06:20,115 "GET /principal/student/circulations/ HTTP/1.1" 200 12963
+INFO 2025-05-31 11:08:31,427 "GET /principal/circulation/ HTTP/1.1" 200 15192
+WARNING 2025-05-31 11:08:31,602 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:08:31,603 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:08:31,928 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:08:44,032 "GET /principal/student/circulations/ HTTP/1.1" 200 11940
+INFO 2025-05-31 11:08:53,677 "GET /principal/student/circulations/ HTTP/1.1" 200 11940
+INFO 2025-05-31 11:08:54,428 "GET /student/payments/ HTTP/1.1" 200 14579
+INFO 2025-05-31 11:08:55,570 "GET /principal/student/circulations/ HTTP/1.1" 200 11940
+INFO 2025-05-31 11:08:57,712 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:09:39,713 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:09:40,779 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:09:42,380 "GET /student/payments/ HTTP/1.1" 200 14596
+INFO 2025-05-31 11:09:43,330 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:09:45,598 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:09:50,042 "GET /student/data/ HTTP/1.1" 200 11064
+INFO 2025-05-31 11:09:54,034 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:12:52,614 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:12:52,809 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-31 11:12:56,415 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:12:56,732 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:12:57,074 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:12:57,450 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:12:57,473 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-05-31 11:12:57,473 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-05-31 11:12:57,479 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-05-31 11:12:57,480 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-05-31 11:12:57,480 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-05-31 11:12:57,481 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-05-31 11:12:57,482 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-05-31 11:12:57,486 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-05-31 11:12:57,490 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-05-31 11:12:57,494 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-05-31 11:12:57,495 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-05-31 11:12:57,495 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-05-31 11:12:57,496 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-05-31 11:12:57,514 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-05-31 11:12:57,879 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-05-31 11:12:59,933 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:13:01,159 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:13:01,876 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:13:02,284 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:13:03,518 "GET /student/payments/ HTTP/1.1" 200 14596
+INFO 2025-05-31 11:13:04,994 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+INFO 2025-05-31 11:13:06,944 "GET /profile/ HTTP/1.1" 200 17575
+WARNING 2025-05-31 11:13:17,465 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:13:17,466 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 11:13:17,507 "GET /static/plugins/toastr/toastr.js.map HTTP/1.1" 200 25633
+INFO 2025-05-31 11:13:17,512 "GET /static/dist/js/adminlte.js.map HTTP/1.1" 200 113276
+INFO 2025-05-31 11:13:17,519 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+WARNING 2025-05-31 11:13:17,521 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:13:17,592 "GET /static/dist/css/adminlte.min.css.map HTTP/1.1" 200 2149167
+INFO 2025-05-31 11:14:36,405 "GET /student/data/ HTTP/1.1" 200 11064
+WARNING 2025-05-31 11:14:36,540 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:36,541 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:36,947 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:37,422 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+WARNING 2025-05-31 11:14:37,705 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:37,706 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:37,918 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:39,715 "GET /student/data/ HTTP/1.1" 200 11064
+WARNING 2025-05-31 11:14:39,856 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:39,856 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:40,335 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:40,873 "GET /student/data/ HTTP/1.1" 200 11064
+WARNING 2025-05-31 11:14:40,975 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:40,976 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:41,302 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:42,207 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+WARNING 2025-05-31 11:14:42,365 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:42,367 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:42,846 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:44,675 "GET /profile/ HTTP/1.1" 200 17575
+WARNING 2025-05-31 11:14:44,833 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:44,834 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:45,223 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:53,587 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+WARNING 2025-05-31 11:14:53,836 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:53,837 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:54,046 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:14:57,771 "GET /profile/ HTTP/1.1" 200 17575
+WARNING 2025-05-31 11:14:57,930 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:14:57,930 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:14:58,238 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:15:04,474 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+WARNING 2025-05-31 11:15:04,641 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:15:04,641 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:15:05,038 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:15:09,251 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+WARNING 2025-05-31 11:15:09,368 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:15:09,369 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:15:09,799 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:15:10,910 "GET /principal/student/circulations/ HTTP/1.1" 200 11957
+WARNING 2025-05-31 11:15:11,010 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:15:11,011 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:15:11,463 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:15:14,220 "GET /profile/ HTTP/1.1" 200 17575
+WARNING 2025-05-31 11:15:14,370 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:15:14,370 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:15:14,722 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:16:27,065 "GET /principal/circulation/ HTTP/1.1" 200 15192
+WARNING 2025-05-31 11:16:27,198 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:16:27,199 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:16:27,565 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:16:30,494 "GET /profile/ HTTP/1.1" 200 17575
+WARNING 2025-05-31 11:16:30,683 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:16:30,684 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:16:31,191 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:16:55,109 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:16:55,526 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:16:55,877 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:16:56,610 "GET /student/data/ HTTP/1.1" 200 11068
+INFO 2025-05-31 11:17:06,122 "GET /student/data/ HTTP/1.1" 200 11068
+INFO 2025-05-31 11:17:08,298 "GET /profile/ HTTP/1.1" 200 17575
+INFO 2025-05-31 11:18:02,280 "GET /profile/ HTTP/1.1" 200 17634
+INFO 2025-05-31 11:18:03,536 "GET /principal/student/circulations/ HTTP/1.1" 200 11961
+INFO 2025-05-31 11:18:04,528 "GET /student/payments/ HTTP/1.1" 200 14600
+INFO 2025-05-31 11:18:05,329 "GET /student/attendance/ HTTP/1.1" 200 13540
+INFO 2025-05-31 11:18:07,646 "GET /profile/ HTTP/1.1" 200 17634
+INFO 2025-05-31 11:18:08,730 "GET /principal/student/circulations/ HTTP/1.1" 200 11961
+INFO 2025-05-31 11:18:09,480 "GET /student/payments/ HTTP/1.1" 200 14600
+INFO 2025-05-31 11:18:17,117 "GET /student/data/ HTTP/1.1" 200 11068
+INFO 2025-05-31 11:18:18,926 "GET /principal/student/circulations/ HTTP/1.1" 200 11961
+INFO 2025-05-31 11:18:19,551 "GET /student/payments/ HTTP/1.1" 200 14600
+INFO 2025-05-31 11:18:20,118 "GET /student/attendance/ HTTP/1.1" 200 13540
+INFO 2025-05-31 11:18:21,769 "GET /profile/ HTTP/1.1" 200 17634
+INFO 2025-05-31 11:25:02,699 "GET /principal/circulation/ HTTP/1.1" 200 15192
+WARNING 2025-05-31 11:25:02,848 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:02,849 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:03,336 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:25:04,991 "GET /principal/circulation/ HTTP/1.1" 200 15192
+WARNING 2025-05-31 11:25:05,149 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:05,150 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:05,385 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:25:07,467 "GET /profile/ HTTP/1.1" 200 20238
+WARNING 2025-05-31 11:25:07,600 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:07,601 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:07,852 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:25:08,434 "GET /principal/circulation/ HTTP/1.1" 200 15192
+WARNING 2025-05-31 11:25:08,576 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:08,576 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:08,774 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:25:10,210 "GET /principal/attendance/ HTTP/1.1" 200 11378
+WARNING 2025-05-31 11:25:10,343 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:10,344 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:10,602 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:25:13,686 "GET /profile/ HTTP/1.1" 200 20238
+WARNING 2025-05-31 11:25:13,844 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:13,845 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:14,064 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:25:23,565 "GET /site-config HTTP/1.1" 200 15988
+WARNING 2025-05-31 11:25:23,732 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:25:23,734 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:25:23,930 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:29:57,277 "GET /site-config HTTP/1.1" 200 16407
+WARNING 2025-05-31 11:29:57,410 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:29:57,410 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:29:57,823 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:29:59,903 "GET /principal/student-fees/ HTTP/1.1" 200 12603
+WARNING 2025-05-31 11:30:00,070 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:30:00,071 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:30:00,403 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:30:03,304 "GET /profile/ HTTP/1.1" 200 20657
+WARNING 2025-05-31 11:30:03,471 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:30:03,472 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:30:03,698 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:30:05,814 "GET /site-config HTTP/1.1" 200 16407
+WARNING 2025-05-31 11:30:05,981 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:30:05,982 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:30:06,234 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:32:52,630 "GET /site-config HTTP/1.1" 200 16407
+WARNING 2025-05-31 11:32:52,781 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:32:52,782 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:32:53,152 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:32:54,365 "GET /principal/attendance/ HTTP/1.1" 200 11765
+WARNING 2025-05-31 11:32:54,548 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:32:54,548 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:32:54,829 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:32:56,656 "GET /principal/staff/attendance/ HTTP/1.1" 200 14952
+WARNING 2025-05-31 11:32:56,832 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:32:56,833 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:32:57,091 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:32:57,933 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14432
+WARNING 2025-05-31 11:32:58,116 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:32:58,117 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:32:58,328 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:32:59,258 "GET /principal/student-fees/ HTTP/1.1" 200 12990
+WARNING 2025-05-31 11:32:59,416 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:32:59,417 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:32:59,622 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:36:58,557 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-05-31 11:36:58,724 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:36:58,724 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:36:58,791 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:36:58,791 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:36:59,100 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:37:13,247 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-05-31 11:37:13,396 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:37:13,397 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:37:13,472 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:37:13,473 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:37:13,690 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:37:15,764 "GET /principal/circulation/ HTTP/1.1" 200 15645
+WARNING 2025-05-31 11:37:15,947 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:37:15,948 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:37:16,014 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:37:16,015 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:37:16,133 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:37:17,740 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-05-31 11:37:17,915 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:37:17,916 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:37:17,998 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:37:17,999 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:37:18,121 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:37:19,299 "GET /staff/list/ HTTP/1.1" 200 15532
+WARNING 2025-05-31 11:37:19,457 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:37:19,458 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:37:19,656 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:38:19,657 "GET /staff/list/ HTTP/1.1" 200 15467
+WARNING 2025-05-31 11:38:19,807 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:38:19,808 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:38:19,907 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:38:19,908 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:38:20,060 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:42:01,578 "GET /staff/list/ HTTP/1.1" 200 15467
+WARNING 2025-05-31 11:42:01,737 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:42:01,737 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:42:01,814 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:01,815 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:42:02,003 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:42:04,138 "GET /finance/list/ HTTP/1.1" 200 16269
+WARNING 2025-05-31 11:42:04,321 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:42:04,322 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:42:04,396 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:04,397 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:42:04,623 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:42:07,181 "GET /profile/ HTTP/1.1" 200 20592
+WARNING 2025-05-31 11:42:07,364 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:42:07,365 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:42:07,447 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:07,448 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:42:07,612 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:42:12,341 "GET /finance/list/ HTTP/1.1" 200 16269
+WARNING 2025-05-31 11:42:12,566 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:42:12,566 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:42:12,658 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:12,658 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:42:12,766 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:42:14,283 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 11:42:14,474 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:42:14,475 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:42:14,542 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:14,542 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:42:14,674 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:42:27,214 "GET /principal/staff/circulations/ HTTP/1.1" 200 13090
+WARNING 2025-05-31 11:42:27,355 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:27,356 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:28,439 "GET /staff/staff-leave/ HTTP/1.1" 200 14465
+WARNING 2025-05-31 11:42:28,572 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:28,573 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:29,848 "GET /staff/staff-attendance/ HTTP/1.1" 200 12990
+WARNING 2025-05-31 11:42:29,948 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:29,948 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:30,948 "GET /staff/staff-class/ HTTP/1.1" 200 11539
+WARNING 2025-05-31 11:42:31,056 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:31,057 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:32,307 "GET /staff/students/attendance/ HTTP/1.1" 200 14331
+WARNING 2025-05-31 11:42:32,398 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:32,399 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:33,274 "GET /staff/students/leavereport/ HTTP/1.1" 200 15673
+WARNING 2025-05-31 11:42:33,390 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:33,391 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:34,108 "GET /staff/students/reportcards/ HTTP/1.1" 200 14712
+WARNING 2025-05-31 11:42:34,233 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:34,233 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:35,275 "GET /staff/students/fees/ HTTP/1.1" 200 14781
+WARNING 2025-05-31 11:42:35,383 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:35,384 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:36,375 "GET /student/list HTTP/1.1" 200 16047
+INFO 2025-05-31 11:42:36,511 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+WARNING 2025-05-31 11:42:36,567 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:36,567 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:38,318 "GET /finance/list/ HTTP/1.1" 200 16305
+WARNING 2025-05-31 11:42:38,434 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:38,435 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:42:41,819 "GET /staff/data/ HTTP/1.1" 200 11469
+WARNING 2025-05-31 11:42:41,927 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:42:41,928 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:43:00,951 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-05-31 11:49:31,577 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 11:49:32,987 Watching for file changes with StatReloader
+INFO 2025-05-31 11:49:35,628 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 11:49:35,778 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:49:35,778 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:49:35,828 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:49:35,828 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:49:36,101 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:49:39,806 "GET /principal/circulation/ HTTP/1.1" 200 15645
+WARNING 2025-05-31 11:49:39,988 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:49:39,989 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:49:40,038 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:49:40,039 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:49:40,425 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:49:42,539 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 11:49:42,755 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:49:42,756 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:49:42,864 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:49:42,865 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:49:43,046 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:50:08,108 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:50:08,191 "GET /principal/circulation/ HTTP/1.1" 200 16476
+WARNING 2025-05-31 11:50:08,382 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:50:08,383 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:50:08,450 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:50:08,451 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:50:08,664 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:50:10,642 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 11:50:10,826 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:50:10,827 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:50:10,917 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:50:10,918 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:50:11,106 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:50:27,907 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:50:27,994 "GET /principal/circulation/ HTTP/1.1" 200 17151
+WARNING 2025-05-31 11:50:28,257 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:50:28,257 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:50:28,349 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:50:28,350 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:50:28,515 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:50:29,157 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 11:50:29,332 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:50:29,333 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:50:29,399 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:50:29,400 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:50:29,578 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:50:46,573 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:50:46,648 "GET /principal/circulation/ HTTP/1.1" 200 17833
+WARNING 2025-05-31 11:50:46,872 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:50:46,873 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:50:46,931 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:50:46,932 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:50:47,117 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:50:52,284 "GET /principal/staff/circulations/ HTTP/1.1" 200 14108
+WARNING 2025-05-31 11:50:52,425 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:50:52,425 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:51:44,204 "GET /principal/staff/circulations/ HTTP/1.1" 200 14401
+WARNING 2025-05-31 11:51:44,328 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:51:44,329 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:51:54,491 "GET /principal/student/circulations/ HTTP/1.1" 200 13158
+WARNING 2025-05-31 11:51:54,624 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:51:54,624 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:52:29,388 "GET /principal/student/circulations/ HTTP/1.1" 200 13472
+WARNING 2025-05-31 11:52:29,513 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:52:29,514 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:52:38,275 "GET /principal/student/circulations/ HTTP/1.1" 200 13472
+WARNING 2025-05-31 11:52:38,425 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:52:38,425 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:53:11,788 "GET /principal/student/circulations/ HTTP/1.1" 200 13472
+WARNING 2025-05-31 11:53:11,897 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:53:11,897 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:53:29,287 "GET /principal/student/circulations/ HTTP/1.1" 200 13472
+WARNING 2025-05-31 11:53:29,386 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:53:29,387 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:53:33,130 "POST /principal/circulation/hide/5/student/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:53:33,213 "GET /principal/student/circulations/ HTTP/1.1" 200 13024
+WARNING 2025-05-31 11:53:33,313 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:53:33,314 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:53:37,240 "POST /principal/circulation/hide/3/staff/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:53:37,340 "GET /principal/staff/circulations/ HTTP/1.1" 200 13985
+WARNING 2025-05-31 11:53:37,473 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:53:37,473 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:53:48,969 "GET /profile/ HTTP/1.1" 200 20647
+WARNING 2025-05-31 11:53:49,086 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:53:49,087 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:53:55,531 "GET /edit_profile/ HTTP/1.1" 200 23847
+WARNING 2025-05-31 11:53:55,663 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:53:55,664 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 11:56:48,023 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 11:56:49,408 Watching for file changes with StatReloader
+INFO 2025-05-31 11:59:16,286 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 11:59:17,791 Watching for file changes with StatReloader
+INFO 2025-05-31 11:59:20,407 "GET /principal/circulation/ HTTP/1.1" 200 17682
+WARNING 2025-05-31 11:59:20,589 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:20,590 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:20,649 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:20,650 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:20,939 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:59:23,992 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 11:59:24,183 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:24,184 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:24,241 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:24,242 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:24,533 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-31 11:59:28,218 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-31 11:59:28,318 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:28,318 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:28,426 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:28,427 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:28,511 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:28,512 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 11:59:28,793 "GET /principal/circulation/ HTTP/1.1" 200 17682
+WARNING 2025-05-31 11:59:28,926 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:28,927 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:29,002 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:29,003 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:29,221 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:59:29,486 "GET /principal/circulation/ HTTP/1.1" 200 17682
+WARNING 2025-05-31 11:59:29,651 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:29,652 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:29,743 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:29,744 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:29,875 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:59:30,652 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 11:59:30,861 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:30,861 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:30,977 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:30,978 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:31,153 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-31 11:59:32,814 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-31 11:59:32,945 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:32,945 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:33,061 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:33,062 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:33,129 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:33,129 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 11:59:40,815 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 11:59:41,015 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:41,015 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:41,090 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:41,090 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:41,239 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:59:47,300 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 11:59:47,409 "GET /principal/circulation/ HTTP/1.1" 200 18480
+WARNING 2025-05-31 11:59:47,600 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:47,601 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:47,686 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:47,687 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:47,866 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 11:59:50,594 "GET /principal/circulation/ HTTP/1.1" 200 18332
+WARNING 2025-05-31 11:59:50,727 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 11:59:50,728 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 11:59:50,802 Not Found: /templates/profile.css
+WARNING 2025-05-31 11:59:50,802 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 11:59:50,973 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:02:32,820 "GET /principal/circulation/ HTTP/1.1" 200 18332
+WARNING 2025-05-31 12:02:32,978 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:02:32,978 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:02:33,037 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:02:33,038 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:02:33,222 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:02:54,749 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:02:56,591 Watching for file changes with StatReloader
+INFO 2025-05-31 12:02:59,273 "GET /principal/circulation/ HTTP/1.1" 200 18332
+WARNING 2025-05-31 12:02:59,430 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:02:59,431 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:02:59,497 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:02:59,497 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:02:59,653 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:03:01,056 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:03:01,273 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:03:01,275 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:03:01,339 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:03:01,340 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:03:01,525 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+ERROR 2025-05-31 12:03:07,884 Internal Server Error: /principal/circulation/create/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py", line 292, in circulation_create
+    recipients = list(staff_users.values_list('email', flat=True)) + \
+                      ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'values_list'
+ERROR 2025-05-31 12:03:07,888 "POST /principal/circulation/create/ HTTP/1.1" 500 78464
+WARNING 2025-05-31 12:03:08,025 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:03:08,026 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:03:08,359 Not Found: /favicon.ico
+WARNING 2025-05-31 12:03:08,359 "GET /favicon.ico HTTP/1.1" 404 9422
+INFO 2025-05-31 12:05:10,069 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:05:11,353 Watching for file changes with StatReloader
+INFO 2025-05-31 12:05:13,494 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:05:13,594 "GET /principal/circulation/ HTTP/1.1" 200 19964
+WARNING 2025-05-31 12:05:13,752 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:13,753 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:13,810 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:13,811 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:14,088 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:05:27,265 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:05:27,474 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:27,475 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:27,565 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:27,566 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:27,693 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-31 12:05:29,933 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-05-31 12:05:30,108 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:30,108 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:30,184 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:30,184 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:30,308 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:30,309 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-05-31 12:05:34,135 "POST /principal/circulation/delete/12/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:05:34,244 "GET /principal/circulation/ HTTP/1.1" 200 19145
+WARNING 2025-05-31 12:05:34,460 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:34,461 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:34,535 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:34,536 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:34,713 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:05:35,528 "POST /principal/circulation/delete/13/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:05:35,611 "GET /principal/circulation/ HTTP/1.1" 200 18487
+WARNING 2025-05-31 12:05:35,738 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:35,738 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:35,802 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:35,802 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:35,983 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:05:37,158 "POST /principal/circulation/delete/11/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:05:37,237 "GET /principal/circulation/ HTTP/1.1" 200 17837
+WARNING 2025-05-31 12:05:37,403 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:37,403 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:37,470 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:37,470 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:37,710 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:05:44,572 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:05:44,732 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:44,732 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:44,815 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:44,816 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:45,028 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:05:49,508 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:05:49,600 "GET /principal/circulation/ HTTP/1.1" 200 18650
+WARNING 2025-05-31 12:05:49,799 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:05:49,800 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:05:49,908 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:05:49,908 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:05:50,099 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:10:20,130 Watching for file changes with StatReloader
+INFO 2025-05-31 12:11:09,215 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-31 12:11:10,819 Watching for file changes with StatReloader
+INFO 2025-05-31 12:11:16,786 "GET /principal/circulation/ HTTP/1.1" 200 18334
+WARNING 2025-05-31 12:11:16,952 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:11:16,953 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:11:17,012 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:11:17,013 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:11:17,262 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:11:19,529 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:11:19,703 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:11:19,704 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:11:19,787 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:11:19,787 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:11:20,033 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:11:25,789 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:11:25,881 "GET /principal/circulation/ HTTP/1.1" 200 19300
+WARNING 2025-05-31 12:11:26,089 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:11:26,090 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:11:26,148 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:11:26,149 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:11:26,401 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:11:29,282 "GET /principal/circulation/ HTTP/1.1" 200 18984
+WARNING 2025-05-31 12:11:29,441 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:11:29,443 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:11:29,515 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:11:29,516 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:11:29,676 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:13:23,306 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:13:24,450 Watching for file changes with StatReloader
+INFO 2025-05-31 12:13:51,373 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:13:52,727 Watching for file changes with StatReloader
+INFO 2025-05-31 12:13:59,421 "GET /principal/circulation/ HTTP/1.1" 200 18984
+WARNING 2025-05-31 12:13:59,579 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:13:59,580 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:13:59,666 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:13:59,667 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:13:59,943 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:14:04,106 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:14:04,300 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:14:04,300 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:14:04,381 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:14:04,382 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:14:04,658 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:14:13,001 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:14:13,093 "GET /principal/circulation/ HTTP/1.1" 200 19784
+WARNING 2025-05-31 12:14:13,309 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:14:13,310 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:14:13,385 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:14:13,385 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:14:13,659 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:15:20,971 "GET /profile/ HTTP/1.1" 200 20647
+WARNING 2025-05-31 12:15:21,087 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:21,088 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:22,655 "GET /edit_profile/ HTTP/1.1" 200 26296
+WARNING 2025-05-31 12:15:22,788 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:22,788 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:29,624 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:15:29,716 "GET /edit_profile/ HTTP/1.1" 200 26449
+WARNING 2025-05-31 12:15:29,816 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:29,816 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:39,253 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:15:39,345 "GET /edit_profile/ HTTP/1.1" 200 24000
+WARNING 2025-05-31 12:15:39,462 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:39,462 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:40,404 "GET /student/data/ HTTP/1.1" 200 11239
+WARNING 2025-05-31 12:15:40,503 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:40,504 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:43,171 "GET /profile/ HTTP/1.1" 200 18197
+WARNING 2025-05-31 12:15:43,254 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:43,255 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:50,174 "GET /student/data/ HTTP/1.1" 200 11239
+WARNING 2025-05-31 12:15:50,282 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:50,283 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:15:51,466 "GET /principal/student/circulations/ HTTP/1.1" 200 14489
+WARNING 2025-05-31 12:15:51,583 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:15:51,583 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:22:03,357 Watching for file changes with StatReloader
+INFO 2025-05-31 12:22:07,279 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-31 12:22:08,357 Watching for file changes with StatReloader
+INFO 2025-05-31 12:22:12,225 "GET /principal/circulation/ HTTP/1.1" 200 19636
+WARNING 2025-05-31 12:22:12,391 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:22:12,391 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:22:12,447 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:22:12,448 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:22:12,720 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:22:17,152 "GET /profile/ HTTP/1.1" 200 20592
+WARNING 2025-05-31 12:22:17,352 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:22:17,353 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:22:17,418 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:22:17,419 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:22:17,685 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:22:47,814 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 12:22:48,089 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:22:48,091 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:22:48,147 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:22:48,150 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:22:48,396 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:22:49,722 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 12:22:49,889 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:22:49,890 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:22:49,947 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:22:49,948 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:22:50,209 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:22:51,723 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 12:22:51,932 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:22:51,932 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:22:51,999 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:22:52,000 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:22:52,226 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:22:54,216 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14498
+WARNING 2025-05-31 12:22:54,424 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:22:54,425 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:22:54,508 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:22:54,509 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:22:54,639 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:23:11,289 "GET /principal/circulation/ HTTP/1.1" 200 19636
+WARNING 2025-05-31 12:23:11,472 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:23:11,473 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:23:11,532 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:23:11,533 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:23:11,712 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:23:13,323 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:23:13,490 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:23:13,491 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:23:13,565 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:23:13,566 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:23:13,725 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:23:21,610 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:23:21,685 "GET /principal/circulation/ HTTP/1.1" 200 20468
+WARNING 2025-05-31 12:23:21,888 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:23:21,889 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:23:21,960 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:23:21,961 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:23:22,201 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:26:11,764 "GET /staff/data/ HTTP/1.1" 200 11469
+WARNING 2025-05-31 12:26:11,958 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:11,958 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:26:15,666 "GET /profile/ HTTP/1.1" 200 20647
+WARNING 2025-05-31 12:26:15,791 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:15,791 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:26:27,248 "GET /edit_profile/ HTTP/1.1" 200 26296
+WARNING 2025-05-31 12:26:27,362 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:27,363 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:26:31,164 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:26:31,230 "GET /edit_profile/ HTTP/1.1" 200 26449
+WARNING 2025-05-31 12:26:31,339 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:31,339 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:26:31,939 "GET /staff/data/ HTTP/1.1" 200 11469
+WARNING 2025-05-31 12:26:32,039 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:32,039 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:26:39,150 "GET /principal/circulation/edit/17/ HTTP/1.1" 200 12582
+WARNING 2025-05-31 12:26:39,333 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:26:39,333 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:26:39,442 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:39,442 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:26:39,576 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:26:42,785 "POST /principal/circulation/edit/17/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:26:42,852 "GET /principal/circulation/ HTTP/1.1" 200 20305
+WARNING 2025-05-31 12:26:43,027 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:26:43,028 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:26:43,110 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:26:43,111 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:26:43,246 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:27:19,650 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:27:19,833 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:27:19,836 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:27:19,938 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:27:19,938 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:27:20,103 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:27:25,469 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:27:25,552 "GET /principal/circulation/ HTTP/1.1" 200 21284
+WARNING 2025-05-31 12:27:25,777 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:27:25,778 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:27:25,861 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:27:25,862 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:27:26,072 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:32:29,280 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:32:30,531 Watching for file changes with StatReloader
+INFO 2025-05-31 12:32:36,266 "GET /principal/circulation/ HTTP/1.1" 200 20960
+WARNING 2025-05-31 12:32:36,440 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:32:36,441 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:32:36,523 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:32:36,524 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:32:36,813 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:32:39,249 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:32:39,466 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:32:39,467 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:32:39,541 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:32:39,542 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:32:39,865 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:32:43,268 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:32:43,368 "GET /principal/circulation/ HTTP/1.1" 200 21783
+WARNING 2025-05-31 12:32:43,559 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:32:43,560 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:32:43,627 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:32:43,627 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:32:43,779 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:38:12,789 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:38:14,101 Watching for file changes with StatReloader
+INFO 2025-05-31 12:38:16,269 "GET /principal/circulation/ HTTP/1.1" 200 21617
+WARNING 2025-05-31 12:38:16,435 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:38:16,437 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:38:16,511 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:38:16,512 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:38:16,812 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:38:26,882 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:38:27,040 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:38:27,040 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:38:27,126 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:38:27,127 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:38:27,389 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:38:41,796 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:38:41,896 "GET /principal/circulation/ HTTP/1.1" 200 22431
+WARNING 2025-05-31 12:38:42,062 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:38:42,063 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:38:42,138 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:38:42,139 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:38:42,273 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:39:11,041 "GET /profile/ HTTP/1.1" 200 20592
+WARNING 2025-05-31 12:39:11,250 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:39:11,251 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:39:11,351 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:39:11,352 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:39:11,531 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:39:13,808 "GET /edit_profile/ HTTP/1.1" 200 26230
+WARNING 2025-05-31 12:39:13,992 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:39:13,993 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:39:14,059 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:39:14,060 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:39:14,287 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:39:42,019 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:39:42,103 "GET /edit_profile/ HTTP/1.1" 200 26383
+WARNING 2025-05-31 12:39:42,261 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:39:42,262 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:39:42,329 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:39:42,330 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:39:42,515 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:40:37,509 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-31 12:40:38,744 Watching for file changes with StatReloader
+INFO 2025-05-31 12:41:10,232 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 12:41:10,473 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:41:10,475 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:41:10,547 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:41:10,548 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:41:10,705 "GET /principal/circulation/ HTTP/1.1" 200 22268
+WARNING 2025-05-31 12:41:10,847 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:41:10,848 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:41:10,905 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:41:10,906 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:41:11,167 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:41:12,123 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:41:12,381 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:41:12,381 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:41:12,464 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:41:12,465 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:41:12,613 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:41:17,925 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:41:18,036 "GET /principal/circulation/ HTTP/1.1" 200 23087
+WARNING 2025-05-31 12:41:18,242 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:41:18,244 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:41:18,300 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:41:18,301 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:41:18,523 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:42:29,058 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:42:30,084 Watching for file changes with StatReloader
+INFO 2025-05-31 12:42:40,683 "GET /principal/circulation/ HTTP/1.1" 200 22924
+WARNING 2025-05-31 12:42:40,833 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:42:40,833 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:42:40,916 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:42:40,917 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:42:41,269 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:42:41,909 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:42:42,092 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:42:42,093 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:42:42,175 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:42:42,175 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:42:42,336 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:42:50,954 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:42:51,053 "GET /principal/circulation/ HTTP/1.1" 200 23755
+WARNING 2025-05-31 12:42:51,296 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:42:51,297 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:42:51,379 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:42:51,379 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:42:51,548 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:46:56,412 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:46:58,001 Watching for file changes with StatReloader
+INFO 2025-05-31 12:47:00,136 "GET /principal/circulation/ HTTP/1.1" 200 23588
+WARNING 2025-05-31 12:47:00,294 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:47:00,295 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:47:00,400 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:47:00,400 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:47:00,594 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:47:02,596 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:47:02,763 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:47:02,764 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:47:02,913 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:47:02,914 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:47:03,062 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:47:21,161 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:47:21,253 "GET /principal/circulation/ HTTP/1.1" 200 24421
+WARNING 2025-05-31 12:47:21,428 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:47:21,429 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:47:21,503 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:47:21,503 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:47:21,783 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:48:15,990 D:\New folder\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-05-31 12:48:17,115 Watching for file changes with StatReloader
+INFO 2025-05-31 12:50:49,589 Watching for file changes with StatReloader
+INFO 2025-05-31 12:50:51,718 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:50:51,926 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:50:51,926 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:50:52,010 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:50:52,011 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:50:52,317 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:50:53,435 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:50:53,579 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:50:53,580 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:50:53,674 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:50:53,675 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:50:53,830 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:51:25,940 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:51:26,048 "GET /principal/circulation/ HTTP/1.1" 200 25276
+WARNING 2025-05-31 12:51:26,215 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:51:26,216 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:51:26,283 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:51:26,284 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:51:26,493 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:52:29,995 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-31 12:52:31,211 Watching for file changes with StatReloader
+INFO 2025-05-31 12:52:48,065 "GET /principal/circulation/ HTTP/1.1" 200 24947
+WARNING 2025-05-31 12:52:48,257 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:52:48,258 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:52:48,315 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:52:48,316 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:52:48,500 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:52:55,760 "GET /principal/circulation/ HTTP/1.1" 200 24947
+WARNING 2025-05-31 12:52:55,910 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:52:55,910 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:52:55,977 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:52:55,977 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:52:56,178 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:53:11,357 "GET /principal/circulation/ HTTP/1.1" 200 24947
+WARNING 2025-05-31 12:53:11,494 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:53:11,495 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:53:11,566 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:53:11,567 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:53:11,704 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:53:16,560 "GET /principal/circulation/ HTTP/1.1" 200 24947
+WARNING 2025-05-31 12:53:16,718 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:53:16,718 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:53:16,777 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:53:16,778 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:53:17,000 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:57:05,143 D:\New folder\School1-CRM\New_School_CRM-main\school_app\settings.py changed, reloading.
+INFO 2025-05-31 12:57:07,107 Watching for file changes with StatReloader
+INFO 2025-05-31 12:57:09,160 "GET /principal/circulation/ HTTP/1.1" 200 24947
+WARNING 2025-05-31 12:57:09,310 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:57:09,311 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:57:09,426 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:57:09,427 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 12:57:09,552 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:57:09,728 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:57:09,728 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:57:09,785 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:57:09,786 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:57:10,058 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:57:17,721 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:57:17,813 "GET /principal/circulation/ HTTP/1.1" 200 25900
+WARNING 2025-05-31 12:57:18,004 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:57:18,005 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:57:18,065 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:57:18,066 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:57:18,355 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:57:37,654 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:57:37,846 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:57:37,847 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:57:37,904 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:57:37,905 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:57:38,071 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:57:44,882 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:57:44,966 "GET /principal/circulation/ HTTP/1.1" 200 26690
+WARNING 2025-05-31 12:57:45,168 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:57:45,168 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:57:45,258 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:57:45,259 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:57:45,420 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:58:23,014 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 12:58:23,228 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:58:23,229 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:58:23,344 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:58:23,346 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:58:23,564 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 12:58:32,026 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 12:58:32,126 "GET /principal/circulation/ HTTP/1.1" 200 27360
+WARNING 2025-05-31 12:58:32,351 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-05-31 12:58:32,352 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-05-31 12:58:32,409 Not Found: /templates/profile.css
+WARNING 2025-05-31 12:58:32,410 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-05-31 12:58:32,631 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-05-31 17:20:06,468 "GET /principal/circulation/ HTTP/1.1" 302 0
+INFO 2025-05-31 17:20:06,628 "GET /login/?next=/principal/circulation/ HTTP/1.1" 200 10560
+INFO 2025-05-31 17:20:06,744 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-05-31 17:20:09,086 "GET /login/?next=/principal/circulation/ HTTP/1.1" 200 10560
+INFO 2025-05-31 17:20:09,286 "GET /login/?next=/principal/circulation/ HTTP/1.1" 200 10560
+INFO 2025-05-31 17:20:09,478 "GET /login/?next=/principal/circulation/ HTTP/1.1" 200 10560
+INFO 2025-05-31 17:20:09,654 "GET /login/?next=/principal/circulation/ HTTP/1.1" 200 10560
+INFO 2025-05-31 18:40:16,331 "POST /login/?next=%2Fprincipal%2Fcirculation%2F HTTP/1.1" 200 117
+INFO 2025-05-31 18:40:17,390 "GET /principal/circulation/ HTTP/1.1" 200 26935
+WARNING 2025-05-31 18:40:17,764 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:17,765 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:22,809 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:40:23,071 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:23,071 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:23,826 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 18:40:24,088 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:24,088 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:24,851 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14498
+WARNING 2025-05-31 18:40:25,101 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:25,101 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:26,310 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-05-31 18:40:26,568 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:26,568 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:27,227 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 18:40:27,477 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:27,477 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:29,261 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-05-31 18:40:29,519 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:29,519 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:30,270 "GET /staff/list/ HTTP/1.1" 200 15467
+WARNING 2025-05-31 18:40:30,511 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:30,512 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:57,147 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:40:57,272 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:57,272 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:40:58,814 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14498
+WARNING 2025-05-31 18:40:58,965 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:40:58,965 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:41:00,273 "GET /principal/circulation/ HTTP/1.1" 200 26935
+WARNING 2025-05-31 18:41:00,415 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:41:00,415 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:04,875 "GET /principal/circulation/ HTTP/1.1" 200 26935
+WARNING 2025-05-31 18:42:04,982 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:04,983 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:06,500 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:42:06,610 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:06,611 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:19,824 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:42:19,955 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:19,955 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:21,381 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 18:42:21,497 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:21,498 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:22,123 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:42:22,247 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:22,248 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:44,139 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:42:44,248 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:44,248 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:45,399 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-05-31 18:42:45,515 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:45,515 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:42:46,491 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14498
+WARNING 2025-05-31 18:42:46,615 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:42:46,616 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:43:40,103 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14498
+WARNING 2025-05-31 18:43:40,220 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:43:40,220 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:43:42,012 "GET /principal/circulation/ HTTP/1.1" 200 26935
+WARNING 2025-05-31 18:43:42,146 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:43:42,146 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:43:42,938 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-05-31 18:43:43,096 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:43:43,097 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:43:44,780 "GET /finance/list/ HTTP/1.1" 200 16269
+WARNING 2025-05-31 18:43:44,888 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:43:44,889 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:43:46,973 "GET /profile/ HTTP/1.1" 200 20592
+WARNING 2025-05-31 18:43:47,081 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:43:47,082 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:43:50,483 "GET /finance/list/ HTTP/1.1" 200 16269
+WARNING 2025-05-31 18:43:50,607 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:43:50,607 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:12,575 "GET /finance/list/ HTTP/1.1" 200 16269
+WARNING 2025-05-31 18:44:12,691 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:12,691 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:13,967 "GET /principal/attendance/ HTTP/1.1" 200 11822
+WARNING 2025-05-31 18:44:14,150 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:14,150 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:14,667 "GET /principal/circulation/ HTTP/1.1" 200 26926
+WARNING 2025-05-31 18:44:14,792 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:14,793 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:15,451 "GET /principal/staff/attendance/ HTTP/1.1" 200 15009
+WARNING 2025-05-31 18:44:15,609 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:15,609 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:16,327 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14489
+WARNING 2025-05-31 18:44:16,459 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:16,460 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:17,068 "GET /principal/student-fees/ HTTP/1.1" 200 13047
+WARNING 2025-05-31 18:44:17,184 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:17,185 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:26,730 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14489
+WARNING 2025-05-31 18:44:26,855 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:26,855 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:27,464 "GET /principal/staff/attendance/ HTTP/1.1" 200 15009
+WARNING 2025-05-31 18:44:27,589 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:27,589 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:28,247 "GET /principal/student-fees/ HTTP/1.1" 200 13047
+WARNING 2025-05-31 18:44:28,414 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:28,414 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:44:41,511 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-05-31 18:44:41,627 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:44:41,628 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:46:19,736 Watching for file changes with StatReloader
+INFO 2025-05-31 18:46:28,545 "GET /principal/circulation/ HTTP/1.1" 200 26935
+WARNING 2025-05-31 18:46:28,895 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:46:28,896 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:46:30,214 "GET /principal/circulation/create/ HTTP/1.1" 200 12551
+WARNING 2025-05-31 18:46:30,345 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:46:30,346 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-05-31 18:46:36,931 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-05-31 18:46:37,032 "GET /principal/circulation/ HTTP/1.1" 200 27764
+WARNING 2025-05-31 18:46:37,181 Not Found: /templates/profile.css
+WARNING 2025-05-31 18:46:37,182 "GET /templates/profile.css HTTP/1.1" 404 9452
