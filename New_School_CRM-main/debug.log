@@ -39438,3 +39438,42 @@ WARNING 2025-06-03 10:52:48,386 "GET /templates/profile.css HTTP/1.1" 404 9452
 INFO 2025-06-03 10:53:58,066 "GET /staff/staff-class/ HTTP/1.1" 200 11539
 WARNING 2025-06-03 10:53:58,219 Not Found: /templates/profile.css
 WARNING 2025-06-03 10:53:58,220 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:56:55,531 Watching for file changes with StatReloader
+INFO 2025-06-03 11:00:05,398 Watching for file changes with StatReloader
+INFO 2025-06-03 11:00:08,658 "GET /staff/students/fees/ HTTP/1.1" 200 14781
+WARNING 2025-06-03 11:00:08,881 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:08,884 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:10,566 "GET /student/list HTTP/1.1" 200 16047
+INFO 2025-06-03 11:00:10,694 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 304 0
+WARNING 2025-06-03 11:00:10,757 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:10,757 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:13,045 "GET /staff/staff-class/ HTTP/1.1" 200 11539
+WARNING 2025-06-03 11:00:13,170 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:13,170 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:14,067 "GET /staff/students/fees/ HTTP/1.1" 200 14781
+WARNING 2025-06-03 11:00:14,195 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:14,196 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:14,904 "GET /staff/students/reportcards/ HTTP/1.1" 200 14712
+WARNING 2025-06-03 11:00:15,025 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:15,026 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:16,088 "GET /staff/students/leavereport/ HTTP/1.1" 200 15673
+WARNING 2025-06-03 11:00:16,218 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:16,218 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:17,727 "GET /staff/students/attendance/ HTTP/1.1" 200 14331
+WARNING 2025-06-03 11:00:17,835 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:17,835 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:00:23,529 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-06-03 11:00:23,674 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:00:23,675 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:04:22,930 "GET /principal/student-fees/ HTTP/1.1" 200 14865
+WARNING 2025-06-03 11:04:23,088 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:04:23,088 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:04:26,472 "GET /principal/student-fees/ HTTP/1.1" 200 14865
+WARNING 2025-06-03 11:04:26,581 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:04:26,581 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:04:26,848 "GET /principal/student-fees/ HTTP/1.1" 200 14865
+WARNING 2025-06-03 11:04:26,981 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:04:26,982 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 11:04:30,279 "GET /principal/student-fees/ HTTP/1.1" 200 14865
+WARNING 2025-06-03 11:04:30,391 Not Found: /templates/profile.css
+WARNING 2025-06-03 11:04:30,391 "GET /templates/profile.css HTTP/1.1" 404 9452
