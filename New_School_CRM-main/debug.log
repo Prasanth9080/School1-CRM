@@ -39123,3 +39123,318 @@ INFO 2025-05-31 18:46:36,931 "POST /principal/circulation/create/ HTTP/1.1" 302 
 INFO 2025-05-31 18:46:37,032 "GET /principal/circulation/ HTTP/1.1" 200 27764
 WARNING 2025-05-31 18:46:37,181 Not Found: /templates/profile.css
 WARNING 2025-05-31 18:46:37,182 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 09:58:35,320 Watching for file changes with StatReloader
+INFO 2025-06-02 10:07:26,015 "GET / HTTP/1.1" 302 0
+INFO 2025-06-02 10:07:26,133 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-02 10:07:26,186 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-02 10:12:07,008 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-02 10:12:08,017 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-02 10:12:08,392 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:08,392 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:19,237 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-06-02 10:12:19,363 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:19,363 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:20,947 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 10:12:21,055 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:21,056 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:23,740 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-06-02 10:12:23,847 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:23,848 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:25,608 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-06-02 10:12:25,698 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:25,699 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:32,176 "GET /principal/circulation/ HTTP/1.1" 200 27597
+WARNING 2025-06-02 10:12:32,284 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:32,284 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:37,136 "GET /principal/circulation/ HTTP/1.1" 200 27597
+WARNING 2025-06-02 10:12:37,253 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:37,253 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 10:12:38,380 "GET /principal/circulation/ HTTP/1.1" 200 27597
+WARNING 2025-06-02 10:12:38,470 Not Found: /templates/profile.css
+WARNING 2025-06-02 10:12:38,471 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:43:41,526 "GET / HTTP/1.1" 302 0
+INFO 2025-06-02 12:43:41,540 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-02 12:43:41,653 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-02 12:43:41,661 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-02 12:43:41,879 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-02 12:43:53,044 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-02 12:43:53,944 "GET / HTTP/1.1" 200 16221
+WARNING 2025-06-02 12:43:54,105 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:43:54,105 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:01,666 "GET / HTTP/1.1" 302 0
+INFO 2025-06-02 12:44:01,680 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-02 12:44:01,706 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-02 12:44:01,707 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-02 12:44:02,051 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2025-06-02 12:44:15,989 Bad Request: /login/
+WARNING 2025-06-02 12:44:15,989 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-02 12:44:22,473 Bad Request: /login/
+WARNING 2025-06-02 12:44:22,473 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-06-02 12:44:27,499 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-02 12:44:28,399 "GET / HTTP/1.1" 200 13768
+WARNING 2025-06-02 12:44:28,549 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:28,549 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:33,018 "GET /student/data/ HTTP/1.1" 200 11239
+WARNING 2025-06-02 12:44:33,117 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:33,118 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:34,543 "GET /student/attendance/ HTTP/1.1" 200 13711
+WARNING 2025-06-02 12:44:34,635 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:34,635 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:36,469 "GET /student/reportcard/ HTTP/1.1" 200 17224
+WARNING 2025-06-02 12:44:36,577 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:36,577 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:38,986 "GET /student/student/attendance/ HTTP/1.1" 200 12109
+WARNING 2025-06-02 12:44:39,103 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:39,104 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:40,245 "GET /student/attendance/ HTTP/1.1" 200 13711
+WARNING 2025-06-02 12:44:40,354 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:40,355 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:44:41,804 "GET /student/payments/ HTTP/1.1" 200 14771
+WARNING 2025-06-02 12:44:41,896 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:44:41,896 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:45:53,127 "POST /principal/circulation/delete/28/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:45:53,235 "GET /principal/circulation/ HTTP/1.1" 200 27090
+WARNING 2025-06-02 12:45:53,360 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:45:53,361 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:45:54,778 "POST /principal/circulation/delete/27/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:45:54,855 - Broken pipe from ('127.0.0.1', 54298)
+WARNING 2025-06-02 12:45:54,944 Not Found: /principal/circulation/delete/27/
+WARNING 2025-06-02 12:45:54,944 "POST /principal/circulation/delete/27/ HTTP/1.1" 404 12285
+WARNING 2025-06-02 12:45:55,119 Not Found: /favicon.ico
+WARNING 2025-06-02 12:45:55,120 "GET /favicon.ico HTTP/1.1" 404 9422
+WARNING 2025-06-02 12:45:59,521 Not Found: /principal/circulation/delete/27/
+WARNING 2025-06-02 12:45:59,521 "POST /principal/circulation/delete/27/ HTTP/1.1" 404 12285
+INFO 2025-06-02 12:46:04,123 "POST /principal/circulation/delete/26/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:04,215 "GET /principal/circulation/ HTTP/1.1" 200 25915
+WARNING 2025-06-02 12:46:04,323 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:04,323 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:07,333 "POST /principal/circulation/delete/24/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:07,408 "GET /principal/circulation/ HTTP/1.1" 200 25074
+WARNING 2025-06-02 12:46:07,516 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:07,516 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:08,308 "POST /principal/circulation/delete/23/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:08,383 "GET /principal/circulation/ HTTP/1.1" 200 24407
+WARNING 2025-06-02 12:46:08,474 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:08,475 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:09,208 "POST /principal/circulation/delete/25/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:09,292 "GET /principal/circulation/ HTTP/1.1" 200 23743
+WARNING 2025-06-02 12:46:09,383 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:09,383 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:10,317 "POST /principal/circulation/delete/22/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:10,392 "GET /principal/circulation/ HTTP/1.1" 200 23079
+WARNING 2025-06-02 12:46:10,500 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:10,501 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:12,626 "POST /principal/circulation/delete/21/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:12,693 "GET /principal/circulation/ HTTP/1.1" 200 22423
+WARNING 2025-06-02 12:46:12,792 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:12,793 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:13,443 "POST /principal/circulation/delete/20/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:13,519 "GET /principal/circulation/ HTTP/1.1" 200 21772
+WARNING 2025-06-02 12:46:13,635 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:13,635 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:14,135 "POST /principal/circulation/delete/19/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:14,215 "GET /principal/circulation/ HTTP/1.1" 200 21115
+WARNING 2025-06-02 12:46:14,310 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:14,310 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:15,161 "POST /principal/circulation/delete/18/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:15,227 "GET /principal/circulation/ HTTP/1.1" 200 20460
+WARNING 2025-06-02 12:46:15,327 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:15,328 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:16,003 "POST /principal/circulation/delete/17/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:16,119 "GET /principal/circulation/ HTTP/1.1" 200 19791
+WARNING 2025-06-02 12:46:16,211 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:16,211 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:17,053 "POST /principal/circulation/delete/16/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:17,120 "GET /principal/circulation/ HTTP/1.1" 200 19139
+WARNING 2025-06-02 12:46:17,211 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:17,212 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:17,745 "POST /principal/circulation/delete/15/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:17,812 "GET /principal/circulation/ HTTP/1.1" 200 18489
+WARNING 2025-06-02 12:46:17,970 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:17,971 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:18,295 "POST /principal/circulation/delete/14/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:18,446 - Broken pipe from ('127.0.0.1', 54299)
+WARNING 2025-06-02 12:46:18,538 Not Found: /principal/circulation/delete/14/
+WARNING 2025-06-02 12:46:18,540 "POST /principal/circulation/delete/14/ HTTP/1.1" 404 12285
+WARNING 2025-06-02 12:46:22,663 Not Found: /principal/circulation/delete/14/
+WARNING 2025-06-02 12:46:22,664 "POST /principal/circulation/delete/14/ HTTP/1.1" 404 12285
+INFO 2025-06-02 12:46:29,049 "POST /principal/circulation/delete/10/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:29,125 "GET /principal/circulation/ HTTP/1.1" 200 17304
+WARNING 2025-06-02 12:46:29,232 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:29,233 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:30,692 "POST /principal/circulation/delete/9/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:30,759 "GET /principal/circulation/ HTTP/1.1" 200 16480
+WARNING 2025-06-02 12:46:30,875 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:30,875 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:36,728 "POST /principal/circulation/delete/8/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:36,802 "GET /principal/circulation/ HTTP/1.1" 200 15800
+WARNING 2025-06-02 12:46:36,902 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:36,903 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:38,428 "POST /principal/circulation/delete/6/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:38,503 "GET /principal/circulation/ HTTP/1.1" 200 15046
+WARNING 2025-06-02 12:46:38,603 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:38,604 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:46:39,687 "POST /principal/circulation/delete/4/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:46:39,762 "GET /principal/circulation/ HTTP/1.1" 200 14375
+WARNING 2025-06-02 12:46:39,870 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:46:39,871 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:47:20,412 "POST /principal/circulation/delete/2/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:47:20,495 "GET /principal/circulation/ HTTP/1.1" 200 13575
+WARNING 2025-06-02 12:47:20,612 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:47:20,612 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:47:27,907 "POST /principal/circulation/delete/3/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:47:27,990 "GET /principal/circulation/ HTTP/1.1" 200 12905
+WARNING 2025-06-02 12:47:28,098 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:47:28,099 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 12:47:28,790 "POST /principal/circulation/delete/5/ HTTP/1.1" 302 0
+INFO 2025-06-02 12:47:28,857 "GET /principal/circulation/ HTTP/1.1" 200 12301
+WARNING 2025-06-02 12:47:28,957 Not Found: /templates/profile.css
+WARNING 2025-06-02 12:47:28,957 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 15:15:51,091 "GET /student/list HTTP/1.1" 200 16011
+WARNING 2025-06-02 15:15:51,348 Not Found: /templates/profile.css
+WARNING 2025-06-02 15:15:51,349 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 15:15:51,609 "GET /media/students/passports/Contact-TOP.jpg HTTP/1.1" 200 4557841
+INFO 2025-06-02 15:15:55,642 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-06-02 15:15:55,884 Not Found: /templates/profile.css
+WARNING 2025-06-02 15:15:55,884 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 15:15:57,526 "GET /principal/staff/leavereport/ HTTP/1.1" 200 14498
+WARNING 2025-06-02 15:15:57,751 Not Found: /templates/profile.css
+WARNING 2025-06-02 15:15:57,752 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 15:16:00,086 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 15:16:00,327 Not Found: /templates/profile.css
+WARNING 2025-06-02 15:16:00,328 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 16:34:09,637 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 16:34:09,878 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:09,879 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 16:34:11,779 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 16:34:11,996 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:11,996 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 16:34:12,471 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 16:34:12,696 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:12,696 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-02 16:34:19,257 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 16:34:19,499 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:19,499 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-06-02 16:34:22,478 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:22,479 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-06-02 16:34:22,615 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+WARNING 2025-06-02 16:34:22,726 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-06-02 16:34:22,727 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+INFO 2025-06-02 16:34:30,904 "GET /principal/attendance/ HTTP/1.1" 200 11831
+WARNING 2025-06-02 16:34:31,178 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-06-02 16:34:31,179 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-06-02 16:34:31,378 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:31,379 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-06-02 16:34:31,684 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-06-02 16:34:34,246 "GET /principal/staff/attendance/ HTTP/1.1" 200 15018
+WARNING 2025-06-02 16:34:34,521 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-06-02 16:34:34,522 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-06-02 16:34:34,747 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:34,753 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-06-02 16:34:35,072 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-06-02 16:34:39,398 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-06-02 16:34:39,715 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-06-02 16:34:39,716 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-06-02 16:34:39,907 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:39,907 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-06-02 16:34:40,270 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-06-02 16:34:45,459 "GET /principal/student-fees/ HTTP/1.1" 200 13056
+WARNING 2025-06-02 16:34:45,718 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-06-02 16:34:45,719 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 9533
+WARNING 2025-06-02 16:34:45,926 Not Found: /templates/profile.css
+WARNING 2025-06-02 16:34:45,926 "GET /templates/profile.css HTTP/1.1" 404 9452
+WARNING 2025-06-02 16:34:46,206 "GET /static/plugins/Datatables/pdfmake.min.js.map HTTP/1.1" 404 1870
+INFO 2025-06-03 09:59:06,943 Watching for file changes with StatReloader
+INFO 2025-06-03 10:04:36,560 "GET / HTTP/1.1" 302 0
+INFO 2025-06-03 10:04:36,703 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-03 10:04:36,768 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-03 10:04:45,454 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-03 10:04:46,450 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:04:46,784 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:04:46,785 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:08:15,811 "GET / HTTP/1.1" 302 0
+INFO 2025-06-03 10:08:15,826 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-03 10:08:15,852 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-03 10:08:27,279 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-03 10:08:28,188 "GET / HTTP/1.1" 200 16221
+WARNING 2025-06-03 10:08:28,324 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:08:28,325 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:08:33,355 "GET / HTTP/1.1" 302 0
+INFO 2025-06-03 10:08:33,368 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-03 10:08:33,395 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-03 10:08:43,986 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-03 10:08:44,919 "GET / HTTP/1.1" 200 13768
+WARNING 2025-06-03 10:08:45,056 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:08:45,056 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:09:22,618 "GET /principal/student/circulations/ HTTP/1.1" 200 11217
+WARNING 2025-06-03 10:09:22,729 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:09:22,730 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:09:24,466 "GET /student/payments/ HTTP/1.1" 200 14771
+WARNING 2025-06-03 10:09:24,568 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:09:24,568 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:09:25,764 "GET /student/attendance/ HTTP/1.1" 200 13711
+WARNING 2025-06-03 10:09:25,885 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:09:25,885 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:35:35,747 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:35:35,891 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:35:35,891 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:35:36,504 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:35:36,608 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:35:36,608 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:35:37,013 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:35:37,141 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:35:37,142 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:35:37,421 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:35:37,524 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:35:37,525 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:51:10,727 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:51:10,864 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:51:10,864 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:51:11,489 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:51:11,589 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:51:11,590 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:51:12,348 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:51:12,469 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:51:12,470 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:51:15,071 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:51:15,174 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:51:15,174 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:41,291 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:41,462 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:41,463 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:43,551 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:43,654 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:43,654 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:44,334 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:44,454 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:44,454 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:44,859 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:44,979 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:44,980 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:45,305 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:45,401 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:45,402 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:45,638 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:45,743 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:45,743 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:46,189 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:46,276 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:46,276 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:46,822 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:46,914 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:46,914 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:47,235 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:47,330 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:47,331 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:47,589 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:47,702 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:47,702 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:47,956 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:48,060 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:48,061 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:52:48,289 "GET / HTTP/1.1" 200 16185
+WARNING 2025-06-03 10:52:48,385 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:52:48,386 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-03 10:53:58,066 "GET /staff/staff-class/ HTTP/1.1" 200 11539
+WARNING 2025-06-03 10:53:58,219 Not Found: /templates/profile.css
+WARNING 2025-06-03 10:53:58,220 "GET /templates/profile.css HTTP/1.1" 404 9452
