@@ -26,3 +26,14 @@ class CirculationAdmin(admin.ModelAdmin):
 @admin.register(CirculationReadHide)
 class CirculationReadHideAdmin(admin.ModelAdmin):
     list_display = ['user', 'circulation', 'role']
+
+
+##### for staff class schedule admin
+
+from django.contrib import admin
+from .models import StaffClassSchedule
+
+@admin.register(StaffClassSchedule)
+class StaffClassScheduleAdmin(admin.ModelAdmin):
+    list_display = ('staff_name', 'class_name', 'section', "subject","start_time","end_time","day_of_week", 'date_time', 'status')
+

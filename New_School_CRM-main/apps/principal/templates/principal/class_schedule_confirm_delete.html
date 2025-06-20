@@ -1,0 +1,11 @@
+{% extends 'principal/principal_index.html' %}
+
+{% block content %}
+<h2>Confirm Delete</h2>
+<p>Are you sure you want to delete: "{{ schedule }}"?</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Confirm</button>
+</form>
+<a href="{% url 'principal-class-schedule-list' %}">Cancel</a>
+{% endblock %}

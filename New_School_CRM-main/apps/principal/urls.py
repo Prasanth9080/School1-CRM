@@ -57,5 +57,21 @@ urlpatterns = [
 
     path('staff/circulations/', views.staff_circulation_view, name='staff-circulation'),
     path('circulation/hide/<int:pk>/<str:role>/', views.hide_circulation, name='hide-circulation'),
-]
+
+
+    ##### for staffclass schedule 
+
+    
+    path('class-schedule/', views.class_schedule_list, name='principal-class-schedule-list'),
+    path('class-schedule/create/', views.class_schedule_create, name='principal-cls-schedule-create'),
+    path('class-schedule/edit/<int:pk>/', views.class_schedule_edit, name='principal-cls-schedule-edit'),
+    path('class-schedule/delete/<int:pk>/', views.class_schedule_delete, name='principal-cls-schedule-delete'),
+
+
+
+    # Staff URL to view their own schedule
+    path('staff/class-schedule/', views.staff_class_schedule_view, name='staff-class-schedule'),
+
+
+]   
  

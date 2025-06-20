@@ -62,3 +62,16 @@ class CirculationForm(forms.ModelForm):
         model = Circulation
         fields = ['title', 'content', 'audience']
 
+
+##### for class schedule
+
+from django import forms
+from .models import StaffClassSchedule
+
+class StaffClassScheduleForm(forms.ModelForm):
+    class Meta:
+        model = StaffClassSchedule
+        fields = '__all__'
+        widgets = {
+            'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'}),
+        }

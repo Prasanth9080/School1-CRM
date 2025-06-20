@@ -113,3 +113,39 @@ class CirculationReadHide(models.Model):
 
 
 
+
+#### for staff class schedule
+
+from django.db import models
+
+STATUS_CHOICES = (
+    ('present', 'Present'),
+    ('absent', 'Absent'),
+)
+DAYS = (
+    ('Monday', 'Monday'),
+    ('Tuesday', 'Tuesday'),
+    ('Wednesday', 'Wednesday'),
+    ('Thursday', 'Thursday'),
+    ('Friday', 'Friday'),
+    ('Saturday', 'Saturday'),
+    ('Sunday', 'Sunday'),
+)
+
+class StaffClassSchedule(models.Model):
+    staff_name = models.ForeignKey(User, limit_choices_to={'userprofile__role': 'teacher'}, on_delete=models.CASCADE)
+    class_name = models.ForeignKey(
+        StudentClass, on_delete=models.SET_NULL, blank=True, null=True
+    )
+    section = models.CharField(max_length=10)
+    subject = models.CharField(max_length=100)
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES)
+    day_of_week = models.CharField(max_length=10, choices=DAYS)
+    start_time = models.TimeField()
+    end_time = models.TimeField()
+    date_time = models.DateTimeField()
+
+    def __str__(self):
+        return f"{self.staff_name} - {self.class_name} {self.section} ({self.date_time})"
+
+

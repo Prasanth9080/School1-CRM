@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>My Class Schedule</h2>
+<table>
+    <tr>
+        <th>Class</th>
+        <th>Section</th>
+        <th>Subject</th>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Status</th>
+    </tr>
+    {% for schedule in schedules %}
+    <tr>
+        <td>{{ schedule.class_name }}</td>
+        <td>{{ schedule.section }}</td>
+        <td>{{ schedule.subject }}</td>
+        <td>{{ schedule.day_of_week }}</td>
+        <td>{{ schedule.start_time }} - {{ schedule.end_time }}</td>
+        <td>{{ schedule.status }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="6">No schedule assigned yet.</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

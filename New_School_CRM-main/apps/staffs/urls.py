@@ -61,5 +61,8 @@ path('students/attendance/<int:pk>/delete/', views.attendance_delete, name='staf
     path('students/fees/<int:fee_id>/edit/', views.edit_student_fee, name='edit-student-fee'),
     path('students/fees/<int:fee_id>/delete/', views.delete_student_fee, name='delete-student-fee'),
 
+
+        
+
 ]
   

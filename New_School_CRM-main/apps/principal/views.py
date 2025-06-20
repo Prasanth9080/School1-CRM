@@ -448,93 +448,6 @@ def circulation_create(request):
 
     return render(request, 'principal/principal_circulation_form.html', {'form': form})
 
-
-
-############# circulation send for all user :
-
-# from django.shortcuts import render, redirect
-# from django.contrib.auth.decorators import login_required
-# from django.core.mail import send_mail
-# from django.conf import settings
-# from django.contrib.auth.models import Group
-# from django.contrib import messages
-
-# from .models import Circulation
-# from .forms import CirculationForm
-
-
-# @login_required
-# def circulation_create(request):
-#     if request.method == 'POST':
-#         form = CirculationForm(request.POST)
-#         if form.is_valid():
-#             circulation = form.save(commit=False)
-#             circulation.created_by = request.user
-#             circulation.save()
-
-#             subject = f"[School CRM] New Circulation: {circulation.title}"
-#             message = (
-#                 f"Hello,\n\n"
-#                 f"A new circulation has been published:\n\n"
-#                 f"Title: {circulation.title}\n"
-#                 f"Audience: {circulation.get_audience_display()}\n"
-#                 f"Date: {circulation.created_at.strftime('%Y-%m-%d %H:%M')}\n\n"
-#                 f"{circulation.content}\n\n"
-#                 f"Regards,\nSchool CRM"
-#             )
-
-#             recipient_emails = set()
-
-#             # 1. Always send to principal
-#             if request.user.email:
-#                 recipient_emails.add(request.user.email)
-
-#             # 2. Send to staff if selected
-#             if circulation.audience in ['all', 'staff']:
-#                 try:
-#                     staff_group = Group.objects.get(name='staff')
-#                     staff_emails = staff_group.user_set.exclude(email="").values_list('email', flat=True)
-#                     recipient_emails.update(staff_emails)
-#                 except Group.DoesNotExist:
-#                     messages.warning(request, "Staff group does not exist.")
-
-#             # 3. Send to students if selected
-#             if circulation.audience in ['all', 'students']:
-#                 try:
-#                     student_group = Group.objects.get(name='student')
-#                     student_emails = student_group.user_set.exclude(email="").values_list('email', flat=True)
-#                     recipient_emails.update(student_emails)
-#                 except Group.DoesNotExist:
-#                     messages.warning(request, "Student group does not exist.")
-
-#             # 4. Send email if there are recipients
-#             if recipient_emails:
-#                 try:
-#                     send_mail(
-#                         subject,
-#                         message,
-#                         settings.DEFAULT_FROM_EMAIL,
-#                         list(recipient_emails),
-#                         fail_silently=False
-#                     )
-#                     messages.success(request, "Circulation created and emails sent.")
-#                 except Exception as e:
-#                     print("Email error:", e)
-#                     messages.warning(request, "Circulation created, but email sending failed.")
-#             else:
-#                 messages.warning(request, "Circulation created, but no recipients found.")
-
-#             return redirect('circulation_list')
-
-#     else:
-#         form = CirculationForm()
-
-#     return render(request, 'principal/principal_circulation_form.html', {'form': form})
-
-
-
-
-
 @login_required
 def circulation_edit(request, pk):
     circulation = get_object_or_404(Circulation, pk=pk)
@@ -587,3 +500,67 @@ def hide_circulation(request, pk, role):
     else:
         messages.success(request, "Deleted successfully")
         return redirect('staff-circulation')
+
+
+##### for class schedule view for principal
+
+
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import StaffClassSchedule
+from .forms import StaffClassScheduleForm
+
+def class_schedule_list(request):
+    schedules = StaffClassSchedule.objects.all()
+    return render(request, 'principal/class_schedule_list.html', {'schedules': schedules})
+
+def class_schedule_create(request):
+    if request.method == 'POST':
+        form = StaffClassScheduleForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('principal-class-schedule-list')
+    else:
+        form = StaffClassScheduleForm()
+    return render(request, 'principal/class_schedule_create.html', {'form': form})
+
+def class_schedule_edit(request, pk):
+    schedule = get_object_or_404(StaffClassSchedule, pk=pk)
+    if request.method == 'POST':
+        form = StaffClassScheduleForm(request.POST, instance=schedule)
+        if form.is_valid():
+            form.save()
+            return redirect('principal-class-schedule-list')
+    else:
+        form = StaffClassScheduleForm(instance=schedule)
+    return render(request, 'principal/class_schedule_create.html', {'form': form, 'edit': True})
+
+def class_schedule_delete(request, pk):
+    schedule = get_object_or_404(StaffClassSchedule, pk=pk)
+    schedule.delete()
+    return redirect('principal-class-schedule-list')
+
+
+
+########### class schedule only view for staff
+
+# from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render, redirect, get_object_or_404
+# from django.contrib.auth.models import User
+# from .models import StaffClassSchedule
+# from .forms import StaffClassScheduleForm
+
+# @login_required
+# def class_schedule_list(request):
+#     # If principal (superuser or custom role), show all
+#     if request.user.is_superuser or hasattr(request.user, 'userprofile') and request.user.userprofile.role == 'principal':
+#         schedules = StaffClassSchedule.objects.all()
+#     else:
+#         # Show only schedules for the logged-in staff member
+#         schedules = StaffClassSchedule.objects.filter(staff_name=request.user)
+#     return render(request, 'principal/class_schedule_list.html', {'schedules': schedules})
+
+
+@login_required
+def staff_class_schedule_view(request):
+    schedules = StaffClassSchedule.objects.filter(staff_name=request.user)
+    return render(request, 'staffs/staff_schedule_view.html', {'schedules': schedules})

@@ -117,7 +117,13 @@ def staffdata(request):
     return render (request, "staffs/staff_data.html")
 
 def staffclasssechedule(request):
-    return render (request, "staffs/staff_classsechedule.html")
+    return render (request, "staffs/staff_class_sechedule.html")
+
+
+
+
+
+
 
 
 
