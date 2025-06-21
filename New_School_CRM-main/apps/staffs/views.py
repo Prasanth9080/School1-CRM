@@ -133,6 +133,45 @@ from .forms import LeaveRequeststaffForm
 from .models import LeaveRequeststaff
 
 
+# @login_required
+# def staff_leave_request(request):
+#     if request.method == 'POST':
+#         form = LeaveRequeststaffForm(request.POST)
+#         if form.is_valid():
+#             leave = form.save(commit=False)
+#             leave.staff = request.user
+#             leave.save()
+#             return redirect('staff-attendance')  # or show confirmation
+#     else:
+#         form = LeaveRequeststaffForm()
+    
+#     return render(request, 'staffs/staff_leave_request.html', {'form': form})
+
+
+
+#### new ...
+
+# @login_required
+# def staff_leave_request(request):
+#     if request.method == 'POST':
+#         form = LeaveRequeststaffForm(request.POST)
+#         if form.is_valid():
+#             leave = form.save(commit=False)
+#             leave.staff = request.user
+#             leave.save()
+#             return redirect('staff-leave-request')  # Redirect to same page or a success page
+#     else:
+#         form = LeaveRequeststaffForm()
+    
+#     leaves = LeaveRequeststaff.objects.filter(staff=request.user).order_by('-leave_date')
+#     return render(request, 'staffs/staff_leave_request.html', {
+#         'form': form,
+#         'leaves': leaves
+#     })
+
+
+###### new ... 2
+
 @login_required
 def staff_leave_request(request):
     if request.method == 'POST':
@@ -140,12 +179,24 @@ def staff_leave_request(request):
         if form.is_valid():
             leave = form.save(commit=False)
             leave.staff = request.user
+
+            send_to_principal = form.cleaned_data.get('send_to_principal', False)
+            if send_to_principal:
+                leave.status = 'pending'  # Leave visible to principal
+            else:
+                leave.status = 'rejected'  # Or some other logic if not sent?
+
             leave.save()
-            return redirect('staff-attendance')  # or show confirmation
+            return redirect('staff-leave-request')
     else:
         form = LeaveRequeststaffForm()
     
-    return render(request, 'staffs/staff_leave_request.html', {'form': form})
+    leaves = LeaveRequeststaff.objects.filter(staff=request.user).order_by('-leave_date')
+    return render(request, 'staffs/staff_leave_request.html', {
+        'form': form,
+        'leaves': leaves
+    })
+
 
 
 ###### new function for student report card
@@ -880,7 +931,7 @@ def reportcard_create(request):
             if exists:
                 messages.error(request, "A report card already exists for this student and term.")
             else:
-                form.save()
+                form.save() 
                 messages.success(request, "Report card created successfully.")
                 return redirect('staff-reportcard-list')
 

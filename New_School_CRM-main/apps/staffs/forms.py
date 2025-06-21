@@ -1,12 +1,27 @@
 # students/forms.py
 
+# from django import forms
+# from .models import LeaveRequeststaff
+
+# class LeaveRequeststaffForm(forms.ModelForm):
+#     class Meta:
+#         model = LeaveRequeststaff
+#         fields = [ 'reason']
+
+### new....
 from django import forms
 from .models import LeaveRequeststaff
 
 class LeaveRequeststaffForm(forms.ModelForm):
+    send_to_principal = forms.BooleanField(required=False, initial=True, label="Send leave request to principal")
+
     class Meta:
         model = LeaveRequeststaff
-        fields = [ 'reason']
+        fields = ['leave_date', 'reason', 'is_emergency']
+        widgets = {
+            'leave_date': forms.DateInput(attrs={'type': 'date'}),
+        }
+
 
 
 ###### attendance form for staff

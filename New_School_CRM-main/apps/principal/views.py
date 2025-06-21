@@ -7,9 +7,27 @@ from apps.staffs.models import LeaveRequeststaff
 def principal_dashboard(request):
     return render (request, "principal/principal_data.html")
 
+# @login_required
+# def principalstaffleavereport(request):
+#     leaves = LeaveRequeststaff.objects.all()
+
+#     if request.method == "POST":
+#         leave_id = request.POST.get("leave_id")
+#         action = request.POST.get("action")
+#         leave = LeaveRequeststaff.objects.get(id=leave_id)
+#         if action == "approve":
+#             leave.status = "approved"
+#         elif action == "reject":
+#             leave.status = "rejected"
+#         leave.save()
+#         return redirect('principal-staff-leave-report')
+
+#     return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
+
+#### new ....
 @login_required
 def principalstaffleavereport(request):
-    leaves = LeaveRequeststaff.objects.all()
+    leaves = LeaveRequeststaff.objects.all().order_by('-leave_date')
 
     if request.method == "POST":
         leave_id = request.POST.get("leave_id")
@@ -23,7 +41,6 @@ def principalstaffleavereport(request):
         return redirect('principal-staff-leave-report')
 
     return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
-
 
 
 
@@ -513,15 +530,75 @@ def class_schedule_list(request):
     schedules = StaffClassSchedule.objects.all()
     return render(request, 'principal/class_schedule_list.html', {'schedules': schedules})
 
+# def class_schedule_create(request):
+#     if request.method == 'POST':
+#         form = StaffClassScheduleForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             return redirect('principal-class-schedule-list')
+#     else:
+#         form = StaffClassScheduleForm()
+#     return render(request, 'principal/class_schedule_create.html', {'form': form})
+
+#### new for class scheduule create
+
+# from django.utils.timezone import localtime
+# from django.contrib.auth.models import User
+# from ..staffs.models import LeaveRequeststaff  # Adjust path if different
+
+# def class_schedule_create(request):
+#     from datetime import date
+
+#     today = date.today()
+
+#     # Find staff with approved leave today
+#     leave_staff_ids = LeaveRequeststaff.objects.filter(
+#         leave_date=today,
+#         status='approved'
+#     ).values_list('staff_id', flat=True)
+
+#     # All teaching staff excluding leave-approved ones
+#     available_staff = User.objects.filter(userprofile__role='teacher').exclude(id__in=leave_staff_ids)
+
+#     if request.method == 'POST':
+#         form = StaffClassScheduleForm(request.POST, available_staff=available_staff)
+#         if form.is_valid():
+#             form.save()
+#             return redirect('principal-class-schedule-list')
+#     else:
+#         form = StaffClassScheduleForm(available_staff=available_staff)
+
+#     return render(request, 'principal/class_schedule_create.html', {'form': form})
+
+
+######## new 2 for class schedule create with available staff
+
+from django.utils.timezone import now
+from django.contrib.auth.models import User
+from ..staffs.models import LeaveRequeststaff  # Adjust if needed
+
 def class_schedule_create(request):
+    today = now().date()
+
+    # Fetch all approved leave requests for today
+    leave_staff_ids = LeaveRequeststaff.objects.filter(
+        leave_date=today,
+        status='approved'
+    ).values_list('staff_id', flat=True)
+
+    # Get all staff with role 'teacher' except those on leave
+    available_staff = User.objects.filter(userprofile__role='teacher').exclude(id__in=leave_staff_ids)
+
     if request.method == 'POST':
-        form = StaffClassScheduleForm(request.POST)
+        form = StaffClassScheduleForm(request.POST, available_staff=available_staff)
         if form.is_valid():
             form.save()
             return redirect('principal-class-schedule-list')
     else:
-        form = StaffClassScheduleForm()
+        form = StaffClassScheduleForm(available_staff=available_staff)
+
     return render(request, 'principal/class_schedule_create.html', {'form': form})
+
 
 def class_schedule_edit(request, pk):
     schedule = get_object_or_404(StaffClassSchedule, pk=pk)

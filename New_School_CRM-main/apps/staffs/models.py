@@ -42,8 +42,10 @@ from django.utils import timezone
 
 class LeaveRequeststaff(models.Model):
     staff = models.ForeignKey(User, on_delete=models.CASCADE)
+    leave_date = models.DateField(default=timezone.now)
     reason = models.TextField()
     date_applied = models.DateTimeField(auto_now_add=True)
+    is_emergency = models.BooleanField(default=False)
     
     STATUS_CHOICES = [
         ('pending', 'Pending'),
@@ -53,7 +55,7 @@ class LeaveRequeststaff(models.Model):
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='pending')
 
     def __str__(self):
-        return f"{self.staff.username} - {self.status}" 
+        return f"{self.staff.username} - {self.leave_date} - {self.status}" 
     
 
 ######### attendance model for staff ########

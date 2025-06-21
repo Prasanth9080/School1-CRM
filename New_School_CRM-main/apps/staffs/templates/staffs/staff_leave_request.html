@@ -1,9 +1,38 @@
 {% extends 'staffs/staff_index.html' %}
 {% block content %}
-<h2>Request Leave for staff</h2>
+<h2>Request Leave</h2>
 <form method="post">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit Leave (staff)</button>
+    {{ form.leave_date.label_tag }} {{ form.leave_date }}
+    {{ form.reason.label_tag }} {{ form.reason }}
+    {{ form.is_emergency.label_tag }} {{ form.is_emergency }}
+
+    {{ form.send_to_principal.label_tag }} {{ form.send_to_principal }}
+
+    <button type="submit">Submit Leave Request</button>
 </form>
+
+
+<hr>
+<h3>My Leave History</h3>
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Reason</th>
+        <th>Emergency</th>
+        <th>Status</th>
+    </tr>
+    {% for leave in leaves %}
+    <tr>
+        <td>{{ leave.leave_date }}</td>
+        <td>{{ leave.reason }}</td>
+        <td>{{ leave.is_emergency }}</td>
+        <td>{{ leave.status|title }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="4">No leave requests found.</td>
+    </tr>
+    {% endfor %}
+</table>
 {% endblock %}

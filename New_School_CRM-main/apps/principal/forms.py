@@ -65,13 +65,61 @@ class CirculationForm(forms.ModelForm):
 
 ##### for class schedule
 
+# from django import forms
+# from .models import StaffClassSchedule
+
+# class StaffClassScheduleForm(forms.ModelForm):
+#     class Meta:
+#         model = StaffClassSchedule
+#         fields = '__all__'
+#         widgets = {
+#             'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'}),
+#         }
+
+
+
+########## new form for staff class schedule
+
+
+# from django import forms
+# from .models import StaffClassSchedule
+# from django.contrib.auth.models import User
+
+# class StaffClassScheduleForm(forms.ModelForm):
+#     class Meta:
+#         model = StaffClassSchedule
+#         fields = '__all__'
+#         widgets = {
+#             'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'}),
+#         }
+
+#     def __init__(self, *args, **kwargs):
+#         available_staff = kwargs.pop('available_staff', None)
+#         super().__init__(*args, **kwargs)
+
+#         if available_staff is not None:
+#             self.fields['staff_name'].queryset = available_staff
+
+
+
 from django import forms
 from .models import StaffClassSchedule
+from django.contrib.auth.models import User
 
 class StaffClassScheduleForm(forms.ModelForm):
+    def __init__(self, *args, **kwargs):
+        available_staff = kwargs.pop('available_staff', None)
+        super().__init__(*args, **kwargs)
+        if available_staff is not None:
+            self.fields['staff_name'].queryset = available_staff
+
     class Meta:
         model = StaffClassSchedule
         fields = '__all__'
         widgets = {
             'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'}),
         }
+
+
+
+

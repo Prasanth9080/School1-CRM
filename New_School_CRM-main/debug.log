@@ -40326,3 +40326,1058 @@ WARNING 2025-06-20 11:32:11,391 "GET /templates/profile.css HTTP/1.1" 404 9452
 INFO 2025-06-20 11:32:13,634 "GET /staff/staff-attendance/ HTTP/1.1" 200 12713
 WARNING 2025-06-20 11:32:13,743 Not Found: /templates/profile.css
 WARNING 2025-06-20 11:32:13,743 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:43:44,149 Watching for file changes with StatReloader
+INFO 2025-06-20 14:43:49,556 "GET /admin/corecode/userprofile/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:43:49,580 "GET /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 200 3078
+INFO 2025-06-20 14:43:55,214 "POST /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 200 3401
+INFO 2025-06-20 14:44:01,903 "POST /admin/login/?next=/admin/corecode/userprofile/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:44:02,187 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36419
+INFO 2025-06-20 14:44:02,288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-20 14:44:31,769 "GET /staff/students/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:44:31,849 "GET /login/?next=/staff/students/leavereport/ HTTP/1.1" 200 10560
+INFO 2025-06-20 14:44:38,745 "POST /login/?next=%2Fstaff%2Fstudents%2Fleavereport%2F HTTP/1.1" 200 122
+INFO 2025-06-20 14:44:39,761 "GET /staff/students/leavereport/ HTTP/1.1" 200 15686
+WARNING 2025-06-20 14:44:40,034 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:44:40,035 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:44:45,605 "GET /staff/students/attendance/ HTTP/1.1" 200 14344
+WARNING 2025-06-20 14:44:45,751 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:44:45,751 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:44:48,113 "GET /staff/students/attendance/create/ HTTP/1.1" 200 13648
+WARNING 2025-06-20 14:44:48,260 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:44:48,260 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:44:50,516 "GET /staff/students/leavereport/ HTTP/1.1" 200 15686
+WARNING 2025-06-20 14:44:50,614 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:44:50,614 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:44:57,934 "GET /staff/staff-leave/ HTTP/1.1" 200 14904
+WARNING 2025-06-20 14:44:58,067 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:44:58,067 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:45:47,721 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:45:47,805 "GET /staff/staff-leave/ HTTP/1.1" 200 15162
+WARNING 2025-06-20 14:45:47,964 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:45:47,964 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:03,098 "GET /principal/attendance/ HTTP/1.1" 200 12338
+INFO 2025-06-20 14:46:03,144 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,149 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,161 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,170 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,172 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,173 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,174 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,176 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,179 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,192 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,193 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,193 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,193 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:03,194 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+WARNING 2025-06-20 14:46:03,206 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:03,206 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:10,724 "GET /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:46:10,737 "GET /login/?next=/principal/staff/leavereport/ HTTP/1.1" 200 10560
+INFO 2025-06-20 14:46:10,765 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:10,795 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:17,026 "POST /login/?next=%2Fprincipal%2Fstaff%2Fleavereport%2F HTTP/1.1" 200 123
+INFO 2025-06-20 14:46:18,051 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16322
+WARNING 2025-06-20 14:46:18,185 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:18,187 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:35,290 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:46:35,407 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15924
+WARNING 2025-06-20 14:46:35,531 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:35,532 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:43,753 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15924
+WARNING 2025-06-20 14:46:43,886 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:43,886 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:44,058 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-06-20 14:46:54,081 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15924
+WARNING 2025-06-20 14:46:54,223 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:54,224 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:54,899 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15924
+WARNING 2025-06-20 14:46:55,016 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:55,016 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:46:55,106 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15924
+WARNING 2025-06-20 14:46:55,266 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:46:55,267 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:12,551 "GET /profile/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:47:12,567 "GET /login/?next=/profile/ HTTP/1.1" 200 10560
+INFO 2025-06-20 14:47:22,927 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 14:47:23,075 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:23,076 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:27,469 "GET /principal/class-schedule/ HTTP/1.1" 200 17167
+WARNING 2025-06-20 14:47:27,595 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:27,595 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:33,880 "GET /principal/class-schedule/delete/3/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:47:33,965 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:47:34,073 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:34,073 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:41,718 "POST /login/?next=%2Fprofile%2F HTTP/1.1" 200 103
+INFO 2025-06-20 14:47:42,927 "GET /profile/ HTTP/1.1" 200 20659
+WARNING 2025-06-20 14:47:43,067 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:43,068 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:46,016 "GET /staff/students/attendance/ HTTP/1.1" 200 14344
+WARNING 2025-06-20 14:47:46,127 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:46,128 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:47,494 "GET /principal/staff/circulations/ HTTP/1.1" 200 13252
+WARNING 2025-06-20 14:47:47,620 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:47,621 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:50,204 "GET /staff/staff-leave/ HTTP/1.1" 200 14762
+WARNING 2025-06-20 14:47:50,303 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:50,303 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:52,662 "GET /staff/staff-attendance/ HTTP/1.1" 200 12713
+WARNING 2025-06-20 14:47:52,787 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:52,788 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:47:53,738 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15000
+WARNING 2025-06-20 14:47:53,856 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:47:53,856 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:00,357 "GET /staff/staff-leave/ HTTP/1.1" 200 14762
+WARNING 2025-06-20 14:48:00,474 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:00,475 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:20,932 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:48:21,049 "GET /staff/staff-leave/ HTTP/1.1" 200 14893
+WARNING 2025-06-20 14:48:21,158 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:21,159 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:29,994 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:48:30,137 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:30,137 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:31,487 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:48:31,595 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:31,596 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:31,995 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:48:32,129 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:32,130 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:34,855 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 14:48:34,971 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:34,971 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:38,689 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 14:48:38,840 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:38,840 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:40,157 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 14:48:40,291 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:40,291 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:42,032 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 14:48:42,166 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:42,168 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:48:44,559 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16623
+WARNING 2025-06-20 14:48:44,683 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:48:44,684 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:49:06,792 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:49:06,883 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16225
+WARNING 2025-06-20 14:49:06,993 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:49:06,993 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:49:14,038 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:49:14,161 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:49:14,161 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:49:16,295 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:49:16,438 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:49:16,439 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:49:17,454 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 14:49:17,576 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:49:17,576 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:49:52,384 "POST /principal/class-schedule/create/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:49:52,501 "GET /principal/class-schedule/ HTTP/1.1" 200 17156
+WARNING 2025-06-20 14:49:52,644 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:49:52,644 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:10,542 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 14:50:10,667 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:10,667 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:20,871 "GET /staff/staff-leave/ HTTP/1.1" 200 15164
+WARNING 2025-06-20 14:50:21,013 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:21,014 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:33,492 "GET /staff/staff-leave/ HTTP/1.1" 200 14895
+WARNING 2025-06-20 14:50:33,609 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:33,609 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:33,710 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-06-20 14:50:38,678 "GET /principal/class-schedule/ HTTP/1.1" 200 17156
+WARNING 2025-06-20 14:50:38,841 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:38,842 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:40,338 "GET /principal/class-schedule/ HTTP/1.1" 200 17156
+WARNING 2025-06-20 14:50:40,454 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:40,455 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:42,546 "GET /principal/class-schedule/delete/5/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:50:42,635 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 14:50:42,737 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:42,738 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:50:44,272 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 14:50:44,406 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:50:44,406 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:52:44,091 "POST /principal/class-schedule/create/ HTTP/1.1" 302 0
+INFO 2025-06-20 14:52:44,183 "GET /principal/class-schedule/ HTTP/1.1" 200 17159
+WARNING 2025-06-20 14:52:44,324 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:52:44,324 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 14:52:51,402 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15094
+WARNING 2025-06-20 14:52:51,561 Not Found: /templates/profile.css
+WARNING 2025-06-20 14:52:51,561 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:05:57,673 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\forms.py changed, reloading.
+INFO 2025-06-20 15:05:58,784 Watching for file changes with StatReloader
+INFO 2025-06-20 15:13:34,769 Watching for file changes with StatReloader
+INFO 2025-06-20 15:13:39,758 "GET /principal/class-schedule/ HTTP/1.1" 200 17159
+WARNING 2025-06-20 15:13:39,898 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:13:39,899 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:13:45,185 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:13:45,302 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:13:45,302 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:13:48,343 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:13:48,461 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:13:48,461 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:13:57,590 "GET /staff/staff-leave/ HTTP/1.1" 200 15357
+WARNING 2025-06-20 15:13:57,777 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:13:57,778 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:18:54,469 Watching for file changes with StatReloader
+INFO 2025-06-20 15:19:00,938 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+INFO 2025-06-20 15:19:01,199 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-20 15:19:01,223 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-20 15:19:01,239 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-20 15:19:01,263 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-06-20 15:19:01,282 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-20 15:19:01,597 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-20 15:19:01,654 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-20 15:19:01,657 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-20 15:19:01,666 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-20 15:19:01,768 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-20 15:19:01,802 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-06-20 15:19:01,912 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-20 15:19:02,008 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+WARNING 2025-06-20 15:19:02,062 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:19:02,063 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:19:02,367 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-06-20 15:19:03,461 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-20 15:19:04,132 "GET /staff/staff-leave/ HTTP/1.1" 200 15357
+INFO 2025-06-20 15:19:04,199 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-20 15:19:04,201 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-20 15:19:04,211 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-20 15:19:04,212 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-06-20 15:19:04,231 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-20 15:19:04,233 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-20 15:19:04,247 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-20 15:19:04,248 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-20 15:19:04,258 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-20 15:19:04,259 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-20 15:19:04,260 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-06-20 15:19:04,268 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-20 15:19:04,281 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-20 15:19:04,289 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+WARNING 2025-06-20 15:19:04,481 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:19:04,481 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:19:16,294 "GET /staff/staff-leave/ HTTP/1.1" 200 15357
+WARNING 2025-06-20 15:19:16,595 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:19:16,595 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:19:16,758 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-20 15:19:19,412 "GET /staff/staff-leave/ HTTP/1.1" 200 15357
+WARNING 2025-06-20 15:19:19,678 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:19:19,679 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:20:17,602 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:20:17,919 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:20:17,919 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:20:19,645 "GET /principal/class-schedule/ HTTP/1.1" 200 17159
+INFO 2025-06-20 15:20:26,581 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15094
+INFO 2025-06-20 15:20:26,650 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-20 15:20:26,655 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-20 15:20:26,669 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-20 15:20:26,670 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-06-20 15:20:26,691 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-20 15:20:26,703 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-20 15:20:26,739 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-20 15:20:26,769 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-20 15:20:26,771 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-20 15:20:26,791 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-20 15:20:26,796 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-20 15:20:26,802 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-20 15:20:26,819 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+WARNING 2025-06-20 15:20:26,956 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:20:26,956 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:20:27,177 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-06-20 15:20:29,807 "GET /profile/ HTTP/1.1" 200 20659
+WARNING 2025-06-20 15:20:30,065 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:20:30,066 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:20:33,392 "GET /staff/data/ HTTP/1.1" 200 11482
+WARNING 2025-06-20 15:20:33,650 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:20:33,650 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:20:49,056 "GET /staff/staff-leave/ HTTP/1.1" 200 15088
+WARNING 2025-06-20 15:20:49,348 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:20:49,348 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:21:00,878 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15094
+WARNING 2025-06-20 15:21:01,128 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:21:01,128 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:21:11,223 "GET /principal/class-schedule/delete/6/ HTTP/1.1" 302 0
+INFO 2025-06-20 15:21:11,495 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 15:21:11,740 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:21:11,740 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:21:13,407 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 15:21:13,658 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:21:13,658 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:21:14,184 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 15:21:14,449 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:21:14,450 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:21:16,301 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:21:16,550 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:21:16,551 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:21:21,176 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:21:21,519 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:21:21,519 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:23:31,885 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:23:32,201 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:23:32,201 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:23:51,426 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17798
+WARNING 2025-06-20 15:23:51,709 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:23:51,709 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:30:38,042 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-06-20 15:30:39,789 Watching for file changes with StatReloader
+INFO 2025-06-20 15:31:10,914 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\forms.py changed, reloading.
+INFO 2025-06-20 15:31:11,814 Watching for file changes with StatReloader
+INFO 2025-06-20 15:31:15,656 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 15:31:16,148 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:31:16,148 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:31:18,024 "GET /principal/class/schedule/create/ HTTP/1.1" 200 18031
+WARNING 2025-06-20 15:31:18,315 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:31:18,316 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:31:42,882 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-06-20 15:31:44,191 Watching for file changes with StatReloader
+INFO 2025-06-20 15:31:51,560 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\urls.py changed, reloading.
+INFO 2025-06-20 15:31:52,696 Watching for file changes with StatReloader
+INFO 2025-06-20 15:32:07,914 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\forms.py changed, reloading.
+INFO 2025-06-20 15:32:09,132 Watching for file changes with StatReloader
+INFO 2025-06-20 15:32:54,393 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\staffs\views.py changed, reloading.
+INFO 2025-06-20 15:32:55,376 Watching for file changes with StatReloader
+WARNING 2025-06-20 15:33:02,388 Not Found: /principal/class/schedule/create/
+WARNING 2025-06-20 15:33:02,389 "GET /principal/class/schedule/create/ HTTP/1.1" 404 14817
+WARNING 2025-06-20 15:33:02,832 Not Found: /favicon.ico
+WARNING 2025-06-20 15:33:02,832 "GET /favicon.ico HTTP/1.1" 404 9422
+INFO 2025-06-20 15:33:06,300 "GET /principal/circulation/ HTTP/1.1" 200 15887
+WARNING 2025-06-20 15:33:06,583 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:06,583 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:08,126 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-20 15:33:08,333 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:08,334 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:12,794 "GET /profile/ HTTP/1.1" 200 20659
+WARNING 2025-06-20 15:33:12,952 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:12,953 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:14,136 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15000
+WARNING 2025-06-20 15:33:14,269 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:14,270 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:14,597 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-20 15:33:15,162 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15000
+WARNING 2025-06-20 15:33:15,262 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:15,263 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:16,637 "GET /profile/ HTTP/1.1" 200 20659
+WARNING 2025-06-20 15:33:16,716 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:16,717 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:18,671 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:33:18,779 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:18,780 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:42,364 "POST /principal/class-schedule/create/ HTTP/1.1" 302 0
+INFO 2025-06-20 15:33:42,480 "GET /principal/class-schedule/ HTTP/1.1" 200 17158
+WARNING 2025-06-20 15:33:42,580 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:42,581 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:46,374 "GET /staff/staff-leave/ HTTP/1.1" 200 15088
+WARNING 2025-06-20 15:33:46,482 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:46,482 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:48,224 "GET /staff/staff-attendance/ HTTP/1.1" 200 12713
+WARNING 2025-06-20 15:33:48,333 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:48,334 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:50,676 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15093
+WARNING 2025-06-20 15:33:50,767 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:50,767 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:33:52,868 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15093
+WARNING 2025-06-20 15:33:52,951 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:33:52,951 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 15:34:32,667 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 15:34:32,809 Not Found: /templates/profile.css
+WARNING 2025-06-20 15:34:32,810 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:15,470 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 16:38:15,578 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:15,578 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:17,346 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 16:38:17,495 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:17,495 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:18,104 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 16:38:18,195 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:18,196 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:19,655 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:19,754 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:19,755 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:20,463 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:20,555 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:20,555 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:21,164 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:21,289 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:21,290 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:21,664 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:21,789 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:21,790 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:22,247 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:22,356 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:22,356 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:22,622 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:22,756 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:22,757 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:23,198 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:23,348 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:23,348 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:23,898 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:24,013 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:24,013 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:24,498 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:24,615 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:24,616 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:25,224 "GET /principal/staff/attendance/ HTTP/1.1" 200 15525
+WARNING 2025-06-20 16:38:25,330 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:25,331 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:31,667 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-20 16:38:31,816 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:31,817 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 16:38:33,519 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 16:38:33,635 Not Found: /templates/profile.css
+WARNING 2025-06-20 16:38:33,635 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-20 17:25:58,958 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-20 17:25:59,233 Not Found: /templates/profile.css
+WARNING 2025-06-20 17:25:59,234 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:52:08,094 Watching for file changes with StatReloader
+INFO 2025-06-21 09:54:07,458 "GET / HTTP/1.1" 302 0
+INFO 2025-06-21 09:54:07,596 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-21 09:54:07,644 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,657 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,658 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,658 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,666 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,668 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,682 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,683 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,691 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:07,759 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-21 09:54:07,759 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-21 09:54:08,034 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-21 09:54:14,296 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-21 09:54:15,322 "GET / HTTP/1.1" 200 16688
+INFO 2025-06-21 09:54:15,367 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:15,367 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:15,377 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:15,380 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:15,397 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:15,425 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-06-21 09:54:15,425 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-06-21 09:54:15,428 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+WARNING 2025-06-21 09:54:15,789 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:15,789 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:21,626 "GET / HTTP/1.1" 302 0
+INFO 2025-06-21 09:54:21,642 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-21 09:54:21,655 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,660 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,660 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,688 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,695 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,696 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-21 09:54:21,697 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-21 09:54:21,707 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,721 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,728 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:21,730 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:22,037 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-21 09:54:30,894 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-21 09:54:31,812 "GET / HTTP/1.1" 200 16223
+INFO 2025-06-21 09:54:31,862 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:31,869 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:31,878 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:31,879 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:31,880 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-06-21 09:54:31,882 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-06-21 09:54:31,888 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-06-21 09:54:31,890 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+WARNING 2025-06-21 09:54:31,960 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:31,961 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:36,847 "GET /staff/staff-class/ HTTP/1.1" 200 15087
+WARNING 2025-06-21 09:54:36,963 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:36,964 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:43,091 "GET /staff/staff-attendance/ HTTP/1.1" 200 13003
+WARNING 2025-06-21 09:54:43,207 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:43,208 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:43,924 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15102
+WARNING 2025-06-21 09:54:44,041 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:44,042 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:51,986 "GET /staff/staff-class/ HTTP/1.1" 200 15087
+WARNING 2025-06-21 09:54:52,103 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:52,103 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:55,163 "GET /staff/staff-class/ HTTP/1.1" 200 15087
+WARNING 2025-06-21 09:54:55,271 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:55,271 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:54:57,122 "GET /staff/staff-attendance/ HTTP/1.1" 200 13003
+WARNING 2025-06-21 09:54:57,221 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:54:57,222 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:55:00,023 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15102
+WARNING 2025-06-21 09:55:00,139 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:55:00,139 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:55:34,219 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15115
+WARNING 2025-06-21 09:55:34,353 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:55:34,353 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:55:35,319 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-06-21 09:55:36,979 "GET /principal/staff/circulations/ HTTP/1.1" 200 12720
+WARNING 2025-06-21 09:55:37,070 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:55:37,071 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:55:38,797 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15115
+WARNING 2025-06-21 09:55:38,904 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:55:38,905 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:55:40,438 "GET /staff/students/attendance/ HTTP/1.1" 200 14344
+WARNING 2025-06-21 09:55:40,580 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:55:40,581 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 09:55:42,414 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15115
+WARNING 2025-06-21 09:55:42,522 Not Found: /templates/profile.css
+WARNING 2025-06-21 09:55:42,523 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:02:15,382 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15115
+WARNING 2025-06-21 10:02:15,523 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:02:15,524 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:02:15,848 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15115
+WARNING 2025-06-21 10:02:15,957 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:02:15,957 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:07:13,548 "GET / HTTP/1.1" 200 16236
+WARNING 2025-06-21 10:07:13,713 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:07:13,714 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:07:30,670 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15115
+WARNING 2025-06-21 10:07:30,763 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:07:30,764 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:21:26,436 "GET / HTTP/1.1" 200 16688
+WARNING 2025-06-21 10:21:26,576 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:21:26,576 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:21:27,376 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-06-21 10:21:59,214 "GET /principal/class-schedule/ HTTP/1.1" 200 17158
+WARNING 2025-06-21 10:21:59,322 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:21:59,323 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:11,377 "GET /principal/class-schedule/delete/7/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:22:11,486 "GET /principal/class-schedule/ HTTP/1.1" 200 16678
+WARNING 2025-06-21 10:22:11,594 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:11,594 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:11,925 "GET /principal/class-schedule/delete/4/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:22:12,003 "GET /principal/class-schedule/ HTTP/1.1" 200 16182
+WARNING 2025-06-21 10:22:12,104 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:12,104 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:21,891 "GET /principal/class-schedule/delete/1/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:22:21,982 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:22:22,112 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:22,112 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:27,225 "GET /principal/staff/class-schedule/ HTTP/1.1" 200 15013
+WARNING 2025-06-21 10:22:27,368 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:27,369 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:31,045 "GET /staff/students/leavereport/ HTTP/1.1" 200 15686
+WARNING 2025-06-21 10:22:31,144 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:31,145 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:32,828 "GET /staff/staff-leave/ HTTP/1.1" 200 15357
+WARNING 2025-06-21 10:22:32,935 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:32,936 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:22:52,752 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:22:52,837 "GET /staff/staff-leave/ HTTP/1.1" 200 15618
+WARNING 2025-06-21 10:22:52,935 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:22:52,936 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:07,391 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:23:07,482 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:07,483 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:10,277 "GET /principal/circulation/ HTTP/1.1" 200 15887
+WARNING 2025-06-21 10:23:10,393 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:10,394 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:14,694 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-21 10:23:14,802 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:14,803 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:18,163 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:18,270 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:18,270 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:23,822 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:23,947 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:23,948 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:24,574 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:24,673 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:24,674 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:24,949 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:25,031 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:25,031 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:25,283 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:25,364 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:25,365 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:25,649 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:25,732 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:25,733 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:25,991 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:26,123 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:26,123 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:26,520 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16915
+WARNING 2025-06-21 10:23:26,658 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:26,658 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:30,192 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:23:30,267 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16517
+WARNING 2025-06-21 10:23:30,375 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:30,375 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:48,174 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:23:48,250 "GET /staff/staff-leave/ HTTP/1.1" 200 15857
+WARNING 2025-06-21 10:23:48,366 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:48,367 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:23:52,617 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17183
+WARNING 2025-06-21 10:23:52,709 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:23:52,710 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:24:01,268 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:24:01,363 "GET /staff/staff-leave/ HTTP/1.1" 200 16095
+WARNING 2025-06-21 10:24:01,463 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:24:01,464 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:24:06,783 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17813
+WARNING 2025-06-21 10:24:06,881 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:24:06,881 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:24:10,582 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:24:10,676 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17415
+WARNING 2025-06-21 10:24:10,800 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:24:10,800 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:24:11,480 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:24:11,559 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17017
+WARNING 2025-06-21 10:24:11,675 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:24:11,676 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:24:14,235 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17017
+WARNING 2025-06-21 10:24:14,339 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:24:14,340 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:26:07,362 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:26:07,450 "GET /staff/staff-leave/ HTTP/1.1" 200 16375
+WARNING 2025-06-21 10:26:07,579 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:26:07,579 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:26:21,112 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17685
+WARNING 2025-06-21 10:26:21,218 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:26:21,218 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:27:41,385 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17685
+WARNING 2025-06-21 10:27:41,496 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:27:41,497 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:27:53,732 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-21 10:27:53,834 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:27:53,835 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:28:25,661 "POST /principal/class-schedule/create/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:28:25,765 "GET /principal/class-schedule/ HTTP/1.1" 200 16180
+WARNING 2025-06-21 10:28:25,873 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:28:25,874 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:28:29,846 "GET /principal/class-schedule/delete/8/ HTTP/1.1" 302 0
+INFO 2025-06-21 10:28:29,954 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:28:30,058 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:28:30,058 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:30:39,519 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:30:39,672 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:30:39,672 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:30:40,436 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:30:40,540 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:30:40,540 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:30:40,966 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:30:41,095 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:30:41,096 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:30:41,458 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:30:41,569 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:30:41,570 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:30:41,858 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:30:41,966 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:30:41,966 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 10:30:42,441 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 10:30:42,579 Not Found: /templates/profile.css
+WARNING 2025-06-21 10:30:42,580 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:11:23,445 Watching for file changes with StatReloader
+INFO 2025-06-21 11:11:29,094 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:11:29,396 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:11:29,397 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:11:33,795 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17685
+WARNING 2025-06-21 11:11:33,918 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:11:33,919 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:11:37,108 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:11:37,224 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:11:37,225 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:11:38,350 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:11:38,472 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:11:38,472 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:11:55,054 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:11:55,187 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:11:55,187 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:12:20,645 "GET /staff/staff-leave/ HTTP/1.1" 200 16375
+WARNING 2025-06-21 11:12:20,808 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:12:20,809 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:12:50,522 "GET / HTTP/1.1" 302 0
+INFO 2025-06-21 11:12:50,613 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-21 11:12:50,627 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,627 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,628 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,632 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,639 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,640 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,651 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,654 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,657 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:50,712 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-21 11:12:50,713 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-21 11:12:50,919 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-21 11:12:58,879 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-21 11:12:59,804 "GET / HTTP/1.1" 200 16688
+INFO 2025-06-21 11:12:59,835 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:59,844 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:59,845 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:59,849 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:59,851 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-06-21 11:12:59,872 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-06-21 11:12:59,873 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-06-21 11:12:59,873 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+WARNING 2025-06-21 11:12:59,946 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:12:59,946 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:03,881 "GET /profile/ HTTP/1.1" 200 21095
+WARNING 2025-06-21 11:13:03,972 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:03,973 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:06,244 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:13:06,253 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-21 11:13:12,051 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-21 11:13:12,968 "GET / HTTP/1.1" 200 16236
+WARNING 2025-06-21 11:13:13,075 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:13,075 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:17,753 "GET /staff/students/leavereport/ HTTP/1.1" 200 15686
+WARNING 2025-06-21 11:13:17,853 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:17,853 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:19,919 "GET /staff/staff-leave/ HTTP/1.1" 200 15088
+WARNING 2025-06-21 11:13:20,035 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:20,036 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:45,055 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:13:45,142 "GET /staff/staff-leave/ HTTP/1.1" 200 15349
+WARNING 2025-06-21 11:13:45,250 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:45,250 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:51,866 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:13:52,016 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:52,017 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:13:58,252 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-21 11:13:58,376 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:13:58,376 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:00,595 "GET /principal/staff/leavereport/ HTTP/1.1" 200 18383
+WARNING 2025-06-21 11:14:00,722 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:00,723 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:08,026 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:14:08,139 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17985
+WARNING 2025-06-21 11:14:08,238 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:08,238 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:15,333 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:14:15,520 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:15,520 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:17,244 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:17,371 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:17,371 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:21,135 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:21,236 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:21,236 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:24,065 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:14:24,157 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17587
+WARNING 2025-06-21 11:14:24,282 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:24,282 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:27,783 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:27,905 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:27,906 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:30,322 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:30,431 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:30,432 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:32,648 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:32,760 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:32,761 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:38,077 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-21 11:14:38,204 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:38,204 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:39,927 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:14:40,034 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:40,034 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:41,161 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:41,272 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:41,272 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:52,315 "GET /staff/staff-leave/ HTTP/1.1" 200 15351
+WARNING 2025-06-21 11:14:52,432 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:52,432 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:14:52,538 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-06-21 11:14:57,217 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:14:57,350 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:14:57,351 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:26:54,894 Watching for file changes with StatReloader
+INFO 2025-06-21 11:27:03,384 "GET /principal/staff/leavereport/ HTTP/1.1" 200 17587
+INFO 2025-06-21 11:27:03,603 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-21 11:27:03,664 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-21 11:27:03,675 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-21 11:27:03,735 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+INFO 2025-06-21 11:27:03,767 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-06-21 11:27:03,785 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-21 11:27:03,914 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-21 11:27:03,930 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-21 11:27:03,967 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-21 11:27:03,971 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-21 11:27:04,007 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-21 11:27:04,012 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-21 11:27:04,039 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-21 11:27:04,069 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+WARNING 2025-06-21 11:27:04,443 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:04,444 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:04,668 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-06-21 11:27:08,903 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:27:09,162 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:09,163 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:09,442 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-21 11:27:13,521 "GET /staff/staff-leave/ HTTP/1.1" 200 16377
+INFO 2025-06-21 11:27:13,585 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-21 11:27:13,592 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-21 11:27:13,596 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-06-21 11:27:13,596 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-21 11:27:13,606 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-21 11:27:13,607 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-21 11:27:13,617 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-21 11:27:13,631 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-21 11:27:13,632 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-21 11:27:13,636 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-21 11:27:13,638 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-06-21 11:27:13,642 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-21 11:27:13,647 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-21 11:27:13,677 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+WARNING 2025-06-21 11:27:13,862 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:13,863 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:17,773 "GET /staff/staff-leave/ HTTP/1.1" 200 16377
+WARNING 2025-06-21 11:27:18,049 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:18,049 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:18,284 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-21 11:27:18,319 - Broken pipe from ('127.0.0.1', 49804)
+INFO 2025-06-21 11:27:18,607 "GET /staff/staff-leave/ HTTP/1.1" 200 16377
+INFO 2025-06-21 11:27:18,850 - Broken pipe from ('127.0.0.1', 49809)
+WARNING 2025-06-21 11:27:19,083 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:19,083 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:20,908 "GET /staff/staff-leave/ HTTP/1.1" 200 15351
+INFO 2025-06-21 11:27:20,969 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-21 11:27:20,995 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-21 11:27:21,003 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-21 11:27:21,004 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2025-06-21 11:27:21,023 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-21 11:27:21,028 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-21 11:27:21,054 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-21 11:27:21,096 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-21 11:27:21,110 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-21 11:27:21,123 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-21 11:27:21,127 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-21 11:27:21,134 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-21 11:27:21,154 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+WARNING 2025-06-21 11:27:21,291 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:21,291 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:21,555 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-06-21 11:27:28,670 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:27:28,935 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:27:28,935 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:27:59,555 "GET / HTTP/1.1" 302 0
+INFO 2025-06-21 11:27:59,663 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-21 11:27:59,678 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-21 11:27:59,681 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-21 11:27:59,687 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-21 11:27:59,692 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-21 11:27:59,696 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-21 11:27:59,728 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-21 11:27:59,730 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-21 11:27:59,732 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-21 11:27:59,734 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-21 11:27:59,735 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-06-21 11:27:59,736 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-21 11:27:59,976 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-21 11:28:00,000 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-21 11:28:14,491 "GET /admin HTTP/1.1" 301 0
+INFO 2025-06-21 11:28:14,537 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:28:14,584 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-06-21 11:28:14,604 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-06-21 11:28:14,624 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-06-21 11:28:14,626 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-06-21 11:28:14,643 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-06-21 11:28:14,667 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-06-21 11:28:14,674 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-06-21 11:28:14,704 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-06-21 11:28:14,731 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-06-21 11:28:21,774 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:28:22,133 "GET /admin/ HTTP/1.1" 200 73941
+INFO 2025-06-21 11:28:22,184 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-06-21 11:28:22,248 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-06-21 11:28:31,670 "GET /admin/auth/user/ HTTP/1.1" 200 39143
+INFO 2025-06-21 11:28:31,710 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-06-21 11:28:31,714 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-21 11:28:31,726 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-06-21 11:28:31,731 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-06-21 11:28:31,733 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-06-21 11:28:31,746 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-06-21 11:28:31,750 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-06-21 11:28:31,752 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-06-21 11:28:31,755 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-06-21 11:28:31,777 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-06-21 11:28:31,812 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-06-21 11:28:31,814 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-06-21 11:28:31,946 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:28:44,609 "GET /admin/students/leaverequeststudent/ HTTP/1.1" 200 33001
+INFO 2025-06-21 11:28:44,849 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:28:51,543 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 35400
+INFO 2025-06-21 11:28:51,785 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:29:09,226 "POST /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 28790
+INFO 2025-06-21 11:29:09,256 "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+INFO 2025-06-21 11:29:11,636 "POST /admin/staffs/leaverequeststaff/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:29:11,886 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 34469
+INFO 2025-06-21 11:29:12,119 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:29:54,869 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:29:54,879 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-21 11:29:54,901 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-21 11:29:54,908 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-21 11:29:55,161 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-21 11:30:03,297 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-21 11:30:04,398 "GET / HTTP/1.1" 200 16688
+INFO 2025-06-21 11:30:04,480 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-06-21 11:30:04,481 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-06-21 11:30:04,482 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+WARNING 2025-06-21 11:30:04,731 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:30:04,731 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:30:09,176 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:30:09,434 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:30:09,435 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:35:57,122 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-06-21 11:35:58,795 Watching for file changes with StatReloader
+INFO 2025-06-21 11:36:03,781 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:36:04,209 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:04,210 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:36:08,777 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17757
+WARNING 2025-06-21 11:36:09,026 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:09,026 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:36:15,979 "GET /staff/staff-leave/ HTTP/1.1" 200 15620
+WARNING 2025-06-21 11:36:16,262 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:16,262 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:36:23,906 "GET /staff/staff-leave/ HTTP/1.1" 200 15351
+WARNING 2025-06-21 11:36:24,148 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:24,149 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:36:24,616 "GET /staff/staff-leave/ HTTP/1.1" 200 15351
+WARNING 2025-06-21 11:36:24,857 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:24,858 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:36:25,063 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-21 11:36:49,599 "POST /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 29278
+INFO 2025-06-21 11:36:52,668 "POST /admin/staffs/leaverequeststaff/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:36:52,935 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 28868
+INFO 2025-06-21 11:36:53,185 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:36:57,095 "GET /principal/circulation/ HTTP/1.1" 200 15887
+WARNING 2025-06-21 11:36:57,353 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:57,354 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:36:59,363 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:36:59,621 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:36:59,622 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:37:01,005 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17795
+WARNING 2025-06-21 11:37:01,313 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:37:01,314 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:37:14,113 "GET /profile/ HTTP/1.1" 200 20672
+WARNING 2025-06-21 11:37:14,375 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:37:14,376 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:37:17,335 "GET /staff/staff-leave/ HTTP/1.1" 200 14955
+WARNING 2025-06-21 11:37:17,586 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:37:17,586 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:37:50,575 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:37:50,800 "GET /staff/staff-leave/ HTTP/1.1" 200 15087
+WARNING 2025-06-21 11:37:51,065 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:37:51,065 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:37:58,178 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 31985
+INFO 2025-06-21 11:37:58,418 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:37:59,604 "GET /admin/staffs/leaverequeststaff/39/change/ HTTP/1.1" 200 35419
+INFO 2025-06-21 11:37:59,648 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-06-21 11:37:59,658 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-21 11:37:59,661 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-06-21 11:37:59,665 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-06-21 11:37:59,669 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-06-21 11:37:59,683 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-06-21 11:37:59,692 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-06-21 11:37:59,715 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-06-21 11:37:59,861 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:38:06,064 "POST /admin/staffs/leaverequeststaff/39/change/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:38:06,313 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 32596
+INFO 2025-06-21 11:38:06,539 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:38:12,666 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15706
+WARNING 2025-06-21 11:38:12,948 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:38:12,949 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:38:17,386 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:38:17,644 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:38:17,645 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:38:18,984 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17756
+WARNING 2025-06-21 11:38:19,244 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:38:19,245 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:38:37,752 "GET /staff/staff-leave/ HTTP/1.1" 200 14955
+WARNING 2025-06-21 11:38:38,034 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:38:38,034 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:39:14,625 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:39:14,859 "GET /staff/staff-leave/ HTTP/1.1" 200 15081
+WARNING 2025-06-21 11:39:15,116 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:39:15,117 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:39:18,893 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16354
+WARNING 2025-06-21 11:39:19,175 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:39:19,175 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:39:50,622 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:39:50,871 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15956
+WARNING 2025-06-21 11:39:51,138 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:39:51,138 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:39:54,391 "GET /staff/staff-leave/ HTTP/1.1" 200 15083
+WARNING 2025-06-21 11:39:54,664 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:39:54,664 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:39:57,557 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:39:57,825 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:39:57,826 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:39:59,110 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17718
+WARNING 2025-06-21 11:39:59,375 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:39:59,375 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:40:12,805 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 32473
+INFO 2025-06-21 11:40:13,048 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:40:16,731 "GET /staff/staff-leave/ HTTP/1.1" 200 15083
+WARNING 2025-06-21 11:40:16,983 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:40:16,983 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:40:22,635 "POST /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 28303
+INFO 2025-06-21 11:40:24,469 "POST /admin/staffs/leaverequeststaff/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:40:24,711 "GET /admin/staffs/leaverequeststaff/ HTTP/1.1" 200 32496
+INFO 2025-06-21 11:40:24,952 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-21 11:40:28,321 "GET /principal/circulation/ HTTP/1.1" 200 15887
+WARNING 2025-06-21 11:40:28,621 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:40:28,621 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:40:29,570 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:40:29,871 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:40:29,872 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:40:31,222 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17756
+WARNING 2025-06-21 11:40:31,464 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:40:31,464 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:40:38,425 "GET /staff/staff-leave/ HTTP/1.1" 200 14955
+WARNING 2025-06-21 11:40:38,757 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:40:38,757 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:41:07,345 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:41:07,578 "GET /staff/staff-leave/ HTTP/1.1" 200 15095
+WARNING 2025-06-21 11:41:07,868 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:41:07,868 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:41:16,613 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16368
+WARNING 2025-06-21 11:41:16,906 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:41:16,907 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:41:19,566 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:41:19,806 "GET /principal/staff/leavereport/ HTTP/1.1" 200 15970
+WARNING 2025-06-21 11:41:20,066 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:41:20,066 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:41:22,783 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:41:23,042 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:41:23,043 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:41:24,293 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17756
+WARNING 2025-06-21 11:41:24,568 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:41:24,568 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:02,573 "POST /staff/staff-leave/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:55:02,894 "GET /staff/staff-leave/ HTTP/1.1" 200 15349
+WARNING 2025-06-21 11:55:03,223 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:03,223 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:15,653 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17756
+WARNING 2025-06-21 11:55:15,919 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:15,920 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:22,429 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16651
+WARNING 2025-06-21 11:55:22,680 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:22,681 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:25,674 "POST /principal/staff/leavereport/ HTTP/1.1" 302 0
+INFO 2025-06-21 11:55:25,907 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16253
+WARNING 2025-06-21 11:55:26,172 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:26,172 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:28,007 "GET /principal/staff/leavereport/ HTTP/1.1" 200 16253
+WARNING 2025-06-21 11:55:28,266 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:28,266 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:33,952 "GET /principal/class-schedule/ HTTP/1.1" 200 15788
+WARNING 2025-06-21 11:55:34,338 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:34,338 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:35,244 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17718
+WARNING 2025-06-21 11:55:35,511 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:35,511 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:40,213 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17718
+WARNING 2025-06-21 11:55:40,478 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:40,478 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 11:55:58,670 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17718
+WARNING 2025-06-21 11:55:58,920 Not Found: /templates/profile.css
+WARNING 2025-06-21 11:55:58,920 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 12:19:50,309 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17718
+WARNING 2025-06-21 12:19:50,460 Not Found: /templates/profile.css
+WARNING 2025-06-21 12:19:50,461 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 12:52:14,149 "GET /principal/attendance/ HTTP/1.1" 200 12338
+WARNING 2025-06-21 12:52:14,283 Not Found: /templates/profile.css
+WARNING 2025-06-21 12:52:14,284 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-21 12:52:15,184 "GET /principal/class-schedule/create/ HTTP/1.1" 200 17718
+WARNING 2025-06-21 12:52:15,315 Not Found: /templates/profile.css
+WARNING 2025-06-21 12:52:15,316 "GET /templates/profile.css HTTP/1.1" 404 9452
