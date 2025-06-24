@@ -9,18 +9,76 @@
 #         fields = [ 'reason']
 
 ### new....
+# from django import forms
+# from .models import LeaveRequeststaff
+
+# class LeaveRequeststaffForm(forms.ModelForm):
+#     send_to_principal = forms.BooleanField(required=False, initial=True, label="Send leave request to principal")
+
+#     class Meta:
+#         model = LeaveRequeststaff
+#         fields = ['leave_date', 'reason', 'is_emergency']
+#         widgets = {
+#             'leave_date': forms.DateInput(attrs={'type': 'date'}),
+#         }
+
+
+######## new .... 2
+
+# from django import forms
+# from .models import LeaveRequeststaff
+
+# class LeaveRequeststaffForm(forms.ModelForm):
+#     send_to_principal = forms.BooleanField(
+#         required=False, initial=True, label="Send leave request to principal"
+#     )
+
+#     class Meta:
+#         model = LeaveRequeststaff
+#         fields = ['start_date', 'end_date', 'reason', 'is_emergency']
+#         widgets = {
+#             'start_date': forms.DateInput(attrs={'type': 'date'}),
+#             'end_date': forms.DateInput(attrs={'type': 'date'}),
+#         }
+
+#     def clean(self):
+#         cleaned_data = super().clean()
+#         start = cleaned_data.get("start_date")
+#         end = cleaned_data.get("end_date")
+
+#         if start and end and start > end:
+#             raise forms.ValidationError("End date cannot be earlier than start date.")
+
+
+############### updated func for leave request avoid duplicate method 1
+
 from django import forms
 from .models import LeaveRequeststaff
 
 class LeaveRequeststaffForm(forms.ModelForm):
-    send_to_principal = forms.BooleanField(required=False, initial=True, label="Send leave request to principal")
+    send_to_principal = forms.BooleanField(
+        required=False, initial=True, label="Send leave request to principal"
+    )
 
     class Meta:
         model = LeaveRequeststaff
-        fields = ['leave_date', 'reason', 'is_emergency']
+        fields = ['start_date', 'end_date', 'reason', 'is_emergency']
         widgets = {
-            'leave_date': forms.DateInput(attrs={'type': 'date'}),
+            'start_date': forms.DateInput(attrs={'type': 'date'}),
+            'end_date': forms.DateInput(attrs={'type': 'date'}),
         }
+
+    def clean_reason(self):
+        # Strip whitespace
+        return self.cleaned_data['reason'].strip()
+
+    def clean(self):
+        cleaned_data = super().clean()
+        start = cleaned_data.get("start_date")
+        end = cleaned_data.get("end_date")
+        if start and end and start > end:
+            raise forms.ValidationError("End date cannot be earlier than start date.")
+        return cleaned_data
 
 
 

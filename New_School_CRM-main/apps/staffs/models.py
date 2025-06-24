@@ -42,10 +42,12 @@ from django.utils import timezone
 
 class LeaveRequeststaff(models.Model):
     staff = models.ForeignKey(User, on_delete=models.CASCADE)
-    leave_date = models.DateField(default=timezone.now)
+    start_date = models.DateField(default=timezone.now)
+    end_date = models.DateField(default=timezone.now)
     reason = models.TextField()
-    date_applied = models.DateTimeField(auto_now_add=True)
     is_emergency = models.BooleanField(default=False)
+    send_to_principal = models.BooleanField(default=False)
+    date_applied = models.DateTimeField(auto_now_add=True)
     
     STATUS_CHOICES = [
         ('pending', 'Pending'),
@@ -55,7 +57,10 @@ class LeaveRequeststaff(models.Model):
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='pending')
 
     def __str__(self):
-        return f"{self.staff.username} - {self.leave_date} - {self.status}" 
+        return f"{self.staff.username} | {self.start_date} to {self.end_date} | {self.status}"
+
+    class Meta:
+        ordering = ['-date_applied'] 
     
 
 ######### attendance model for staff ########

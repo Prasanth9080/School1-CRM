@@ -104,6 +104,24 @@
             font-size: 14px;
             padding: 0px;
         }
+
+        .messages {
+            list-style: none;
+            margin: 10px 0;
+            padding: 0;
+        }
+
+        .messages li.success {
+            background: #d4edda;
+            color: #155724;
+            padding: 10px;
+        }
+
+        .messages li.warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 10px;
+        }
     }
 </style>
 
@@ -117,6 +135,8 @@
 <h5>Attendance</h5>
 {% endblock breadcrumb %}
 
+<!--  -->
+
 {% block content %}
 <div>
     <h2>Leave Requests</h2>
@@ -126,6 +146,8 @@
             <thead>
                 <tr>
                     <th>Staff</th>
+                    <th>Start_date</th>
+                    <th>End_date</th>
                     <th>Reason</th>
                     <th>Date Applied</th>
                     <th>Status</th>
@@ -135,6 +157,8 @@
                 {% for leave in leaves %}
                 <tr>
                     <td>{{ leave.staff.username }}</td>
+                    <td>{{ leave.start_date }}</td>
+                    <td>{{ leave.end_date }}</td>
                     <td>{{ leave.reason }}</td>
                     <td>{{ leave.date_applied }}</td>
                     <td class="{{ leave.status|lower }}">{{ leave.status }}</td>
@@ -152,6 +176,16 @@
 
     <!-- Leave Request Form -->
     <h3>Add Leave Request</h3>
+
+    <!-- 🔽 Add this block just before the form -->
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}

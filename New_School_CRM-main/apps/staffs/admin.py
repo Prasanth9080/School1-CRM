@@ -11,8 +11,21 @@ class StaffAdmin(admin.ModelAdmin):
 
 
 
-class LeaveRequeststaffAdmin(admin.ModelAdmin):
-    list_display =('staff', 'reason','date_applied','status')
+# class LeaveRequeststaffAdmin(admin.ModelAdmin):
+#     list_display =('staff', 'reason','date_applied','status')
+
+
+##### new 2 ....
+
+from django.contrib import admin
+from .models import LeaveRequeststaff
+
+@admin.register(LeaveRequeststaff)
+class LeaveRequestAdmin(admin.ModelAdmin):
+    list_display = ('staff', 'start_date', 'end_date', 'reason', 'is_emergency', 'status', 'date_applied')
+    list_filter = ('status', 'is_emergency')
+    search_fields = ('staff__username', 'reason')
+
 class StaffAttendanceRecordAdmin(admin.ModelAdmin):
     list_display =('staff', 'date','month','day','status','message','signature')
     
@@ -33,5 +46,6 @@ class StudentFeesRecordAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Staff, StaffAdmin)
-admin.site.register(LeaveRequeststaff, LeaveRequeststaffAdmin)
+# admin.site.register(LeaveRequeststaff)
+# admin.site.register(LeaveRequeststaffAdmin)
 admin.site.register(StaffAttendanceRecord, StaffAttendanceRecordAdmin)

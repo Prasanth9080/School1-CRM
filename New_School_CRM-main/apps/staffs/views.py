@@ -172,30 +172,78 @@ from .models import LeaveRequeststaff
 
 ###### new ... 2
 
+# @login_required
+# def staff_leave_request(request):
+#     if request.method == 'POST':
+#         form = LeaveRequeststaffForm(request.POST)
+#         if form.is_valid():
+#             leave = form.save(commit=False)
+#             leave.staff = request.user
+
+#             send_to_principal = form.cleaned_data.get('send_to_principal', False)
+#             if send_to_principal:
+#                 leave.status = 'pending'  # Leave visible to principal
+#             else:
+#                 leave.status = 'rejected'  # Or some other logic if not sent?
+
+#             leave.save()
+#             return redirect('staff-leave-request')
+#     else:
+#         form = LeaveRequeststaffForm()
+    
+#     leaves = LeaveRequeststaff.objects.filter(staff=request.user).order_by('-leave_date')
+#     return render(request, 'staffs/staff_leave_request.html', {
+#         'form': form,
+#         'leaves': leaves
+#     })
+
+
+
+
+######### updated func for leave request avoid duplicate method 1
+
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect
+from .forms import LeaveRequeststaffForm
+from .models import LeaveRequeststaff
+
 @login_required
 def staff_leave_request(request):
     if request.method == 'POST':
         form = LeaveRequeststaffForm(request.POST)
         if form.is_valid():
-            leave = form.save(commit=False)
-            leave.staff = request.user
+            start_date = form.cleaned_data['start_date']
+            end_date = form.cleaned_data['end_date']
 
-            send_to_principal = form.cleaned_data.get('send_to_principal', False)
-            if send_to_principal:
-                leave.status = 'pending'  # Leave visible to principal
+            # 🔐 Prevent duplicate leave for same date range
+            duplicate = LeaveRequeststaff.objects.filter(
+                staff=request.user,
+                start_date=start_date,
+                end_date=end_date,
+                status__in=['pending', 'approved']  # Reject if already approved or pending
+            ).exists()
+
+            if duplicate:
+                messages.warning(request, "You’ve already submitted a leave request for these dates.")
             else:
-                leave.status = 'rejected'  # Or some other logic if not sent?
-
-            leave.save()
-            return redirect('staff-leave-request')
+                leave = form.save(commit=False)
+                leave.staff = request.user
+                send_to_principal = form.cleaned_data.get('send_to_principal', False)
+                leave.status = 'pending' if send_to_principal else 'rejected'
+                leave.save()
+                messages.success(request, "Leave request submitted successfully.")
+                return redirect('staff-leave-request')
     else:
         form = LeaveRequeststaffForm()
-    
-    leaves = LeaveRequeststaff.objects.filter(staff=request.user).order_by('-leave_date')
+
+    leaves = LeaveRequeststaff.objects.filter(staff=request.user).order_by('-date_applied')
     return render(request, 'staffs/staff_leave_request.html', {
         'form': form,
         'leaves': leaves
     })
+ 
+
 
 
 

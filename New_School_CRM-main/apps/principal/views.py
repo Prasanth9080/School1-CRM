@@ -25,19 +25,74 @@ def principal_dashboard(request):
 #     return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
 
 #### new ....
+# @login_required
+# def principalstaffleavereport(request):
+#     leaves = LeaveRequeststaff.objects.all().order_by('-leave_date')
+
+#     if request.method == "POST":
+#         leave_id = request.POST.get("leave_id")
+#         action = request.POST.get("action")
+#         leave = LeaveRequeststaff.objects.get(id=leave_id)
+#         if action == "approve":
+#             leave.status = "approved"
+#         elif action == "reject":
+#             leave.status = "rejected"
+#         leave.save()
+#         return redirect('principal-staff-leave-report')
+
+#     return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
+
+###### new 3 ...
+
+# from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render, redirect
+# from apps.staffs.models import LeaveRequeststaff
+
+# @login_required
+# def principalstaffleavereport(request):
+#     leaves = LeaveRequeststaff.objects.all().order_by('-start_date')
+
+#     if request.method == "POST":
+#         leave_id = request.POST.get("leave_id")
+#         action = request.POST.get("action")
+#         try:
+#             leave = LeaveRequeststaff.objects.get(id=leave_id)
+#             if action == "approve":
+#                 leave.status = "approved"
+#             elif action == "reject":
+#                 leave.status = "rejected"
+#             leave.save()
+#         except LeaveRequeststaff.DoesNotExist:
+#             pass  # Handle if needed
+
+#         return redirect('principal-staff-leave-report')
+
+#     return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
+
+############### updated func for leave request avoid duplicate method 1
+
+
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import render, redirect
+from apps.staffs.models import LeaveRequeststaff
+
 @login_required
 def principalstaffleavereport(request):
-    leaves = LeaveRequeststaff.objects.all().order_by('-leave_date')
+    leaves = LeaveRequeststaff.objects.all().order_by('-start_date')
 
     if request.method == "POST":
         leave_id = request.POST.get("leave_id")
         action = request.POST.get("action")
-        leave = LeaveRequeststaff.objects.get(id=leave_id)
-        if action == "approve":
-            leave.status = "approved"
-        elif action == "reject":
-            leave.status = "rejected"
-        leave.save()
+        try:
+            leave = LeaveRequeststaff.objects.get(id=leave_id)
+            if action == "approve":
+                leave.status = "approved"
+            elif action == "reject":
+                leave.status = "rejected"
+            leave.save()
+        except LeaveRequeststaff.DoesNotExist:
+            pass  # Optional: Add error logging
+
         return redirect('principal-staff-leave-report')
 
     return render(request, "principal/principal_staffleavereport.html", {"leaves": leaves})
@@ -408,62 +463,218 @@ def circulation_list(request):
 
 ##### 5th... principal created an circulation after send in own pricnipal email id:::::
 
-from django.shortcuts import render, redirect
-from django.contrib.auth.decorators import login_required
+# from django.shortcuts import render, redirect
+# from django.contrib.auth.decorators import login_required
+# from django.core.mail import send_mail
+# from django.conf import settings
+# from django.contrib import messages
+
+# from .models import Circulation
+# from .forms import CirculationForm
+
+# @login_required
+# def circulation_create(request):
+#     if request.method == 'POST':
+#         form = CirculationForm(request.POST)
+#         if form.is_valid():
+#             # Save the new circulation
+#             circulation = form.save(commit=False)
+#             circulation.created_by = request.user
+#             circulation.save()
+
+#             # ── EMAIL NOTIFICATION TO PRINCIPAL ──
+#             principal_email = request.user.email
+#             if principal_email:
+#                 subject = f"[Your School CRM] Circulation Created: {circulation.title}"
+#                 message = (
+#                     f"Hello {request.user.get_full_name() or request.user.username},\n\n"
+#                     f"You have successfully created a new circulation:\n\n"
+#                     f"Title: {circulation.title}\n"
+#                     f"Audience: {circulation.get_audience_display()}\n"
+#                     f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
+#                     f"Content:\n{circulation.content}\n\n"
+#                     f"You are receiving this email because you created the circulation in the School CRM.\n\n"
+#                     f"Regards,\n"
+#                     f"School CRM Notification System"
+#                 )
+#                 try:
+#                     send_mail(
+#                         subject,
+#                         message,
+#                         settings.DEFAULT_FROM_EMAIL,
+#                         [principal_email],
+#                         fail_silently=False
+#                     )
+#                     messages.success(request, "Circulation created and emailed to you successfully.")
+#                 except Exception as e:
+#                     # If emailing fails, still keep the circulation, but warn the user
+#                     print("Email to principal failed:", e)
+#                     messages.warning(request, "Circulation created, but we couldn’t send the email notification to your address.")
+#             else:
+#                 # No email address on file for the principal
+#                 messages.warning(request, "Circulation created, but you have no email on file to receive a notification.")
+
+#             return redirect('circulation_list')
+#     else:
+#         form = CirculationForm()
+
+#     return render(request, 'principal/principal_circulation_form.html', {'form': form})
+
+
+######## upadted for circulation email send for all role users:
+
+# from django.contrib.auth.models import User, Group
+# from django.core.mail import send_mail
+# from django.conf import settings
+# from django.contrib import messages
+# from django.shortcuts import render, redirect
+# from django.contrib.auth.decorators import login_required
+# from .models import Circulation
+# from .forms import CirculationForm
+
+# @login_required
+# def circulation_create(request):
+#     if request.method == 'POST':
+#         form = CirculationForm(request.POST)
+#         if form.is_valid():
+#             circulation = form.save(commit=False)
+#             circulation.created_by = request.user
+#             circulation.save()
+
+#             subject = f"[Your School CRM] Circulation Created: {circulation.title}"
+#             message = (
+#                 f"Hello {request.user.get_full_name() or request.user.username},\n\n"
+#                 f"You have successfully created a new circulation:\n\n"
+#                 f"Title: {circulation.title}\n"
+#                 f"Audience: {circulation.get_audience_display()}\n"
+#                 f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
+#                 f"Content:\n{circulation.content}\n\n"
+#                 f"You are receiving this email because you created the circulation in the School CRM.\n\n"
+#                 f"Regards,\n"
+#                 f"School CRM Notification System"
+#             )
+
+#             recipient_list = []
+
+#             if circulation.audience in ['all', 'staff']:
+#                 staff_group, _ = Group.objects.get_or_create(name='staff')
+#                 staff_users = User.objects.filter(groups=staff_group, email__isnull=False).exclude(email='')
+#                 recipient_list += [user.email for user in staff_users]
+
+#             if circulation.audience in ['all', 'students']:
+#                 student_group, _ = Group.objects.get_or_create(name='student')
+#                 student_users = User.objects.filter(groups=student_group, email__isnull=False).exclude(email='')
+#                 recipient_list += [user.email for user in student_users]
+
+#             # Add principal (creator) email
+#             if request.user.email:
+#                 recipient_list.append(request.user.email)
+
+#             # Remove duplicates
+#             recipient_list = list(set(recipient_list))
+
+#             try:
+#                 send_mail(
+#                     subject,
+#                     message,
+#                     settings.DEFAULT_FROM_EMAIL,
+#                     recipient_list,
+#                     fail_silently=False,
+#                 )
+#                 messages.success(request, "Circulation created and sent via email.")
+#             except Exception as e:
+#                 print("Email sending failed:", e)
+#                 messages.warning(request, "Circulation created, but failed to send emails.")
+
+#             return redirect('circulation_list')
+#     else:
+#         form = CirculationForm()
+
+#     return render(request, 'principal/principal_circulation_form.html', {'form': form})
+
+
+######### updated for cicrulation email send for all user 2nd method:
+
+
+from django.contrib.auth import get_user_model
 from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib import messages
-
+from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 from .models import Circulation
 from .forms import CirculationForm
+
+User = get_user_model()
 
 @login_required
 def circulation_create(request):
     if request.method == 'POST':
         form = CirculationForm(request.POST)
         if form.is_valid():
-            # Save the new circulation
             circulation = form.save(commit=False)
             circulation.created_by = request.user
             circulation.save()
 
-            # ── EMAIL NOTIFICATION TO PRINCIPAL ──
-            principal_email = request.user.email
-            if principal_email:
-                subject = f"[Your School CRM] Circulation Created: {circulation.title}"
-                message = (
-                    f"Hello {request.user.get_full_name() or request.user.username},\n\n"
-                    f"You have successfully created a new circulation:\n\n"
-                    f"Title: {circulation.title}\n"
-                    f"Audience: {circulation.get_audience_display()}\n"
-                    f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
-                    f"Content:\n{circulation.content}\n\n"
-                    f"You are receiving this email because you created the circulation in the School CRM.\n\n"
-                    f"Regards,\n"
-                    f"School CRM Notification System"
+            subject = f"[Your School CRM] Circulation Created: {circulation.title}"
+            message = (
+                f"Hello {request.user.get_full_name() or request.user.username},\n\n"
+                f"You have successfully created a new circulation:\n\n"
+                f"Title: {circulation.title}\n"
+                f"Audience: {circulation.get_audience_display()}\n"
+                f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
+                f"Content:\n{circulation.content}\n\n"
+                f"You are receiving this email because you created the circulation in the School CRM.\n\n"
+                f"Regards,\n"
+                f"School CRM Notification System"
+            )
+
+            recipient_list = []
+
+            # Add teachers (staff) if needed
+            if circulation.audience in ['all', 'staff']:
+                teacher_users = User.objects.filter(
+                    userprofile__role='teacher',
+                    email__isnull=False
+                ).exclude(email='')
+                recipient_list += [u.email for u in teacher_users]
+
+            # Add students if needed
+            if circulation.audience in ['all', 'students']:
+                student_users = User.objects.filter(
+                    userprofile__role='student',
+                    email__isnull=False
+                ).exclude(email='')
+                recipient_list += [u.email for u in student_users]
+
+            # Add principal (creator)
+            if request.user.email:
+                recipient_list.append(request.user.email)
+
+            # Remove duplicates
+            recipient_list = list(set(recipient_list))
+
+            try:
+                send_mail(
+                    subject,
+                    message,
+                    settings.DEFAULT_FROM_EMAIL,
+                    recipient_list,
+                    fail_silently=False,
                 )
-                try:
-                    send_mail(
-                        subject,
-                        message,
-                        settings.DEFAULT_FROM_EMAIL,
-                        [principal_email],
-                        fail_silently=False
-                    )
-                    messages.success(request, "Circulation created and emailed to you successfully.")
-                except Exception as e:
-                    # If emailing fails, still keep the circulation, but warn the user
-                    print("Email to principal failed:", e)
-                    messages.warning(request, "Circulation created, but we couldn’t send the email notification to your address.")
-            else:
-                # No email address on file for the principal
-                messages.warning(request, "Circulation created, but you have no email on file to receive a notification.")
+                messages.success(request, "Circulation created and emails sent successfully.")
+            except Exception as e:
+                print("Email sending failed:", e)
+                messages.warning(request, "Circulation created, but email sending failed.")
 
             return redirect('circulation_list')
     else:
         form = CirculationForm()
 
     return render(request, 'principal/principal_circulation_form.html', {'form': form})
+
+
+
 
 @login_required
 def circulation_edit(request, pk):
@@ -540,53 +751,27 @@ def class_schedule_list(request):
 #         form = StaffClassScheduleForm()
 #     return render(request, 'principal/class_schedule_create.html', {'form': form})
 
-#### new for class scheduule create
 
-# from django.utils.timezone import localtime
-# from django.contrib.auth.models import User
-# from ..staffs.models import LeaveRequeststaff  # Adjust path if different
-
-# def class_schedule_create(request):
-#     from datetime import date
-
-#     today = date.today()
-
-#     # Find staff with approved leave today
-#     leave_staff_ids = LeaveRequeststaff.objects.filter(
-#         leave_date=today,
-#         status='approved'
-#     ).values_list('staff_id', flat=True)
-
-#     # All teaching staff excluding leave-approved ones
-#     available_staff = User.objects.filter(userprofile__role='teacher').exclude(id__in=leave_staff_ids)
-
-#     if request.method == 'POST':
-#         form = StaffClassScheduleForm(request.POST, available_staff=available_staff)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('principal-class-schedule-list')
-#     else:
-#         form = StaffClassScheduleForm(available_staff=available_staff)
-
-#     return render(request, 'principal/class_schedule_create.html', {'form': form})
-
-
-######## new 2 for class schedule create with available staff
+###### new for class schedule create fucntions
 
 from django.utils.timezone import now
 from django.contrib.auth.models import User
-from ..staffs.models import LeaveRequeststaff  # Adjust if needed
+from ..staffs.models import LeaveRequeststaff
+from .forms import StaffClassScheduleForm
+from .models import StaffClassSchedule
+from django.shortcuts import render, redirect
 
 def class_schedule_create(request):
     today = now().date()
 
-    # Fetch all approved leave requests for today
+    # Get all staff IDs who are on leave for *today*
     leave_staff_ids = LeaveRequeststaff.objects.filter(
-        leave_date=today,
-        status='approved'
+        status='approved',
+        start_date__lte=today,
+        end_date__gte=today
     ).values_list('staff_id', flat=True)
 
-    # Get all staff with role 'teacher' except those on leave
+    # All staff with role 'teacher' not on leave
     available_staff = User.objects.filter(userprofile__role='teacher').exclude(id__in=leave_staff_ids)
 
     if request.method == 'POST':
@@ -598,6 +783,7 @@ def class_schedule_create(request):
         form = StaffClassScheduleForm(available_staff=available_staff)
 
     return render(request, 'principal/class_schedule_create.html', {'form': form})
+
 
 
 def class_schedule_edit(request, pk):
