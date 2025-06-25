@@ -596,6 +596,86 @@ def circulation_list(request):
 ######### updated for cicrulation email send for all user 2nd method:
 
 
+# from django.contrib.auth import get_user_model
+# from django.core.mail import send_mail
+# from django.conf import settings
+# from django.contrib import messages
+# from django.shortcuts import render, redirect
+# from django.contrib.auth.decorators import login_required
+# from .models import Circulation
+# from .forms import CirculationForm
+
+# User = get_user_model()
+
+# @login_required
+# def circulation_create(request):
+#     if request.method == 'POST':
+#         form = CirculationForm(request.POST)
+#         if form.is_valid():
+#             circulation = form.save(commit=False)
+#             circulation.created_by = request.user
+#             circulation.save()
+
+#             subject = f"[Your School CRM] Circulation Created: {circulation.title}"
+#             message = (
+#                 f"Hello {request.user.get_full_name() or request.user.username},\n\n"
+#                 f"You have successfully created a new circulation:\n\n"
+#                 f"Title: {circulation.title}\n"
+#                 f"Audience: {circulation.get_audience_display()}\n"
+#                 f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
+#                 f"Content:\n{circulation.content}\n\n"
+#                 f"You are receiving this email because you created the circulation in the School CRM.\n\n"
+#                 f"Regards,\n"
+#                 f"School CRM Notification System"
+#             )
+
+#             recipient_list = []
+
+#             # Add teachers (staff) if needed
+#             if circulation.audience in ['all', 'staff']:
+#                 teacher_users = User.objects.filter(
+#                     userprofile__role='teacher',
+#                     email__isnull=False
+#                 ).exclude(email='')
+#                 recipient_list += [u.email for u in teacher_users]
+
+#             # Add students if needed
+#             if circulation.audience in ['all', 'students']:
+#                 student_users = User.objects.filter(
+#                     userprofile__role='student',
+#                     email__isnull=False
+#                 ).exclude(email='')
+#                 recipient_list += [u.email for u in student_users]
+
+#             # Add principal (creator)
+#             if request.user.email:
+#                 recipient_list.append(request.user.email)
+
+#             # Remove duplicates
+#             recipient_list = list(set(recipient_list))
+
+#             try:
+#                 send_mail(
+#                     subject,
+#                     message,
+#                     settings.DEFAULT_FROM_EMAIL,
+#                     recipient_list,
+#                     fail_silently=False,
+#                 )
+#                 messages.success(request, "Circulation created and emails sent successfully.")
+#             except Exception as e:
+#                 print("Email sending failed:", e)
+#                 messages.warning(request, "Circulation created, but email sending failed.")
+
+#             return redirect('circulation_list')
+#     else:
+#         form = CirculationForm()
+
+#     return render(request, 'principal/principal_circulation_form.html', {'form': form})
+
+##### updated for circulation send for all user method 3///////
+
+
 from django.contrib.auth import get_user_model
 from django.core.mail import send_mail
 from django.conf import settings
@@ -616,63 +696,89 @@ def circulation_create(request):
             circulation.created_by = request.user
             circulation.save()
 
-            subject = f"[Your School CRM] Circulation Created: {circulation.title}"
-            message = (
+            # === Principal (creator) email ===
+            subject_creator = f"[Your School CRM] Circulation Created: {circulation.title}"
+            message_creator = (
                 f"Hello {request.user.get_full_name() or request.user.username},\n\n"
                 f"You have successfully created a new circulation:\n\n"
                 f"Title: {circulation.title}\n"
+                f"Content:\n{circulation.content}\n\n"
                 f"Audience: {circulation.get_audience_display()}\n"
                 f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
-                f"Content:\n{circulation.content}\n\n"
                 f"You are receiving this email because you created the circulation in the School CRM.\n\n"
                 f"Regards,\n"
                 f"School CRM Notification System"
             )
 
-            recipient_list = []
+            if request.user.email:
+                try:
+                    send_mail(
+                        subject_creator,
+                        message_creator,
+                        settings.DEFAULT_FROM_EMAIL,
+                        [request.user.email],
+                        fail_silently=False,
+                    )
+                except Exception as e:
+                    print("Failed to send email to principal (creator):", e)
 
-            # Add teachers (staff) if needed
+            # === Audience Emails ===
+            recipients = []
+
             if circulation.audience in ['all', 'staff']:
-                teacher_users = User.objects.filter(
+                staff_users = User.objects.filter(
                     userprofile__role='teacher',
                     email__isnull=False
                 ).exclude(email='')
-                recipient_list += [u.email for u in teacher_users]
+                recipients += list(staff_users)
 
-            # Add students if needed
             if circulation.audience in ['all', 'students']:
                 student_users = User.objects.filter(
                     userprofile__role='student',
                     email__isnull=False
                 ).exclude(email='')
-                recipient_list += [u.email for u in student_users]
+                recipients += list(student_users)
 
-            # Add principal (creator)
-            if request.user.email:
-                recipient_list.append(request.user.email)
+            # Remove duplicates by ID
+            unique_recipients = {user.id: user for user in recipients}.values()
 
-            # Remove duplicates
-            recipient_list = list(set(recipient_list))
+            failed_emails = []
 
-            try:
-                send_mail(
-                    subject,
-                    message,
-                    settings.DEFAULT_FROM_EMAIL,
-                    recipient_list,
-                    fail_silently=False,
+            for user in unique_recipients:
+                subject = f"[Your School CRM] New Circulation: {circulation.title}"
+                message = (
+                    f"Hello {user.get_full_name() or user.username},\n\n"
+                    f"A new circulation has been created:\n\n"
+                    f"Title: {circulation.title}\n"
+                    f"Content:\n{circulation.content}\n\n"
+                    f"Audience: {circulation.get_audience_display()}\n"
+                    f"Created At: {circulation.created_at:%Y-%m-%d %H:%M}\n\n"
+                    f"Regards,\n"
+                    f"School CRM Notification System"
                 )
+
+                try:
+                    send_mail(
+                        subject,
+                        message,
+                        settings.DEFAULT_FROM_EMAIL,
+                        [user.email],
+                        fail_silently=False,
+                    )
+                except Exception as e:
+                    failed_emails.append(user.email)
+                    print(f"Failed to send to {user.email}:", e)
+
+            if failed_emails:
+                messages.warning(request, f"Circulation created, but failed to email: {', '.join(failed_emails)}")
+            else:
                 messages.success(request, "Circulation created and emails sent successfully.")
-            except Exception as e:
-                print("Email sending failed:", e)
-                messages.warning(request, "Circulation created, but email sending failed.")
 
             return redirect('circulation_list')
     else:
         form = CirculationForm()
 
     return render(request, 'principal/principal_circulation_form.html', {'form': form})
-
 
 
 

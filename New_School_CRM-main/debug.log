@@ -44305,3 +44305,1074 @@ WARNING 2025-06-24 15:10:43,978 "GET /templates/profile.css HTTP/1.1" 404 9452
 INFO 2025-06-24 15:10:53,798 "GET /principal/student/circulations/ HTTP/1.1" 200 16709
 WARNING 2025-06-24 15:10:53,929 Not Found: /templates/profile.css
 WARNING 2025-06-24 15:10:53,930 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 12:34:46,063 Watching for file changes with StatReloader
+INFO 2025-06-25 12:34:54,715 "GET / HTTP/1.1" 302 0
+INFO 2025-06-25 12:34:54,856 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-25 12:34:54,903 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,913 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,920 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,921 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,926 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,928 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,934 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,938 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,947 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,948 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:54,949 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:34:55,024 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:03,779 "POST /login/?next=%2F HTTP/1.1" 200 95
+WARNING 2025-06-25 12:35:04,002 Forbidden (CSRF token from the 'X-Csrftoken' HTTP header incorrect.): /login/
+WARNING 2025-06-25 12:35:04,079 "POST /login/?next=%2F HTTP/1.1" 403 2553
+INFO 2025-06-25 12:35:04,848 "GET / HTTP/1.1" 200 16688
+INFO 2025-06-25 12:35:04,913 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:04,914 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:04,914 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:04,941 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:04,942 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:04,962 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:04,970 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+INFO 2025-06-25 12:35:05,000 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+WARNING 2025-06-25 12:35:05,380 Not Found: /templates/profile.css
+WARNING 2025-06-25 12:35:05,381 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 12:35:10,849 "GET /principal/circulation/ HTTP/1.1" 200 22677
+WARNING 2025-06-25 12:35:11,032 Not Found: /templates/profile.css
+WARNING 2025-06-25 12:35:11,032 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 12:41:49,851 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-06-25 12:41:50,919 Watching for file changes with StatReloader
+INFO 2025-06-25 15:17:48,124 "GET / HTTP/1.1" 302 0
+INFO 2025-06-25 15:17:48,174 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:17:48,194 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,199 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,199 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,246 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,254 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,255 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,256 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,287 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,302 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,305 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,325 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:48,431 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:56,289 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:17:57,274 "GET / HTTP/1.1" 200 16236
+INFO 2025-06-25 15:17:57,351 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,367 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,373 "GET /static/dist/js/demo.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,406 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,482 "GET /static/dist/img/avatar.png HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,485 "GET /static/Icons/stu.jpg HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,494 "GET /static/Icons/invoice1.png HTTP/1.1" 304 0
+INFO 2025-06-25 15:17:57,494 "GET /static/Icons/businessman_180644.png HTTP/1.1" 304 0
+WARNING 2025-06-25 15:17:57,523 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:17:57,524 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:18:23,475 "GET /principal/staff/circulations/ HTTP/1.1" 200 16093
+WARNING 2025-06-25 15:18:23,617 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:18:23,618 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:26:54,379 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-06-25 15:26:55,505 Watching for file changes with StatReloader
+INFO 2025-06-25 15:27:19,055 "GET /principal/circulation/create/ HTTP/1.1" 200 13058
+WARNING 2025-06-25 15:27:19,238 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:27:19,240 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:27:59,345 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:27:59,479 "GET /principal/circulation/ HTTP/1.1" 200 23512
+WARNING 2025-06-25 15:27:59,603 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:27:59,604 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:30:02,170 D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\principal\views.py changed, reloading.
+INFO 2025-06-25 15:30:03,508 Watching for file changes with StatReloader
+INFO 2025-06-25 15:30:09,511 "GET / HTTP/1.1" 302 0
+INFO 2025-06-25 15:30:09,531 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:30:09,547 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,547 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,547 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,552 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,552 "GET /static/dist/css/login-page.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,561 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,561 "GET /static/dist/img/school.png HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,561 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,575 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,576 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,578 "GET /static/dist/js/adminlte.js HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:09,798 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+WARNING 2025-06-25 15:30:19,347 Bad Request: /login/
+WARNING 2025-06-25 15:30:19,347 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:19,895 Bad Request: /login/
+WARNING 2025-06-25 15:30:19,896 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:19,899 Bad Request: /login/
+WARNING 2025-06-25 15:30:19,901 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:19,906 Bad Request: /login/
+WARNING 2025-06-25 15:30:19,907 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:19,956 Bad Request: /login/
+WARNING 2025-06-25 15:30:19,957 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,050 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,050 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,060 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,060 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,532 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,533 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,568 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,568 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,575 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,576 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,581 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,581 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,668 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,669 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:20,696 Bad Request: /login/
+WARNING 2025-06-25 15:30:20,696 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,174 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,174 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,218 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,218 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,235 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,235 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,241 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,242 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,333 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,333 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,351 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,352 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,830 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,830 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,860 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,860 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,877 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,878 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,878 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,878 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:21,971 Bad Request: /login/
+WARNING 2025-06-25 15:30:21,972 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,001 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,002 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,472 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,473 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,500 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,500 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,544 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,544 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,547 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,548 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,642 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,643 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:22,660 Bad Request: /login/
+WARNING 2025-06-25 15:30:22,660 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,112 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,112 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,133 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,133 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,193 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,193 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,196 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,196 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,285 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,285 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,308 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,308 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,786 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,787 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,794 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,794 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,829 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,829 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,832 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,832 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,930 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,931 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:23,988 Bad Request: /login/
+WARNING 2025-06-25 15:30:23,990 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:24,456 Bad Request: /login/
+WARNING 2025-06-25 15:30:24,457 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:24,460 Bad Request: /login/
+WARNING 2025-06-25 15:30:24,461 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:24,503 Bad Request: /login/
+WARNING 2025-06-25 15:30:24,503 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:24,513 Bad Request: /login/
+WARNING 2025-06-25 15:30:24,513 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:24,609 Bad Request: /login/
+WARNING 2025-06-25 15:30:24,610 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:24,692 Bad Request: /login/
+WARNING 2025-06-25 15:30:24,692 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,132 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,133 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,143 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,144 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,179 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,180 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,193 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,194 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,294 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,295 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,353 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,354 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,800 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,800 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,814 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,814 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,835 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,836 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,869 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,869 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:25,977 Bad Request: /login/
+WARNING 2025-06-25 15:30:25,977 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,052 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,052 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,451 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,451 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,469 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,469 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,487 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,487 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,519 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,519 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,632 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,633 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:26,705 Bad Request: /login/
+WARNING 2025-06-25 15:30:26,705 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,089 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,089 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,090 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,090 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,128 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,128 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,177 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,178 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,288 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,289 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,371 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,371 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,754 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,755 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,755 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,755 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,786 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,786 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,828 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,828 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:27,925 Bad Request: /login/
+WARNING 2025-06-25 15:30:27,926 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,002 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,003 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,426 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,426 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,427 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,427 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,470 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,470 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,490 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,490 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,605 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,605 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:28,680 Bad Request: /login/
+WARNING 2025-06-25 15:30:28,680 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,075 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,075 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,087 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,087 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,121 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,121 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,133 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,133 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,275 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,275 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,342 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,342 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,718 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,718 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,759 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,760 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,791 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,792 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,792 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,792 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:29,923 Bad Request: /login/
+WARNING 2025-06-25 15:30:29,924 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,018 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,019 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,363 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,363 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,434 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,435 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,447 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,448 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,454 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,454 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,582 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,583 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:30,682 Bad Request: /login/
+WARNING 2025-06-25 15:30:30,682 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,030 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,030 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,095 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,095 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,113 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,113 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,127 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,127 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,264 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,265 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,363 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,364 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,689 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,689 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,749 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,749 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,768 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,768 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,775 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,776 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:31,928 Bad Request: /login/
+WARNING 2025-06-25 15:30:31,928 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,058 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,058 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,364 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,364 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,415 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,416 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,444 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,444 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,456 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,456 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,575 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,575 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:32,724 Bad Request: /login/
+WARNING 2025-06-25 15:30:32,725 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,021 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,022 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,074 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,075 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,097 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,097 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,117 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,118 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,257 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,257 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,399 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,399 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,669 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,669 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,733 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,733 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,754 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,755 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,799 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,800 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:33,928 Bad Request: /login/
+WARNING 2025-06-25 15:30:33,929 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,074 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,074 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,326 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,327 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,400 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,400 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,420 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,420 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,455 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,456 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,602 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,602 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,733 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,733 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:34,984 Bad Request: /login/
+WARNING 2025-06-25 15:30:34,985 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,042 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,043 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,077 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,077 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,115 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,116 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,241 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,242 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,383 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,383 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,635 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,635 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,699 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,699 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,724 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,724 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,779 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,780 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:35,896 Bad Request: /login/
+WARNING 2025-06-25 15:30:35,896 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,041 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,042 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,278 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,278 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,329 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,329 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,382 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,382 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,424 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,425 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,527 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,527 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,690 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,690 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,920 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,921 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:36,994 Bad Request: /login/
+WARNING 2025-06-25 15:30:36,995 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,043 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,043 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,078 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,078 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,188 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,189 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,356 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,357 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,584 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,584 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,636 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,636 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,711 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,711 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,714 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,714 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:37,834 Bad Request: /login/
+WARNING 2025-06-25 15:30:37,835 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,031 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,032 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,255 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,255 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,297 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,298 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,379 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,379 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,391 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,391 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,502 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,503 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,683 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,684 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,909 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,909 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:38,941 Bad Request: /login/
+WARNING 2025-06-25 15:30:38,942 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:39,019 Bad Request: /login/
+WARNING 2025-06-25 15:30:39,019 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:39,029 Bad Request: /login/
+WARNING 2025-06-25 15:30:39,029 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:39,183 Bad Request: /login/
+WARNING 2025-06-25 15:30:39,183 "POST /login/?next=%2F HTTP/1.1" 400 53
+WARNING 2025-06-25 15:30:39,375 Bad Request: /login/
+WARNING 2025-06-25 15:30:39,376 "POST /login/?next=%2F HTTP/1.1" 400 53
+INFO 2025-06-25 15:30:39,874 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:40,157 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:40,424 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:40,899 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:41,032 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:41,341 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:41,683 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:41,809 - Broken pipe from ('127.0.0.1', 55348)
+INFO 2025-06-25 15:30:42,132 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:42,233 - Broken pipe from ('127.0.0.1', 55347)
+INFO 2025-06-25 15:30:42,699 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:42,775 - Broken pipe from ('127.0.0.1', 55346)
+INFO 2025-06-25 15:30:42,951 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:43,134 - Broken pipe from ('127.0.0.1', 55352)
+INFO 2025-06-25 15:30:43,608 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:44,059 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:44,393 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:44,493 - Broken pipe from ('127.0.0.1', 55354)
+INFO 2025-06-25 15:30:44,842 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:45,043 - Broken pipe from ('127.0.0.1', 55359)
+INFO 2025-06-25 15:30:45,484 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:45,609 - Broken pipe from ('127.0.0.1', 55355)
+INFO 2025-06-25 15:30:46,010 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:46,184 "GET / HTTP/1.1" 200 13768
+INFO 2025-06-25 15:30:46,592 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:46,595 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 304 0
+INFO 2025-06-25 15:30:46,926 "POST /login/?next=%2F HTTP/1.1" 200 95
+WARNING 2025-06-25 15:30:47,342 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:30:47,342 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:30:47,445 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:48,368 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:48,440 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:48,895 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:48,982 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:49,449 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:50,060 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:50,191 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:50,553 - Broken pipe from ('127.0.0.1', 55357)
+INFO 2025-06-25 15:30:50,778 - Broken pipe from ('127.0.0.1', 55353)
+INFO 2025-06-25 15:30:51,283 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:51,377 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:51,728 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:52,386 "POST /login/?next=%2F HTTP/1.1" 200 95
+ERROR 2025-06-25 15:30:52,426 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\OLD-schoolcrm\School1-CRM\New_School_CRM-main\apps\corecode\views.py", line 1190, in custom_login_view
+    login(request, user)
+    ~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\auth\__init__.py", line 118, in login
+    request.session.cycle_key()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\base.py", line 304, in cycle_key
+    self.create()
+    ~~~~~~~~~~~^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\db.py", line 54, in create
+    self.save(must_create=True)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\contrib\sessions\backends\db.py", line 86, in save
+    obj.save(
+    ~~~~~~~~^
+        force_insert=must_create, force_update=not must_create, using=using
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2025-06-25 15:30:52,435 "POST /login/?next=%2F HTTP/1.1" 500 173255
+INFO 2025-06-25 15:30:52,703 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:53,011 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:53,386 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:54,038 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:54,331 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:54,793 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:55,456 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:55,862 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:56,338 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:56,622 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:56,756 "GET /principal/student/circulations/ HTTP/1.1" 200 17262
+INFO 2025-06-25 15:30:57,233 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:57,491 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:57,930 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:58,335 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:59,013 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:59,397 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:30:59,782 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:00,219 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:00,464 "POST /login/?next=%2F HTTP/1.1" 200 95
+WARNING 2025-06-25 15:31:00,572 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:31:00,573 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:31:00,852 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:01,161 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:01,507 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:01,840 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:02,173 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:02,490 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:02,917 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:03,599 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:03,716 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:04,168 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:04,574 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:04,966 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:05,584 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:05,991 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:06,358 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:06,764 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:07,258 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:07,697 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:08,284 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:08,781 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:09,134 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:09,751 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:10,160 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:10,990 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:11,440 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:11,607 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:12,018 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:12,353 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:12,503 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:12,869 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:12,995 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:13,395 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:13,737 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:14,086 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:14,736 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:14,954 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:15,578 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:16,112 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:16,728 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:16,823 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:17,232 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:17,762 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:18,138 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:18,513 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:19,296 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:19,722 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:20,247 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:20,672 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:21,230 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:21,739 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:21,901 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:22,525 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:22,676 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:23,006 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:23,317 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:23,699 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:24,123 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:24,541 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:24,965 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:25,268 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:25,641 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:26,033 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:26,493 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:26,977 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:27,427 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:28,008 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:28,461 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:28,567 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:28,925 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:29,278 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:29,735 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:30,157 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:30,726 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:31,044 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:31,460 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:31,917 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:32,124 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:32,561 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:32,958 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:33,418 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:33,968 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:34,450 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:34,822 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:35,203 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:35,640 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:35,923 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:36,284 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:36,683 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:37,021 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:37,679 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:38,045 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:38,365 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:38,786 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:39,255 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:39,406 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:39,830 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:40,663 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:41,089 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:41,497 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:42,064 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:42,306 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:42,396 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:42,881 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:43,615 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:43,748 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:44,132 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:44,819 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:44,900 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:45,473 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:45,786 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:46,107 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:31:46,527 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-25 15:31:46,548 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-25 15:31:46,580 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-25 15:31:46,711 - Broken pipe from ('127.0.0.1', 55362)
+INFO 2025-06-25 15:31:47,003 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-06-25 15:31:47,018 - Broken pipe from ('127.0.0.1', 55363)
+INFO 2025-06-25 15:31:47,370 - Broken pipe from ('127.0.0.1', 55358)
+INFO 2025-06-25 15:31:47,732 - Broken pipe from ('127.0.0.1', 55380)
+INFO 2025-06-25 15:31:48,771 - Broken pipe from ('127.0.0.1', 55379)
+INFO 2025-06-25 15:31:49,217 - Broken pipe from ('127.0.0.1', 55382)
+INFO 2025-06-25 15:31:49,810 - Broken pipe from ('127.0.0.1', 55360)
+INFO 2025-06-25 15:31:49,915 - Broken pipe from ('127.0.0.1', 55381)
+INFO 2025-06-25 15:31:50,051 - Broken pipe from ('127.0.0.1', 55356)
+INFO 2025-06-25 15:31:50,256 - Broken pipe from ('127.0.0.1', 55361)
+INFO 2025-06-25 15:32:50,055 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:32:50,130 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3057
+INFO 2025-06-25 15:32:50,155 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 200 2637
+INFO 2025-06-25 15:32:50,180 "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+INFO 2025-06-25 15:32:50,186 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 103009
+INFO 2025-06-25 15:32:50,201 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-06-25 15:32:50,259 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+INFO 2025-06-25 15:32:50,271 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+INFO 2025-06-25 15:32:50,296 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2025-06-25 15:32:50,513 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 156400
+INFO 2025-06-25 15:33:02,827 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:33:03,031 "GET /admin/ HTTP/1.1" 200 70007
+INFO 2025-06-25 15:33:03,086 "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+INFO 2025-06-25 15:33:03,152 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25392
+INFO 2025-06-25 15:33:11,648 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36419
+INFO 2025-06-25 15:33:11,686 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-06-25 15:33:11,699 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-06-25 15:33:11,717 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2025-06-25 15:33:11,727 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2025-06-25 15:33:11,727 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2025-06-25 15:33:11,731 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-06-25 15:33:11,743 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-06-25 15:33:11,760 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:33:11,762 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+INFO 2025-06-25 15:33:11,804 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-06-25 15:33:11,823 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2025-06-25 15:33:30,675 "POST /admin/corecode/userprofile/ HTTP/1.1" 200 28461
+INFO 2025-06-25 15:33:30,713 "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+INFO 2025-06-25 15:33:32,359 "POST /admin/corecode/userprofile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:33:32,481 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35929
+INFO 2025-06-25 15:33:32,576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:33:57,816 "GET /admin/corecode/userprofile/88/change/ HTTP/1.1" 200 36136
+INFO 2025-06-25 15:33:57,846 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-06-25 15:33:57,846 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-06-25 15:33:57,867 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-06-25 15:33:57,875 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-06-25 15:33:57,887 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-06-25 15:33:57,905 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+INFO 2025-06-25 15:33:57,927 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:01,142 "POST /admin/corecode/userprofile/88/change/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:34:01,262 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36002
+INFO 2025-06-25 15:34:01,362 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:08,590 "GET /profile/ HTTP/1.1" 200 21101
+WARNING 2025-06-25 15:34:08,765 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:34:08,765 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:34:14,976 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 36146
+INFO 2025-06-25 15:34:15,084 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:29,787 "POST /admin/corecode/userprofile/87/change/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:34:29,908 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36002
+INFO 2025-06-25 15:34:30,015 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:37,156 "GET /admin/auth/user/ HTTP/1.1" 200 39885
+INFO 2025-06-25 15:34:37,184 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-06-25 15:34:37,184 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2025-06-25 15:34:37,260 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:52,724 "GET /admin/auth/user/110/change/ HTTP/1.1" 200 56869
+INFO 2025-06-25 15:34:52,771 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2025-06-25 15:34:52,772 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2025-06-25 15:34:52,775 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-06-25 15:34:52,775 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-06-25 15:34:52,829 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:57,231 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35424
+INFO 2025-06-25 15:34:57,334 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:34:58,977 "GET /admin/corecode/userprofile/87/change/ HTTP/1.1" 200 36140
+INFO 2025-06-25 15:34:59,077 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:35:01,933 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35424
+INFO 2025-06-25 15:35:04,284 "GET /admin/corecode/userprofile/90/change/ HTTP/1.1" 200 36142
+INFO 2025-06-25 15:35:04,396 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:35:06,426 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 35424
+INFO 2025-06-25 15:35:36,992 "GET /admin/corecode/userprofile/90/change/ HTTP/1.1" 200 36142
+INFO 2025-06-25 15:35:37,109 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:35:40,406 "POST /admin/corecode/userprofile/90/change/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:35:40,532 "GET /admin/corecode/userprofile/ HTTP/1.1" 200 36002
+INFO 2025-06-25 15:35:40,640 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:35:47,675 "GET /profile/ HTTP/1.1" 200 18191
+WARNING 2025-06-25 15:35:47,800 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:35:47,800 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:35:57,788 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:35:57,797 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-06-25 15:36:08,236 Bad Request: /login/
+WARNING 2025-06-25 15:36:08,236 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-06-25 15:36:10,777 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:36:11,698 "GET / HTTP/1.1" 200 13768
+INFO 2025-06-25 15:36:11,751 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-06-25 15:36:11,751 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-06-25 15:36:11,752 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+WARNING 2025-06-25 15:36:11,819 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:36:11,819 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:36:18,296 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36084
+INFO 2025-06-25 15:36:18,383 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:36:23,315 "GET /admin/corecode/userprofile/?o=-2 HTTP/1.1" 200 36087
+INFO 2025-06-25 15:36:23,424 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:36:24,207 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36084
+INFO 2025-06-25 15:36:24,319 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:37:01,601 "GET /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36223
+INFO 2025-06-25 15:37:01,751 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:37:26,294 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36084
+INFO 2025-06-25 15:37:34,272 "GET /profile/ HTTP/1.1" 200 20662
+WARNING 2025-06-25 15:37:34,457 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:37:34,458 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:37:37,057 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:37:37,067 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:37:44,359 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:37:45,294 "GET / HTTP/1.1" 200 16236
+WARNING 2025-06-25 15:37:45,443 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:37:45,444 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:37:49,466 "GET /profile/ HTTP/1.1" 200 20672
+WARNING 2025-06-25 15:37:49,586 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:37:49,587 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:37:52,622 "GET /edit_profile/ HTTP/1.1" 200 26313
+WARNING 2025-06-25 15:37:52,759 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:37:52,759 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:37:57,306 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:37:57,411 "GET /edit_profile/ HTTP/1.1" 200 26500
+WARNING 2025-06-25 15:37:57,531 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:37:57,531 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:38:02,426 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:38:02,436 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:38:08,566 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36084
+INFO 2025-06-25 15:38:08,694 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:38:15,526 "GET /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36223
+INFO 2025-06-25 15:38:15,626 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:38:18,248 "POST /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:38:18,386 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36677
+INFO 2025-06-25 15:38:18,478 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:38:23,133 "GET /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36240
+INFO 2025-06-25 15:38:23,221 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:38:28,915 "POST /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:38:29,036 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36675
+INFO 2025-06-25 15:38:29,124 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:38:37,126 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:38:38,073 "GET / HTTP/1.1" 200 16236
+WARNING 2025-06-25 15:38:38,230 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:38:38,231 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:38:42,629 "GET /profile/ HTTP/1.1" 200 20689
+WARNING 2025-06-25 15:38:42,766 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:38:42,766 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:38:45,442 "GET /profile/ HTTP/1.1" 200 20689
+WARNING 2025-06-25 15:38:45,572 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:38:45,572 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:38:45,717 "GET /static/dist/img/sclfav.png HTTP/1.1" 304 0
+INFO 2025-06-25 15:38:45,800 "GET /profile/ HTTP/1.1" 200 20689
+WARNING 2025-06-25 15:38:45,905 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:38:45,906 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:38:46,306 "GET /profile/ HTTP/1.1" 200 20689
+WARNING 2025-06-25 15:38:46,425 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:38:46,426 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:38:52,695 "GET /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36238
+INFO 2025-06-25 15:38:52,800 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:38:56,071 "POST /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:38:56,222 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36677
+INFO 2025-06-25 15:38:56,318 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:39:09,607 "GET /admin/corecode/userprofile/87/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36218
+INFO 2025-06-25 15:39:09,718 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:39:17,009 "POST /admin/corecode/userprofile/87/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:39:17,134 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36679
+INFO 2025-06-25 15:39:17,272 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:39:26,141 "GET /profile/ HTTP/1.1" 200 18195
+WARNING 2025-06-25 15:39:26,291 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:39:26,292 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:39:30,373 "GET /edit_profile/ HTTP/1.1" 200 23839
+WARNING 2025-06-25 15:39:30,543 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:39:30,544 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:39:42,582 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:39:42,678 "GET /edit_profile/ HTTP/1.1" 200 23992
+WARNING 2025-06-25 15:39:42,789 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:39:42,790 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:40:00,728 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:40:00,743 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-06-25 15:40:06,798 Bad Request: /login/
+WARNING 2025-06-25 15:40:06,798 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-06-25 15:40:16,786 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:40:17,704 "GET / HTTP/1.1" 200 13768
+WARNING 2025-06-25 15:40:17,833 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:40:17,834 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:40:21,897 "GET /profile/ HTTP/1.1" 200 18191
+WARNING 2025-06-25 15:40:21,993 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:40:21,993 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:40:40,184 "GET /edit_profile/ HTTP/1.1" 200 23835
+WARNING 2025-06-25 15:40:40,320 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:40:40,321 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:40:44,956 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:40:45,036 "GET /edit_profile/ HTTP/1.1" 200 23988
+WARNING 2025-06-25 15:40:45,147 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:40:45,148 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:40:54,777 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36101
+INFO 2025-06-25 15:40:54,893 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:41:12,342 "GET /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36240
+INFO 2025-06-25 15:41:12,446 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:41:30,645 "POST /admin/corecode/userprofile/91/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:41:30,774 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36662
+INFO 2025-06-25 15:41:30,895 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:41:37,693 "GET /admin/corecode/userprofile/90/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36220
+INFO 2025-06-25 15:41:37,798 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:41:51,904 "POST /admin/corecode/userprofile/90/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:41:52,045 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36656
+INFO 2025-06-25 15:41:52,149 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:41:55,375 "GET /admin/corecode/userprofile/87/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36218
+INFO 2025-06-25 15:41:55,480 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:42:14,096 "POST /admin/corecode/userprofile/87/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:42:14,216 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36652
+INFO 2025-06-25 15:42:14,321 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:42:17,359 "GET /admin/corecode/userprofile/88/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36220
+INFO 2025-06-25 15:42:17,447 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:42:53,962 "POST /admin/corecode/userprofile/88/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:42:54,095 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36637
+INFO 2025-06-25 15:42:54,199 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:42:58,067 "GET /admin/corecode/userprofile/89/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 36222
+INFO 2025-06-25 15:42:58,172 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:43:08,059 "POST /admin/corecode/userprofile/89/change/?_changelist_filters=o%3D2 HTTP/1.1" 302 0
+INFO 2025-06-25 15:43:08,184 "GET /admin/corecode/userprofile/?o=2 HTTP/1.1" 200 36637
+INFO 2025-06-25 15:43:08,288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2025-06-25 15:43:11,206 "GET /edit_profile/ HTTP/1.1" 200 26347
+WARNING 2025-06-25 15:43:11,372 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:43:11,373 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:43:29,451 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:43:29,555 "GET /edit_profile/ HTTP/1.1" 200 26470
+WARNING 2025-06-25 15:43:29,671 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:43:29,672 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:43:34,178 "GET /edit_profile/ HTTP/1.1" 200 26317
+INFO 2025-06-25 15:43:39,664 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:43:39,674 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:43:54,461 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:43:55,407 "GET / HTTP/1.1" 200 16236
+WARNING 2025-06-25 15:43:55,581 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:43:55,582 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:43:58,663 "GET /profile/ HTTP/1.1" 200 20662
+WARNING 2025-06-25 15:43:58,782 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:43:58,783 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:43:59,663 "GET /edit_profile/ HTTP/1.1" 200 26311
+WARNING 2025-06-25 15:43:59,792 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:43:59,793 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:44:12,235 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:44:12,347 "GET /edit_profile/ HTTP/1.1" 200 26458
+WARNING 2025-06-25 15:44:12,472 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:44:12,472 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:44:40,096 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:44:40,199 "GET /edit_profile/ HTTP/1.1" 200 23980
+WARNING 2025-06-25 15:44:40,341 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:44:40,341 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:44:44,781 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:44:44,791 "GET /login/ HTTP/1.1" 200 10560
+WARNING 2025-06-25 15:44:52,465 Bad Request: /login/
+WARNING 2025-06-25 15:44:52,466 "POST /login/ HTTP/1.1" 400 53
+INFO 2025-06-25 15:44:56,536 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:44:57,486 "GET / HTTP/1.1" 200 13768
+WARNING 2025-06-25 15:44:57,620 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:44:57,621 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:45:00,724 "GET /profile/ HTTP/1.1" 200 18183
+WARNING 2025-06-25 15:45:00,854 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:45:00,854 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:45:02,138 "GET /edit_profile/ HTTP/1.1" 200 23827
+WARNING 2025-06-25 15:45:02,283 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:45:02,283 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:45:06,715 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:45:06,725 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:45:12,054 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:45:13,017 "GET / HTTP/1.1" 200 13768
+WARNING 2025-06-25 15:45:13,145 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:45:13,146 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:45:16,644 "GET /profile/ HTTP/1.1" 200 18195
+WARNING 2025-06-25 15:45:16,763 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:45:16,764 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:45:18,536 "GET /edit_profile/ HTTP/1.1" 200 23839
+WARNING 2025-06-25 15:45:18,669 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:45:18,669 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:45:49,573 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:45:49,677 "GET /edit_profile/ HTTP/1.1" 200 23976
+WARNING 2025-06-25 15:45:49,802 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:45:49,802 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:46:06,898 "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:46:06,908 "GET /login/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:46:14,153 "POST /login/ HTTP/1.1" 200 95
+INFO 2025-06-25 15:46:15,095 "GET / HTTP/1.1" 200 13768
+WARNING 2025-06-25 15:46:15,220 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:46:15,221 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:46:19,293 "GET /profile/ HTTP/1.1" 200 18183
+WARNING 2025-06-25 15:46:19,397 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:46:19,397 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:46:27,959 "GET /edit_profile/ HTTP/1.1" 200 26745
+WARNING 2025-06-25 15:46:28,150 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:46:28,151 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:46:41,241 "POST /edit_profile/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:46:41,356 "GET /edit_profile/ HTTP/1.1" 200 26894
+WARNING 2025-06-25 15:46:41,480 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:46:41,481 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:46:58,840 "GET / HTTP/1.1" 302 0
+INFO 2025-06-25 15:46:58,853 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:46:58,908 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2025-06-25 15:46:58,911 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2025-06-25 15:46:58,914 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2025-06-25 15:46:58,943 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8549
+INFO 2025-06-25 15:46:58,946 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2025-06-25 15:46:58,960 "GET /static/dist/img/school.png HTTP/1.1" 200 39717
+INFO 2025-06-25 15:46:59,015 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2025-06-25 15:46:59,026 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2025-06-25 15:46:59,058 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2025-06-25 15:46:59,073 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2025-06-25 15:46:59,116 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2025-06-25 15:46:59,227 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2025-06-25 15:46:59,380 "GET /login/?next=/ HTTP/1.1" 200 10560
+INFO 2025-06-25 15:46:59,539 "GET /static/dist/img/sclfav.png HTTP/1.1" 200 619
+INFO 2025-06-25 15:47:05,223 "POST /login/?next=%2F HTTP/1.1" 200 95
+INFO 2025-06-25 15:47:06,159 "GET / HTTP/1.1" 200 16236
+INFO 2025-06-25 15:47:06,202 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2025-06-25 15:47:06,211 "GET /static/Icons/stu.jpg HTTP/1.1" 200 45578
+INFO 2025-06-25 15:47:06,218 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2025-06-25 15:47:06,219 "GET /static/Icons/businessman_180644.png HTTP/1.1" 200 24164
+INFO 2025-06-25 15:47:06,229 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2025-06-25 15:47:06,233 "GET /static/Icons/invoice1.png HTTP/1.1" 200 23465
+INFO 2025-06-25 15:47:06,235 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+WARNING 2025-06-25 15:47:06,332 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:47:06,333 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:47:06,345 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2025-06-25 15:47:21,599 "GET /principal/circulation/ HTTP/1.1" 200 23348
+WARNING 2025-06-25 15:47:21,741 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:47:21,741 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:47:25,540 "GET /profile/ HTTP/1.1" 200 21097
+WARNING 2025-06-25 15:47:25,673 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:47:25,673 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:47:29,283 "GET /principal/circulation/ HTTP/1.1" 200 23348
+WARNING 2025-06-25 15:47:29,433 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:47:29,433 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:47:34,054 "GET /principal/circulation/create/ HTTP/1.1" 200 13058
+WARNING 2025-06-25 15:47:34,218 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:47:34,218 "GET /templates/profile.css HTTP/1.1" 404 9452
+INFO 2025-06-25 15:48:09,584 "POST /principal/circulation/create/ HTTP/1.1" 302 0
+INFO 2025-06-25 15:48:09,699 "GET /principal/circulation/ HTTP/1.1" 200 24182
+WARNING 2025-06-25 15:48:09,859 Not Found: /templates/profile.css
+WARNING 2025-06-25 15:48:09,860 "GET /templates/profile.css HTTP/1.1" 404 9452
